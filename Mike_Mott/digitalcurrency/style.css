@@ -1,0 +1,23 @@
+body {
+	font-family: Arial, Verdana, sans-serif;
+	background-color: #d7f2e1;}
+
+h1{ font-size:70px;
+color: #1a2f4f;}
+
+h2{color: #334718;}
+
+p {
+		color:#665544;}
+
+ul
+{
+list-style-type:none;
+margin:0;
+padding:0;
+}
+
+li
+{
+display:inline;
+}
