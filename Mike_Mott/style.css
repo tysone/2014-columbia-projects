@@ -10,14 +10,14 @@ h2{color: #334718;}
 p {
 		color:#665544;}
 
-ul
+ul.nav 
 {
 list-style-type:none;
 margin:0;
 padding:0;
 }
 
-li
+li.nav
 {
 display:inline;
 }
