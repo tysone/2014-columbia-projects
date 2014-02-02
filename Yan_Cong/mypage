@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Out in the Cold</title>
+	<link href="/mypage.css" type="text/css" rel="stylesheet" />
+</head>
+<body>
+	<h1>Out in the Cold</h1>
+	<div class="homeless">
+		<h2>Faces of the Homeless</h2>
+		<div>
+		<h4>Roshard</h4>
+		<img src="http://25.media.tumblr.com/0867300dd089ab09fe5523859e83030f/tumblr_n057tiD3FV1tn7atoo3_1280.jpg"> <br>
+		<img src="http://31.media.tumblr.com/a34f304346c2d26cdb4c82da0fff43c7/tumblr_n057tiD3FV1tn7atoo2_1280.jpg"><br>
+		<img src="http://25.media.tumblr.com/86a300c23dcfff7b48a3d7c1eca988ce/tumblr_n057tiD3FV1tn7atoo1_1280.jpg">
+		
+			<p>I met Roshard Henderson during the city's homeless outreach population survey. The 31-year-old told the survey volunteer, "I want a bed, but I don't want to go back to Randall's Island.</p>
+			<p> He spent two nights on Randall's Island about two months ago, before he decided to leave. "They weren't really treating me right. I felt like in a jail," he said. "It wasn't the place was as bad, it's just the people&hellip; People who work there thought I'm just another man in the shelter, a statistics."</p>
+			<p>Originally from Douglesville, Georgia, Henderson is homeless and jobless now. He is on the waiting list for transitional housing. He's been waiting for a year and a half.</p>
+			<p>He spends most of his nights on a train. "It's warmer. And nobody bothers you if you know how to handle yourself and conduct yourself. You sit there, get your head on the corner, they'll just let you ride," he said. "I can sleep all the way to 12pm in the afternoon."</p>
+			<p>Photographed in Penn Station on Jan 28, 2014 at 2 a.m.
+			<br>&copy; Yan Cong 2014, All Rights Reserved.</p>
+		</div>
+		<hr />
+	<div>
+		<h4>Joseph</h4>
+		<img src="http://31.media.tumblr.com/f66474127b3da97d7848480caf967578/tumblr_mzzat59ira1tn7atoo1_1280.jpg">
+		
+		<p>It was 17 degree on the afternoon of Jan. 3, 2014, after the snowstorm hit New York City. Joseph, 57, stood outside Penn Station holding his sign and begging money from people walking in and out of the station. It was one of the coldest days this winter, but for Joseph, it was just another day in the cold.</p>
+		<p>He woke up in Union Square under blankets and plastic bags in the morning, hid his stuff in the park and made his way to Penn Station. He got there around 3 p.m., and got about $10 till 5 p.m., which he said was not bad.</p>
+		<p>He used to be a crane operator, but got laid-off due to the economy depression. He lost his home in Howard Beach in Hurricane Sandy. He had no family to turn for help.</p>
+		<p>Joseph said, "I couldn't get along with my siblings. After my parents passed years ago, they were after the money they left. I wasn't interested in that kind of thing."</p>
+		<p>Photographed outside Penn Station on Jan. 3, 2014 at 5 pm.
+		<br>&copy;Yan Cong 2014, All Rights Reserved.</p>
+		</div>
+	<hr />
+</div>
+
+	<div class="help">
+		<h2>Help on the Way</h2>
+	<h4>Homeless Memorial Day Service</h4>
+		<img src="https://31.media.tumblr.com/2a2d6af961cb2c970a4b5e3c84d0bc08/tumblr_inline_mz22kubzgj1svyfkn.jpg"><br>
+		<img src="https://31.media.tumblr.com/7dbd492bca21faae0052db9a48c0b5af/tumblr_inline_mz49331Oel1svyfkn.jpg">
+		<p>About 50 people joined a memorial service in Harlem to remember homeless people who died in the past year in New York City on the afternoon of Dec. 21, 2013, the winter solstice and the longest night of the year.</p><p>
+More than 50 names of people who died without a home were handwritten on a piece of paper on the wall of a room in New Song Church in Harlem, where the memorial took place.</p>
+<p>"We are not numbers, we are persons," said Anthony Williams, the coordinator of the memorial service, in the opening speech.
+The memorial service not only aimed to remember those people, but also to raise the awareness of the health impact of homelessness.
+Life expectancy for chronically homeless people is around 45 years, according to the Center of Disease Control and Prevention, whereas the life expectancy for New Yorkers has increased to almost 81 years in 2013.</p>
+<p>"We are talking about 30 or even 40 years of needlessly lost life because of homelessness. If we begin to put resources not into shelters, but into subsidy for people moving from shelter to real housing, we can prevent a lot of homelessness, and eventually end homelessness."</p>
+<img src="https://31.media.tumblr.com/0f2bb98019d40a3b0cb1e3d3f9a17b96/tumblr_inline_mz22kdnWwy1svyfkn.jpg">
+<br>
+<img src="https://31.media.tumblr.com/6ba2603dc779bea063bf5cd37e1427ae/tumblr_inline_mz22k3VKNq1svyfkn.jpg"><br>
+<img src="https://31.media.tumblr.com/38a3b9238fdca444083233871140f893/tumblr_inline_mz22laDYVw1svyfkn.jpg"><br>
+<p>&copy;Yan Cong 2013, All Rights Reserved.</p>
+</div>
+
+<p id="copyright">&copy;Yan Cong 2013&ndash;2014, All Rights Reserved.</p>
+</body>
+</html>
