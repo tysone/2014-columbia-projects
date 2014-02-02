@@ -19,6 +19,7 @@ p{
 	width: 450px;
 	position: relative;
 	left: 25px;
+	color:#666666;
 }
 img{
 	height: 80%;
@@ -28,16 +29,18 @@ img{
 }
 div{width: 500px;
 }
-.homeless, .help{
+
+.homeless, .help, .about{
 	background-color: #e1ebea;
 	width: 500px;
 	float: left;
 	margin:10px;
 }
+
 p#copyright{
 	font-family: georgia;
 	font-size: 12px;
 	position:relative;
 	bottom: 0px;
-	left: 1000px;
+	left: 500px;
 }
