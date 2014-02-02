@@ -1,0 +1,43 @@
+h1 {
+	font-family: helvetica;
+	font-size: 80px;
+	text-align: center;
+}
+h2 {
+	font-family: arial;
+	text-align: center;
+
+}
+h4{
+	font-family: georgia;
+	font-weight: bold;
+	color: #595959;
+	text-align: center;
+}
+p{
+	font-family: georgia;
+	width: 450px;
+	position: relative;
+	left: 25px;
+}
+img{
+	height: 80%;
+	width: 80%;
+	position: relative;
+	left: 50px;
+}
+div{width: 500px;
+}
+.homeless, .help{
+	background-color: #e1ebea;
+	width: 500px;
+	float: left;
+	margin:10px;
+}
+p#copyright{
+	font-family: georgia;
+	font-size: 12px;
+	position:relative;
+	bottom: 0px;
+	left: 1000px;
+}
