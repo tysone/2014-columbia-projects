@@ -18,11 +18,19 @@ h3 {
 	font-size: 18px;
 }
 
-h2, h4 {
+h2 {
 	font-family: Myriad Pro;
 	color: #880000;
 	margin-left: 75px;
 	margin-right: 75px;
+}
+
+ h4 {
+	font-family: Myriad Pro;
+	color: #880000;
+	margin-left: 75px;
+	margin-right: 75px;
+	
 }
 
 p {
