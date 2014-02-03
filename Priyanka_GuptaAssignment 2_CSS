@@ -1,0 +1,35 @@
+Body {
+
+font-family: Helvetica;
+background-color:#E8E8E8 
+}
+
+h1 {
+	font-family: Helvetica;
+   font-size: 50px ;
+   text-align: center;
+   background-color: #100000;
+   color: #F8F8F8;
+}
+
+
+
+h2 {
+	font-family:Helvetica;
+	font-size: ; 10px; 
+}
+
+p {
+	
+	font-size:medium ;
+}
+
+
+
+
+
+
+
+
+
+
