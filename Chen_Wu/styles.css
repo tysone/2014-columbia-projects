@@ -1,0 +1,49 @@
+body{
+	line-height: 1.3em;
+    letter-spacing:0.006em;
+	text-align: left;
+	background-color: #669ECC;
+}
+h1{
+	font-family: Impact;
+	font-size: 48px;
+	text-transform:uppercase;
+}
+h2{
+    font-family: Impact;
+    font-size: 22px;
+    text-transform: uppercase;
+}
+h3{
+    font-family:Arial,serif;
+    font-size:20px;
+    text-transform: uppercase;
+}
+h4{
+	font-family: Arial,serif;
+	font-weight: bold;
+	font-size: 18px;
+	text-transform: uppercase;
+}
+h5{
+	font-family: Arial;
+	font-weight: bold;
+}
+ul{
+	list-style: inside circle;
+	font-family: Helvetica,serif;
+}
+p{
+	background-color: white;
+	background-color: hsla(0,100%,100%,0.3)
+}
+a:link {
+	color: black;
+	text-decoration: none;
+}
+a:visited{
+	color: #5C5955;
+}
+a:hover{
+	color: white;
+}
