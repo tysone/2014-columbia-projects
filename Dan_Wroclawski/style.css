@@ -1,0 +1,64 @@
+body {
+	background-color: #E8CB8B;
+	padding: 30px;
+}
+
+h1, h2 {
+	font-family: "Helvetica Light", Arial, sans-serif;
+	text-align: center;
+	font-weight: normal;
+}
+
+p {
+	font-family: georgia;
+	font-size: 18px;
+	line-height: 24px;
+	text-align: left;
+}
+
+li {
+	font-family: "Times New Roman";
+	font-size: 18px;
+	line-height: 32px;
+	text-align: left;
+}
+
+dt {
+	font-family: Georgia;
+	font-size: 18px;
+	line-height: 32px;
+	text-align: left;
+}
+
+dd {
+	font-family: Georgia;
+	font-size: 16px;
+	line-height: 32px;
+	font-style: italic;
+	text-align: left;
+}
+
+a:link {
+	color: blue;
+	text-decoration: none;
+}
+
+a:visited {
+	color: purple;
+	text-decoration: none;
+}
+
+a:hover {
+	color: yellow;
+	text-decoration: underline;
+}
+a:active {
+	color: orange;
+	text-decoration: underline;
+}
+
+.address {
+	font-size: 12px;
+	line-height: 6px;
+	text-align: right;
+}
