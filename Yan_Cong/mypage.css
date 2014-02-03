@@ -26,6 +26,8 @@ img{
 	width: 80%;
 	position: relative;
 	left: 50px;
+		bottom: 10px;
+top:10px;
 }
 div{width: 500px;
 }
