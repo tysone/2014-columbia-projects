@@ -3,6 +3,7 @@
 body {
 	font-family: Helvetica;
 	background-color: #9aacaa;
+	padding:10px;
 }	
 
 h1 {
@@ -24,6 +25,8 @@ p {
 
 p {
     margin-bottom: 0;
+
+i {color: #4b97ab;}
 }
 
 li {
@@ -39,7 +42,7 @@ dl{
 	font-weight: bold;
 }
 
-i {color: #4b97ab;}
+
 
 blockquote {
 		font-family: Helvetica;
@@ -47,6 +50,11 @@ blockquote {
 		font-weight: bold;
 		color:teal
 }
-img {}
+img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
 
 </style>
