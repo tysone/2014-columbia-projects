@@ -28,12 +28,13 @@ p {
 li {
 	font-family: Helvetica;
 	font-size: 16px;
+	color:#2f6d62;
 }
 
 blockquote {
 		font-size: 18px;
 		font-weight: bold;
-		color:teal;
+		color:#2f6d62
 }
 
 </style>
