@@ -1,7 +1,8 @@
 <style> 
 
 body {
-	background-color: #666;
+	font-family: Helvetica;
+	background-color: #9aacaa;
 }	
 
 h1 {
@@ -28,13 +29,20 @@ p {
 li {
 	font-family: Helvetica;
 	font-size: 16px;
-	color:#2f6d62;
+	color:teal;
+}
+
+dl{
+	font-family:Helvetica
+	font-size: 16px;
+	color:teal;
 }
 
 blockquote {
+		font-family: Helvetica;
 		font-size: 18px;
 		font-weight: bold;
-		color:#2f6d62
+		color:teal
 }
 
 </style>
