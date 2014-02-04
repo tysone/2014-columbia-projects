@@ -1,4 +1,4 @@
-/*body {
+body {
 	font-family: arial, sans-serif;
 	text-align: center;
 }
@@ -35,6 +35,37 @@ p {
 	text-align: center;
 }
 
+.no-margins {
+	background-color: #555;
+	color: #fff;
+	margin: 0; /* Same as margin: 0 0 0 0; */
+	text-align: center;
+}
+
+.some-margins {
+	background-color: #222;
+	color: #fff;
+	margin: 40px;
+	text-align: center;
+}
+
+.green-text {
+	color: green;
+}
+
+.red-text {
+	color: red;
+}
+
+.border {
+	border: 1px solid #333;
+	margin: 0 40px 0 40px;
+}
+
+.crazy-border {
+	border: 5px dotted red;
+}
+
 .blue {
 	padding: 20px 0 20px 0;
 	background-color: #2e4d7a;
@@ -54,4 +85,4 @@ p {
 	background-color: #30b34c;
 	color: #fff;
 	text-align: center;
-}*/
+}
