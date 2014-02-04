@@ -1,0 +1,37 @@
+h2{
+	font-family: helvetica;
+	font-size:30;
+	text-align: center;
+}
+h4{
+	font-family: georgia;
+	font-style: bold;
+}
+ul.ingredients{
+	font-family: georgia;
+	font-size: 15px;
+	width: 300px;
+}
+
+ul.nutrition{
+	font-family: georgia;
+	font-size: 15px;
+	width: 300px;
+}
+
+ol.steps{
+	font-family: georgia;
+	font-size: 15px;
+	width: 300px;
+}
+#page{
+	width:1280px;
+}
+
+div.ingredients, .nutrition, .steps{
+		padding:10px;
+	background-color: yellow;
+	width:350px;
+	float: left;
+	margin:10px;
+}
