@@ -1,7 +1,7 @@
 <style> 
 
 body {
-	background-color: #99CCCC;
+	background-color: #666;
 }	
 
 h1 {
@@ -33,7 +33,7 @@ li {
 blockquote {
 		font-size: 18px;
 		font-weight: bold;
-		color:#666;
+		color:#teal;
 }
 
 </style>
