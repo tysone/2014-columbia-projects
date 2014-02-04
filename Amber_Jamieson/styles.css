@@ -1,7 +1,7 @@
 <style> 
 
 body {
-	background-color: #99CCCC
+	background-color: #99CCCC;
 }	
 
 h1 {
@@ -16,7 +16,7 @@ h1 {
 p {
 	text-align: left;
 		font-family:Helvetica;
-		font-size: 12px;
+		font-size: 16px;
 		color:black;
 		font-weight: normal;
 }
