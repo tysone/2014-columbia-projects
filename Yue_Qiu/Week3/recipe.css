@@ -1,0 +1,44 @@
+*{
+	font-family: 'Tenor Sans', sans-serif
+}
+
+h1{
+text-align: center;
+
+background-color:#b0e0e6;
+}
+
+h2{
+	text-align: left;
+	margin-left:auto;
+margin-right:auto;
+width:70%;
+font-size: 1.0em;
+}
+
+.box{
+	width: 450px;
+	margin-left: 152px;
+	margin-right: 0px
+}
+
+.ingre{
+	/*text-align: center;*/
+margin-left:auto;
+margin-right:auto;
+width:70%;
+}
+#fact{
+text-align: center;
+margin-left:auto;
+margin-right:auto;
+background-color:#7BC1D9;
+}
+
+.procedure{
+	float: left;
+	width: 450px;
+}
+
+
+
