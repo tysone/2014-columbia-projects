@@ -1,0 +1,28 @@
+<style> 
+
+body {
+	background-color: #F8F8F8
+}	
+
+h1 {
+		text-align: center;
+		font-family: Georgia
+		font-size: 36px;
+		color: #009999
+		font-weight: bold;
+	}
+
+
+
+
+p {
+    margin-bottom: 0;
+}
+
+p + p {
+    text-indent: 2em;
+    margin-top: 0;
+}
+	
+
+</style>
