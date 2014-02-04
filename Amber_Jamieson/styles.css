@@ -6,7 +6,7 @@ body {
 
 h1 {
 		text-align: center;
-		font-family:Helvetica;
+		font-family:Tahoma;
 		font-size: 36px;
 		color:teal;
 		font-weight: bold;
@@ -25,6 +25,15 @@ p {
     margin-bottom: 0;
 }
 
-	
+li {
+	font-family: Helvetica;
+	font-size: 16px;
+}
+
+blockquote {
+		font-size: 18px;
+		font-weight: bold;
+		color:#666;
+}
 
 </style>
