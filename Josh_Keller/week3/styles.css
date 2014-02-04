@@ -66,11 +66,15 @@ p {
 	border: 5px dotted red;
 }
 
-.blue {
+div.blue {
 	padding: 20px 0 20px 0;
 	background-color: #2e4d7a;
 	color: #fff;
 	text-align: center;
+}
+
+#first-blue {
+	font-family: georgia;
 }
 
 .red {
