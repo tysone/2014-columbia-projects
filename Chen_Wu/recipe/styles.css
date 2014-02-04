@@ -1,0 +1,21 @@
+body{
+	line-height: 1.3em;
+	letter-spacing: 0.006em;
+	text-align: left;
+	background-color: #A37953;
+}
+
+h1{
+	font-family: Impact;
+	font-size: 40px;
+	text-transform: uppercase;
+}
+
+h2{font-family: Impact;
+	font-size: 22px;
+	text-transform: uppercase;
+}
+
+ul,ol{font-family: Arial,verdana,sans-serif;
+      font-size: 18px
+  }
