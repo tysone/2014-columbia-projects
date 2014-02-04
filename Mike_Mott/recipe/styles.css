@@ -1,0 +1,26 @@
+body{
+	background-color: #c9edcb;
+}
+
+p{
+	font-family:Arial, Tahoma, sans-serif;
+}
+
+h1{
+	font-family:Times;
+}
+
+
+
+#header{
+	font-family:courier;
+}
+
+.ingredients{
+	background-color: #c9edcb;
+}
+
+.instructions{
+	/*background-color: #83b5d6;*/
+	background-color: #c9edcb;
+}

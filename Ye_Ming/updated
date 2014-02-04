@@ -1,0 +1,28 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<title>Brain dead pregnancy</title>
+	<link href="style.css" type="text/css" rel="stylesheet" />
+</head>
+<body>
+	<h1>Pregnant, brain-dead woman unplugged from life support.</h1>
+	<h5><div id="intro">By <i>MANNY FERNANDEZ</i> and <i>ERIK ECKHOLM</i> for The New York Times</div></h5>
+	<hr>
+		<div id="img"><center><img src="husband.jpg" alt="Erick Munoz" /></center></div>
+		<div id="caption"><p><center>Erick Munoz stands with an undated copy of a photograph of himself, left, with wife <br />Marlise and their son Mateo, in Haltom City, Texas. <strong>AP Photo</strong></center></div>
+		<!-hello->
+	<hr>
+		<div id="para1"><p>A Fort Worth hospital that kept a pregnant, brain-dead woman on life support for two months followed a judge&#39s order on Sunday and removed her from the machines, ending her family&#39s legal fight to have her pronounced dead and to challenge a Texas law that prohibits medical officials from cutting off life support to a pregnant woman.</p></div><!-- color:blue--> 
+
+		<p>On Friday, a state district judge ordered John Peter Smith Hospital to remove the woman, Marlise Munoz, from life-support machines by 5 p.m. on Monday. The judge ruled that the state law barring doctors from withdrawing &#34life-sustaining treatment&#34 to pregnant women did not apply to Ms. Munoz because she was brain-dead and therefore legally dead. The hospital had refused to honor the family&#39s request to disconnect her, claiming that the law prevented them from doing so until they could perform a cesarean delivery.</div>
+
+		<p><img src="protests.jpg" alt="protests" align="right"/>Groups that oppose abortion had expressed support for the hospital&#39s legal argument. A statement released by the National Black Pro-Life Coalition and Operation Rescue said that the fetus deserved not to be killed, and that numerous people had expressed an interest in adopting the child when it was born, even if it had disabilities.</p>
+		<br />
+	<h4>Related articles&#58</h4>
+		<ul>
+			<li><a href=http://www.nytimes.com/2014/01/25/us/judge-orders-hospital-to-remove-life-support-from-pregnant-woman.html">Judge Orders Hospital to Remove Pregnant Woman From Life Support</a></li>
+			<li><a href=http://www.nytimes.com/2014/01/15/us/suing-to-end-life-support-for-woman-and-fetus.html>Suing to End Life Support for Woman and Fetus</a></li>
+			<li><a href=http://www.nytimes.com/2014/01/08/us/pregnant-and-forced-to-stay-on-life-support.html">Pregnant, and forced to stay on life support</a></li>
+
+</body>
+</html>

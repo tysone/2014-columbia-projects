@@ -1,22 +1,24 @@
 <style> 
 
-body {
-	background-color: #99CCCC
-}	
-
 h1 {
 		text-align: center;
-		font-family:Helvetica;
+		font-family:Tahoma;
 		font-size: 36px;
 		color:teal;
 		font-weight: bold;
+	}
+h2 {
+		text-align: center;
+		font-family:Tahoma;
+		font-size: 22px;
+		color:black;
 	}
 
 
 p {
 	text-align: left;
 		font-family:Helvetica;
-		font-size: 12px;
+		font-size: 16px;
 		color:black;
 		font-weight: normal;
 }
@@ -25,6 +27,41 @@ p {
     margin-bottom: 0;
 }
 
-	
+
+i {color: #4b97ab;}
+
+li {
+	font-family: Helvetica;
+	font-size: 16px;
+	color:teal;
+}
+
+dl{
+	font-family:Helvetica;
+	font-size: 16px;
+	color:teal;
+	font-weight: bold;
+}
+
+
+
+blockquote {
+		font-family: Helvetica;
+		font-size: 18px;
+		font-weight: bold;
+		color:teal
+}
+img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.name {
+	/*font-family: Helvetica;*/
+	background: #E5EAE9;
+	/*padding:10px;*/
+}
+
 
 </style>
