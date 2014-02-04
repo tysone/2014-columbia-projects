@@ -1,5 +1,5 @@
 .page{
-	background-color: ##edf6e5
+	background-color: #edf6e5;
 }
 
 p{
@@ -10,14 +10,17 @@ h1{
 	font-family:Times;
 }
 
+
+
 #header{
 	font-family:courier;
 }
 
 .ingredients{
-	background-color: ##c9edcb
+	background-color: #c9edcb;
 }
 
 .instructions{
-	background-color: #83b5d6;
+	/*background-color: #83b5d6;*/
+	background-color: red;
 }
