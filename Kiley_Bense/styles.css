@@ -1,0 +1,33 @@
+h1 {
+	font-size:100px;
+	color:#4016D9;
+	font-weight:bold;
+	font-family:helvetica;
+	text-align:center;
+}
+
+p {
+	font-size:20px;
+	color:#210F63;
+}
+
+h2 {
+	font-size:50px;
+	color:#4016D9;
+	font-weight:bold;
+	font-family:helvetica;
+}
+
+ul {
+	font-size:20px;
+	color:#210F63;
+}
+
+ol {
+	font-size:20px;
+	color:#210F63;
+}
+
+em {
+	color:#A25CD1;
+}
