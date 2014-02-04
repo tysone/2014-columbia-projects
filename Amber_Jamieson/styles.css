@@ -1,11 +1,5 @@
 <style> 
 
-body {
-	font-family: Helvetica;
-	background-color: #9aacaa;
-	padding:10px;
-}	
-
 h1 {
 		text-align: center;
 		font-family:Tahoma;
@@ -18,7 +12,6 @@ h2 {
 		font-family:Tahoma;
 		font-size: 22px;
 		color:black;
-		font-weight: ;
 	}
 
 
@@ -32,9 +25,10 @@ p {
 
 p {
     margin-bottom: 0;
+}
+
 
 i {color: #4b97ab;}
-}
 
 li {
 	font-family: Helvetica;
@@ -61,6 +55,12 @@ img {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
+}
+
+.name {
+	/*font-family: Helvetica;*/
+	background: #E5EAE9;
+	/*padding:10px;*/
 }
 
 
