@@ -1,0 +1,69 @@
+<html>
+
+<head>
+	<title>Layout</title>
+<style>
+	
+	html, body {
+		margin: 0;
+		padding: 0;
+		border: 0;
+	}
+
+	.outer-box {
+		width: 1000px;
+		height: 500px;
+		background-color: red;
+
+	}
+
+	.inner-box {
+		width: 250px;
+		height: 250px;
+		background-color: blue;
+		margin: 10px;
+		padding-left: 100px;
+		padding-right: 50px;
+		color: #fff;
+		font-size: 20px;
+
+		float: right;
+
+		border-right: 3px solid white;
+		border-left: 3px solid yellow;
+	}
+
+	.third-box {
+		background-color: #fff;
+		height: 50%;
+		width: 50%;
+		float: right;
+	}
+
+	.first-box {
+		height: 1000px;
+	}
+
+	/* margin, padding, border */
+
+</style>
+</head>
+
+<div class="outer-box">
+
+	<div class="inner-box first-box">
+		
+		<!-- TEXT HERE -->
+		<div class="third-box">
+			THIRD
+		</div>
+
+	</div>
+
+	<div class="inner-box second-box">
+		CONTENT
+	</div>
+
+</div>
+
+</html>
