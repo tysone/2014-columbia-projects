@@ -1,37 +1,56 @@
+html, body{
+	margin:0;
+	padding: 0;
+}
+body{
+	background-color: #4f3300;
+}
+
+h1{
+	text-align: center;
+	font-family: helvetica;
+	font-size: 90px;
+	color: #fff1d8;
+	font-style: bold;
+}
 h2{
 	font-family: helvetica;
-	font-size:30;
+	font-size:20;
 	text-align: center;
+	color: #c57d00;
 }
 h4{
 	font-family: georgia;
-	font-style: bold;
+		color: #c57d00;
 }
-ul.ingredients{
+img{
+	position: relative;
+	left:25%;
+}
+ul, ol{
+	color:#4f3300;
+}
+ul{
 	font-family: georgia;
 	font-size: 15px;
-	width: 300px;
+	width: 90%;
 }
 
-ul.nutrition{
+ol{
 	font-family: georgia;
 	font-size: 15px;
-	width: 300px;
+	width: 90%;
 }
 
-ol.steps{
-	font-family: georgia;
-	font-size: 15px;
-	width: 300px;
-}
 #page{
-	width:1280px;
+	padding: 15px;
 }
 
-div.ingredients, .nutrition, .steps{
-		padding:10px;
-	background-color: yellow;
-	width:350px;
-	float: left;
+div.peanut, .b-w{
+	background-color: #fff1d8;
+	width: 46%;
 	margin:10px;
+	padding:10px;
+	border: 2px dotted white;
+	float: left;
 }
