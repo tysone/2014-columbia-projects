@@ -1,0 +1,38 @@
+.ingredients {
+	background-color: #BB88CF;
+	width: 500px;
+	border: 3px white dashed;
+	padding: 10px;
+	float: left;
+	margin: 10px;
+	
+}
+
+body {
+	color: #780B4E;
+	font-family: Arial;
+}
+
+body {
+	background-color: #EBA4D0;
+}
+
+.header {
+	background-color:#BB88CF;
+	width: 150px;
+	font-size: 40px;
+	border: 3px white dashed;
+	text-align: center;
+	padding: 20px;
+	margin: 10px;
+}
+
+h2 {
+	text-align: center;
+}
+
+img.displayed {
+	display: block;
+	margin-right: auto;
+	margin-left: auto
+}
