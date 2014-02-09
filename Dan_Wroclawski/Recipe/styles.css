@@ -1,0 +1,43 @@
+body {
+	background-color: white;
+	font-family: Georgia;
+}
+.outerbox {
+	width: 100%;
+	height: 100%;
+}
+.recipe {
+	margin: 10px;
+	margin-top: 0px;
+	padding: 20px;
+	float: left;
+	width: 500px;
+	height: 1000px;
+}
+
+.first {
+	border-right: 1px dashed brown;
+}
+
+.second {
+	border-left: 1px dashed brown;
+}
+
+.ingredients {
+	background-color: beige;
+	padding: 10px;
+	border: 2px solid brown;
+}
+
+.nutrition {
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+h1 {
+	text-align: center;
+	color: brown;
+}
+
+.credit {
+	font-size: 12px;
+}
