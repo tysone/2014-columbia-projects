@@ -1,0 +1,32 @@
+body {
+	background-color: #b5a1a1; 
+}
+
+h1 {
+	font-color: red;
+	font-size: 18px;
+	font-family: arial;
+	text-align:center;
+}
+
+
+h2 {text-align: left;
+	font-family: arial;
+	color: #black;
+	padding: 0px;
+	font-size: 18px;
+
+}
+
+h4 {text-align: left;
+	font-family: arial;
+	color: #black;
+	padding: 0px;
+	font-size: 18px;
+}
+
+p {	font-size: 14px;
+	font-family: helvetica;
+	margin-left: 75px;
+	margin-right: 75px;
+}

@@ -1,0 +1,23 @@
+h1 {
+     font-size:100px
+     color: #white;
+     font-family: Georgia;
+
+}
+
+p {
+     font-size:20px;
+     color: #4F0D4F;
+     font-family: Georgia;
+
+}
+li {
+	 font-size:20px;
+     color: #4F0D4F;
+     font-family: Georgia;
+
+}
+
+p id=1 {
+     font-family:impact;
+}

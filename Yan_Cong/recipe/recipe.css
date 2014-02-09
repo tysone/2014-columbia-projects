@@ -1,0 +1,56 @@
+html, body{
+	margin:0;
+	padding: 0;
+}
+body{
+	background-color: #4f3300;
+}
+
+h1{
+	text-align: center;
+	font-family: helvetica;
+	font-size: 90px;
+	color: #fff1d8;
+	font-style: bold;
+}
+h2{
+	font-family: helvetica;
+	font-size:20;
+	text-align: center;
+	color: #c57d00;
+}
+h4{
+	font-family: georgia;
+		color: #c57d00;
+}
+img{
+	position: relative;
+	left:25%;
+}
+ul, ol{
+	color:#4f3300;
+}
+ul{
+	font-family: georgia;
+	font-size: 15px;
+	width: 90%;
+}
+
+ol{
+	font-family: georgia;
+	font-size: 15px;
+	width: 90%;
+}
+
+#page{
+	padding: 15px;
+}
+
+div.peanut, .b-w{
+	background-color: #fff1d8;
+	width: 46%;
+	margin:10px;
+	padding:10px;
+	border: 2px dotted white;
+	float: left;
+}
