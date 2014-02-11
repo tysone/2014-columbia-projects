@@ -8,8 +8,8 @@
 
 <h1>Cookie Monster's Favorite Cookies</h1>
 
-<div>
-		<h2><center>Chocolate Peanut Butter Cookie Recipe</center></h2>
+<div class="peanut">		
+	<h2><center>Chocolate Peanut Butter Cookie Recipe</center></h2>
 
 <ul>
 		<li>1 cup butter, softened</li>
@@ -44,7 +44,7 @@
 
 </div>
 
-<div id="chip">
+<div class="chip">
 
 <h2><center>Chocolate Chip Cookie Recipe</center></h2>
 
