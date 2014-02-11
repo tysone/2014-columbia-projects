@@ -1,34 +1,37 @@
 h1
 	{
 		color:red;
-		text-align:center
+		text-align:center;
+		background-color: white;
 	}
-	
+
 body
 	{
 		background-image:url('http://media4.teenormous.com/items/ih3.redbubble.net/image.13040680.2436-fc-550x550-baby_blue.u2.jpg')
 
 	}
-	
+
 div	
 	{
 		background-color:yellow;
 		height: 500px;
 		width: 450px;
 		position: relative;
-		margin-left:25px
-		display:inline
+		margin-left:25px;
+		border:3px solid;
+		border-color:white;
+		padding:15px;
 
 	}
-	
+
 div div chip
 	{
 		background-color:yellow;
 		height: 500px;
 		width: 450px;
 		position: relative;
-		margin-right:25px
-		display:inline
+		border:3px solid;
+		border-color:white;
+		padding:15px;		
 	}
-	
 
