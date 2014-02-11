@@ -1,0 +1,17 @@
+body{
+background-color:white;
+padding:20px;
+font-family:arial;
+}
+h1{
+	font-size: 12px;
+	color:#239985;
+	font-weight:bold;
+	text-align:center;
+	background-color:white;
+	}
+p{
+	font-size:13px;
+	line-height:12px;
+	font-family:arial;
+	text-align: center;
