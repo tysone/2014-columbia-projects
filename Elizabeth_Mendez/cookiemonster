@@ -6,11 +6,11 @@
 	<body>
 
 
-<h1> Cookie Monster's Favorite Cookies</h1>
+<h1>Cookie Monster's Favorite Cookies</h1>
 
 <div>
-		<h2>Chocolate Peanut Butter Cookie Recipe</h2>
-		
+		<h2><center>Chocolate Peanut Butter Cookie Recipe</center></h2>
+
 <ul>
 		<li>1 cup butter, softened</li>
 		<li>3/4 cup creamy peanut butter</li>
@@ -26,7 +26,7 @@
 		<li>10 chocolate covered peanut butter cups, cut into eighths</li>
 </ul>
 
- Nutrition||<strong>Calories: 230 | Total Fat: 13g | Cholesterol: 26mg</strong>
+ Nutrition  || <strong>Calories: 230 | Total Fat: 13g | Cholesterol: 26mg</strong> 
 <br><br>
 
 	Preheat oven to 350 degrees F (175 degrees C). In a large bowl, cream together the butter, peanut butter, 
@@ -46,7 +46,7 @@
 
 <div id="chip">
 
-<h2>Chocolate Chip Cookies</h2>
+<h2><center>Chocolate Chip Cookie Recipe</center></h2>
 
 
 <ul>
@@ -60,10 +60,10 @@
 		<li>3/4 teaspoon baking soda</li>
 		<li>1 teaspoon fine salt</li>
 		<li>6 ounces semisweet chocolate chips or chunks</li>
-		
+
 </ul>
 
-<strong>Cookie Monster says this recipe has no calories :) </strong><br>
+<strong><center>Cookie Monster says this recipe has no calories :) </center></strong><br>
 
 
 Whisk the sugars, eggs, oil, and vanilla in a large bowl until smooth.
@@ -75,12 +75,12 @@ Wet hands slightly and roll the dough into balls.
 Space the cookies about 2 inches apart on the pans. 
 Bake until golden but still soft in the center, about 12 to 14 minutes, 
 depending on how chewy or crunchy you like your cookies.
-	 
+
 </div>	 
-	 
- <blockquote>“Chocolate chip cookies don't have calories." <em>Cookie Monster</em> </blockquote>
-	 
+
+ 
+
 
 	 </body> 
-	 
+
 </html>
