@@ -1,0 +1,52 @@
+.ingredients {
+	background-color: #7b4d12;
+	width: 500px;
+	border: 3px solid #eb7a0c;
+	padding: 50px;
+	float: left;
+	margin: 10px;
+
+}
+
+/*.ingredients-two {
+	background-color: #7b4d12;
+	width: 500px;
+	border: 3px solid #eb7a0c;
+	padding: 10px;
+	float: right;
+	margin: 500px;
+
+}*/
+
+body {
+	color: black;
+	
+}
+
+body {
+	background-color: black;
+}
+
+.header {
+	background-color:#7b4d12;
+	width: 150px;
+	font-size: 40px;
+	border: 3px solid #eb7a0c;
+	margin: 10 auto 10 auto;
+	padding: 50px;
+
+}
+
+h2 {
+	text-align: center;
+}
+
+img.displayed {
+	display: block;
+	margin-right: auto;
+	margin-left: auto
+}
+
+h2,h3, header {
+				font-style: "courier new";
+}
