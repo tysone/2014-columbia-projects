@@ -1,0 +1,115 @@
+h1{
+	font-size: 65px;
+	color: #000000;
+	text-align: center;
+	font-style: italic;
+	font-family: didot;
+}	
+h2{
+	font-size: 30px;
+	color: #000000;
+	text-align: center;
+	font-style: normal;
+	font-family: didot;
+	line-height: 50%;
+}
+h3{
+	font-size: 30px;
+	color: #000000;
+	text-align: left;
+	font-style: normal;
+	font-family: didot;
+}
+h4{
+	font-size: 30px;
+	color: #000000;
+	text-align: right;
+	font-style: normal;
+	font-family: didot;
+}
+h5{
+	text-align: center;
+	font-size:25px;
+	margin:0;
+	font-family:didot;
+	font-style:bold;
+}
+h6{
+	font-size:25px;
+	text-align:left;
+	font-style:normal;
+	font-family: didot;
+	margin:0;
+	text-align: center;
+}
+h7{
+	font-size:25px;
+	float:right;
+	font-style: bold;
+}
+.table{
+	border:3px solid #000000;
+	padding:10px;
+	margin-right: 325px;
+	margin-left: 325px;
+	float:center;
+	font-family:didot;
+}
+p{
+	width:400px;
+	border:4px solid #000000;
+	margin-top:10px;
+	margin-right:10px;
+	margin-left:10px;
+	margin-bottom:10px;
+	width:50%;
+	height:50%;
+}
+p.step1{font-size:19px;
+		padding:6px;
+		margin:10px;
+		width:215px;
+		float:left;
+		font-family: didot;
+		font-style:bold;
+	}
+p.step2{font-size:19px;
+		padding:6px;
+		margin:10px;
+		width:215px;
+		float:left;
+		font-family: didot;
+		font-style: bold;
+	}
+p.step3{font-size:19px;
+		padding:6px;
+		margin:10px;
+		width:215px;
+		float:left;
+		font-family: didot;
+		font-style:bold;
+	}
+p.step4{font-size:19px;
+		padding:6px;
+		margin:10px;
+		width:215px;
+		float:left;
+		font-family: didot;
+		font-style:bold;
+	}
+
+.regular{
+	width:45%;
+	height:55%;
+	float:left;
+	margin:0;
+}
+.glutenfree{
+	width:45%;
+	height:55%;
+	float:right;
+	margin:0;
+}
+
+
+
