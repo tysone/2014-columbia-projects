@@ -3,6 +3,7 @@ h1
 		color:red;
 		text-align:center;
 		background-color: white;
+		opacity: 0.5;
 	}
 
 body
@@ -11,27 +12,34 @@ body
 
 	}
 
-div	
+
+.peanut
 	{
-		background-color:yellow;
+background-color:yellow;
 		height: 500px;
+		float:left;
 		width: 450px;
 		position: relative;
-		margin-left:25px;
 		border:3px solid;
 		border-color:white;
+		margin-left:25px;
+		margin-top: 25px;
 		padding:15px;
 
-	}
 
-div div chip
+	}
+.chip
 	{
 		background-color:yellow;
 		height: 500px;
+		float:right;
 		width: 450px;
 		position: relative;
 		border:3px solid;
 		border-color:white;
+		margin-right:25px;
+		margin-top: 25px;
 		padding:15px;		
 	}
+
 
