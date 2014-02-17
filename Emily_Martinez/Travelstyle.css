@@ -1,0 +1,53 @@
+#header {color: black; 
+			background-color: gray;
+			height: 150px;
+			width: 800px;
+			margin-right: 175px;
+			margin-left: 175px;
+			margin-top: 10px;
+			font-size: 35px;
+			font-family: Helvetica, sans-serif;
+			text-align: center;
+			font-family: Helvetica;
+			font-weight: lighter;
+			letter-spacing: 5px;}
+.date {color: black; 
+			font-family: helvetica;
+			float: left;
+			background-color: #FFFFE0;
+			margin-left: 40px;
+			margin-right: 3px;
+			margin-top: 50px;
+			width: 150px;
+			height: 150px;
+			font-size: 12px;
+			}
+
+.content {background-color: #FFFFE0; 
+			color: black;
+			float: left;
+			font-family: helvetica;
+			margin-top: 50px;
+			font-size: 12px;
+			height: 200px;
+			width: 555px;
+			}
+.headline {font-family: Georgia;
+			font-size: 30px;
+			text-align: center;}
+.page {height: 5000px;
+		width: 1800px;
+		background-color: white;}
+
+.inner {height: 4000px;
+		width: 800px;
+			margin-left: 175px;
+			margin-right: 500px;
+			margin-top: 100px;
+			background-color: gray;}
+body {background-color: white;}
+.title {color: black;
+			margin-top: 50px;
+			text-align: center;
+			font-size: 30px;}
+#PBC {margin-top: 350px;}
