@@ -15,9 +15,10 @@
 			border-width: 1px;}
 .date {color: black; 
 			font-family: helvetica;
+			margin-right: 100px;
 			float: right;
 			background-color: white;
-			margin-right: 30px;
+			margin-right: 20px;
 			margin-top: 50px;
 			width: 150px;
 			height: 150px;
@@ -26,19 +27,19 @@
 			color: black;
 			float: left;
 			font-family: helvetica;
-			margin-top: 50px;
-			margin-left: 30px;
+			margin-top: 10px;
+			margin-left: 20px;
 			font-size: 12px;
-			height: 600px;
-			width: 1090px;
+			height: 650px;
+			width: 1100px;
 			}
 .headline {font-family: Helvetica;
 			font-size: 35px;
 			text-align: center;}
-.page {height: 7000px;
+.page {height: 7500px;
 		width: 1800px;
 		background-color: white;}
-.inner {height: 6500px;
+.inner {height: 7300px;
 		width: 1300px;
 			margin-left: 50px;
 			margin-right: 500px;
@@ -49,6 +50,12 @@ body {background-color: white;}
 			margin-top: 50px;
 			text-align: center;
 			font-size: 30px;}
-#PBC {margin-top: 350px;}
 .summary {background-color: white;
 			color: #383838;}
+.vertical {float: right;
+			margin-right: 450px;}
+#head {font-family: Helvetica;
+	float: left;
+		margin-left: 50px;
+		padding-top: 10px;
+		color: #383838;}
