@@ -1,16 +1,16 @@
 #header {color: black; 
 			background-color: gray;
 			height: 150px;
-			width: 800px;
+			width: 1300px;
 			margin-right: 250px;
-			margin-left: 250px;
+			margin-left: 50px;
 			margin-top: 10px;
 			font-size: 35px;
 			font-family: Helvetica, sans-serif;
 			text-align: center;
 			font-family: Helvetica;
 			font-weight: lighter;
-			letter-spacing: 6px;}
+			letter-spacing: 10px;}
 .date {color: black; 
 			font-family: helvetica;
 			float: right;
