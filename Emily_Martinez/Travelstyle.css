@@ -2,8 +2,8 @@
 			background-color: gray;
 			height: 150px;
 			width: 800px;
-			margin-right: 175px;
-			margin-left: 175px;
+			margin-right: 250px;
+			margin-left: 250px;
 			margin-top: 10px;
 			font-size: 35px;
 			font-family: Helvetica, sans-serif;
@@ -13,10 +13,9 @@
 			letter-spacing: 6px;}
 .date {color: black; 
 			font-family: helvetica;
-			float: left;
+			float: right;
 			background-color: #FFFFE0;
-			margin-left: 10px;
-			margin-right: 3px;
+			margin-right: 30px;
 			margin-top: 50px;
 			width: 150px;
 			height: 150px;
@@ -27,9 +26,10 @@
 			float: left;
 			font-family: helvetica;
 			margin-top: 50px;
+			margin-left: 30px;
 			font-size: 12px;
 			height: 800px;
-			width: 1000px;
+			width: 1080px;
 			}
 .headline {font-family: Georgia;
 			font-size: 30px;
@@ -38,7 +38,7 @@
 		width: 1800px;
 		background-color: white;}
 .inner {height: 4000px;
-		width: 1200px;
+		width: 1300px;
 			margin-left: 50px;
 			margin-right: 500px;
 			margin-top: 100px;
