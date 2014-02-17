@@ -1,0 +1,200 @@
+<style>
+#page {
+background-color: white;
+}
+.map {
+	margin-left: 560px;
+	margin-bottom: -200px;
+	margin-top: 30px;
+}
+.header {
+font-family: sans-serif;
+font-size: 60px;
+color: black;
+margin-left: 150px;
+margin-top: -375px;
+}
+.subheader {
+font-family: sans-serif;
+font-size: 24px;
+color: gray;
+margin-left: 150px;
+margin-top: 15px;
+margin-bottom: 240px;
+}
+.destination1 {
+margin-left: 150px;
+}
+.Limatitle {
+font-family: sans-serif;
+font-size: 30px;
+color: black;
+}
+.Limabody {
+	font-family: sans-serif;
+	font-size: 24px;
+	color: gray;
+	margin-right: 100px;
+	margin-bottom: 100px;
+}
+.destination2 {
+margin-left: 150px;
+}
+.Sacredtitle {
+font-family: sans-serif;
+font-size: 30px;
+color: black;
+margin-top: 30px;
+}
+.Sacredbody {
+	font-family: sans-serif;
+	font-size: 24px;
+	color: gray;
+	margin-right: 100px;
+	margin-bottom: 100px;
+}
+.destination3 {
+margin-left: 150px;
+}
+.Ollyantambotitle {
+font-family: sans-serif;
+font-size: 30px;
+color: black;
+margin-top: 30px;
+}
+.Ollyantambobody {
+	font-family: sans-serif;
+	font-size: 24px;
+	color: gray;
+	margin-right: 100px;
+	margin-bottom: 100px;
+}
+.destination4 {
+	margin-left: 150px;
+}
+.Machutitle {
+	font-family: sans-serif;
+	font-size: 30px;
+	color: black;
+	margin-top: 30px;
+}
+.Machubody {
+	font-family: sans-serif;
+	font-size: 24px;
+	color: gray;
+	margin-right: 100px;
+	margin-bottom: 100px;
+}
+.destination5 {
+	margin-left: 150px;
+}
+.Quitotitle {
+	font-family: sans-serif;
+	font-size: 30px;
+	color: black;
+	margin-top: 30px;
+}
+.Quitobody {
+	font-family: sans-serif;
+	font-size: 24px;
+	color: gray;
+	margin-right: 100px;
+	margin-bottom: 100px;
+}
+.destination6 {
+	margin-left: 150px;
+}
+.Equatortitle {
+	font-family: sans-serif;
+	font-size: 30px;
+	color: black;
+	margin-top: 30px;
+}
+.Equatorbody {
+	font-family: sans-serif;
+	font-size: 24px;
+	color: gray;
+	margin-right: 100px;
+	margin-bottom: 100px;
+}
+.destination7 {
+	margin-left: 150px;
+}
+.Bartholomewtitle {
+	font-family: sans-serif;
+	font-size: 30px;
+	color: black;
+	margin-top: 30px;
+}
+.Bartholomewbody {
+	font-family: sans-serif;
+	font-size: 24px;
+	color: gray;
+	margin-right: 100px;
+	margin-bottom: 100px;
+}
+.destination8 {
+	margin-left: 150px;
+}
+.Isabelatitle {
+	font-family: sans-serif;
+	font-size: 30px;
+	color: black;
+	margin-top: 30px;
+}
+.Isabelabody {
+	font-family: sans-serif;
+	font-size: 24px;
+	color: gray;
+	margin-right: 100px;
+	margin-bottom: 100px;
+}
+.destination9 {
+	margin-left: 150px;
+}
+.Genovesatitle {
+	font-family: sans-serif;
+	font-size: 30px;
+	color: black;
+	margin-top: 30px;
+}
+.Genovesabody {
+	font-family: sans-serif;
+	font-size: 24px;
+	color: gray;
+	margin-right: 100px;
+	margin-bottom: 100px;
+}
+.destination10 {
+	margin-left: 150px;
+}
+.Guayaquiltitle {
+	font-family: sans-serif;
+	font-size: 30px;
+	color: black;
+	margin-top: 30px;
+}
+.Guayaquilbody {
+	font-family: sans-serif;
+	font-size: 24px;
+	color: gray;
+	margin-right: 100px;
+	margin-bottom: 100px;
+}
+.ending {
+	font-family: sans-serif;
+	font-size: 24px;
+	color: gray;
+	margin-right: 100px;
+	margin-left: 150px;
+	margin-bottom: 100px;
+}
+.signoff {
+	font-family: sans-serif;
+	font-size: 60px;
+	color: black;
+	margin-left: 470px;
+	margin-bottom: 100px;
+	margin-right: 100px;
+}
+</style>
