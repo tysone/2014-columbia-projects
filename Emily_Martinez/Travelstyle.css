@@ -29,16 +29,16 @@
 			margin-top: 50px;
 			margin-left: 30px;
 			font-size: 12px;
-			height: 500px;
-			width: 1080px;
+			height: 600px;
+			width: 1090px;
 			}
 .headline {font-family: Helvetica;
 			font-size: 35px;
 			text-align: center;}
-.page {height: 6000px;
+.page {height: 7000px;
 		width: 1800px;
 		background-color: white;}
-.inner {height: 5700px;
+.inner {height: 6500px;
 		width: 1300px;
 			margin-left: 50px;
 			margin-right: 500px;
@@ -50,3 +50,5 @@ body {background-color: white;}
 			text-align: center;
 			font-size: 30px;}
 #PBC {margin-top: 350px;}
+.summary {background-color: white;
+			color: #383838;}
