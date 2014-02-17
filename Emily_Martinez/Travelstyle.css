@@ -1,5 +1,5 @@
 #header {color: black; 
-			background-color: gray;
+			background-color: white;
 			height: 150px;
 			width: 1300px;
 			margin-right: 250px;
@@ -10,39 +10,40 @@
 			text-align: center;
 			font-family: Helvetica;
 			font-weight: lighter;
-			letter-spacing: 10px;}
+			letter-spacing: 10px;
+			border-style: solid;
+			border-width: 1px;}
 .date {color: black; 
 			font-family: helvetica;
 			float: right;
-			background-color: #FFFFE0;
+			background-color: white;
 			margin-right: 30px;
 			margin-top: 50px;
 			width: 150px;
 			height: 150px;
-			font-size: 12px;
 			}
-.content {background-color: #FFFFE0; 
+.content {background-color: #E8E8E8; 
 			color: black;
 			float: left;
 			font-family: helvetica;
 			margin-top: 50px;
 			margin-left: 30px;
 			font-size: 12px;
-			height: 800px;
+			height: 500px;
 			width: 1080px;
 			}
-.headline {font-family: Georgia;
-			font-size: 30px;
+.headline {font-family: Helvetica;
+			font-size: 35px;
 			text-align: center;}
-.page {height: 5000px;
+.page {height: 6000px;
 		width: 1800px;
 		background-color: white;}
-.inner {height: 4000px;
+.inner {height: 5700px;
 		width: 1300px;
 			margin-left: 50px;
 			margin-right: 500px;
 			margin-top: 100px;
-			background-color: gray;}
+			background-color: #E8E8E8;}
 body {background-color: white;}
 .title {color: black;
 			margin-top: 50px;
