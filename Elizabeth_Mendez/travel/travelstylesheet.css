@@ -1,0 +1,22 @@
+argentina 
+	{
+		height: 500px;
+		float:left;
+		width: 450px;
+		position: relative;
+		border:3px solid;
+		border-color:white;
+		margin-left:25px;
+		margin-top: 25px;
+		padding:15px;
+		opacity: 0.5;
+		background-image:url('http://www.flickr.com/photos/teleoalreves/2768036557/in/photolist-5dg69u-5dAUQe-5gz4pQ-5gTnXY-5qhQnZ-5r3UZ9-5rENeR-5yUvb5-5A9rEz-5HeR9R-5HC5hU-5Jg8Nz-5NvNHJ-5UpbeA-5UZptr-5Ww3PN-5XtN1S-5YKnUR-5ZpeaZ-61yHeb-629qs8-65Ygxj-69Zr1f-6b13GP-6eNegc-6fbUS7-6hQ64q-6mwAuU-6sCwJp-6u3RR7-6vrKgj-6zWkoy-6GREcw-6MrAXS-6QjnYY-6ZZXki-74VU59-7512hG-79sjk8-7hp19b-7jvuyF-7kgUh5-7o3wFT-7pumwr-7tu5aa-7udaez-7vdtW4-8zs1ba-bkpCE2-jKxucU-bMMZdR/')
+	}
+	
+h1
+	{
+		text-align:center;
+		font-family: arial;
+		
+	}
+	
