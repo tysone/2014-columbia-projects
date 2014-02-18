@@ -1,7 +1,7 @@
 #header {color: black; 
 			background-color: white;
 			height: 150px;
-			width: 1300px;
+			width: 1350px;
 			margin-right: 250px;
 			margin-left: 50px;
 			margin-top: 10px;
@@ -18,32 +18,31 @@
 			margin-right: 100px;
 			float: right;
 			background-color: white;
-			margin-right: 20px;
+			margin-right: 10px;
 			margin-top: 50px;
-			width: 150px;
-			height: 150px;
+			width: 120px;
+			height: 120px;
 			}
 .content {background-color: #E8E8E8; 
 			color: black;
 			float: left;
 			font-family: helvetica;
-			margin-top: 10px;
-			margin-left: 20px;
+			margin-left: 10px;
+			margin-top: 50px;
 			font-size: 12px;
-			height: 650px;
-			width: 1100px;
+			height: 600px;
+			width: 1200px;
 			}
 .headline {font-family: Helvetica;
-			font-size: 35px;
+			font-size: 30px;
 			text-align: center;}
-.page {height: 7500px;
+.page {height: 6700px;
 		width: 1800px;
 		background-color: white;}
-.inner {height: 7300px;
-		width: 1300px;
+.inner {height: 6300px;
+		width: 1350px;
 			margin-left: 50px;
 			margin-right: 500px;
-			margin-top: 100px;
 			background-color: #E8E8E8;}
 body {background-color: white;}
 .title {color: black;
@@ -51,11 +50,24 @@ body {background-color: white;}
 			text-align: center;
 			font-size: 30px;}
 .summary {background-color: white;
-			color: #383838;}
-.vertical {float: right;
-			margin-right: 450px;}
+			float: left;
+			color: #383838;
+			height: 200px;
+			width: 200px;}
+.vertical {float: left;
+			height: 650px;
+			width: 1200px;}
 #head {font-family: Helvetica;
-	float: left;
-		margin-left: 50px;
 		padding-top: 10px;
-		color: #383838;}
+		color: #383838;
+		background-color: #E8E8E8;
+			margin-left: 50px;
+			margin-top: 100px;}
+.vertvid {float: right;
+		margin-right: 105px;}
+#bilbao {margin-right: 75px;}
+#lyon {margin-right: 130px;}
+#paris {float: right;
+		height: 360px;
+		width: 640px;}
+.rightsumm {background-color: white;}
