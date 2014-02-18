@@ -72,6 +72,7 @@ body {background-color: #E8E8E8;}
 #bilbao {margin-right: 75px;}
 #lyon {margin-right: 130px;}
 .rightsumm {background-color: #E8E8E8;
+	box-shadow: 10px 10px 5px #5A5A5A;
 		margin-top: 20px;
 		height: 200px;
 		width: 480;}
