@@ -1,0 +1,114 @@
+html,body {margin:0;
+padding:0;
+border:0;
+}
+
+body {
+font-family: Georgia, Helvetica;
+background-color: #FFFFFF;
+}
+
+
+.outerbox {width: 100%;
+height: 100%;
+margin-top: 2%;
+margin-right:15%;
+margin-left: 15%;
+padding-left: 15%;
+padding-right: 15%;
+}
+
+.header2 {font-family: Georgia, Helvetica;
+	font-size: 15px;
+	font-weight: 500; 
+}
+
+.innerbox2 {width: 75%;
+	height: 75%;
+	margin-top: 35%;
+	text-align: right;
+	}
+
+.imagebox {width: 30px;
+height: 30px;
+
+}
+	.image1 {height: 25px;
+width:25px;
+border-left: 10px white;
+border-top: 10px white #3366FF;
+border-right: 10px #3366FF;
+margin-right: 20px;
+margin-left: 5px;
+margin-top: 5px;
+margin-bottom: 5px;
+padding-left: 5%;
+padding-right:5%;
+
+}
+
+hr { width: 50%;
+	size: 6;
+	color: yellow;
+}
+
+.imagebox2 {width: 30px;
+height: 30px;
+}
+
+	.image2 {height: 25px;
+width:25px;
+border-left: 5px white;
+border-top: 5px white #3366FF;
+border-right: 5px #3366FF;
+margin-right: 10px;
+margin-left: 5px;
+margin-top: 5px;
+margin-bottom: 5px;
+padding-left: 5%;
+padding-right:5%;
+padding- top: 5%;
+}
+
+.innerbox3 {width: 75%;
+	height: 25%;
+	margin-top: 20%;
+	text-align: right;
+	}
+
+
+	.imagebox3 {width: 30px;
+height: 30px;
+}
+
+.image3 {height: 25px;
+width:25px;
+border-left: 5px white;
+border-top: 5px white #3366FF;
+border-right: 5px #3366FF;
+margin-right: 10px;
+margin-left: 5px;
+margin-top: 2px;
+margin-bottom: 100px;
+padding-left: 5%;
+padding-right:5%;
+padding- top: 10%;
+padding-bottom: 40%;
+}
+.innerbox4 {width: 75%;
+	height: 75%;
+	margin-top: 5%;
+	text-align: left;
+	}
+
+.innerbox5 {width 75%;
+	height: 75%;
+	margin-top: 5%;
+	text-align: left;
+	}
+
+	.iconbox { width:10px;
+		height: 10px;
+		background-color:#FFFFFF;
+
+	}
