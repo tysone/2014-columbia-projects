@@ -1,0 +1,63 @@
+body{
+background-color:rgb(140,216,203);
+background-color:(0,0%,78%);
+padding:60px;
+font-family:georgia;
+background-image:url(images/Capetown_beach_table.jpg);
+
+}
+h1{
+	font-size: 80px;
+	color:#F246B3;
+	font-weight:bold;
+	text-align:center;
+	background-color:#0CEEF2;
+	background-color:(0,0%,78%);
+	padding:inherit;
+opacity:0.8;
+text-shadow:-1px -2px #666666;
+}
+
+h3{
+	font-size: 50px;
+	color:#F246B3;
+	font-weight:bold;
+	text-align:center;
+	background-color:#0CEEF2;
+	padding:10px;
+	background-color:(0,0%,78%);
+	opacity:0.8;
+	text-shadow:-1px -2px #666666;	
+}
+
+p{
+	font-size:16px;
+	line-height:20px;
+	font-family:georgia;
+	text-align:center;
+	font-weight:bolder;
+	}		
+
+.outer-box{ 
+width:1200px;
+height:450px;
+background-color:#0C81C9;
+margin:50px;
+padding-left:20px;
+padding-right:20px;
+background-color:(0,0%,78%);
+opacity:0.8;
+}
+.inner-box{ 
+width:400px;
+height:400px;
+background-color:#0C81C9;
+font-family:Arial;
+float:left;
+margin:50px;
+padding-left:20px;
+padding-right:20px;
+background-color:(0,0%,78%);
+opacity:1.5;
+}
+
