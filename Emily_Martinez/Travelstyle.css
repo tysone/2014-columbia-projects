@@ -21,8 +21,7 @@
 			margin-right: 30px;
 			margin-top: 50px;
 			width: 120px;
-			height: 120px;
-			box-shadow: 10px 10px 5px black;}
+			height: 120px;}
 .content {background-color: #171717; 
 			color: black;
 			float: left;
@@ -50,14 +49,11 @@ body {background-color: white;}
 			font-size: 30px;}
 .summary {background-color: white;
 			color: #383838;
-			height: 360px;
+			height: 315px;
 			width: 1000px;
 			margin-top: 20px;
-			padding-top: 5px;
 			font-size: 14px;
-		padding-left: 20px;
-		padding-right: 20px;
-	box-shadow: 10px 10px 5px black;}
+		padding-left: 20px;}
 .vertical {float: left;
 			height: 650px;
 			width: 1150px;
@@ -68,7 +64,8 @@ body {background-color: white;}
 		color: white;
 		background-color: #171717;
 			margin-left: 50px;
-			margin-top: 75px;}
+			margin-top: 75px;
+			letter-spacing: 4px;}
 .rightsumm {background-color: white;
 	float: right;
 		height: 600px;
@@ -77,13 +74,11 @@ body {background-color: white;}
 		padding-right: 20px;
 		padding-top: 5px;}
 #ibiza {margin-right: 50px;
-		height: 500px;
+		height: 550px;
 		width: 580px;}
 .horiz {float: right;
 		height: 315;
 		width: 560px;
-		margin-top: 20px;
-		padding-top: 20px;
-		padding-right: 10px;}
+		margin-top: 20px;}
 #lyon {margin-right: 70px;}
 #bilbao {margin-right: 20px;}
