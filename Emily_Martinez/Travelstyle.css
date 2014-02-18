@@ -22,7 +22,7 @@
 			margin-top: 50px;
 			width: 120px;
 			height: 120px;
-			}
+			box-shadow: 10px 10px 5px #5A5A5A;}
 .content {background-color: #E8E8E8; 
 			color: black;
 			float: left;
@@ -31,15 +31,14 @@
 			margin-top: 50px;
 			font-size: 12px;
 			height: 600px;
-			width: 1200px;
-			}
+			width: 1200px;}
 .headline {font-family: Helvetica;
 			font-size: 30px;
 			text-align: center;}
-.page {height: 6700px;
+.page {height: 7200px;
 		width: 1800px;
 		background-color: white;}
-.inner {height: 6300px;
+.inner {height: 6800px;
 		width: 1350px;
 			margin-left: 50px;
 			margin-right: 500px;
@@ -53,7 +52,8 @@ body {background-color: white;}
 			float: left;
 			color: #383838;
 			height: 200px;
-			width: 200px;}
+			width: 200px;
+			margin-top: 20px;}
 .vertical {float: left;
 			height: 650px;
 			width: 1200px;}
@@ -70,4 +70,5 @@ body {background-color: white;}
 #paris {float: right;
 		height: 360px;
 		width: 640px;}
-.rightsumm {background-color: white;}
+.rightsumm {background-color: white;
+		margin-top: 20px;}
