@@ -1,5 +1,5 @@
 #header {color: black; 
-			background-color: #E8E8E8;
+			background-color: white;
 			height: 150px;
 			width: 1350px;
 			margin-right: 250px;
@@ -11,19 +11,20 @@
 			font-family: Helvetica;
 			font-weight: lighter;
 			letter-spacing: 10px;
-			border-style: solid;
+			border-top: solid;
+			border-bottom: solid;
 			border-width: 1px;}
 .date {color: black; 
 			font-family: helvetica;
 			margin-right: 100px;
 			float: right;
-			background-color: #E8E8E8;
+			background-color: white;
 			margin-right: 30px;
 			margin-top: 50px;
 			width: 120px;
 			height: 120px;
 			box-shadow: 10px 10px 5px #5A5A5A;}
-.content {background-color: white; 
+.content {background-color: #E8E8E8; 
 			color: black;
 			float: left;
 			font-family: helvetica;
@@ -37,18 +38,18 @@
 			text-align: center;}
 .page {height: 7000px;
 		width: 1800px;
-		background-color: #E8E8E8;}
+		background-color: white;}
 .inner {height: 6500px;
 		width: 1350px;
 			margin-left: 50px;
 			margin-right: 500px;
-			background-color: white;}
-body {background-color: #E8E8E8;}
+			background-color: #E8E8E8;}
+body {background-color: white;}
 .title {color: black;
 			margin-top: 50px;
 			text-align: center;
 			font-size: 30px;}
-.summary {background-color: #E8E8E8;
+.summary {background-color: white;
 			color: #383838;
 			height: 200px;
 			width: 480px;
@@ -64,14 +65,14 @@ body {background-color: #E8E8E8;}
 #head {font-family: Helvetica;
 		padding-top: 10px;
 		color: #383838;
-		background-color: white;
+		background-color: #E8E8E8;
 			margin-left: 50px;
 			margin-top: 75px;}
 .vertvid {float: right;
 		margin-right: 105px;}
 #bilbao {margin-right: 75px;}
 #lyon {margin-right: 130px;}
-.rightsumm {background-color: #E8E8E8;
+.rightsumm {background-color: white;
 	box-shadow: 10px 10px 5px #5A5A5A;
 		margin-top: 20px;
 		height: 200px;
