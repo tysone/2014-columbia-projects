@@ -1,0 +1,95 @@
+.page {
+	background-color: black;
+
+
+}
+body {
+	background-color: black;
+}
+
+.map {
+	margin-right: 50px;
+	margin-left: 50px;
+
+}
+
+.item {
+	
+	border: 3px black solid;
+	margin: 20px;
+	height: 600px;
+	width: 1000px;
+	padding: 30px;
+	margin-right: auto;
+	margin-left: auto;
+	color: black;
+	background-color: white;
+	font-family: sans-serif;
+}
+
+.picture {
+	float: left;
+	margin-right: 5px;
+	margin-left: 30px;
+}
+
+.picture1 {
+	float: left;
+	margin-right: 5px;
+	margin-left: 65px;
+}
+
+.picture2 {
+	float:left;
+	margin-right: 5px;
+	margin-left: 60px;
+}
+
+.picture3 {
+	float: left;
+	margin-right: 5px;
+	margin-left: 96px;
+}
+
+.picture4 {
+	float: left;
+	margin-right: 5px;
+	margin-left: 52px;
+}
+
+.picture5 {
+	float: left;
+	margin-right: 5px;
+	margin-left: 67px;
+}
+
+.picture6 {
+	float: left;
+	margin-right: 5px;
+	margin-left: 60px;
+}
+.words {
+	margin: 10px;
+	text-align: center;
+	text-align: justify;
+}
+
+h1 { font-size: 40px;
+	text-align: center;
+	font-family: Rockwell, sans-serif;
+	text-transform: uppercase;
+}
+
+h2 {
+	font-size: 30px;
+	text-align: center;
+	font-family: Rockwell, sans-serif;
+	text-transform: uppercase;
+}
+
+h3 {
+	text-align: center;
+
+
+}
+
