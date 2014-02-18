@@ -1,10 +1,10 @@
 #header {color: black; 
-			background-color: white;
+			background-color: #E8E8E8;
 			height: 150px;
 			width: 1350px;
 			margin-right: 250px;
 			margin-left: 50px;
-			margin-top: 10px;
+			margin-top: 50px;
 			font-size: 35px;
 			font-family: Helvetica, sans-serif;
 			text-align: center;
@@ -17,57 +17,64 @@
 			font-family: helvetica;
 			margin-right: 100px;
 			float: right;
-			background-color: white;
+			background-color: #E8E8E8;
 			margin-right: 30px;
 			margin-top: 50px;
 			width: 120px;
 			height: 120px;
 			box-shadow: 10px 10px 5px #5A5A5A;}
-.content {background-color: #E8E8E8; 
+.content {background-color: white; 
 			color: black;
 			float: left;
 			font-family: helvetica;
 			margin-left: 50px;
 			margin-top: 50px;
 			font-size: 12px;
-			height: 600px;
+			height: 550px;
 			width: 1100px;}
 .headline {font-family: Helvetica;
 			font-size: 30px;
 			text-align: center;}
-.page {height: 7200px;
+.page {height: 7000px;
 		width: 1800px;
-		background-color: white;}
-.inner {height: 6800px;
+		background-color: #E8E8E8;}
+.inner {height: 6500px;
 		width: 1350px;
 			margin-left: 50px;
 			margin-right: 500px;
-			background-color: #E8E8E8;}
-body {background-color: white;}
+			background-color: white;}
+body {background-color: #E8E8E8;}
 .title {color: black;
 			margin-top: 50px;
 			text-align: center;
 			font-size: 30px;}
-.summary {background-color: white;
+.summary {background-color: #E8E8E8;
 			color: #383838;
 			height: 200px;
-			width: 200px;
-			margin-top: 20px;}
+			width: 480px;
+			margin-top: 20px;
+			padding-top: 5px;
+			font-size: 14px;
+		box-shadow: 10px 10px 5px #5A5A5A;}
 .vertical {float: left;
 			height: 650px;
-			width: 1200px;}
+			width: 1150px;
+			color: #383838;
+			font-size: 14px;}
 #head {font-family: Helvetica;
 		padding-top: 10px;
 		color: #383838;
-		background-color: #E8E8E8;
+		background-color: white;
 			margin-left: 50px;
-			margin-top: 100px;}
+			margin-top: 75px;}
 .vertvid {float: right;
-		margin-right: 155px;}
-#bilbao {margin-right: 125px;}
-#lyon {margin-right: 180px;}
-.rightsumm {background-color: white;
-		margin-top: 20px;}
+		margin-right: 105px;}
+#bilbao {margin-right: 75px;}
+#lyon {margin-right: 130px;}
+.rightsumm {background-color: #E8E8E8;
+		margin-top: 20px;
+		height: 200px;
+		width: 480;}
 .horiz {float: right;
 		height: 315;
 		width: 560px;
