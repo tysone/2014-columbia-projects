@@ -1,5 +1,26 @@
 <style> 
 
+.outerbox {
+	/*font-family: Helvetica;*/
+	background: #E5EAE9;
+	/*padding:10px;*/
+	text-align: center
+}
+
+.introhead {
+	background-color: red
+}
+
+.intro {
+	background-color: blue
+}
+
+img.lrg {
+	width: 750px;
+	height: 487px;
+}
+
+
 h1 {
 		text-align: center;
 		font-family:Tahoma;
@@ -57,12 +78,7 @@ img {
 	margin-right: auto;
 }
 
-.outerbox {
-	/*font-family: Helvetica;*/
-	background: #E5EAE9;
-	/*padding:10px;*/
-	text-align: center
-}
+
 
 
 </style>
