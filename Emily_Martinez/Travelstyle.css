@@ -48,7 +48,7 @@ body {background-color: white;}
 			margin-top: 50px;
 			text-align: center;
 			font-size: 30px;}
-.summary {background-color: white;
+.summary {background-color: #E8E8E8;
 			color: #383838;
 			height: 360px;
 			width: 1000px;
@@ -68,7 +68,7 @@ body {background-color: white;}
 		background-color: #E8E8E8;
 			margin-left: 50px;
 			margin-top: 75px;}
-.rightsumm {background-color: white;
+.rightsumm {background-color: #E8E8E8;
 	float: right;
 		margin-top: 20px;
 		height: 600px;
