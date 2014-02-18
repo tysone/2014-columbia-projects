@@ -57,10 +57,11 @@ img {
 	margin-right: auto;
 }
 
-.name {
+.outerbox {
 	/*font-family: Helvetica;*/
 	background: #E5EAE9;
 	/*padding:10px;*/
+	text-align: center
 }
 
 
