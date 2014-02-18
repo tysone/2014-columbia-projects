@@ -101,3 +101,8 @@ padding-bottom: 40%;
 	text-align: left;
 	}
 
+.innerbox5 {width 75%;
+	height: 75%;
+	margin-top: 5%;
+	text-align: left;
+	}
