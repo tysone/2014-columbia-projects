@@ -1,0 +1,97 @@
+body{
+	line-height: 1.2em;
+	letter-spacing:0.03em;
+	text-align: center;
+}
+
+h1{
+	font-family: Impact;
+	font-size: 36px;
+	text-transform: uppercase;
+}
+
+.headline{
+	width:50%;
+	padding:0.5px;
+	margin:5px auto 30px auto;
+	line-height: 1.5em;
+}
+
+.intro{
+	font-family: Helvetica, sans-serif;
+	font-size: 18px;
+	letter-spacing: 0.04em;
+	color:gray;
+}
+
+.photos{
+	padding:0px;
+	margin:8px 5px 0px 5px;
+}
+
+.attribution{
+	text-align: left;
+	font-family: times, Serif;
+	font-size: 12px;
+	color: gray;
+}
+
+.attrdiv{
+	margin:0px 0px 0px 43px;
+}
+
+.para{
+	float:left;
+}
+
+.numbers{
+	padding:2px;
+	margin:0px 5px 40px 65px;
+	width:13%;
+}
+
+h3{
+	text-align: center;
+	font-family: Impact;
+	font-size: 120px;
+	color:gray;
+}
+
+.textdiv{
+	padding:0px;
+	margin:0px 15px 40px 48px;
+	width:45%;
+	text-align: left;
+}
+
+h4{
+	text-align: center;
+	text-transform: uppercase;
+	font-family: Impact;
+	font-size: 25px;
+	letter-spacing:0.05em;
+	line-height: 1.5em;
+}
+
+.map{
+	padding:0px;
+	margin:30px 0px 40px 40px;
+	width:25%;
+}
+
+.text{
+	font-family: Times, serif;
+	font-size: 16px;
+	letter-spacing: 0.05em;
+}
+
+h5{
+	text-align: center;
+	font-family: Times, serif;
+	font-size: 15px;
+}
+
+
+
+
+
