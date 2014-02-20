@@ -6,12 +6,12 @@ body{
 
 h1{
 	font-family: Impact;
-	font-size: 36px;
+	font-size: 38px;
 	text-transform: uppercase;
 }
 
 .headline{
-	width:50%;
+	width:60%;
 	padding:0.5px;
 	margin:5px auto 30px auto;
 	line-height: 1.5em;
@@ -19,7 +19,7 @@ h1{
 
 .intro{
 	font-family: Helvetica, sans-serif;
-	font-size: 18px;
+	font-size: 20px;
 	letter-spacing: 0.04em;
 	color:gray;
 }
@@ -32,7 +32,7 @@ h1{
 .attribution{
 	text-align: left;
 	font-family: times, Serif;
-	font-size: 12px;
+	font-size: 13px;
 	color: gray;
 }
 
@@ -53,14 +53,14 @@ h1{
 h3{
 	text-align: center;
 	font-family: Impact;
-	font-size: 120px;
+	font-size: 125px;
 	color:gray;
 }
 
 .textdiv{
 	padding:0px;
-	margin:0px 15px 40px 48px;
-	width:45%;
+	margin:0px 0px 40px 48px;
+	width:47%;
 	text-align: left;
 }
 
@@ -68,27 +68,28 @@ h4{
 	text-align: center;
 	text-transform: uppercase;
 	font-family: Impact;
-	font-size: 25px;
+	font-size: 26px;
 	letter-spacing:0.05em;
-	line-height: 1.5em;
+	line-height: 1em;
 }
 
 .map{
 	padding:0px;
-	margin:30px 0px 40px 40px;
+	margin:30px 0px 40px 30px;
 	width:25%;
 }
 
 .text{
 	font-family: Times, serif;
-	font-size: 16px;
+	font-size: 17px;
 	letter-spacing: 0.05em;
+	line-height: 1.25em;
 }
 
 h5{
 	text-align: center;
 	font-family: Times, serif;
-	font-size: 15px;
+	font-size: 16px;
 }
 
 
