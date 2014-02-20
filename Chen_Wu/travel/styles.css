@@ -1,32 +1,45 @@
 body{
-	line-height: 1.2em;
-	letter-spacing:0.03em;
 	text-align: center;
 }
 
-h1{
-	font-family: Impact;
-	font-size: 38px;
-	text-transform: uppercase;
+#wrapper {
+	margin-top: 30px;
+	margin-bottom: 30px;
 }
 
-.headline{
-	width:60%;
-	padding:0.5px;
-	margin:5px auto 30px auto;
+#headline{
 	line-height: 1.5em;
 }
 
-.intro{
+#h1{
+	font-family: Impact;
+	font-size: 35px;
+	text-transform: uppercase;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	letter-spacing: 0.5px;
+}
+
+#byline{
+	text-align: center;
+	font-family: Times, serif;
+	font-size: 17px;
+	margin-top: 40px;
+	margin-bottom: 30px;
+}
+
+#intro{
 	font-family: Helvetica, sans-serif;
 	font-size: 20px;
 	letter-spacing: 0.04em;
+	line-height: 1.2em;
 	color:gray;
+	font-weight: lighter;
+	margin-top: 30px;
 }
 
 .photos{
-	padding:0px;
-	margin:8px 5px 0px 5px;
+	margin-top: 30px;
 }
 
 .attribution{
@@ -34,63 +47,54 @@ h1{
 	font-family: times, Serif;
 	font-size: 13px;
 	color: gray;
+	margin-bottom: 30px;
 }
 
-.attrdiv{
-	margin:0px 0px 0px 43px;
-}
-
-.para{
+#para{
 	float:left;
+	margin-top: 10px;
+	margin-bottom: 20px;
 }
 
-.numbers{
-	padding:2px;
-	margin:0px 5px 40px 65px;
-	width:13%;
-}
-
-h3{
+#numbers{
 	text-align: center;
 	font-family: Impact;
 	font-size: 125px;
 	color:gray;
+	margin-left: 40px;
+	margin-top: 10px;
 }
 
-.textdiv{
-	padding:0px;
-	margin:0px 0px 40px 48px;
-	width:47%;
-	text-align: left;
+#textdiv{
+	width: 500px;
+	margin-left: 40px;
 }
 
-h4{
+#h3{
 	text-align: center;
 	text-transform: uppercase;
 	font-family: Impact;
-	font-size: 26px;
-	letter-spacing:0.05em;
+	font-size: 22px;
+	letter-spacing:0.07em;
 	line-height: 1em;
-}
-
-.map{
-	padding:0px;
-	margin:30px 0px 40px 30px;
-	width:25%;
+	margin-bottom: 20px;
 }
 
 .text{
 	font-family: Times, serif;
 	font-size: 17px;
-	letter-spacing: 0.05em;
+	letter-spacing: 0.03em;
 	line-height: 1.25em;
+	font-weight: lighter;
+	text-align: left;
 }
 
-h5{
-	text-align: center;
-	font-family: Times, serif;
-	font-size: 16px;
+#map{
+	margin-left: 20px;
+	margin-top: 50px;
 }
+
+
 
 
 
