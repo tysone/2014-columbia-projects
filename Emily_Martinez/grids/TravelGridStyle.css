@@ -1,0 +1,36 @@
+.header {color: black; 
+			background-color: white;
+			margin-top: 50px;
+			text-align: center;
+			letter-spacing: 10px;
+			}
+#page {background-color: white;}
+#inner {background-color: rgb(23, 23, 23);}
+.summary {background-color: white;
+			color: #383838;
+			font-size: 14px;
+			margin-bottom: 20px;}
+#head {font-family: Helvetica;
+		color: white;
+		background-color: rgb(23, 23, 23);
+		margin-top: 50px;
+		}
+h1 {padding-top: 20px;
+	padding-left: 20px;}
+p {padding-left: 10px;
+	padding-right: 10px;}
+figcaption {font-size: 12px;
+	color: white;
+	text-align: right;}
+.img {
+    position:relative;
+}
+.img .text {
+    position:absolute;
+   top: 1px;
+    left: 15px;
+    font-size: 50px;
+    color: white;
+    font-weight: 200;
+    text-shadow: 2px 2px black;
+}
