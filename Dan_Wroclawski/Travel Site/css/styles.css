@@ -1,28 +1,11 @@
-.outerbox{
-	width: 1000px;
-	height: 5000px;
-}
-
-.headerphoto {
-	width: 1024px;
-	height: 396px;
-	background-image: url("images/header photo.jpg");
-	background-repeat: no-repeat;
-}
-
-
-.headline {
-	vertical-align: bottom;
-}
-
-.paragraph {
-	padding-left: 150px;
-	padding-right: 150px;
+body {
+	background-image: url("images/12_col.gif");
+	background-repeat: repeat;
 }
 
 h1 {
-	color: white;
-	font-family: Helvetica, sans-serif;
+	color: black;
+	font-family: "Helvetica Neue Light", sans-serif;
 	font-weight: normal;
 	font-size: 100px;
 	text-align: center;
@@ -33,23 +16,25 @@ h1 {
 
 h2 {
 	font-family: "Baskerville", Times, serif;
-	font-size: 30px;
+	font-size: 40px;
 	margin-left: 15px;
 	margin-bottom: 0px;
+	text-align: left;
 }
 
 h3 {
 	font-family: Times, serif;
-	font-size: 18px;
+	font-size: 24px;
 	margin-left: 25px;
 	margin-top: 0px;
+	text-align: left;
 }
 
 h4 {
 	font-family: Georgia; serif;
 	font-size: 12px;
 	text-align: center;
-	color: white;
+	color: black;
 	margin: 0px;
 	padding: 0px;
 	border: 0px;
@@ -61,31 +46,14 @@ p {
 	margin: 15px;
 }
 
+.paragraph {
+	margin-bottom: 20px;
+}
+
 .section {
-	height: 500px;
-	width: 1024px;
 	margin-top: 30px;
 	margin-bottom: 30px;
-	border-top: 1px solid black;
-}
-
-.location {
-	width: 341px;
-	height: 500px;
-	float: left;
-}
-
-.text {
-	width: 341px;
-	height: 500px;
-	float: left;
-}
-
-.photo {
-	width: 342px;
-	height: 500px;
-	float: left;
-	margin: 0px;
+	border-top: black 2px;
 }
 
 .photocredit {
