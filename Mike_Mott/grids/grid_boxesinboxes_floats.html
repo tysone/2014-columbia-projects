@@ -1,0 +1,137 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+
+    <title>960 Grids</title>
+
+    <link rel="stylesheet" type="text/css" href="css/reset.css" />
+    <link rel="stylesheet" type="text/css" href="css/text.css" />
+    <link rel="stylesheet" type="text/css" href="css/960.css" />
+
+
+    <style type="text/css" media="screen">
+
+      #wrapper {
+          background: #fff url(960-grid/code/img/12_col.gif) repeat-y;
+          margin-top: 20px;
+          margin-bottom: 20px;
+      }
+
+      h3{
+        text-align: center;
+        color: #fff;
+        margin: 0;
+        font-size: 18px;
+      }
+
+      /* make empty divs take up a height, and give them a see-through color */
+      .box{
+        background-color: #333;
+        height: 300px;
+        opacity: 0.7;
+        margin-top: 30px;
+      }
+
+      .box .box{
+        background-color: #ff3333;
+        opacity: 0.4;
+        height: auto;
+      }
+
+      .special{
+        background-color: #00ff00;
+      }
+
+    </style>
+    
+</head>
+
+<body>
+
+
+    <div id="wrapper" class="container_12 clearfix">
+
+      <!-- Row 1 -->
+      <div class="grid_6 box">
+        <h3>Grid 6</h3>
+      </div>
+
+      <div class="grid_6 box">
+        <h3>Grid 6</h3>
+        
+        <div class="grid_2 box alpha">
+          <h3>Grid 2</h3>
+        </div>
+        <div class="grid_2 box">
+          <h3>Grid 2</h3>
+        </div>
+        <div class="grid_2 box omega">
+          <h3>Grid 2</h3>
+        </div>
+
+      </div>
+      <!-- // end Row 1 -->
+
+
+      <!-- What happens here? clear the class or add class=clear. -->
+      <p class="special">Free floating text</p>
+
+      <!-- Row 2 -->
+      <div class="grid_7 box">
+        <h3>Grid 7</h3>
+
+        <!-- Row 2.1-->
+        <div class="grid_2 box alpha">
+          <h3>Grid 2</h3>
+        </div>
+        <div class="grid_5 box omega">
+          <h3>Grid 5</h3>
+        </div>
+
+        <!-- Row 2.2-->
+        <div class="grid_3 box alpha">
+          <h3>Grid 3</h3>
+        </div>
+        <div class="grid_4 box omega">
+          <h3>Grid 4</h3>
+        </div>
+      </div>
+
+      <div class="grid_5 box">
+        <h3>Grid 5</h3>
+      </div>
+      <!-- // end Row 2 -->
+
+      <!-- Row 3 -->
+      <div class="grid_12 box">
+        <h3>Grid 12</h3>
+
+        <div class="box alpha prefix_2 suffix_1 grid_4">
+          <h3>Grid 4 - Prefix 2 /Suffix 1</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+          quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+          consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+          cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+          proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </div>
+
+        <div class="box prefix_1 suffix_1 grid_3 omega">
+          <h3>Grid 3 - Prefix 1 / Suffix 1</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+          quis nostrud exercitation ull</p>
+        </div>
+
+      </div>
+      <!-- // end Row 3 -->
+
+
+    </div>
+
+
+</body>
+</html>
