@@ -29,7 +29,7 @@ body{
 }
 
 #intro{
-	font-family: Helvetica, sans-serif;
+	font-family: Georgia, Times, Serif;
 	font-size: 20px;
 	letter-spacing: 0.04em;
 	line-height: 1.2em;
@@ -61,13 +61,12 @@ body{
 	font-family: Impact;
 	font-size: 125px;
 	color:gray;
-	margin-left: 40px;
-	margin-top: 10px;
+	margin-left: 30px;
 }
 
 #textdiv{
-	width: 500px;
-	margin-left: 40px;
+	width: 520px;
+	margin-left: 25px;
 }
 
 #h3{
@@ -81,7 +80,7 @@ body{
 }
 
 .text{
-	font-family: Times, serif;
+	font-family: Georgia, Times, Serif;
 	font-size: 17px;
 	letter-spacing: 0.03em;
 	line-height: 1.25em;
@@ -90,10 +89,29 @@ body{
 }
 
 #map{
-	margin-left: 20px;
-	margin-top: 50px;
+	margin-left: 25px;
+	margin-top: 40px;
 }
 
+#media img{
+	float:left;
+	margin-top: 10px;
+	width: 30px;
+}
+
+#twitter img{
+	padding-left: 10px;
+}
+
+img {
+    opacity: 0.6;
+    filter: alpha(opacity=50);
+}
+
+img:hover {
+    opacity: 1.0;
+    filter: alpha(opacity=100);
+}
 
 
 
