@@ -1,0 +1,24 @@
+YUI.Env.JSONP.yui_3_13_0_1_1392835018284_260({
+   "ads" : [
+      {
+         "beacon" : "https://beap.adss.yahoo.com/mbcsc?bv=1.0.0&es=B25REK8GIS9gHsdCgnPf4YDtsEOCCBT44sNXV.kD4m5tYRl6uJv2dbk19LaTq1zcm.e_iUG8Z3lVnc7FmA92SU6bvdjf_FtK5vRHXE_udrZVTVDpQjWNEz8UsEuvSaUNXdzdpEGt.GMa14V1oXpFCh_6VcJKEFe09RHadncyY6sKuR_j.pPNwKMrXNrhj6lxmRQ9pAtZJME0S0vCxgOnQHRfDb0YhZ.iQNVCh8fKzYGwmIzKIb4Hbx9_FRBQZHRgKkifo_GGFBlQZfQzIDIiIRNVDEVGhSSE0MV0j68mAItfwFMwtyZSNuTvJvCBET2qlGUobfAANSyLsw--&ap=$(AD_POSN)",
+         "ccCode" : "STRM_IMG",
+         "creativeId" : 23500349,
+         "displayUrl" : "http://l2.yimg.com/av/moneyball/ads/0-1383679786-9428.jpg",
+         "index" : 1,
+         "landingPageUrl" : "http://www.zulily.com/womens-shoes?tid=5121924",
+         "pricePaid" : 0.250,
+         "rsc" : 0.0002827316161528870,
+         "sponsoredBy" : "zulily",
+         "tag" : "{\"clickUrl\":\"https://beap.adss.yahoo.com/mbclk?bv=1.0.0&es=lQRWWBMGIS.IwAitIAJSGNyop58xgpm3p7MkB0fM04.k4Jj7RHOsXgpC8ct2GcLCJdTKDA8vbxYX6GIiO1AT.yEb9.IMCdtJXd2dm3eg4Am_Co5XmcIPc.qqK4a40yeZCL6wWkUPkBm14VY8YSQMgN08qn04YwPfvkxQ2xfqJu7tzyY3941uI8GGUbSEJ_JsmmfjQX1W1Myc_4qID.X1PQiBsJXIh02vPQ03DUctZaJfSqNvLcLUcXTJvsKlUasnDGMzmBsk7Hz8hswDahoTjxqeWB8xG0Kk6JfBxqaQmmZikAgr.z53OjxaBeXsA8W5Kcg444sPyITiiXBcNqiNpc1VlV0.8zLWxzM0SnKZQUfZD13BVa4ToA656LEm9.JNDwLnGKvY6IVKbmKS4k41DXO7eAB2C8gqCWt5vyob%26lp%3D\",\"headline\":\"Daily Deals for Moms, Babies and Kids\",\"image\":\"http://l2.yimg.com/av/moneyball/ads/0-1383679786-9428.jpg\",\"hqImage\":\"http://l5.yimg.com/av/moneyball/ads/0-1383679785-1129.jpg\",\"secImage\":\"https://s.yimg.com/av/moneyball/ads/0-1383679786-9428.jpg\",\"secHqImage\":\"https://s.yimg.com/av/moneyball/ads/0-1383679785-1129.jpg\",\"summary\":\"Get up to 70% off Daily Deals for Moms, Babies and Kids at zulily. Discover Thousands of Unique Items All for a Limited Time Only. Shop Today!\",\"uuid\":\"23500349\",\"source\":\"zulily\",\"landingUrl\":\"http://www.zulily.com/womens-shoes?tid=5121924\",\"imageWidth\":48,\"imageHeight\":48,\"hqImageHeight\":2048,\"hqImageWidth\":2048}"
+      }
+   ],
+   "adsRequested" : 8,
+   "adserverLatency" : 0.0050,
+   "serverIp" : "fe20.cbs.cb.bf1.yahoo.com",
+   "status" : "0",
+   "totalAds" : 1,
+   "totalLatency" : 0.0311990,
+   "userCountry" : "US",
+   "version" : "2"
+})
