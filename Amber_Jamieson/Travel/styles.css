@@ -30,7 +30,7 @@
 img.lrg {
 	width: 620px;
 	height: 403px;
-	float:right;
+	
 
 	
 }
@@ -42,7 +42,7 @@ img.med {float:left;}
 h1 {
 		text-align: center;
 		font-family:Georgia,serif;
-		font-size: 48px;
+		font-size: 46px;
 		color: #202020;
 		font-weight: bold;
 		border: 2px solid #707070;
@@ -50,7 +50,7 @@ h1 {
 	}
 h2 {
 		
-		font-family:Georgia, serif;
+		font-family:Verdana, serif;
 		font-size: 36px;
 		color:#707070
 	}
@@ -71,15 +71,15 @@ font-style: italic;
 
 p {
 	text-align: left;
-		font-family:Times New Roman, Serif;
+		font-family:Georgia, Serif;
 		font-size: 20px;
 		color:black;
 		font-weight: normal;
   
 }
-ul {font-family: Times New Roman, Serif;
+ul {font-family: Georgia, Serif;
 font-size: 20px;
- list-style-type: none
+ list-style-type: none;
  color: #707070; 
 }
 
