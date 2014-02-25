@@ -81,7 +81,7 @@ img.med {
 
 h1 {
 		text-align: center;
-		font-family:Georgia,serif;
+		font-family:Courier New, monospace;
 		font-size: 42px;
 		color:black;
 		font-weight: bold;
@@ -90,19 +90,19 @@ h1 {
 	}
 h2 {
 		text-align: center;
-		font-family:Georgia, serif;
+		font-family:Courier New, monospace;
 		font-size: 36px;
 		color:black
 	}
 h3 {
 		text-align: center;
-		font-family:Georgia, serif;
+		font-family:Courier New, monospace;
 		font-size: 22px;
 		color:black;
 	}
 
 	h4 {
-	font-family: Georgia, serif;
+	font-family: Times New Roman, Serif;
 font-size: 14px;
 font-weight: normal;
 font-style: italic;
@@ -121,7 +121,7 @@ p {
 		font-weight: normal;
     margin-bottom: 10px;
 }
-ul {font-family: Times New Roman, Serif;
+ul {font-family courier new, monospace;
 font-size: 20px;
 }
 
