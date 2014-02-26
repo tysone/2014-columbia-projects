@@ -5,26 +5,25 @@
 			letter-spacing: 10px;
 			}
 #page {background-color: white;}
-#inner {background-color: rgb(23, 23, 23);}
+#inner {background-color: white;}
 .summary {background-color: white;
 			color: #383838;
 			font-size: 14px;
 			margin-bottom: 20px;
-			height: 380px}
+			height: 400px}
 #head {font-family: Helvetica;
-		color: white;
-		background-color: rgb(23, 23, 23);
+		color: #383838;
+		background-color: white;
 		margin-top: 50px;
 		}
-h1 {padding-top: 20px;
-	padding-left: 20px;}
+h1 {padding-left: 20px;}
 p {padding-left: 10px;
 	padding-right: 10px;}
 figcaption {font-size: 12px;
 	color: white;
 	text-align: left;}
 .img {
-    position:relative;
+    position:relative; text-align: center;
 }
 .img .text {
     position:absolute;
@@ -35,8 +34,3 @@ figcaption {font-size: 12px;
     font-weight: 200;
     text-shadow: 2px 2px black;
 }
-.circle {
-  border-radius: 50%;
-  width: 500px;
-  height: 500px;
-  background-color: white} 
