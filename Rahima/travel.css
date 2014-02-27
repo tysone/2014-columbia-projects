@@ -1,17 +1,16 @@
 body{
-background-color:rgb(140,216,203);
+background-color:rgb(white);
 background-color:(0,0%,78%);
 padding:60px;
-font-family:georgia;
+font-family:helvetica;
 background-image:url(images/Capetown_beach_table.jpg);
-
 }
+
 h1{
 	font-size: 80px;
 	color:#F246B3;
 	font-weight:bold;
 	text-align:center;
-	background-color:#0CEEF2;
 	background-color:(0,0%,78%);
 	padding:inherit;
 opacity:0.8;
@@ -23,7 +22,6 @@ h3{
 	color:#F246B3;
 	font-weight:bold;
 	text-align:center;
-	background-color:#0CEEF2;
 	padding:10px;
 	background-color:(0,0%,78%);
 	opacity:0.8;
@@ -50,7 +48,7 @@ opacity:0.8;
 }
 .inner-box{ 
 width:400px;
-height:400px;
+height:350px;
 background-color:#0C81C9;
 font-family:Arial;
 float:left;
