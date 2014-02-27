@@ -10,15 +10,15 @@
 			color: #383838;
 			font-size: 14px;
 			margin-bottom: 20px;
-			height: 400px}
+			height: 450px;}
 #head {font-family: Helvetica;
 		color: #383838;
 		background-color: white;
 		margin-top: 50px;
 		margin-bottom: 5px;
 		}
-h1 {padding-left: 30px;}
-
+h1 {padding-left: 20px;}
+p {padding-left: 30px;}
 figcaption {font-size: 12px;
 	color: white;
 	text-align: left;}
@@ -32,5 +32,10 @@ b {font-size: 18px; color: black;}
     right: 20px;
     font-size: 16px;
     color: white;
-    font-weight: 400;
-}
+    font-weight: 400;}
+.place {font-size: 18px;
+font-family: helvetica;
+text-align: left;
+color: black;
+font-weight: 100;}
+.img {padding-top: 30px;}
