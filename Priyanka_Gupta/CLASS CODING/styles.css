@@ -1,0 +1,41 @@
+body {
+
+	background-color: yellow;
+}
+h1{	font-size: 24px;
+	font-family: Helvetica;
+}
+
+
+p { font: 60px, helvetica;
+
+}
+
+@media(max-width:700px) {
+body {
+background-color: red;
+font: 62px, georgia;
+}
+h1 {color: #fff;
+	font: 60px, georgia;
+}
+}
+
+
+@media(max-width:500px) and (orientation:landscape) {
+body {
+background-color: green;
+font: 62px, georgia;
+}
+h1 {color: #fff;
+}
+}
+
+@media(max-width:500px) and (orientation:portrait) {
+body {
+background-color: green;
+font: 62px, georgia;
+}
+h1 {color: #fff;
+}
+}

@@ -1,3 +1,31 @@
+@media screen and (max-width: 480px){
+body{
+	max-width: 480px;
+}
+#h1{
+	font-size: 20px;
+}
+#intro{
+    font-size: 15px;
+}
+#numbers{
+	display: none;
+}
+#h3{
+	font-size: 13px;
+}
+.photos{
+	max-width: 480px;
+}
+#map{
+	max-width: 480px;
+}
+#media img{
+	width: 15px;
+}
+
+}
+
 body{
 	text-align: center;
 }
@@ -40,6 +68,7 @@ body{
 
 .photos{
 	margin-top: 30px;
+	max-width: 100%;
 }
 
 .attribution{
