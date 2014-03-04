@@ -1,120 +1,49 @@
 body{
-	text-align: center;
-}
-
-#wrapper {
-	margin-top: 30px;
-	margin-bottom: 30px;
-}
-
-#headline{
-	line-height: 1.5em;
-}
-
-#h1{
-	font-family: Impact;
-	font-size: 35px;
-	text-transform: uppercase;
-	margin-top: 20px;
-	margin-bottom: 20px;
-	letter-spacing: 0.05em;
-}
-
-#byline{
-	text-align: center;
-	font-family: Times, serif;
-	font-size: 17px;
-	margin-top: 40px;
-	margin-bottom: 30px;
-}
-
-#intro{
-	font-family: Georgia, Times, Serif;
-	font-size: 20px;
-	letter-spacing: 0.04em;
-	line-height: 1.2em;
-	color:gray;
-	font-weight: lighter;
-	margin-top: 30px;
-}
-
-.photos{
-	margin-top: 30px;
-	max-width: 100%;
-}
-
-.attribution{
+	line-height: 1.3em;
+    letter-spacing:0.006em;
 	text-align: left;
-	font-family: times, Serif;
-	font-size: 13px;
-	color: gray;
-	margin-bottom: 30px;
+	background-color: #669ECC;
 }
-
-#para{
-	float:left;
-	margin-top: 10px;
-	margin-bottom: 20px;
-}
-
-#numbers{
-	text-align: center;
+h1{
 	font-family: Impact;
-	font-size: 125px;
-	color:gray;
-	margin-left: 30px;
+	font-size: 48px;
+	text-transform:uppercase;
 }
-
-#textdiv{
-	width: 520px;
-	margin-left: 25px;
+h2{
+    font-family: Impact;
+    font-size: 22px;
+    text-transform: uppercase;
 }
-
-#h3{
-	text-align: center;
+h3{
+    font-family:Arial,serif;
+    font-size:20px;
+    text-transform: uppercase;
+}
+h4{
+	font-family: Arial,serif;
+	font-weight: bold;
+	font-size: 18px;
 	text-transform: uppercase;
-	font-family: Impact;
-	font-size: 22px;
-	letter-spacing:0.07em;
-	line-height: 1em;
-	margin-bottom: 20px;
 }
-
-.text{
-	font-family: Georgia, Times, Serif;
-	font-size: 17px;
-	letter-spacing: 0.03em;
-	line-height: 1.25em;
-	font-weight: lighter;
-	text-align: left;
+h5{
+	font-family: Arial;
+	font-weight: bold;
 }
-
-#map{
-	margin-left: 25px;
-	margin-top: 40px;
+ul{
+	list-style: inside circle;
+	font-family: Helvetica,serif;
 }
-
-#media img{
-	float:left;
-	margin-top: 10px;
-	width: 30px;
+p{
+	background-color: white;
+	background-color: hsla(0,100%,100%,0.3)
 }
-
-#twitter img{
-	padding-left: 10px;
+a:link {
+	color: black;
+	text-decoration: none;
 }
-
-img {
-    opacity: 0.6;
-    filter: alpha(opacity=50);
+a:visited{
+	color: #5C5955;
 }
-
-img:hover {
-    opacity: 1.0;
-    filter: alpha(opacity=100);
+a:hover{
+	color: white;
 }
-
-
-
-
-
