@@ -1,0 +1,11 @@
+h1 {
+	font-family: Helvetica, sans-serif;
+	font-weight: normal;
+	font-style: normal;
+	font-variant: small-caps;
+}
+
+img {
+	max-height: 100%;
+	max-width: 100%;
+}
