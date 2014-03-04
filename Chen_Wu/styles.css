@@ -1,49 +1,120 @@
 body{
-	line-height: 1.3em;
-    letter-spacing:0.006em;
-	text-align: left;
-	background-color: #669ECC;
+	text-align: center;
 }
-h1{
+
+#wrapper {
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+#headline{
+	line-height: 1.5em;
+}
+
+#h1{
 	font-family: Impact;
-	font-size: 48px;
-	text-transform:uppercase;
-}
-h2{
-    font-family: Impact;
-    font-size: 22px;
-    text-transform: uppercase;
-}
-h3{
-    font-family:Arial,serif;
-    font-size:20px;
-    text-transform: uppercase;
-}
-h4{
-	font-family: Arial,serif;
-	font-weight: bold;
-	font-size: 18px;
+	font-size: 35px;
 	text-transform: uppercase;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	letter-spacing: 0.05em;
 }
-h5{
-	font-family: Arial;
-	font-weight: bold;
+
+#byline{
+	text-align: center;
+	font-family: Times, serif;
+	font-size: 17px;
+	margin-top: 40px;
+	margin-bottom: 30px;
 }
-ul{
-	list-style: inside circle;
-	font-family: Helvetica,serif;
+
+#intro{
+	font-family: Georgia, Times, Serif;
+	font-size: 20px;
+	letter-spacing: 0.04em;
+	line-height: 1.2em;
+	color:gray;
+	font-weight: lighter;
+	margin-top: 30px;
 }
-p{
-	background-color: white;
-	background-color: hsla(0,100%,100%,0.3)
+
+.photos{
+	margin-top: 30px;
+	max-width: 100%;
 }
-a:link {
-	color: black;
-	text-decoration: none;
+
+.attribution{
+	text-align: left;
+	font-family: times, Serif;
+	font-size: 13px;
+	color: gray;
+	margin-bottom: 30px;
 }
-a:visited{
-	color: #5C5955;
+
+#para{
+	float:left;
+	margin-top: 10px;
+	margin-bottom: 20px;
 }
-a:hover{
-	color: white;
+
+#numbers{
+	text-align: center;
+	font-family: Impact;
+	font-size: 125px;
+	color:gray;
+	margin-left: 30px;
 }
+
+#textdiv{
+	width: 520px;
+	margin-left: 25px;
+}
+
+#h3{
+	text-align: center;
+	text-transform: uppercase;
+	font-family: Impact;
+	font-size: 22px;
+	letter-spacing:0.07em;
+	line-height: 1em;
+	margin-bottom: 20px;
+}
+
+.text{
+	font-family: Georgia, Times, Serif;
+	font-size: 17px;
+	letter-spacing: 0.03em;
+	line-height: 1.25em;
+	font-weight: lighter;
+	text-align: left;
+}
+
+#map{
+	margin-left: 25px;
+	margin-top: 40px;
+}
+
+#media img{
+	float:left;
+	margin-top: 10px;
+	width: 30px;
+}
+
+#twitter img{
+	padding-left: 10px;
+}
+
+img {
+    opacity: 0.6;
+    filter: alpha(opacity=50);
+}
+
+img:hover {
+    opacity: 1.0;
+    filter: alpha(opacity=100);
+}
+
+
+
+
+
