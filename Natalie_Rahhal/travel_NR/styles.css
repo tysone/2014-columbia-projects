@@ -1,0 +1,19 @@
+
+body { 
+	background-color: yellow;
+
+}
+
+h1 { 
+	font: 62px Helvetica;
+}
+
+h2 {
+	font: 50px Helvetica;
+}
+
+p {
+	font: 45px Helvetica;
+}
+
+@media (min width: 700px) {...}
