@@ -5,6 +5,7 @@ border:10px, black;
 background-color: #F0F0F0;
 font-family: 'Baskerville', serif;
 
+
 }
 
 
@@ -49,6 +50,7 @@ figcaption {font-size: 16px;
 
 h1 { font-family: 'Baskerville', serif;
      font-size: 40px ;
+     font-weight: 500;
      text-align: justify;
      color: #BA1619;
 
