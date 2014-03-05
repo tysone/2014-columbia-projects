@@ -1,0 +1,88 @@
+
+html,body {margin:0;
+padding:0;
+border:10px, black;
+background-color: #F0F0F0;
+font-family: 'Baskerville', serif;
+
+}
+
+
+#page {
+
+height: 10000px;
+margin-top: 35px;
+margin-bottom: 10px;
+
+}
+
+.image {position: absolute;
+	border: 20px, solid, black;
+	margin-top: 10px;
+
+}
+
+img {width: 900px;
+margin-top: 60px;
+}
+
+.image1 { padding-top: 400px;
+	margin-top: 25px;
+
+
+
+}
+
+.image1 {padding-top: 100px;
+
+}
+
+.image2 {padding-top: 50px;
+}
+
+figcaption {font-size: 16px;
+	word-spacing: .5px;
+	padding-top: 10px;
+	letter-spacing: .5px;
+}
+
+
+h1 { font-family: 'Baskerville', serif;
+     font-size: 40px ;
+     text-align: justify;
+     color: #BA1619;
+
+}
+
+#text {
+
+padding-top: 570px;
+font-size: 22px;
+text-align: justify;
+
+
+}
+
+ #text1 { padding-top: 720px;
+font-size: 22px;
+text-align: justify;
+
+
+}
+
+#text2 {padding-top: 25px;
+	font-size: 22px;
+
+}
+
+
+p {padding-top: 20px;
+	font-size: 22px;
+
+}
+
+.firstword { font-family: 'Baskerville', serif;
+     font-size: 40px ;
+     color: #BA1619;
+     letter-spacing: .1px;
+}
