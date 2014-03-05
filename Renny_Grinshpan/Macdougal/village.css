@@ -1,0 +1,82 @@
+<style>
+.page {
+	background-color: white;
+}
+.streetsigns {
+position: relative; left:10px;
+}
+.header {
+	font: black;
+	font-size: 50px;
+	font-family: sans-serif;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+.Intro {
+	font-size: 30px;
+	font-family: sans-serif;
+	position: relative; left:40px; right:50px;
+	margin-bottom: -50px;
+	margin-right: 10px;
+}
+.streetview {
+position: relative; left: 10px; top: 75px;
+}
+.creperie {
+	position: relative; left: 650px; bottom: 325px;
+}
+.content {
+	font-size: 20px;
+	font-family: sans-serif;
+	position: relative; bottom: 310px; left: 10px;
+	margin-right: 550px;
+}
+.palmreader {
+position: relative; left: 750px; bottom: 460px;
+}
+.alehouse {
+	position: relative; left: 10px; bottom: 900px;
+}
+.content2 {
+	font-size: 20px;
+	font-family: sans-serif;
+	position: relative; bottom: 1200px;
+	margin-left: 200px; 
+	margin-right: 200px;
+}
+.comedyclub {
+	position: relative; bottom: 830px; left: 10px;
+}
+.comedycellar {
+	position: relative; bottom: 1230px; left: 650px;
+
+}
+.pizza {
+	position: relative; bottom: 1150px; left: 10px;
+}
+.streetview1 {
+position: relative; bottom: 1600px; left: 650px; top: -1550px;
+}
+.color {
+	position: relative; bottom: 6000px; left: 400px; top:-1200px;
+}
+.content3 {
+	position: relative; bottom: 1520px; left: 20px; 
+	margin-right: 540px;
+	font-size: 20px;
+	font-family: sans-serif;
+
+}
+.cafewha {
+	position: relative; bottom: 1500px; left: 10px;
+}
+.reggio {
+	position: relative; bottom: 2100px; left: 750px;
+}
+.cafe {
+	position: relative; bottom: 2050px; left: 10px;
+}
+.tavern {
+	position: relative; bottom: 2450px; left: 650px;
+}
+</style>
