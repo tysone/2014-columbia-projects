@@ -23,13 +23,17 @@ margin-bottom: 10px;
 }
 
 img {width: 900px;
-margin-top: 60px;
+margin-top: 25px;
 }
 
 .image1 { padding-top: 400px;
 	margin-top: 25px;
 
 
+
+}
+
+.image2 {padding-top: 100px;
 
 }
 
@@ -50,18 +54,18 @@ h1 { font-family: 'Baskerville', serif;
 
 #text {
 
-padding-top: 570px;
+padding-top: 510px;
 font-size: 22px;
 text-align: justify;
 
 
 }
 
- #text1 { padding-top: 720px;
+ #text1 { padding-top: 680px;
 font-size: 22px;
 text-align: justify;
 
 
+}
 
-
- }
+p {padding-top: 15px;}
