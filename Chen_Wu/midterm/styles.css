@@ -1,0 +1,266 @@
+body{
+	font-family:georgia,times,serif;
+	background-image: url(photos/esb.jpg);
+	background-repeat: no-repeat;
+    background-position: center,fixed;
+    background-size: cover;
+	max-width: 100%;
+	max-height: 10%;
+}
+
+.headline{
+	text-shadow:0 2px 2px rgba(0,0,0,1);
+	color:#fff;
+	font-size: 60px;
+	line-height: 98px;
+	margin-top: 350px;
+	margin-left: 30px;
+	max-width: 100%;
+}
+
+HR{
+   width: 50%;
+   margin-left: 30px;
+}
+
+.subhead{
+	text-shadow:0 2px 2px rgba(0,0,0,1);
+	color:#fff;
+	font-size: 20px;
+	line-height: 80px;
+	margin-left: 30px;
+	max-width: 100%;
+}
+
+#media img{
+	float:left;
+	width: 30px;
+	max-width: 100%;
+}
+
+#facebook img{
+	margin-left: 30px;
+}
+
+#twitter img{
+	margin-left: 10px;
+}
+
+.byline{
+	color:gray;
+	font-size: 15px;
+	font-weight: bold;
+	line-height: 50px;
+	margin-left: 30px;
+	max-width: 100%;
+}
+
+.white{
+	background-color: white;
+	background-size: cover;
+	background-position: center, absolute;
+	margin-top: 150px;
+	max-width: 100%;
+}
+
+.capital{
+    font-size: 80px;
+    padding-right: 8px;
+    padding-bottom: 10px;
+    max-width: 100%;
+}
+
+.intro1{
+	margin-left: 210px;
+	font-size: 20px;
+	font-weight: lighter;
+	line-height: 30px;
+	width: 780px;
+	text-align: left;
+	margin-bottom: 30px;
+	max-width: 100%;
+}
+
+.map{
+	margin-left: 250px;
+	max-width: 100%;
+}
+
+.intro2{
+	margin-left: 210px;
+	width: 790px;
+	font-size: 20px;
+	font-weight: lighter;
+	line-height: 30px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	max-width: 100%;
+}
+
+.photo1{
+	margin-left: 180px;
+	position: absolute;
+	margin-top: 8px;
+	max-width: 100%;
+}
+
+.credit1{
+	position: absolute;
+	margin-left: 180px;
+	margin-top: 245px;
+	font-size: 13px;
+	color: gray;
+	max-width: 100%;
+}
+
+.intro3{
+	margin-left: 530px;
+	width: 470px;
+	font-size: 20px;
+	font-weight: lighter;
+	line-height: 30px;
+	margin-bottom: 30px;
+	max-width: 100%;
+}
+
+.photo2{
+	margin-left: 785px;
+	position: absolute;
+	margin-top: 5px;
+	max-width: 100%;
+}
+
+.intro4{
+	margin-left: 210px;
+	width: 540px;
+	font-size: 20px;
+	font-weight: lighter;
+	line-height: 30px;
+	margin-bottom: 40px;
+	max-width: 100%;
+}
+
+.credit2{
+	position: absolute;
+	margin-left: 785px;
+	margin-top: 265px;
+	font-size: 13px;
+	color: gray;
+	max-width: 100%;
+}
+
+.movie{
+	font-size: 20px;
+	font-weight: lighter;
+	line-height: 30px;
+	width: 780px;
+	text-align: left;
+	margin-left: 210px;
+	margin-bottom: 30px;
+	margin-top: 50px;
+	max-width: 100%;
+}
+
+.youtube{
+	margin-left: 285px;
+	margin-bottom: 30px;
+	max-width: 100%;
+}
+
+.caption{
+	font-size: 15px;
+	font-weight: lighter;
+	line-height: 30px;
+	margin-bottom: 30px;
+	color:gray;
+	max-width: 100%;
+}
+
+.slideshow{
+	margin-top: 10px;
+	margin-left: 650px;
+	position: absolute;
+	max-width: 100%;
+}
+
+.light1{
+	text-align: left;
+	margin-left: 210px;
+	width: 400px;
+	font-size: 20px;
+	font-weight: lighter;
+	line-height: 30px;
+	max-width: 100%;
+}
+
+.light2{
+	font-size: 20px;
+	font-weight: lighter;
+	line-height: 30px;
+	width: 780px;
+	text-align: left;
+	margin-left: 210px;
+	margin-bottom: 30px;
+	margin-top: 30px;
+	max-width: 100%;
+}
+
+.tweet{
+    margin-bottom: 30px;
+	margin-left: 285px;
+	max-width: 100%;
+}
+
+@media (max-width: 480px){
+.headline{
+	font-size: 30px;
+}
+.subhead{
+	font-size: 15px;
+}
+.media img{
+	width: 10px;
+}
+.byline{
+	font-size: 10px;
+}
+.captial{
+	font-size: 30px;
+}
+.intro1, .intro2, .intro3, .intro4, .movie, .light1, .light2{
+	font-size: 15px;
+	margin-left: 0px;
+	max-width: 100%;
+}
+.white{
+	margin-top: 200px;
+}
+.map{
+	margin-left: 0px;}
+
+.photo1, .photo2{
+	margin-left: 0px;
+	position: relative;
+	margin-top: 5px;
+	margin-bottom: 5px
+}
+
+.credit1, .credit2{
+	margin-left: 0px;
+	position: relative;
+}
+
+.youtube{
+	margin-left: 0px;
+	margin-bottom: 30px;
+}
+
+.caption{
+	font-size: 10px;
+	margin-bottom: 30px;
+}
+.tweet{
+    margin-bottom: 30px;
+	margin-left: 0px;
+}
+}
