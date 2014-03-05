@@ -1,8 +1,9 @@
 
 html,body {margin:0;
 padding:0;
-border:0;
+border:10px, black;
 background-color: #F0F0F0;
+font-family: 'Baskerville', serif;
 
 }
 
@@ -16,6 +17,8 @@ margin-bottom: 10px;
 }
 
 .image {position: absolute;
+	border: 20px, solid, black;
+	margin-top: 10px;
 
 }
 
@@ -23,6 +26,9 @@ img {width: 900px;
 margin-top: 60px;
 }
 
-hr {color: black, bold, 30x;
- }
- 
+h1 { font-family: 'Baskerville', serif;
+     font-size: 40px ;
+     text-align: justify;
+     color: #BA1619;
+
+}
