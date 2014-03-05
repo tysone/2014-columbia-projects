@@ -71,7 +71,18 @@ text-align: justify;
 }
 
 #text2 {padding-top: 25px;
+	font-size: 22px;
+
 }
 
 
-p {padding-top: 20px;}
+p {padding-top: 20px;
+	font-size: 22px;
+
+}
+
+.firstword { font-family: 'Baskerville', serif;
+     font-size: 40px ;
+     color: #BA1619;
+     letter-spacing: .1px;
+}
