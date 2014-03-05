@@ -1,0 +1,28 @@
+
+html,body {margin:0;
+padding:0;
+border:0;
+background-color: #F0F0F0;
+
+}
+
+
+#page {
+
+height: 10000px;
+margin-top: 35px;
+margin-bottom: 10px;
+
+}
+
+.image {position: absolute;
+
+}
+
+img {width: 900px;
+margin-top: 60px;
+}
+
+hr {color: black, bold, 30x;
+ }
+ 
