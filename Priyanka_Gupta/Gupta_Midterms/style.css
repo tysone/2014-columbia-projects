@@ -26,9 +26,42 @@ img {width: 900px;
 margin-top: 60px;
 }
 
+.image1 { padding-top: 400px;
+	margin-top: 25px;
+
+
+
+}
+
+
+figcaption {font-size: 16px;
+	word-spacing: .5px;
+	padding-top: 10px;
+	letter-spacing: .5px;
+}
+
+
 h1 { font-family: 'Baskerville', serif;
      font-size: 40px ;
      text-align: justify;
      color: #BA1619;
 
 }
+
+#text {
+
+padding-top: 570px;
+font-size: 22px;
+text-align: justify;
+
+
+}
+
+ #text1 { padding-top: 720px;
+font-size: 22px;
+text-align: justify;
+
+
+
+
+ }
