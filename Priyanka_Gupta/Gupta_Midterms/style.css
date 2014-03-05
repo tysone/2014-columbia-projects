@@ -74,13 +74,14 @@ text-align: justify;
 
 #text2 {padding-top: 25px;
 	font-size: 22px;
+	text-align: justify;
 
 }
 
 
 p {padding-top: 20px;
 	font-size: 22px;
-
+text-align: justify;
 }
 
 .firstword { font-family: 'Baskerville', serif;
@@ -96,6 +97,7 @@ a:active {color:#BA1619;}
 
 
 iframe { padding-top: 25px;
+
 
 }
 
