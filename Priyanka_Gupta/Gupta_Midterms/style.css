@@ -94,7 +94,13 @@ a:active {color:#BA1619;}
 
 
 iframe { padding-top: 25px;
-	
+
+}
+
+hr {border-color: #BA1619;
+	height: 5px;
+	width: 500px;
 
 
 }
+
