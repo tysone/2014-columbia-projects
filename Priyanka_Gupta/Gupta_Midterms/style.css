@@ -86,3 +86,8 @@ p {padding-top: 20px;
      color: #BA1619;
      letter-spacing: .1px;
 }
+
+a:link {color:#BA1619;}   
+a:visited {color:#BA1619;}
+a:hover {color:#E38687;}  
+a:active {color:#BA1619;} 
