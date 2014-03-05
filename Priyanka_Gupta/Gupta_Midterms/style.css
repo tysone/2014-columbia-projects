@@ -23,7 +23,7 @@ margin-bottom: 10px;
 }
 
 img {width: 900px;
-margin-top: 25px;
+margin-top: 60px;
 }
 
 .image1 { padding-top: 400px;
@@ -33,10 +33,12 @@ margin-top: 25px;
 
 }
 
-.image2 {padding-top: 100px;
+.image1 {padding-top: 100px;
 
 }
 
+.image2 {padding-top: 50px;
+}
 
 figcaption {font-size: 16px;
 	word-spacing: .5px;
@@ -54,18 +56,22 @@ h1 { font-family: 'Baskerville', serif;
 
 #text {
 
-padding-top: 510px;
+padding-top: 570px;
 font-size: 22px;
 text-align: justify;
 
 
 }
 
- #text1 { padding-top: 680px;
+ #text1 { padding-top: 720px;
 font-size: 22px;
 text-align: justify;
 
 
 }
 
-p {padding-top: 15px;}
+#text2 {padding-top: 25px;
+}
+
+
+p {padding-top: 20px;}
