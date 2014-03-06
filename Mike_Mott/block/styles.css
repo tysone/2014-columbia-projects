@@ -3,22 +3,25 @@ html{
 	padding:0;
 	border:0;
 }
-/* Consider Google fonts for headlines, subheads, body text etc */
-body{
-	background-color: white;
-	font-family: Garamond, Sans-serif;
-	font-color:12px;
-}
-
 #header{
-	font-family: Helvetica, Sans-serif;
+	font-family: 'Vampiro One', cursive;;
 	font-size:23px;
 }
 
-h2{
-	font-family:Helvetica, Arial, Sans-serif;
+h1{
+	font-family:Georgia, Arial, Sans-serif;
 	font-size:16px;
 }
+
+h2{
+	font-family:Times, Arial, Sans-serif;
+	font-size:16px;
+}
+
+p{
+	font-family: Georgia, Arial, sans-serif;
+    font-size: 15px;
+} 
 
 /* 
 

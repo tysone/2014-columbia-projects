@@ -1,0 +1,24 @@
+body{
+background-color:rgb(245,221,176);
+padding:20px;
+font-family:georgia;
+}
+h1,h2,h3{
+	font-size: 80px;
+	color:#9C0B3E;
+	font-weight:bold;
+	text-align:center;
+	background-color:#EDC477;
+	padding:inherit;
+	
+}
+p{
+	font-size:13px;
+	line-height:20px;
+	font-family:georgia;
+	text-align: center;
+	}
+
+	
+	
+
