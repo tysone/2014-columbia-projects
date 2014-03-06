@@ -9,14 +9,14 @@ body {background-color: black;}
 		background-repeat: no-repeat;
 		background-position: center;
 		}
-#image {height: 959px; 
+#image {height: 900px; 
 		width: 100%;
 		background-image: url("Media/Abuelita.jpg"); 
 		background-attachment: fixed;
 		background-size: contain;
 		background-repeat: no-repeat;
 		background-position: center;}
-#image2 {height: 997px;
+#image2 {height: 959px;
 		background-image: url("Media/Euclides.jpg"); 
 		background-attachment: fixed;
 		background-size: contain;
@@ -54,13 +54,6 @@ p 	{color: white;
 		padding-right: 20px;
 		width: 550px;
 		float: right;}
-#header {background-color: white;
-		margin-left: 50%;
-		opacity: .4;
-		color: white;
-		height: 75px;
-		width: 500px;
-		box-shadow: 5px 5px 2px;}
 .audio {margin-left: 50px;
 		padding-top: 20px;
 		padding-right: 20px;
@@ -91,4 +84,71 @@ h2 {color: white;
 		letter-spacing: 1px;
 		padding-right: 20px;
 		line-height: 5px;}
+
+@media (max-width: 800px) {
+  #page {background-color: black;
+  	height: 2000px;
+  	}
+#img {height: 650px;
+		background-image: url("Media/Hands.jpg"); 
+		background-size: contain;
+		background-repeat: no-repeat;
+		background-position: center;
+		}
+#image {height: 650px;
+		background-image: url("Media/Abuelita.jpg");
+		background-size: contain;
+		background-repeat: no-repeat;
+		background-position: center;}
+#image2 {height: 650px;
+		background-image: url("Media/Euclides.jpg"); 
+		background-attachment: fixed;
+		background-size: contain;
+		background-repeat: no-repeat;
+		background-position: center;}
+#image3 {height: 650px;
+		background-image: url("Media/Nunez.jpg"); 
+		background-attachment: fixed;
+		background-size: contain;
+		background-repeat: no-repeat;
+		background-position: center;}
+#image4 {height: 650px;
+		background-image: url("Media/Miguel.jpg"); 
+		background-attachment: fixed;
+		background-size: contain;
+		background-repeat: no-repeat;
+		background-position: center;}
+#image5 {height: 650px;
+		background-image: url("Media/Francisco.jpg"); 
+		background-attachment: fixed;
+		background-size: contain;
+		background-repeat: no-repeat;
+		background-position: center;}
+p 	{color: white;
+		font-family: 'Aladin', Georgia; 
+		font-size: 14px;
+		line-height: 20px;
+		letter-spacing: 3px;
+		text-shadow: 0 0 0.1em black, 0 0 0.1em black,
+        0 0 0.1em black;}
+.quote {color: white;
+		font-family: Times;
+		font-size: 30px;
+		width: 400px;
+		text-align: right;
+		padding-top: 10px;
+		float: right;}
+#title {color: white;
+		font-size: 50px;
+		font-weight: 100;
+		padding-top: 10px;}
+body {background-color: black;}
+.content {text-align: right;
+		padding-right: 5px;
+		width: 300px;
+		float: right;}
+#titlebox { 
+		width: 100%;}
+#title {height: 100px;
+width: 500px;}}
 
