@@ -1,0 +1,145 @@
+body{
+	background:linear-gradient(#4C0000, #4C0000,#4C0000,#664040, #664040, #664040);
+}
+
+h1{
+	font-size: 120px;
+	font-family: Helvetica neue;
+	font-weight: 100;
+	text-align: center;
+	line-height: 0px;
+	font color:#FFFFFF;
+}
+h2{
+	font-size: 50px;
+	font-family: Helvetica neue;
+	text-align: right;
+	font-weight: 100;
+	line-height: 0px;
+	font color:#FFFFFF;
+}
+h3{
+	font-size: 50px;
+	font-family: Helvetica neue;
+	text-align: left;
+	font-weight: 200;
+	line-height: 0px;
+	font color: #B26B00;
+	padding-left:200px;
+}
+p{
+	font-size: 30px;
+	font-family: Helvetica neue;
+	text-align: center;
+	font color: #FFFFFF;
+	padding-left: 300px;
+	padding-right:300px;
+
+
+}
+.first{
+	text-align: center;
+	z-index:5;
+	opacity: 0.8;
+	top:0px;
+}
+.source1{
+	float:right;
+	margin-right: 250px;
+}
+.top{
+	position: absolute;
+	z-index:10;
+	top:0px;
+	left:560px;
+}
+.box{
+	position: absolute;
+	height:200px;
+	width: 900px;
+	background-color: #AD3333;
+	z-index: 8;
+	top:0px;
+	left:555px;
+	opacity: 0.5;
+}
+.second{
+	text-align: center;
+}
+.video{
+	text-align: center;
+	float:left;
+	padding-left: 480px;
+}
+.music_note{
+	font-size:50px;
+	margin-right:20px;
+	padding-left: 20px;
+	padding-right: 0px;
+	font-style: italic;
+	font-family: Helvetica;
+	font-weight: 200;
+}
+.plaque{
+	text-align: center;
+}
+.source2{
+	float:right;
+	margin-right: 580px;
+}
+.hall{
+	text-align: center;
+}
+.lobby{
+	text-align: center;
+}
+.poem{
+	text-align: center;
+	font-size: 25px;
+	font-family: Helvetica;
+	font-style: italic;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.menu_simple ul {
+padding-left: 750px;
+width:200px;
+list-style-type:none;
+text-align: center;
+font-style: Helvetica;
+}
+
+.menu_simple ul li a {
+text-decoration: none;
+color: black;
+padding: 10px 0px;
+background-color: #FFFFFF;
+display:list-item;
+}
+
+.menu_simple ul li a:visited {
+color: black;
+}
+
+.menu_simple ul li a:hover, .menu_simple ul li .current {
+color: white;
+background-color: #000000;
+}
