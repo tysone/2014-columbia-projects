@@ -48,12 +48,12 @@ p 	{color: white;
 		font-family: 'Aladin', Georgia; 
 		font-size: 25px;
 		line-height: 40px;
-		letter-spacing: 5px;}
+		letter-spacing: 7px;
+		text-shadow: 0 0 0.1em black, 0 0 0.1em black,
+        0 0 0.1em black;}
 .content {text-align: right;
-		padding-top: 100px;
 		padding-right: 20px;
-		height: 500px;
-		width: 500px;
+		width: 550px;
 		float: right;}
 #header {background-color: white;
 		margin-left: 50%;
@@ -79,7 +79,8 @@ p 	{color: white;
 		padding-left: 50px;
 		padding-top: 50px;
 		font-weight: 100;
-		width: 1000px;}
+		width: 1000px;
+		}
 h2 {color: white;
 		margin-right: 10%;
 		font-family: times;
@@ -87,4 +88,8 @@ h2 {color: white;
 		font-size: 40px;
 		float: right;
 		padding-top: 50px;}
-
+.name {font-size: 25px;
+		font-family: Times;
+		letter-spacing: 1px;
+		padding-right: 20px;
+		line-height: 5px;}
