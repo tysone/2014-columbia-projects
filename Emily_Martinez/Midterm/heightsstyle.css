@@ -2,51 +2,47 @@ body {background-color: black;}
 #page {background-color: black;
 		width: 100%;
 		height: 100%;}
-#img {width: 100%;
+#img {height: 105%;
 		background-image: url("Media/Hands.jpg"); 
 		background-attachment: fixed;
 		background-size: contain;
 		background-repeat: no-repeat;
 		background-position: center;
 		}
-#image {height: 900px; 
-		width: 100%;
+#image {height: 105%;
 		background-image: url("Media/Abuelita.jpg"); 
 		background-attachment: fixed;
 		background-size: contain;
 		background-repeat: no-repeat;
 		background-position: center;}
-#image2 {height: 900px;
+#image2 {height: 105%;
 		background-image: url("Media/Euclides.jpg"); 
 		background-attachment: fixed;
 		background-size: contain;
 		background-repeat: no-repeat;
 		background-position: center;}
-#image3 {height: 900px; 
-		width: 100%;
+#image3 {height: 105%;
 		background-image: url("Media/Nunez.jpg"); 
 		background-attachment: fixed;
 		background-size: contain;
 		background-repeat: no-repeat;
 		background-position: center;}
-#image4 {height: 900px; 
-		width: 100%;
+#image4 {height: 105%;
 		background-image: url("Media/Miguel.jpg"); 
 		background-attachment: fixed;
 		background-size: contain;
 		background-repeat: no-repeat;
 		background-position: center;}
-#image5 {height: 900px; 
-		width: 100%;
+#image5 {height: 105%;
 		background-image: url("Media/Francisco.jpg"); 
 		background-attachment: fixed;
 		background-size: contain;
 		background-repeat: no-repeat;
 		background-position: center;}
 p 	{color: white;
-		font-family: 'Aladin', Georgia; 
+		font-family: Georgia; 
 		font-size: 22px;
-		line-height: 35px;
+		line-height: 30px;
 		letter-spacing: 7px;
 		text-shadow: 0 0 0.1em black, 0 0 0.1em black,
         0 0 0.1em black;}
@@ -72,17 +68,17 @@ p 	{color: white;
 		padding-top: 50px;
 		font-weight: 100;}
 h2 {color: white;
-		padding-right: 50px;
+		padding-right: 10%;
 		font-family: times;
 		font-weight: 100;
 		font-size: 40px;
-		float: right;
-		padding-top: 50px;}
+		float: right;}
 .name {font-size: 25px;
 		font-family: Times;
 		letter-spacing: 1px;
 		padding-right: 20px;
 		line-height: 5px;}
+img {max-width: 1404px;}
 
 @media (max-width: 800px) {
   #page {background-color: black;
@@ -94,30 +90,31 @@ h2 {color: white;
 		background-position: center;
 		}
 img {max-width: 100%;}
-#image {background-image: url("Media/Abuelita.jpg"); 
+#image {height: 1000px;
+	background-image: url("Media/Abuelita.jpg"); 
 		background-attachment: fixed;
 		background-size: 100%;
 		background-repeat: no-repeat;
 		background-position: center;}
-#image2 {
+#image2 {height: 1000px;
 		background-image: url("Media/Euclides.jpg"); 
 		background-attachment: fixed;
 		background-size: 100%;
 		background-repeat: no-repeat;
 		background-position: center;}
-#image3 {
+#image3 {height: 1000px;
 		background-image: url("Media/Nunez.jpg"); 
 		background-attachment: fixed;
 		background-size: 100%;
 		background-repeat: no-repeat;
 		background-position: center;}
-#image4 {
+#image4 {height: 1000px;
 		background-image: url("Media/Miguel.jpg"); 
 		background-attachment: fixed;
 		background-size: 100%;
 		background-repeat: no-repeat;
 		background-position: center;}
-#image5 {
+#image5 {height: 1000px;
 		background-image: url("Media/Francisco.jpg"); 
 		background-attachment: fixed;
 		background-size: 100%;
@@ -147,7 +144,7 @@ opacity: .6;
 body {background-color: black;}
 .content {text-align: justify;
 		padding-right: 5px;
-		width: 80%;
+		width: 90%;
 		float: right;
 	}
 #titlebox {
@@ -159,7 +156,7 @@ padding-right: 10px;
 .audio {
 		padding-top: 10px;
 		padding-right: 0px;
-		float: left;}
+		float: right;}
 .name {font-size: 18px;
 		font-family: Times;
 		letter-spacing: 1px;
