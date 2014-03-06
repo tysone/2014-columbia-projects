@@ -1,0 +1,24 @@
+body {
+	background-color: yellow;
+}
+
+h1 {
+font: bold 162px Helvetica;
+}
+
+@media (max-width: 700px) {
+
+	body {
+		background-color: red;
+	}
+	h1 {color: #fff;
+		font-size: 60px;}
+}
+
+@media (max-width: 400px) {
+	body {
+		background-color: blue
+	}
+	h1 {color:green;
+		font-size: 30px;}
+}

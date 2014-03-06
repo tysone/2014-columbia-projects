@@ -1,18 +1,22 @@
 .outerbox {
 	background-color: white;
 	text-align: center;
-
-
-	
 }
+.wrapper {
+	margin-left: 0px;
+}
+	
+
 
 .introhead {
 	background-color: white;
 
-
-
-
 }
+.clear {
+	clear: both;
+}
+
+
 
 .intro {
 	background-color: white;
@@ -25,6 +29,15 @@
 	background-color: white;
 	}
 
+.excerpt {
+	float: right;
+	text-align: justify;
+	font-family:Georgia, Serif;
+		font-size: 20px;
+		color:black;
+		font-weight: normal;
+}
+
 
 
 img.lrg {
@@ -36,14 +49,14 @@ img.lrg {
 }
 
 
-img.med {float:left;}
+
 
 
 h1 {
 		text-align: center;
-		font-family:Georgia,serif;
-		font-size: 46px;
-		color: #202020;
+		font-family: Verdana,serif;
+		font-size: 42px;
+		color: #545454;
 		font-weight: bold;
 		border: 2px solid #707070;
 
@@ -51,7 +64,7 @@ h1 {
 h2 {
 		
 		font-family:Verdana, serif;
-		font-size: 36px;
+		font-size: 40px;
 		color:#707070
 	}
 h3 {
@@ -70,9 +83,9 @@ font-style: italic;
 	
 
 p {
-	text-align: left;
+	
 		font-family:Georgia, Serif;
-		font-size: 20px;
+		font-size: 16px;
 		color:black;
 		font-weight: normal;
   
