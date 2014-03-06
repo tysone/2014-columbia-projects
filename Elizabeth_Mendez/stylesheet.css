@@ -1,0 +1,83 @@
+body{
+	background-image: url('http://i752.photobucket.com/albums/xx162/MECHA09-10/Nicholas%20Heyward/5ee6053f-50b8-40b7-9ae3-49ecba68e2d6.jpg');
+	background-repeat: no-repeat;
+   	 background-position: center,fixed; 
+	max-width: 100%;
+	/*    background-size: cover;*/
+
+	}
+
+
+
+
+
+.headline
+{
+	color:white;
+	font-family: Georgia;
+	font-size: 60px;
+	margin-bottom: 20px;
+	margin-left:340px;
+	margin-top:60px;
+	max-width: 100%;
+}
+
+
+
+.wrapper
+{
+	background-color: white;
+	background-size: cover;
+	background-position: center, absolute;
+	margin-top: 60px;
+	max-width: 100%;
+	height:2300px;
+	margin-left:0px;
+	margin-right:0px;
+}
+
+
+
+#subheading
+	{
+		margin-left:20px;
+		margin-right:20px;
+		width:960;
+		height:40px;
+		font-family:Georgia;
+		font-size:20px;
+		margin-top:10px;
+		margin-bottom:10px;
+		background-color: white;
+	}
+
+
+.intro
+	{
+		float:left;
+		background-color:white;
+		width:600px;
+		height:410px;
+	}
+
+.left
+	{
+		float:left;
+		height: 370px;
+		width:470px;
+	}
+
+.right
+	{
+		float:right;
+		width:560px;
+		height:360px;
+		background-color:red;
+	}
+
+
+
+
+
+
+
