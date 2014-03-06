@@ -1,6 +1,6 @@
 h1 {
 	font-family: Helvetica, sans-serif;
-	font-size: 60px;
+	font-size: 80px;
 	font-weight: normal;
 	font-style: normal;
 	font-variant: small-caps;
@@ -24,7 +24,9 @@ h3 {
 	font-size: 14px;
 	font-weight: normal;
 	font-style: normal;
-	margin-bottom: 50px;
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+	border-bottom: 0px;
 }
 
 body {
@@ -40,9 +42,16 @@ p {
 	font-style: normal;
 }
 
+#firstphoto {
+	margin-top: 0px;
+	padding-top: 0px;
+	border-top: 0px;
+}
+
 img {
 	max-height: 100%;
 	max-width: 100%;
+	margin-top: 50px;
 }
 
 #lastphoto {
