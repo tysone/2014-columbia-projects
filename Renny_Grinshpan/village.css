@@ -1,0 +1,125 @@
+
+@media {
+	body {
+		min-width: 10px;
+		background-color: black;
+	}
+}
+.page {
+	background-color: black;
+}
+.streetsigns {
+position: absolute; left:10px;
+}
+.newyork {
+	position: relative; left: 700px; bottom: 150px;
+	font-size: 50px;
+	color: white;
+	font: sans-serif;
+}
+.header {
+	font: sans-serif;
+	font-size: 40px;
+	background-color: black;
+	width: 1200px;
+}
+.Intro {
+	color: white;
+	font-size: 30px;
+	font: sans-serif;
+	position: relative; left:20px; right:50px; top: 750px;
+	margin-bottom: -50px;
+	margin-right: 100px;
+	background-color: black;
+	width: 1200px;
+}
+.streetview {
+position: relative; left: 10px; top: 825px;
+}
+.creperie {
+	position: relative; left: 650px; top: 425px;
+}
+.content {
+	font-size: 20px;
+	font: sans-serif;
+	position: relative; top: 475px; left: 10px;
+	margin-right: 550px;
+	color: white;
+	background-color: black;
+	width: 700px;
+}
+.palmreader {
+position: relative; left: 750px; top: 290px;
+}
+.alehouse {
+	position: relative; left: 10px; bottom: 110px;
+}
+.content2 {
+	color: white;
+	font-size: 20px;
+	font: sans-serif;
+	position: relative; bottom: 450px;
+	margin-left: 200px; 
+	margin-right: 200px;
+	background-color: black;
+	width: 900px;
+}
+.comedyclub {
+	position: relative; bottom: 80px; left: 10px; 
+}
+.comedycellar {
+	position: relative; bottom: 480px; left: 650px;
+
+}
+.pizza {
+	position: relative; bottom: 400px; left: 10px;
+}
+.streetview1 {
+position: relative; bottom: 850px; left: 650px; bottom: 800px; 
+}
+.content3 {
+	position: relative; bottom: 770px; left: 20px; 
+	margin-right: 540px;
+	font-size: 20px;
+	font: sans-serif;
+	color: white;
+	background-color: black;
+	width: 700px;
+}
+.cafewha {
+	position: relative; bottom: 730px; left: 10px;
+}
+.reggio {
+	position: relative; bottom: 1350px; left: 750px;
+}
+.cafe {
+	position: relative; bottom: 690px;  left: 10px;
+}
+.tavern {
+	position: relative; bottom: 2050px; left: 10px;
+}
+.tattoo {
+	position: relative; bottom: 2445px; left: 650px;
+}
+.content4 {
+	position: relative; bottom: 2445px; left: 10px; 
+	margin-right: 700px;
+	font-size: 20px;
+	font: sans-serif;
+	color: white;
+	background-color: black;
+	width: 600px;
+}
+.content5 {
+	position: relative; left: 300px; top: 880px;
+	margin-right: 700px;
+	font-size: 20px;
+	font: sans-serif;
+	color: white;
+	background-color: black;
+	width: 600px;
+}
+
+
+
+
