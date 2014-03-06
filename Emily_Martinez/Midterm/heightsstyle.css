@@ -64,14 +64,13 @@ p 	{color: white;
 		width: 700px;
 		text-align: right;
 		float: right;}
-#titlebox {height: 900px; 
+#titlebox {height: 100%;
 		width: 100%;}
 #title {color: white;
 		font-size: 120px;
 		padding-left: 50px;
 		padding-top: 50px;
-		font-weight: 100;
-		width: 1000px;}
+		font-weight: 100;}
 h2 {color: white;
 		padding-right: 50px;
 		font-family: times;
@@ -87,69 +86,85 @@ h2 {color: white;
 
 @media (max-width: 800px) {
   #page {background-color: black;
-  	width: 100%;
-  	height: 2000px;
-  	}
-#img {height: 650px;
-		background-image: url("Media/Hands.jpg"); 
-		background-size: contain;
+		width: 100%;}
+#img {background-image: url("Media/Hands.jpg"); 
+		background-attachment: fixed;
+		background-size: 100%;
 		background-repeat: no-repeat;
 		background-position: center;
 		}
-#image {height: 650px;
-		background-image: url("Media/Abuelita.jpg");
-		background-size: contain;
+img {max-width: 100%;}
+#image {background-image: url("Media/Abuelita.jpg"); 
+		background-attachment: fixed;
+		background-size: 100%;
 		background-repeat: no-repeat;
 		background-position: center;}
-#image2 {height: 650px;
+#image2 {
 		background-image: url("Media/Euclides.jpg"); 
 		background-attachment: fixed;
-		background-size: contain;
+		background-size: 100%;
 		background-repeat: no-repeat;
 		background-position: center;}
-#image3 {height: 650px;
+#image3 {
 		background-image: url("Media/Nunez.jpg"); 
 		background-attachment: fixed;
-		background-size: contain;
+		background-size: 100%;
 		background-repeat: no-repeat;
 		background-position: center;}
-#image4 {height: 650px;
+#image4 {
 		background-image: url("Media/Miguel.jpg"); 
 		background-attachment: fixed;
-		background-size: contain;
+		background-size: 100%;
 		background-repeat: no-repeat;
 		background-position: center;}
-#image5 {height: 650px;
+#image5 {
 		background-image: url("Media/Francisco.jpg"); 
 		background-attachment: fixed;
-		background-size: contain;
+		background-size: 100%;
 		background-repeat: no-repeat;
 		background-position: center;}
 p 	{color: white;
-		font-family: 'Aladin', Georgia; 
+		font-family: Helvetica; 
 		font-size: 14px;
-		line-height: 20px;
-		letter-spacing: 3px;
+		line-height: 16px;
+		letter-spacing: 1px;
+		font-weight: 100;
 		text-shadow: 0 0 0.1em black, 0 0 0.1em black,
         0 0 0.1em black;}
 .quote {color: white;
 		font-family: Times;
 		font-size: 30px;
-		width: 400px;
+		width: 40%;
 		text-align: right;
-		padding-top: 10px;
-		float: right;}
+		float: right;
+		background-color: black;
+opacity: .6;
+	}
 #title {color: white;
-		font-size: 50px;
+		font-size: 45px;
 		font-weight: 100;
 		padding-top: 10px;}
 body {background-color: black;}
-.content {text-align: right;
+.content {text-align: justify;
 		padding-right: 5px;
-		width: 300px;
-		float: right;}
-#titlebox { 
+		width: 80%;
+		float: right;
+	}
+#titlebox {
 		width: 100%;}
-#title {height: 100px;
-width: 500px;}}
+#title {width: 90%; float: left;}
+h2 {float: right;
+padding-right: 10px;
+	}
+.audio {
+		padding-top: 10px;
+		padding-right: 0px;
+		float: left;}
+.name {font-size: 18px;
+		font-family: Times;
+		letter-spacing: 1px;
+		line-height: 20px;
+		text-align: left;
+		padding-left: 30px;}
+}
 
