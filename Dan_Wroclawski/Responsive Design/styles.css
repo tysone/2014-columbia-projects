@@ -1,0 +1,25 @@
+@media (min-width: 800px) {
+	body {
+		background-color: yellow;
+	}
+
+	h1 {
+		font: bold 162px Helvetica;
+	}
+}
+@media (max-width: 800px) {
+	body {
+		background-color: red;
+	}
+	h1 {
+		color: #fff;
+		font: 60px Georgia;
+	}
+}
+
+@media (max-width: 500px) {
+	h1 {
+		color: #fff;
+		font: 60px Helvetica;
+	}
+}
