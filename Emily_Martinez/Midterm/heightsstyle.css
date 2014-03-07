@@ -152,6 +152,7 @@ p 	{color: white;
 		background-color: black;
 		opacity: .6;
 		margin-top: 150%;
+		padding-right: 15px;
 	}
 #title {color: white;
 		font-size: 45px;
@@ -170,7 +171,7 @@ h2 {float: right;
 	}
 .audio {height: 40; width: 80px;
 		padding-top: 40px;
-		padding-right: 10px;
+		padding-right: 15px;
 		float: right;}
 .name {font-size: 18px;
 		font-family: Times;
@@ -179,6 +180,5 @@ h2 {float: right;
 		text-align: right;
 		padding-left: 30px;
 		float: right;}
-
 }
 
