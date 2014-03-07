@@ -15,25 +15,25 @@ body {background-color: black;}
 		background-size: contain;
 		background-repeat: no-repeat;
 		background-position: center;}
-#image2 {height: 115%;
+#image2 {height: 110%;
 		background-image: url("Media/Euclides.jpg"); 
 		background-attachment: fixed;
 		background-size: contain;
 		background-repeat: no-repeat;
 		background-position: center;}
-#image3 {height: 115%;
+#image3 {height: 100%;
 		background-image: url("Media/Nunez.jpg"); 
 		background-attachment: fixed;
 		background-size: contain;
 		background-repeat: no-repeat;
 		background-position: center;}
-#image4 {height: 115%;
+#image4 {height: 100%;
 		background-image: url("Media/Miguel.jpg"); 
 		background-attachment: fixed;
 		background-size: contain;
 		background-repeat: no-repeat;
 		background-position: center;}
-#image5 {height: 115%;
+#image5 {height: 100%;
 		background-image: url("Media/Francisco.jpg"); 
 		background-attachment: fixed;
 		background-size: contain;
@@ -166,9 +166,9 @@ body {background-color: black;}
 	}
 #titlebox {
 		height: 100%;}
-#title {width: 90%; float: left;}
+#title {width: 90%;}
 h2 {float: right;
-padding-right: 10px;
+		padding-right: 30px;
 	}
 .audio {height: 40; width: 80px;
 		padding-top: 40px;
