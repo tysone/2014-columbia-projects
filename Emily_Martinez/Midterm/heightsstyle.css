@@ -2,14 +2,14 @@ body {background-color: black;}
 #page {background-color: black;
 		width: 100%;
 		height: 100%;}
-#img {
+#img {height: 115%;
 		background-image: url("Media/Hands.jpg"); 
 		background-attachment: fixed;
 		background-size: contain;
 		background-repeat: no-repeat;
 		background-position: center;
 		}
-#image {height: 105%;
+#image {height: 120%;
 		background-image: url("Media/Abuelita.jpg"); 
 		background-attachment: fixed;
 		background-size: contain;
@@ -21,7 +21,7 @@ body {background-color: black;}
 		background-size: contain;
 		background-repeat: no-repeat;
 		background-position: center;}
-#image3 {height: 105%;
+#image3 {height: 115%;
 		background-image: url("Media/Nunez.jpg"); 
 		background-attachment: fixed;
 		background-size: contain;
