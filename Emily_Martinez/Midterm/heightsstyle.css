@@ -2,20 +2,22 @@ body {background-color: black;}
 #page {background-color: black;
 		width: 100%;
 		height: 100%;}
-#img {height: 105%;
+#img {height: 115%;
 		background-image: url("Media/Hands.jpg"); 
 		background-attachment: fixed;
 		background-size: contain;
 		background-repeat: no-repeat;
 		background-position: center;
+
 		}
-#image {height: 105%;
+#image {height: 115%;
 		background-image: url("Media/Abuelita.jpg"); 
 		background-attachment: fixed;
 		background-size: contain;
 		background-repeat: no-repeat;
-		background-position: center;}
-#image2 {height: 105%;
+		background-position: center;
+		overflow: scroll;}
+#image2 {height: 115%;
 		background-image: url("Media/Euclides.jpg"); 
 		background-attachment: fixed;
 		background-size: contain;
@@ -27,13 +29,13 @@ body {background-color: black;}
 		background-size: contain;
 		background-repeat: no-repeat;
 		background-position: center;}
-#image4 {height: 105%;
+#image4 {height: 115%;
 		background-image: url("Media/Miguel.jpg"); 
 		background-attachment: fixed;
 		background-size: contain;
 		background-repeat: no-repeat;
 		background-position: center;}
-#image5 {height: 105%;
+#image5 {height: 115%;
 		background-image: url("Media/Francisco.jpg"); 
 		background-attachment: fixed;
 		background-size: contain;
@@ -81,45 +83,53 @@ h2 {color: white;
 img {max-width: 1404px;}
 
 @media (max-width: 800px) {
-  #page {background-color: black;
+
+#page {background-color: black;
 		width: 100%;}
-#img {background-image: url("Media/Hands.jpg"); 
-		background-attachment: fixed;
+
+#img {
+	background-image: url("Media/Hands.jpg"); 
+		background-attachment: scroll;
 		background-size: 100%;
 		background-repeat: no-repeat;
 		background-position: center;
+		overflow: scroll;
 		}
 img {max-width: 100%;}
-#image {height: 1000px;
+#image {
 	background-image: url("Media/Abuelita.jpg"); 
-		background-attachment: fixed;
-		background-size: 100%;
+		background-attachment: scroll;
+		background-size: cover;
 		background-repeat: no-repeat;
 		background-position: center;}
-#image2 {height: 1000px;
+#image2 {
 		background-image: url("Media/Euclides.jpg"); 
-		background-attachment: fixed;
-		background-size: 100%;
+		background-attachment: scroll;
+		background-size: cover;
 		background-repeat: no-repeat;
-		background-position: center;}
-#image3 {height: 1000px;
+		background-position: center;
+		overflow: scroll;}
+#image3 {
 		background-image: url("Media/Nunez.jpg"); 
-		background-attachment: fixed;
-		background-size: 100%;
+		background-attachment: scroll;
+		background-size: 150%;
 		background-repeat: no-repeat;
-		background-position: center;}
-#image4 {height: 1000px;
+		background-position: center;
+		overflow: scroll;}
+#image4 {
 		background-image: url("Media/Miguel.jpg"); 
-		background-attachment: fixed;
-		background-size: 100%;
+		background-attachment: scroll;
+		background-size: cover;
 		background-repeat: no-repeat;
-		background-position: center;}
-#image5 {height: 1000px;
+		background-position: center;
+		overflow: scroll;}
+#image5 {
 		background-image: url("Media/Francisco.jpg"); 
-		background-attachment: fixed;
-		background-size: 100%;
+		background-attachment: scroll;
+		background-size: cover;
 		background-repeat: no-repeat;
-		background-position: center;}
+		background-position: center;
+		overflow: scroll;}
 p 	{color: white;
 		font-family: Helvetica; 
 		font-size: 14px;
@@ -131,16 +141,17 @@ p 	{color: white;
 .quote {color: white;
 		font-family: Times;
 		font-size: 30px;
-		width: 40%;
 		text-align: right;
 		float: right;
+		width: 100%;
 		background-color: black;
-opacity: .6;
+		opacity: .6;
+		margin-top: 150%;
 	}
 #title {color: white;
 		font-size: 45px;
 		font-weight: 100;
-		padding-top: 10px;}
+		padding-top: 20%;}
 body {background-color: black;}
 .content {text-align: justify;
 		padding-right: 5px;
@@ -148,7 +159,7 @@ body {background-color: black;}
 		float: right;
 	}
 #titlebox {
-		width: 100%;}
+		height: 100%;}
 #title {width: 90%; float: left;}
 h2 {float: right;
 padding-right: 10px;
