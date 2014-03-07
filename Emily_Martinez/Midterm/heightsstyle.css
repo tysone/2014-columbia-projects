@@ -2,21 +2,19 @@ body {background-color: black;}
 #page {background-color: black;
 		width: 100%;
 		height: 100%;}
-#img {height: 115%;
+#img {
 		background-image: url("Media/Hands.jpg"); 
 		background-attachment: fixed;
 		background-size: contain;
 		background-repeat: no-repeat;
 		background-position: center;
-
 		}
-#image {height: 115%;
+#image {height: 105%;
 		background-image: url("Media/Abuelita.jpg"); 
 		background-attachment: fixed;
 		background-size: contain;
 		background-repeat: no-repeat;
-		background-position: center;
-		overflow: scroll;}
+		background-position: center;}
 #image2 {height: 115%;
 		background-image: url("Media/Euclides.jpg"); 
 		background-attachment: fixed;
@@ -51,7 +49,8 @@ p 	{color: white;
 .content {text-align: right;
 		padding-right: 20px;
 		width: 550px;
-		float: right;}
+		float: right;
+		padding-top: 20px;}
 .audio {
 		padding-top: 10px;
 		padding-right: 20px;
@@ -81,6 +80,11 @@ h2 {color: white;
 		padding-right: 20px;
 		line-height: 5px;}
 img {max-width: 1404px;}
+em {font-size: 30px;
+float: right;
+padding-top: 20px;}
+
+
 
 @media (max-width: 800px) {
 
@@ -101,7 +105,8 @@ img {max-width: 100%;}
 		background-attachment: scroll;
 		background-size: cover;
 		background-repeat: no-repeat;
-		background-position: center;}
+		background-position: center;
+		overflow: scroll;}
 #image2 {
 		background-image: url("Media/Euclides.jpg"); 
 		background-attachment: scroll;
@@ -132,9 +137,9 @@ img {max-width: 100%;}
 		overflow: scroll;}
 p 	{color: white;
 		font-family: Helvetica; 
-		font-size: 14px;
+		font-size: 16px;
 		line-height: 16px;
-		letter-spacing: 1px;
+		letter-spacing: 3px;
 		font-weight: 100;
 		text-shadow: 0 0 0.1em black, 0 0 0.1em black,
         0 0 0.1em black;}
@@ -154,9 +159,10 @@ p 	{color: white;
 		padding-top: 20%;}
 body {background-color: black;}
 .content {text-align: justify;
-		padding-right: 5px;
+		padding-right: 30px;
 		width: 90%;
-		float: right;
+		float: right
+		;
 	}
 #titlebox {
 		height: 100%;}
@@ -164,15 +170,17 @@ body {background-color: black;}
 h2 {float: right;
 padding-right: 10px;
 	}
-.audio {
-		padding-top: 10px;
-		padding-right: 0px;
+.audio {height: 40; width: 80px;
+		padding-top: 40px;
+		padding-right: 30px;
 		float: right;}
 .name {font-size: 18px;
 		font-family: Times;
 		letter-spacing: 1px;
 		line-height: 20px;
-		text-align: left;
-		padding-left: 30px;}
+		text-align: right;
+		padding-left: 30px;
+		float: right;}
+
 }
 
