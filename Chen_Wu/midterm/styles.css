@@ -218,42 +218,43 @@ a:visited{
 }
 
 @media (max-width: 480px){
-.headline{
-	font-size: 30px;
+#media img{
+	width: 20px;
 }
-.subhead{
-	font-size: 15px;
+#facebook img{
+	margin-left: 0px;
 }
-.media img{
-	width: 10px;
-}
-.byline{
-	font-size: 10px;
-}
+
 .captial{
-	font-size: 30px;
+	font-size: 25px;
 }
+
+.intro{
+	margin-top: 15%;
+}
+
 .intro1, .intro2, .intro3, .intro4, .movie, .light1, .light2{
 	font-size: 15px;
 	margin-left: 0px;
-	max-width: 100%;
+	width: 480px;
 }
-.white{
-	margin-top: 200px;
+
+.floatone{
+	float: none;
 }
+
 .map{
 	margin-left: 0px;}
 
 .photo1, .photo2{
 	margin-left: 0px;
-	position: relative;
 	margin-top: 5px;
 	margin-bottom: 5px
 }
 
 .credit1, .credit2{
 	margin-left: 0px;
-	position: relative;
+	margin-bottom: 5px;
 }
 
 .youtube{
