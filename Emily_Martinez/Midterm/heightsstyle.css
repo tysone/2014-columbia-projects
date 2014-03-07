@@ -152,6 +152,7 @@ p 	{color: white;
 		background-color: black;
 		opacity: .6;
 		margin-top: 150%;
+		padding-right: 20px;
 	}
 #title {color: white;
 		font-size: 45px;
@@ -159,7 +160,8 @@ p 	{color: white;
 		padding-top: 20%;}
 body {background-color: black;}
 .content {text-align: justify;
-		padding-right: 30px;
+		padding-left: 20px;
+		padding-right: 20px;
 		width: 90%;
 		float: right
 		;
