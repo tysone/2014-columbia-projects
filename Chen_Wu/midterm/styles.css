@@ -4,8 +4,8 @@ body{
 	background-repeat: no-repeat;
     background-position: center,fixed;
     background-size: cover;
-	max-width: 100%;
-	max-height: 10%;
+    max-width: 100%;
+    max-height: 60%;
 }
 
 .headline{
@@ -13,7 +13,7 @@ body{
 	color:#fff;
 	font-size: 60px;
 	line-height: 98px;
-	margin-top: 350px;
+	margin-top: 340px;
 	margin-left: 30px;
 	max-width: 100%;
 }
@@ -53,13 +53,21 @@ HR{
 	line-height: 50px;
 	margin-left: 30px;
 	max-width: 100%;
+	margin-top: 10px;
+}
+
+.credit{
+	font-size: 13px;
+	color: gray;
+	font-size: lighter;
+	text-align: right; 
+	max-width: 100%;
 }
 
 .white{
 	background-color: white;
-	background-size: cover;
 	background-position: center, absolute;
-	margin-top: 150px;
+	margin-top: 100px;
 	max-width: 100%;
 }
 
@@ -79,6 +87,10 @@ HR{
 	text-align: left;
 	margin-bottom: 30px;
 	max-width: 100%;
+}
+
+.intro{
+	margin-top: 80px;
 }
 
 .map{
@@ -221,8 +233,12 @@ img:hover {
     filter: alpha(opacity=100);
 }
 
-a:hover{
-	color: black;
+a:link {
+	color: #06648A;
+}
+
+a:visited{
+	color: #06648A;
 }
 
 @media (max-width: 480px){
