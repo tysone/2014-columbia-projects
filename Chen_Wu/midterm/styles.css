@@ -2,9 +2,10 @@ body{
 	font-family:georgia,times,serif;
 	background-image: url(photos/esb.jpg);
 	background-repeat: no-repeat;
-    background-position: center,fixed;
+    background-position: center;
     background-size: cover;
     max-height: 60%;
+    background-attachment: fixed;
 }
 
 .headline{
