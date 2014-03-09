@@ -17,11 +17,11 @@ body{
     top: 0px;
 	left: 0px;
 	right: 0px;
-	z-index: -1;
+	position: absolute;
 }
 
 .credit{
-	margin-top: 5px;
+	margin-top: 10px;
 	font-size: 13px;
 	color: gray;
 	font-size: lighter;
