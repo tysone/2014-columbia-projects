@@ -42,8 +42,8 @@ body {background-color: black;}
 p 	{color: white;
 		font-family: Georgia; 
 		font-size: 22px;
-		line-height: 30px;
-		letter-spacing: 7px;
+		line-height: 32px;
+		letter-spacing: 2px;
 		text-shadow: 0 0 0.1em black, 0 0 0.1em black,
         0 0 0.1em black;}
 .content {text-align: right;
@@ -68,12 +68,6 @@ p 	{color: white;
 		padding-left: 50px;
 		padding-top: 50px;
 		font-weight: 100;}
-h2 {color: white;
-		padding-right: 10%;
-		font-family: times;
-		font-weight: 100;
-		font-size: 40px;
-		float: right;}
 .name {font-size: 25px;
 		font-family: Times;
 		letter-spacing: 1px;
@@ -81,8 +75,10 @@ h2 {color: white;
 		line-height: 5px;}
 img {max-width: 1404px;}
 em {font-size: 30px;
-float: right;
-padding-top: 20px;}
+	float: right;
+	padding-top: 20px;
+	color: white;
+	padding-right: 10%;}
 
 
 
@@ -99,7 +95,6 @@ padding-top: 20px;}
 		background-position: center;
 		overflow: scroll;
 		}
-img {max-width: 100%;}
 #image {
 	background-image: url("Media/Abuelita.jpg"); 
 		background-attachment: scroll;
@@ -152,8 +147,7 @@ p 	{color: white;
 		background-color: black;
 		opacity: .6;
 		margin-top: 100%;
-		padding-right: 5%;
-	}
+		padding-right: 5%;}
 #title {color: white;
 		font-size: 45px;
 		font-weight: 100;
@@ -167,8 +161,8 @@ body {background-color: black;}
 #titlebox {
 		height: 100%;}
 #title {width: 90%;}
-h2 {float: right;
-		padding-right: 30px;
+em {float: right;
+		padding-right: 5%;
 	}
 .audio {height: 40; width: 80px;
 		padding-top: 40px;
