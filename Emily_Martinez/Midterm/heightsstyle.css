@@ -103,14 +103,14 @@ img {max-width: 100%;}
 #image {
 	background-image: url("Media/Abuelita.jpg"); 
 		background-attachment: scroll;
-		background-size: cover;
+		background-size: 200%;
 		background-repeat: no-repeat;
 		background-position: center;
 		overflow: scroll;}
 #image2 {
 		background-image: url("Media/Euclides.jpg"); 
 		background-attachment: scroll;
-		background-size: cover;
+		background-size: 200%;
 		background-repeat: no-repeat;
 		background-position: center;
 		overflow: scroll;}
@@ -124,14 +124,14 @@ img {max-width: 100%;}
 #image4 {
 		background-image: url("Media/Miguel.jpg"); 
 		background-attachment: scroll;
-		background-size: cover;
+		background-size: 200%;
 		background-repeat: no-repeat;
 		background-position: center;
 		overflow: scroll;}
 #image5 {
 		background-image: url("Media/Francisco.jpg"); 
 		background-attachment: scroll;
-		background-size: cover;
+		background-size: 200%;
 		background-repeat: no-repeat;
 		background-position: center;
 		overflow: scroll;}
@@ -151,13 +151,14 @@ p 	{color: white;
 		width: 100%;
 		background-color: black;
 		opacity: .6;
-		margin-top: 150%;
-		padding-right: 15px;
+		margin-top: 100%;
+		padding-right: 5%;
 	}
 #title {color: white;
 		font-size: 45px;
 		font-weight: 100;
-		padding-top: 20%;}
+		padding-top: 20%;
+		padding-left: 5px;}
 body {background-color: black;}
 .content {text-align: justify;
 		width: 80%;
