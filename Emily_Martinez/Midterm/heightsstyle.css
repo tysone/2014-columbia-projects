@@ -2,45 +2,57 @@ body {background-color: black;}
 #page {background-color: black;
 		width: 100%;
 		height: 100%;}
-#img {height: 115%;
+#img {height: 900px;
+		width: 1350px;
 		background-image: url("Media/Hands.jpg"); 
 		background-attachment: fixed;
-		background-size: contain;
+		background-size: cover;
 		background-repeat: no-repeat;
 		background-position: center;
+		margin-left: 35px;
 		}
-#image {height: 120%;
+#image {height: 900px;
+		width: 1350px;
 		background-image: url("Media/Abuelita.jpg"); 
 		background-attachment: fixed;
-		background-size: contain;
+		background-size: cover;
 		background-repeat: no-repeat;
-		background-position: center;}
-#image2 {height: 110%;
+		background-position: center;
+		margin-left: 35px;}
+#image2 {height: 900px;
+		width: 1350px;
 		background-image: url("Media/Euclides.jpg"); 
 		background-attachment: fixed;
-		background-size: contain;
+		background-size: cover;
 		background-repeat: no-repeat;
-		background-position: center;}
-#image3 {height: 100%;
+		background-position: center;
+		margin-left: 35px;}
+#image3 {height: 900px;
+		width: 1350px;
 		background-image: url("Media/Nunez.jpg"); 
 		background-attachment: fixed;
-		background-size: contain;
+		background-size: cover;
 		background-repeat: no-repeat;
-		background-position: center;}
-#image4 {height: 100%;
+		background-position: center;
+		margin-left: 35px;}
+#image4 {height: 900px;
+		width: 1350px;
 		background-image: url("Media/Miguel.jpg"); 
 		background-attachment: fixed;
-		background-size: contain;
+		background-size: cover;
 		background-repeat: no-repeat;
-		background-position: center;}
-#image5 {height: 100%;
+		background-position: center;
+		margin-left: 35px;}
+#image5 {height: 900px;
+		width: 1350px;
 		background-image: url("Media/Francisco.jpg"); 
 		background-attachment: fixed;
-		background-size: contain;
+		background-size: cover;
 		background-repeat: no-repeat;
-		background-position: center;}
+		background-position: center;
+		margin-left: 35px;}
 p 	{color: white;
-		font-family: Georgia; 
+		font-family: Times; 
 		font-size: 22px;
 		line-height: 32px;
 		letter-spacing: 2px;
@@ -64,10 +76,11 @@ p 	{color: white;
 #titlebox {height: 100%;
 		width: 100%;}
 #title {color: white;
-		font-size: 120px;
+		font-size: 100px;
 		padding-left: 50px;
 		padding-top: 50px;
-		font-weight: 100;}
+		font-weight: 400;
+		font-family: 'Playfair Display SC', serif;}
 .name {font-size: 25px;
 		font-family: Times;
 		letter-spacing: 1px;
@@ -87,48 +100,60 @@ em {font-size: 30px;
 #page {background-color: black;
 		width: 100%;}
 
-#img {
-	background-image: url("Media/Hands.jpg"); 
+#img {width: 100%;
+		height: 100%;
+		background-image: url("Media/Hands.jpg"); 
 		background-attachment: scroll;
 		background-size: 100%;
 		background-repeat: no-repeat;
 		background-position: center;
+		margin-left: 0px;
 		}
-#image {
-	background-image: url("Media/Abuelita.jpg"); 
+#image {width: 100%;
+		height: 100%;
+		background-image: url("Media/Abuelita.jpg"); 
 		background-attachment: scroll;
 		background-size: 200%;
 		background-repeat: no-repeat;
 		background-position: center;
-		overflow: scroll;}
-#image2 {
+		overflow: scroll;
+	margin-left: 0px;}
+#image2 {width: 100%;
+		height: 100%;
 		background-image: url("Media/Euclides.jpg"); 
 		background-attachment: scroll;
 		background-size: 200%;
 		background-repeat: no-repeat;
 		background-position: center;
-		overflow: scroll;}
-#image3 {
+		overflow: scroll;
+	margin-left: 0px;}
+#image3 {width: 100%;
+		height: 100%;
 		background-image: url("Media/Nunez.jpg"); 
 		background-attachment: scroll;
 		background-size: 150%;
 		background-repeat: no-repeat;
 		background-position: center;
-		overflow: scroll;}
-#image4 {
+		overflow: scroll;
+	margin-left: 0px;}
+#image4 {width: 100%;
+		height: 100%;
 		background-image: url("Media/Miguel.jpg"); 
 		background-attachment: scroll;
 		background-size: 200%;
 		background-repeat: no-repeat;
 		background-position: center;
-		overflow: scroll;}
-#image5 {
+		overflow: scroll;
+	margin-left: 0px;}
+#image5 {width: 100%;
+		height: 100%;
 		background-image: url("Media/Francisco.jpg"); 
 		background-attachment: scroll;
 		background-size: 200%;
 		background-repeat: no-repeat;
 		background-position: center;
-		overflow: scroll;}
+		overflow: scroll;
+	margin-left: 0px;}
 p 	{color: white;
 		font-family: Helvetica; 
 		font-size: 16px;
@@ -152,17 +177,17 @@ p 	{color: white;
 		font-weight: 100;
 		padding-top: 20%;
 		padding-left: 5px;
-		width: 90%;}
+		width: 90%;
+		font-weight: 400;
+		font-family: 'Playfair Display SC', serif;}
 body {background-color: black;}
 .content {text-align: justify;
 		width: 80%;
-		float: right;
-	}
+		float: right;}
 #titlebox {
 		height: 50%;}
 em {float: right;
-		padding-right: 5%;
-	}
+		padding-right: 5%;}
 .audio {height: 40; width: 80px;
 		padding-top: 40px;
 		padding-right: 15px;
