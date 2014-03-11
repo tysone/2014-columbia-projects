@@ -1,0 +1,116 @@
+<html>
+
+	<head>
+		<title>Upper West Side</title>
+		<link rel="stylesheet" type="text/css" href="css/reset.css" />
+		<link rel="stylesheet" type="text/css" href="css/text.css" />
+    	<link rel="stylesheet" type="text/css" href="css/960.css" />
+		<link href="style.css" rel="stylesheet" type="text/css" />
+		<link href="block.css" rel="stylesheet" type="text/css" />
+	</head>
+
+			<body>
+								
+				<div id="wrapper" class="container_12 clearfix">
+      			<div id="header" class="grid_12">
+      			<div id="media">
+        		<div id="facebook">
+        		<a href="INSERT-URL-" target="_blank"><img src="http://www.simplesharebuttons.com/images/somacro/facebook.png" alt="Facebook" /></a></div>
+        		<div id="twitter">
+        		<a href="INSERT-URL-&amp;text=10 The Empire State Building" target="_blank"><img src="http://www.simplesharebuttons.com/images/somacro/twitter.png" alt="Twitter" /></a></div>
+        		</div>
+        	</br>
+        	</br>
+       				 <h1>Welcome to 201!</h1>
+      			</div>
+
+
+      			<div class="prefix_2 suffix_1 grid_5">
+      				<h2>Under Construction</h2>
+					<img class="displayed" src="http://farm4.staticflickr.com/3233/12993106083_782a254bcc_t.jpg" width="620">
+		 		</div>
+
+
+
+		 		<div class="prefix_0 suffix_1 grid_5">
+		 		<div class="text">
+      				<h2>No More Candy?</h2>
+  				</div>
+
+		 			<img class="displayed" src="http://farm4.staticflickr.com/3538/12993684103_1c66f4e94f_t.jpg" width="620">
+		 		</div>
+
+
+		 		<div class="prefix_0 suffix_0 grid_6">
+		 		<div class="text2">	
+		 			<div class="bquote1">
+		 			<blockquote>"20 years before it was a 7-Eleven, part of it was a candy store."</blockquote></div>
+		 			<p>6 months ago this vacant retail space was plastered with a 7/Even logo, and full of customers shuffling in and out. In the mornings (mainly on weekdays) majority of its customers consisted of teens and preteens stocking up on sweet treats before making their way to school. Ironically, 20 years before it was a 7-Eleven, part of it was a candy store. The other half was a TV repair shop.</p>
+		 		</div>
+		 		</div>
+		 		</div>
+		 		
+
+		 		<div id="wrapper" class="container_12 clearfix">
+		 		<div class="prefix_0 suffix_1 grid_5">
+		 		<div class="text">
+      				<h2>Parking Lot</h2>
+  				
+
+		 			<img class="displayed" src="http://farm4.staticflickr.com/3233/12993106083_782a254bcc_t.jpg" width="620">
+		 		</div>
+		 		</div>
+		 		<div class="prefix_0 suffix_0 grid_6">
+		 		<div class="text2">	
+		 			<div class="bquote1">
+		 			<blockquote>"I can recall hitting the ball so hard on one occasion that it bounced over the wall and hit a window."</blockquote></div>
+		 			<p>The children who currently reside in 201 are not allowed to play in this area as my childhood friends and I did before them. We used to play tag, jump double-dutch and race each other up and down this entire lot. Our favorite game to play was handball. I can recall hitting the ball so hard on one occasion that it bounced over the wall and hit a window.</p>
+		 		</div>
+		 		</div>
+		 		</div>
+
+
+		 		<div id="wrapper" class="container_12 clearfix">
+		 		<div class="prefix_0 suffix_1 grid_5">
+		 		<div class="text">
+      				<h2>New KaM Lai</h2>
+  				
+		 			<img class="displayed" src="http://farm4.staticflickr.com/3576/13071685904_70c0109a0b_t.jpg" width="620">
+		 		</div>
+		 		</div>
+		 		<div class="prefix_0 suffix_0 grid_6">
+		 		<div class="text2">	
+		 			<div class="bquote">
+		 			<blockquote>"In 2008 New Kam Lai caught an electrical fire."</blockquote></div>
+		 			<p>New Kam Lai is a Chinese restaurant that has been serving De Hostos Residents, and surrounding communities, for approximately 15 years. Vivvienne, New Kam Lai’s manager, describes the relationship that she has with her customers as “wonderful.” She often refers to them as her “family,” and they simply call her Vivvie. 
+		 		</br>
+					In 2008 New Kam Lai caught an electrical fire. Vivvienne and her workers were forced out of work for about 4 years.“I was sad because I wasn’t with my family anymore,” she said, regarding her customers. Since reopening, business has been going better than ever. She says that she will never leave 94th St.</p>
+		 		</div>
+		 		</div>
+		 		</div>
+
+
+		 		<div id="wrapper" class="container_12 clearfix">
+		 		<div class="prefix_0 suffix_1 grid_5">
+		 		<div class="text">
+      				<h2>Health Clinic</h2>
+
+		 			<img class="displayed" src="http://farm4.staticflickr.com/3074/13071963124_95659f2edb_t.jpg" width="620">
+		 		</div>
+		 		</div>
+
+		 		<div class="prefix_0 suffix_0 grid_6">
+		 		<div class="text2">	
+		 			<div class="bquote">
+		 			<blockquote>"A non-profit organization dedicated to providing affordable healthcare to low income neigborhoods."</blockquote></div>
+		 			<p>Amsterdamn Avenue Family Practice is a health clinic opperated by certified physicians. It's sponsered by the Institute for Urban Family Health, which is a non-profit organization dedicated to providing affordable healthcare to low income neigborhoods. They opened their first clinic in 1987 in Bronx, New York. This particular clinic was opend in 2007.</p>
+		 		</div>
+		 		</div>
+		 		</div>
+		 		
+		 		</div>
+		 		</div>
+		 		</div>
+			</body>
+
+</html>
