@@ -173,7 +173,7 @@ p 	{color: white;
 		margin-top: 125%;
 		padding-right: 5%;}
 #title {color: white;
-		font-size: 45px;
+		font-size: 40px;
 		font-weight: 100;
 		padding-top: 20%;
 		padding-left: 5px;
@@ -187,7 +187,8 @@ body {background-color: black;}
 #titlebox {
 		height: 50%;}
 em {float: right;
-		padding-right: 5%;}
+		padding-right: 5%;
+		font-size: 18px;}
 .audio {height: 40; width: 80px;
 		padding-top: 40px;
 		padding-right: 15px;
