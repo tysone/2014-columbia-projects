@@ -88,10 +88,11 @@ p 	{color: white;
 		line-height: 5px;}
 img {max-width: 1404px;}
 em {font-size: 30px;
-	float: right;
-	padding-top: 20px;
-	color: white;
-	padding-right: 10%;}
+		float: right;
+		padding-top: 20px;
+		color: white;
+		padding-right: 10%;}
+.scroll {float: right;}
 
 
 
@@ -200,5 +201,7 @@ em {float: right;
 		text-align: right;
 		padding-left: 30px;
 		float: right;}
+.scroll {float: left;
+		margin-left: 20px;}
 }
 
