@@ -97,13 +97,13 @@ em {font-size: 30px;
 @media (max-width: 800px) {
 
 #page {background-color: black;
-		width: 100%;}
+		min-width: 100%;}
 
 #img {min-width: 100%;
 		min-height: 100%;
 		background-image: url("Media/Hands.jpg"); 
 		background-attachment: scroll;
-		background-size: 100%;
+		background-size: contain;
 		background-repeat: no-repeat;
 		background-position: center;
 		margin-left: 0px;
