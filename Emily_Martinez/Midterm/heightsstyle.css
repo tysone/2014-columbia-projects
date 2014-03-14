@@ -115,7 +115,7 @@ em {font-size: 30px;
 		background-size: 200%;
 		background-repeat: no-repeat;
 		background-position: center;
-		overflow: scroll;
+		overflow: auto;
 	margin-left: 0px;}
 #image2 {min-width: 100%;
 		min-height: 100%;
@@ -124,7 +124,7 @@ em {font-size: 30px;
 		background-size: 200%;
 		background-repeat: no-repeat;
 		background-position: center;
-		overflow: scroll;
+		overflow: auto;
 	margin-left: 0px;}
 #image3 {min-width: 100%;
 		min-height: 100%;
@@ -133,7 +133,7 @@ em {font-size: 30px;
 		background-size: 150%;
 		background-repeat: no-repeat;
 		background-position: center;
-		overflow: scroll;
+		overflow: auto;
 	margin-left: 0px;}
 #image4 {min-width: 100%;
 		min-height: 100%;
@@ -142,7 +142,7 @@ em {font-size: 30px;
 		background-size: 200%;
 		background-repeat: no-repeat;
 		background-position: center;
-		overflow: scroll;
+		overflow: auto;
 	margin-left: 0px;}
 #image5 {min-width: 100%;
 		min-height: 100%;
@@ -151,7 +151,7 @@ em {font-size: 30px;
 		background-size: 200%;
 		background-repeat: no-repeat;
 		background-position: center;
-		overflow: scroll;
+		overflow: auto;
 	margin-left: 0px;}
 p 	{color: white;
 		font-family: Helvetica; 
