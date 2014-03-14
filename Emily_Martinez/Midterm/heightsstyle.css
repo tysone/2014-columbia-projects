@@ -2,48 +2,49 @@ body {background-color: black;}
 #page {background-color: black;
 		width: 100%;
 		height: 100%;}
-#img {min-height: 900px;
-		min-width: 1350px;
+#img {height: 900px;
+	width: 1350px;
 		background-image: url("Media/Hands.jpg"); 
 		background-attachment: fixed;
 		background-size: cover;
 		background-repeat: no-repeat;
 		background-position: center;
+		margin-left: 35px;
 		}
-#image {min-height: 900px;
-		min-width: 1350px;
+#image {height: 900px;
+	width: 1350px;
 		background-image: url("Media/Abuelita.jpg"); 
 		background-attachment: fixed;
 		background-size: cover;
 		background-repeat: no-repeat;
 		background-position: center;
 		margin-left: 35px;}
-#image2 {min-height: 900px;
-		min-width: 1350px;
+#image2 {height: 900px;
+		width: 1350px;
 		background-image: url("Media/Euclides.jpg"); 
 		background-attachment: fixed;
 		background-size: cover;
 		background-repeat: no-repeat;
 		background-position: center;
 		margin-left: 35px;}
-#image3 {min-height: 900px;
-		min-width: 1350px;
+#image3 {height: 900px;
+	width: 1350px;
 		background-image: url("Media/Nunez.jpg"); 
 		background-attachment: fixed;
 		background-size: cover;
 		background-repeat: no-repeat;
 		background-position: center;
 		margin-left: 35px;}
-#image4 {min-height: 900px;
-		min-width: 1350px;
+#image4 {height: 900px;
+	width: 1350px;
 		background-image: url("Media/Miguel.jpg"); 
 		background-attachment: fixed;
 		background-size: cover;
 		background-repeat: no-repeat;
 		background-position: center;
 		margin-left: 35px;}
-#image5 {min-height: 900px;
-		min-width: 1350px;
+#image5 {height: 900px;
+	width: 1350px;
 		background-image: url("Media/Francisco.jpg"); 
 		background-attachment: fixed;
 		background-size: cover;
@@ -97,10 +98,11 @@ em {font-size: 30px;
 @media (max-width: 800px) {
 
 #page {background-color: black;
-		min-width: 100%;}
+		width: 100%;
+		height: 100%;}
 
-#img {min-width: 100%;
-		min-height: 100%;
+#img {width: 100%;
+		height: 100%;
 		background-image: url("Media/Hands.jpg"); 
 		background-attachment: scroll;
 		background-size: contain;
@@ -108,8 +110,8 @@ em {font-size: 30px;
 		background-position: center;
 		margin-left: 0px;
 		}
-#image {min-width: 100%;
-		min-height: 100%;
+#image {width: 100%;
+		height: 100%;
 		background-image: url("Media/Abuelita.jpg"); 
 		background-attachment: auto;
 		background-size: 200%;
@@ -117,37 +119,37 @@ em {font-size: 30px;
 		background-position: center;
 		overflow: auto;
 	margin-left: 0px;}
-#image2 {min-width: 100%;
-		min-height: 100%;
+#image2 {width: 100%;
+		height: 100%;
 		background-image: url("Media/Euclides.jpg"); 
-		background-attachment: auto;
+		background-attachment: scroll;
 		background-size: 200%;
 		background-repeat: no-repeat;
 		background-position: center;
 		overflow: auto;
 	margin-left: 0px;}
-#image3 {min-width: 100%;
-		min-height: 100%;
+#image3 {width: 100%;
+		height: 100%;
 		background-image: url("Media/Nunez.jpg"); 
-		background-attachment: auto;
+		background-attachment: scroll;
 		background-size: 150%;
 		background-repeat: no-repeat;
 		background-position: center;
 		overflow: auto;
 	margin-left: 0px;}
-#image4 {min-width: 100%;
-		min-height: 100%;
+#image4 {width: 100%;
+		height: 100%;
 		background-image: url("Media/Miguel.jpg"); 
-		background-attachment: auto;
+		background-attachment: scroll;
 		background-size: 200%;
 		background-repeat: no-repeat;
 		background-position: center;
 		overflow: auto;
 	margin-left: 0px;}
-#image5 {min-width: 100%;
-		min-height: 100%;
+#image5 {width: 100%;
+		height: 100%;
 		background-image: url("Media/Francisco.jpg"); 
-		background-attachment: auto;
+		background-attachment: scroll;
 		background-size: 200%;
 		background-repeat: no-repeat;
 		background-position: center;
