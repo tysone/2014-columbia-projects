@@ -33,7 +33,7 @@ h5 {
 	margin-right: auto;
 	margin-left: auto;
 	font-family: Myriad Pro, Helvetica, sans-serif;
-	color: #CC1100;
+	color: black;
 
 }
 
@@ -57,18 +57,9 @@ h3 {
 	margin-right: auto;
 }
 
-
-.firstline {
-	font-size: 20px;
-	color: #CC1100;
-	font-family: Myriad Pro, Helvetica, sans-serif;
-	text-align: center;
-	font-weight: bold;
-
-}
 .introtext {
 	font-size: 18px;
-	text-align: justify;
+	font-style: italic;
 }
 
 .links {
@@ -107,6 +98,7 @@ figcaption {
 	height: 200px;
 	width: 200px;
 	margin-left: 200px;
+	margin-bottom: 30px;
 	display: block;
 	float: left;
 }
