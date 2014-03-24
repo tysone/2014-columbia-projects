@@ -16,7 +16,7 @@ a {
 }
 
 h1 {
-	font-family: "Fette Steinschrift", Helvetica, sans-serif;
+	font-family: "Fette Steinschrift", "Helvetica"", sans-serif;
 	font-weight: bold;
 	text-transform: uppercase;
 	margin-top: 80px;
