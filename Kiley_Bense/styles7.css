@@ -61,7 +61,8 @@ p {
  }
 .drop {
 	font-size: 80px;
-	font-family: "fette steinschrift";
+	font-family: "fette steinschrift", helvetica, sans-serif;
+	font-weight: bold;
 	margin-bottom: 1px;
 	float: left;
 	margin-right: 7px;
