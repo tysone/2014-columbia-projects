@@ -3,8 +3,8 @@ p {
 }
 
 ul {
-  width: 200px;
-  background-color: #666;
+  width: 300px;
+  border: 1px solid #666;
 }
 
 p.person1 {display:block;}
