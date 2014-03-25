@@ -1,0 +1,23 @@
+<html>
+  <head>
+    <title>My Page Title</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+  </head>
+  <body>
+    <h1>My Really Awesome headline here</h1>
+    <span class="show-sources">Show Sources</span>
+    <p>My paragraph <span class="source">Source Name</span> lorem ipsum My paragraph lorem <span class="perct">100%</span> ipsum</p>
+    <p>My paragraph <span class="source">Source Name</span> lorem ipsum My paragraph lorem ipsum <span class="source">Source Name</span></p>
+    <p>My <span class="perct">100%</span> paragraph <span class="source">Source Name</span> lorem ipsum My paragraph lorem ipsum</p>
+
+
+    <script>
+      $('.show-sources').click(function(){
+        $('p').toggleClass('highlighted');
+      })
+    </script>
+
+
+  </body>
+</html>
