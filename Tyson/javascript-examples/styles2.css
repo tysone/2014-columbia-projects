@@ -1,0 +1,19 @@
+p {
+  display: none;
+}
+
+ul {
+  width: 200px;
+  background-color: #666;
+}
+
+p.person1 {display:block;}
+
+.person1 {
+  color: blue;
+}
+
+.person2 {
+  color: red;
+}
+
