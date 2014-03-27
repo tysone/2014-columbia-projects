@@ -1,0 +1,66 @@
+
+<html>
+
+<head>
+	<title>Using jQuery to select HTML elements</title>
+
+<style>
+
+	body {
+		background-color: white;
+	}
+
+	.rectangle {
+		width: 300px;
+		height: 300px;
+		margin: 20px 0;
+		background-color: blue;
+	}
+
+	.color{
+		background-color: red;
+	}
+
+	.wide{
+		width: 600px;
+	}
+
+	.round{
+        border-radius:300px;
+	}
+
+</style>
+
+</head>
+
+<body>
+
+	<h1>Using jQuery to select HTML elements</h1>
+
+	<div class="rectangle" id="rectangle1"></div>
+
+	<div class="rectangle" id="rectangle2"></div>
+
+	<div class="rectangle" id="rectangle3"></div>
+
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script>
+
+$('#rectangle1').on('click', function() {
+	$(this).toggleClass('color');
+});
+
+$('#rectangle2').on('click', function() {
+	$(this).toggleClass('wide');
+});
+
+$('#rectangle3').on('click', function() {
+	$(this).toggleClass('round');
+});
+
+</script>
+
+</body>
+
+</html>
