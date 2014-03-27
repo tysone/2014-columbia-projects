@@ -94,18 +94,18 @@
 
 <script>
 var quo = $(".quot")
-$(".scroll").click(function(){$("#box1").css("margin-top", "0");});
-$(".scroll").click(function(){$("#box2").css("margin-top", "0");});
-$(".scroll").click(function(){$("#box3").css("margin-top", "0");});
-$(".scroll").click(function(){$("#box4").css("margin-top", "0");});
-$(".scroll").click(function(){$("#box5").css("margin-top", "0");});
-$("#quot1").click(function(){$(".quote").css("margin-top", "110%");});
-$("#quot2").click(function(){$(".quote").css("margin-top", "110%");});
-$("#quot3").click(function(){$(".quote").css("margin-top", "110%");});
-$("#quot4").click(function(){$(".quote").css("margin-top", "110%");});
-$("#quot5").click(function(){$(".quote").css("margin-top", "110%");});
-</script>
 
+
+$(".scroll").click(function(){
+	$("#box1").toggleClass("expanded")});
+$(".scroll").click(function(){$("#box2").toggleClass("expanded")});
+$(".scroll").click(function(){$("#box3").toggleClass("expanded")});
+$(".scroll").click(function(){$("#box4").toggleClass("expanded")});
+$(".scroll").click(function(){$("#box5").toggleClass("expanded")});
+
+
+
+</script>
 
 </div>
 </body>
