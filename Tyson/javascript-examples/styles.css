@@ -1,0 +1,12 @@
+h1 {
+  color: red;
+}
+
+.highlighted .source {
+  background-color: yellow;
+}
+
+.highlighted .perct {
+  background-color: red;
+  color: #fff;
+}

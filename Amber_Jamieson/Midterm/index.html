@@ -6,6 +6,8 @@
 		
 		<link rel="stylesheet" type="text/css" href="styles.css" />
 
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+
 	</head>
 
 	<body>
@@ -17,6 +19,15 @@
 
 		<div class="headline"><h1>The heart of Harlem...</h1>
 		</div>
+
+		<script>
+		$("openingimage").click(function() {
+  $("headline").fadeIn("slow", function() {
+    // Animation complete
+  });
+
+		</script>
+		
 
 		<div class="subhead">
 			<div class="text"><h2>... beats at W 125th St between Frederick Douglass and Adam Clayton Powell Junior Boulevards.</h2>
@@ -33,6 +44,14 @@
 	</div>
 	<div class="intro"><h2>The street, W 125th St, is changing.</h2>
 		<h3>Only a handful of classic painted garage doors remain.</h3>.</div>
+
+		<script>
+$('openingimage2').click(function(){
+	$('intro').toggle();
+
+});
+</script>
+
 
 	<div class="clear"></div>
 
@@ -60,7 +79,13 @@
 		</div>
 	</div>
 		
+<script>
+		$("openingimage").click(function() {
+  $("headline2").fadeIn("slow", function() {
+    // Animation complete
+  });
 
+		</script>
 
 		
 	</div>

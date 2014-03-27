@@ -1,0 +1,37 @@
+<html>
+<head> 
+	<title>Cool page bro</title>
+	<link rel="stylesheet" type="text/css" href="styles.css" />
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+
+
+
+
+
+</head>
+<body>
+<h1>All sorts of rad</h1>
+<ul>
+	<li class="person1">person one</li>
+	<li class="person2">person two</ku>
+
+</ul>
+
+<p class="person1">One: details for person one</p>
+<p class="person2">two: details for person two</p>
+
+<script>
+
+$('li.person1').click(function(){
+	$('p.person2').slideUp();
+	$('p.person1').slideDown();
+})
+
+$('li.person2').click(function(){
+	$('p.person1').slideUp();
+	$('p.person2').slideDown();
+})
+
+</script>
+</body>
+</html>
