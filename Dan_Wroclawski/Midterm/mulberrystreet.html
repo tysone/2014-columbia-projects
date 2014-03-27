@@ -4,15 +4,19 @@
 
 		<link rel="stylesheet" type="text/css" href="css/960.css">
 		<link rel="stylesheet" type="text/css" href="css/styles.css">
+
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 	</head>
 
 	<body>
+
 		<div id="wrapper" class="container_12">
 
 			<div id="headline" class="grid_12">
 				<h1>Mulberry Street</h1>
 				<h2 id="subhead">The Heart of Little Italy</h2>
 				<h3>By: Daniel Wroclawski</h3>
+				<h4>Show/Hide Text</h4>
 			</div>
 
 			<div id="firstphoto" class="prefix_1 grid_11">
@@ -100,5 +104,12 @@
 			
 
 		</div>
+
+		<script>
+		$('h4').click(function(){
+			$('p').toggle();
+		});
+		</script>
+
 	</body>
 </html>
