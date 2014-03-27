@@ -209,6 +209,7 @@ body{
 	width: 530px;
 }
 
+
 a:link {
 	color: #06648A;
 }
@@ -216,6 +217,57 @@ a:link {
 a:visited{
 	color: #06648A;
 }
+
+.opening1:hover{
+color: gray;
+}
+
+.suicide1:hover{
+color: gray;
+}
+
+.shooting1:hover{
+color: gray;
+}
+
+.deck1:hover{
+color: gray;
+}
+
+.broadcast1:hover{
+	color:gray;
+}
+
+.bold{
+	font-weight: bold;
+}
+
+.opening2, .suicide2, .shooting2, .deck2, .broadcast2{
+	font-size: 20px;
+	font-weight: lighter;
+	line-height: 30px;
+	width: 790px;
+	text-align: left;
+	margin-bottom: 30px;
+	max-width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	display: none;
+}
+
+.opening1, .suicide1, .shooting1, .deck1, .broadcast1{
+	font-size: 25px;
+	line-height: 30px;
+	width: 790px;
+	text-align: left;
+	margin-bottom: 30px;
+	max-width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+	font-weight: bold;
+}
+
 
 @media (max-width: 480px){
 #media img{
@@ -239,6 +291,14 @@ a:visited{
 	width: 480px;
 }
 
+.opening2, .suicide2, .shooting2, .deck2, .broadcast2{
+	font-size: 15px;
+}
+
+.opening1, .suicide1, .shooting1, .deck1, .broadcast1{
+	font-size: 20px;
+}
+
 .floatone{
 	float: none;
 }
@@ -249,7 +309,7 @@ a:visited{
 .photo1, .photo2{
 	margin-left: 0px;
 	margin-top: 5px;
-	margin-bottom: 5px
+	margin-bottom: 5px;
 }
 
 .credit1, .credit2{
@@ -266,8 +326,8 @@ a:visited{
 	font-size: 10px;
 	margin-bottom: 30px;
 }
+
 .tweet{
     margin-bottom: 30px;
-	margin-left: 0px;
-}
+    margin-left: 0px;
 }
