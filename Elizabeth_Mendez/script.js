@@ -7,5 +7,7 @@ $(document).ready(function() {
 		'background-color': 'white'
 	});
 
-	
+	$(document).ready(function() {
+    	$('.headline').fadeOut(1000);
+	});
 });
