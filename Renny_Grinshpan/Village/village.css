@@ -18,7 +18,7 @@
 	font: sans-serif;
 }
 .header {
-	font-family: sans-serif;
+	font-family: 'Lusitana', serif;
 	font-size: 40px;
 	background-color: black;
 	width: 1200px;
@@ -26,7 +26,7 @@
 .Intro {
 	color: white;
 	font-size: 30px;
-	font-family: sans-serif;
+	font-family: 'Lusitana', serif;
 	position: relative; left:20px; right:50px; top: 730px;
 	margin-bottom: -50px;
 	margin-right: 100px;
@@ -41,7 +41,7 @@ position: relative; left: 10px; top: 825px;
 }
 .content {
 	font-size: 20px;
-	font-family: sans-serif;
+	font-family: 'Lusitana', serif;
 	position: relative; top: 465px; left: 10px;
 	margin-right: 550px;
 	color: white;
@@ -57,7 +57,7 @@ position: relative; left: 750px; top: 290px;
 .content2 {
 	color: white;
 	font-size: 20px;
-	font-family: sans-serif;
+	font-family: 'Lusitana', serif;
 	position: relative; bottom: 450px;
 	margin-left: 200px; 
 	margin-right: 200px;
@@ -81,7 +81,7 @@ position: relative; bottom: 850px; left: 650px; bottom: 800px;
 	position: relative; bottom: 770px; left: 20px; 
 	margin-right: 540px;
 	font-size: 20px;
-	font-family: sans-serif;
+	font-family: 'Lusitana', serif;
 	color: white;
 	background-color: black;
 	width: 700px;
@@ -105,7 +105,7 @@ position: relative; bottom: 850px; left: 650px; bottom: 800px;
 	position: relative; bottom: 2445px; left: 10px; 
 	margin-right: 700px;
 	font-size: 20px;
-	font-family: sans-serif;
+	font-family: 'Lusitana', serif;
 	color: white;
 	background-color: black;
 	width: 600px;
@@ -114,12 +114,13 @@ position: relative; bottom: 850px; left: 650px; bottom: 800px;
 	position: relative; left: 300px; top: 880px;
 	margin-right: 700px;
 	font-size: 20px;
-	font-family: sans-serif;
+	font-family: 'Lusitana', serif;
 	color: white;
 	background-color: black;
 	width: 600px;
 }
-
-
+.newyork-clicked {
+	color: #8B008B;
+}
 
 

@@ -1,0 +1,21 @@
+.rectangle {
+	width: 300px;
+	height: 300px;
+	margin: 20px 0;
+	background-color: green;
+}
+
+#rectangle-1 {
+}
+
+#rectangle-2 {
+}
+
+#rectangle-3 {
+
+}
+
+.rectangle-clicked {
+	background-color: red;
+}
+.

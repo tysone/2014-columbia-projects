@@ -1,7 +1,8 @@
 <html>
 <head><link rel="stylesheet" type="text/css" href="village.css">
 <link rel="960" type="text/css" href="960.css">
-</div>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<link href='http://fonts.googleapis.com/css?family=Lusitana' rel='stylesheet' type='text/css'>
 <title>
 	Macdougal St.
 </title>
@@ -73,5 +74,33 @@ New York, NY
 </div>
 </div>
 </div>
+<div id="hide">
+</div>
+
+<script>
+$('.newyork').on('mouseover',function() {
+	$(this).addClass('newyork-clicked');
+});
+$('.Intro').on('mouseover',function(){
+    $(this).hide(500);
+  });
+$('.content').on('mouseover',function(){
+    $(this).hide(500);
+  });
+$('.content2').on('mouseover',function(){
+    $(this).hide(500);
+  });
+$('.content3').on('mouseover',function(){
+    $(this).hide(500);
+  });
+$('.content4').on('mouseover',function(){
+    $(this).hide(500);
+  });
+$('.content5').on('mouseover',function(){
+    $(this).hide(500);
+  });
+</script>
+
+
 </body>
 </html>
