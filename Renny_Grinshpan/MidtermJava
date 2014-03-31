@@ -1,0 +1,232 @@
+<html>
+<head><link rel="stylesheet" type="text/css" href="village.css">
+<link rel="960" type="text/css" href="960.css">
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<link href='http://fonts.googleapis.com/css?family=Lusitana' rel='stylesheet' type='text/css'>
+<title>
+	Macdougal St.
+</title>
+</head>
+<body>
+<div class="page">
+</div>
+<div class="streetsigns">
+<img src="_DSC1568.jpg" alt="streetsigns" height="700" width="1200">
+<div class="newyork">
+New York, NY
+</div>
+</div>
+<div class="Intro">
+<p>The block of Macdougal Street between Bleecker Street and West 3rd Street in the heart of Greenwich Village is as New York as it gets. It has seen some serious history - and has the local landmarks to show for it. Always a tourist destination, the block today seems to have reached the limit of its tourist trappings - what with nearly every square inch of it being filled with signage. Check out this short series on the block. You'll see what I mean.</p> 
+</div>
+<div class="streetview">
+<img src="_DSC1437.jpg" alt="streetview" height="400" width="600">
+</div>
+<div class="creperie">
+<img src="_DSC1476.jpg" alt="creperie" height="400" width="600">
+</div>
+<div class="content">
+<p>It's 8:00 on a Tuesday night in March and Macdougal is buzzing. From seeing live music and comedy shows, to getting your fortune told, to drinking at a variety of bars and shopping for your typical tourist merchandise, you can do almost anything here. And you can cheaply snack on a number of different cuisines. Your poision is undoubtedly amongst the diverse options: pizza, falafel and shawarma, Vietnamese banh mi sandwiches, bubble tea, Greek gyros...the list goes on.</p>
+</div>
+<div class="palmreader">
+<img src="_DSC1515.jpg" alt="palmreader" height="600" width="400">
+</div>
+<div class="alehouse">
+<img src="_DSC1504.jpg" alt="alehouse" height="400" width="600">
+</div>
+<div class="comedyclub">
+<img src="_DSC1470.jpg" alt="comedyclub" height="400" width="600">
+</div>
+<div class="comedycellar">
+<img src="_DSC1554.jpg" alt="comedycellar" height="400" width="600">
+</div>
+<div class="content2">
+<p>Macdougal Street is particularly well-known for its live music and comedy scenes. These comedy clubs admit several hundred patrons a night, a particularly easy feat for'Comedy Cellar,' which has featured nearly every notable American comedian. 'Comedy Club' increases its numbers by stationing a promoter outside its entrance. You cannot walk from one end of Macdougal to the other without hearing encouragement from at least one of these fixtures to check out their clubs.</p>
+</div>
+<div class="pizza">
+<img src="_DSC1498.jpg" alt="pizza" height="400" width="600">
+</div>
+<div class="streetview1">
+<img src="_DSC1483.jpg" alt="streetview1" height="400" width="600">
+</div>
+<div class="content3">
+<p>The cafes on Macdougal are staple tourist destinations of Greenwich Village. Bob Dylan had his first gig in New York at 'Cafe Wha?' which is also famous as the venue for some of Jimi Hendrix's early shows. The coffeehouse 'Caffe Reggio,' which has been open since 1927, features in many films, including, most recently, the Oscar-nominated "Inside Llewyn Davis" by the Coen Brothers movie. Many celebrities have been spotted or photographed here.</p>
+</div>
+<div class="cafewha">
+<img src="_DSC1509.jpg" alt="cafewha" height="400" width="600">
+</div>
+<div class="reggio">
+<img src="_DSC1541.jpg" alt="reggio" height="600" width="400">
+</div>
+<div class="cafe">
+<img src="_DSC1522.jpg" alt="cafe" height="800" width="1200">
+</div>
+<div class="tavern">
+<img src="_DSC1512.jpg" alt="tavern" height="400" width="600">
+</div>
+<div class="tattoo">
+<img src="_DSC1497.jpg" alt="tattoo" height="400" width="600">
+</div>
+<div class="content4">
+<p> Macdougal is also home to Minetta Tavern, a trattoria/bar which has seen such regulars as E. E. Cummings, Joe Gould, Ernest Hemingway, Eugene O'Neill, and Ezra Pound.</p>
+<div class="content5">
+<p>All in all, yes - Macdougal St is a giant tourist trap. But with its rich history and diverse offerings for passing time, it is also the place to feel like a true New Yorker.</p>
+</div>
+</div>
+</div>
+<div id="hide">
+</div>
+
+<script>
+$('.newyork').on('mouseover',function() {
+	$(this).addClass('newyork-clicked');
+});
+$('.Intro').on('mouseover',function(){
+    $(this).hide(500);
+  });
+$('.content').on('mouseover',function(){
+    $(this).hide(500);
+  });
+$('.content2').on('mouseover',function(){
+    $(this).hide(500);
+  });
+$('.content3').on('mouseover',function(){
+    $(this).hide(500);
+  });
+$('.content4').on('mouseover',function(){
+    $(this).hide(500);
+  });
+$('.content5').on('mouseover',function(){
+    $(this).hide(500);
+  });
+</script>
+
+<style>
+
+@media {
+	body {
+		min-width: 10px;
+		background-color: black;
+	}
+}
+.page {
+	background-color: black;
+}
+.streetsigns {
+	position: absolute; left:10px;
+}
+.newyork {
+	position: relative; left: 700px; bottom: 150px;
+	font-size: 50px;
+	color: white;
+	font: sans-serif;
+}
+.header {
+	font-family: 'Lusitana', serif;
+	font-size: 40px;
+	background-color: black;
+	width: 1200px;
+}
+.Intro {
+	color: white;
+	font-size: 30px;
+	font-family: 'Lusitana', serif;
+	position: relative; left:20px; right:50px; top: 730px;
+	margin-bottom: -50px;
+	margin-right: 100px;
+	background-color: black;
+	width: 1200px;
+}
+.streetview {
+position: relative; left: 10px; top: 825px;
+}
+.creperie {
+	position: relative; left: 650px; top: 425px;
+}
+.content {
+	font-size: 20px;
+	font-family: 'Lusitana', serif;
+	position: relative; top: 465px; left: 10px;
+	margin-right: 550px;
+	color: white;
+	background-color: black;
+	width: 700px;
+}
+.palmreader {
+position: relative; left: 750px; top: 290px;
+}
+.alehouse {
+	position: relative; left: 10px; bottom: 110px;
+}
+.content2 {
+	color: white;
+	font-size: 20px;
+	font-family: 'Lusitana', serif;
+	position: relative; bottom: 450px;
+	margin-left: 200px; 
+	margin-right: 200px;
+	background-color: black;
+	width: 900px;
+}
+.comedyclub {
+	position: relative; bottom: 80px; left: 10px; 
+}
+.comedycellar {
+	position: relative; bottom: 480px; left: 650px;
+
+}
+.pizza {
+	position: relative; bottom: 400px; left: 10px;
+}
+.streetview1 {
+position: relative; bottom: 850px; left: 650px; bottom: 800px; 
+}
+.content3 {
+	position: relative; bottom: 770px; left: 20px; 
+	margin-right: 540px;
+	font-size: 20px;
+	font-family: 'Lusitana', serif;
+	color: white;
+	background-color: black;
+	width: 700px;
+}
+.cafewha {
+	position: relative; bottom: 730px; left: 10px;
+}
+.reggio {
+	position: relative; bottom: 1310px; left: 750px;
+}
+.cafe {
+	position: relative; bottom: 690px;  left: 10px;
+}
+.tavern {
+	position: relative; bottom: 2050px; left: 10px;
+}
+.tattoo {
+	position: relative; bottom: 2445px; left: 650px;
+}
+.content4 {
+	position: relative; bottom: 2445px; left: 10px; 
+	margin-right: 700px;
+	font-size: 20px;
+	font-family: 'Lusitana', serif;
+	color: white;
+	background-color: black;
+	width: 600px;
+}
+.content5 {
+	position: relative; left: 300px; top: 880px;
+	margin-right: 700px;
+	font-size: 20px;
+	font-family: 'Lusitana', serif;
+	color: white;
+	background-color: black;
+	width: 600px;
+}
+.newyork-clicked {
+	color: #8B008B;
+}
+</style>
+
+</body>
+</html>
