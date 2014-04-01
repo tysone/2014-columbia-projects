@@ -1,0 +1,61 @@
+<html>
+<head>
+<title>Rectangle Party Town</title>
+<style>
+
+	body {
+		background-color: #f7f7f7;
+	}
+
+	.rectangle {
+		width: 500px;
+		height: 300px;
+		margin: 20px 0;
+		background-color: blue;
+	}
+
+	.rectangle-clicked {
+		background-color: yellow;
+	}
+
+	.rectangle-wide {
+		width: 800px;
+	}
+
+	.round {
+	border-radius: 20px; -webkit-border-radius: 20px; -moz-border-radius: 20px;
+	}
+
+</style>
+
+</head>
+
+<body>
+
+	<h1>Rectangle Clicking Party Time</h1>
+
+	<div class="rectangle" id="rectangle-1"></div>
+
+	<div class="rectangle" id="rectangle-2"></div>
+
+	<div class="rectangle" id="rectangle-3"></div>
+
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script>
+
+$('#rectangle-1').on('click', function() {
+	$(this).addClass('rectangle-clicked');
+});
+
+$('#rectangle-2').on('click', function() {
+ 	$(this).addClass('rectangle-wide');
+ })
+
+$('#rectangle-3').on('click',function(){
+	$(this).addClass('round');
+})
+
+</script>
+
+</html>
