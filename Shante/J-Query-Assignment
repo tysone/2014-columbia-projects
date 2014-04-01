@@ -1,0 +1,111 @@
+<html><head>
+	<title>Squares Assignment</title>
+	<link href="http://fonts.googleapis.com/css?family=Dancing+Script:700|EB+Garamond" rel="stylesheet" type="text/css" />
+
+<style>
+
+	body {
+		background-color: #49998d;
+	}
+
+
+	h1 {
+		text-align: center;
+		font-family: 'Dancing Script', cursive;
+    	font-weight: 700;
+    	line-height: 46px;
+    	font-size: 42px;
+    	margin: 0 0 23px 0;
+	}
+
+	.square {
+		width: 150px;
+		height: 150px;
+		margin: 20px 0;
+		background-color: white;
+		font-size: 60px;
+		position: center;
+
+	}
+
+	#square-1 {
+		text-align: center;
+		float: left;
+		margin: 50px;	
+	}
+	
+	.color {
+		background-color: blue;
+	}
+
+
+	#square-2 {
+		text-align: center;
+		float: left;
+		margin: 50px;
+	}
+
+	.shape {
+		width: 650px;
+	}
+
+
+	#square-3 {
+		text-align: center;
+		float: left;
+		margin: 50px;
+	}
+
+	.round {
+		border-radius: 20px;
+    	border-radius: 20px;
+    	border-radius: 20px;
+    	border-radius: 20px;
+}
+	}
+	.square-1 {
+		background-color: blue;
+	}
+
+
+</style>
+
+</head>
+
+<body>
+
+	<h1>Squares Assignment</h1>
+
+	<div class="square" id="square-1">1</div>
+
+	<div class="square" id="square-2">2</div>
+
+	<div class="square" id="square-3">3</div>
+	
+
+	<div class="color"></div>
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script>
+
+
+$('#square-1').on('click', function() {
+	$(this).addClass('color');
+
+});
+
+$('#square-2').on('click', function() {
+	$(this).addClass('shape');
+
+});
+
+$('#square-3').on('click', function() {
+	$(this).addClass('round');
+
+});
+
+</script>
+
+</body>
+
+</html>

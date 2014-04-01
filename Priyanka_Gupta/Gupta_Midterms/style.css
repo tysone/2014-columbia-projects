@@ -4,6 +4,7 @@ padding:0;
 border:10px, black;
 background-color: #F0F0F0;
 font-family: 'Baskerville', serif;
+max-width: 100%
 
 
 }
@@ -21,6 +22,18 @@ margin-bottom: 10px;
 	border: 20px, solid, black;
 	margin-top: 10px;
 
+}
+
+#facebook {height:30px;
+width:25px;
+padding-bottom: 40px;
+}
+
+.twitter {height: 20px;
+width:25px;
+margin-left: 5px;
+padding-bottom: 40px;
+padding-top: 2px;
 }
 
 img {width: 900px;
@@ -82,6 +95,7 @@ text-align: justify;
 p {padding-top: 20px;
 	font-size: 22px;
 text-align: justify;
+
 }
 
 .firstword { font-family: 'Baskerville', serif;
@@ -114,3 +128,178 @@ hr {border-color: #BA1619;
 
 
 }
+
+
+
+
+
+
+
+
+
+@media(max-width:700px) and (orientation: landscape) {
+
+
+html,body {margin:0;
+padding:0;
+border:10px, black;
+background-color: #F0F0F0;
+font-family: 'Baskerville', serif;
+}
+
+body {
+
+font-size: 14px;
+
+
+font-family:{'Baskerville', serif;
+
+
+}
+
+}
+img {width:100px;
+}
+
+#text: {
+
+font-size: 10px;
+
+}
+
+#text1 { padding-top: 5px;
+font-size: 14px;
+text-align: justify;
+
+
+}
+
+#text2 {padding-top: 100px;
+	font-size: 14px;
+	text-align: justify;
+}
+
+#page {
+
+height: 10000px;
+margin-top: 35px;
+margin-bottom: 10px;
+
+}
+
+.image {position: absolute;
+	border: 5px, solid, black;
+	margin-top: 10px;
+
+}
+
+#facebook {height:30px;
+width:25px;
+padding-bottom: 40px;
+}
+
+.twitter {height: 20px;
+width:25px;
+margin-left: 5px;
+padding-bottom: 40px;
+padding-top: 2px;
+}
+
+img {width: 900px;
+margin-top: 60px;
+}
+
+.image1 { padding-top: 300px;
+	margin-top: 25px;
+
+
+
+}
+
+.image1 {padding-top: 100px;
+
+}
+
+.image2 {padding-top: 50px;
+}
+
+figcaption {font-size: 8px;
+	word-spacing: .5px;
+	padding-top: 10px;
+	letter-spacing: .5px;
+}
+
+
+h1 { font-family: 'Baskerville', serif;
+     font-size: 20px ;
+     font-weight: 500;
+     text-align: justify;
+     color: #BA1619;
+
+}
+
+#text {
+
+padding-top: 570px;
+font-size: 22px;
+text-align: justify;
+
+
+}
+
+ #text1 { padding-top: 720px;
+font-size: 14px;
+text-align: justify;
+
+
+}
+
+#text2 {padding-top: 25px;
+	font-size: 14px;
+	text-align: justify;
+
+}
+
+
+p {padding-top: 20px;
+	font-size: 14px;
+text-align: justify;
+
+}
+
+.firstword { font-family: 'Baskerville', serif;
+     font-size: 20px ;
+     color: #BA1619;
+     letter-spacing: .1px;
+}
+
+a:link {color:#BA1619;}   
+a:visited {color:#BA1619;}
+a:hover {color:#E38687;}  
+a:active {color:#BA1619;} 
+
+
+iframe { padding-top: 25px;
+
+
+}
+
+hr {border-color: #BA1619;
+	height: 5px;
+	width: 200px;
+
+
+}
+
+#google {
+	padding-top: 5px;
+	padding-bottom: 300px;
+
+
+}
+
+
+}
+}
+
+
