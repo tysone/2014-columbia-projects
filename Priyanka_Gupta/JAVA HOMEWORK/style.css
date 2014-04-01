@@ -1,0 +1,47 @@
+body {
+	background-color: 212120;
+
+}
+
+h1 { color: #EBEBEB;
+	font-size: 45px;
+	font-style: georgia;
+	padding-top: 30px;
+	padding-left: 390px;
+
+}
+
+.rectangle1 {
+
+height: 300px;
+width: 500px;
+background-color: #A81616;
+padding-top: 50px;
+padding-bottom: 50px;
+margin: 15px;
+}
+
+.rectanglered{
+
+height: 300px;
+width: 500px;
+background-color:#EBEBEB;
+padding-top: 50px;
+padding-bottom: 50px;
+margin: 15px;
+
+}
+
+
+.rectanglebig {
+
+height:500px;
+width: 600px;
+}
+
+
+.rectangleround {
+
+border-radius: 25px;
+}
+

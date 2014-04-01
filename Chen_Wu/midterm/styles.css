@@ -1,34 +1,31 @@
 body{
 	font-family:georgia,times,serif;
-	background-image: url(photos/esb.jpg);
-	background-repeat: no-repeat;
-    background-position: center,fixed;
-    background-size: cover;
-	max-width: 100%;
-	max-height: 10%;
-}
-
-.headline{
-	text-shadow:0 2px 2px rgba(0,0,0,1);
-	color:#fff;
-	font-size: 60px;
-	line-height: 98px;
-	margin-top: 350px;
-	margin-left: 30px;
 	max-width: 100%;
 }
 
-HR{
-   width: 50%;
-   margin-left: 30px;
+#back{
+	width: 100%;
+	height: 100%;
+	top: 0px;
+	left: 0px;
+	right: 0px;
 }
 
-.subhead{
-	text-shadow:0 2px 2px rgba(0,0,0,1);
-	color:#fff;
-	font-size: 20px;
-	line-height: 80px;
-	margin-left: 30px;
+#image{
+	width: 100%;
+    height: 100%;
+    top: 0px;
+	left: 0px;
+	right: 0px;
+	position: absolute;
+}
+
+.credit{
+	margin-top: 10px;
+	font-size: 13px;
+	color: gray;
+	font-size: lighter;
+	text-align: right; 
 	max-width: 100%;
 }
 
@@ -39,28 +36,11 @@ HR{
 }
 
 #facebook img{
-	margin-left: 30px;
+    margin-left: 30px;
 }
 
 #twitter img{
-	margin-left: 10px;
-}
-
-.byline{
-	color:gray;
-	font-size: 15px;
-	font-weight: bold;
-	line-height: 50px;
-	margin-left: 30px;
-	max-width: 100%;
-}
-
-.white{
-	background-color: white;
-	background-size: cover;
-	background-position: center, absolute;
-	margin-top: 150px;
-	max-width: 100%;
+    padding-left: 10px;
 }
 
 .capital{
@@ -71,23 +51,32 @@ HR{
 }
 
 .intro1{
-	margin-left: 210px;
 	font-size: 20px;
 	font-weight: lighter;
 	line-height: 30px;
-	width: 780px;
+	width: 790px;
 	text-align: left;
 	margin-bottom: 30px;
 	max-width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.intro{
+	margin-top: 6%;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .map{
 	margin-left: 250px;
 	max-width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	width: 630px;
 }
 
 .intro2{
-	margin-left: 210px;
 	width: 790px;
 	font-size: 20px;
 	font-weight: lighter;
@@ -95,76 +84,83 @@ HR{
 	margin-top: 30px;
 	margin-bottom: 30px;
 	max-width: 100%;
+	margin-left: auto;
+	margin-right: auto;
 }
 
-.photo1{
-	margin-left: 180px;
-	position: absolute;
-	margin-top: 8px;
-	max-width: 100%;
+.float{
+	margin-left: auto;
+	margin-right: auto;
+	width: 790px;
 }
 
-.credit1{
-	position: absolute;
-	margin-left: 180px;
-	margin-top: 245px;
+.floatone{
+	float: left;
+}
+
+.phcreone{
+	width: 310px;
+	margin-top: 20px;
+}
+
+#credit1{
 	font-size: 13px;
 	color: gray;
-	max-width: 100%;
 }
 
 .intro3{
-	margin-left: 530px;
-	width: 470px;
 	font-size: 20px;
 	font-weight: lighter;
 	line-height: 30px;
 	margin-bottom: 30px;
-	max-width: 100%;
-}
-
-.photo2{
-	margin-left: 785px;
-	position: absolute;
-	margin-top: 5px;
-	max-width: 100%;
+	margin-left: 30px;
+	width: 450px;
 }
 
 .intro4{
-	margin-left: 210px;
-	width: 540px;
+	width: 510px;
 	font-size: 20px;
 	font-weight: lighter;
 	line-height: 30px;
 	margin-bottom: 40px;
-	max-width: 100%;
+	margin-right: 30px;
 }
 
-.credit2{
-	position: absolute;
-	margin-left: 785px;
-	margin-top: 265px;
+.phcretwo{
+	width: 240px;
+	margin-top: 10px;
+}
+
+#credit2{
 	font-size: 13px;
 	color: gray;
-	max-width: 100%;
+}
+
+.hr2{
+   border:0;
+   width: 50%;
+   margin-left: 30px;
 }
 
 .movie{
 	font-size: 20px;
 	font-weight: lighter;
 	line-height: 30px;
-	width: 780px;
 	text-align: left;
-	margin-left: 210px;
 	margin-bottom: 30px;
 	margin-top: 50px;
 	max-width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	width: 790px;
 }
 
 .youtube{
-	margin-left: 285px;
 	margin-bottom: 30px;
 	max-width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	width: 560px;
 }
 
 .caption{
@@ -176,30 +172,30 @@ HR{
 	max-width: 100%;
 }
 
-.slideshow{
-	margin-top: 10px;
-	margin-left: 650px;
-	position: absolute;
-	max-width: 100%;
+.floatlight{
+	margin-left: auto;
+	margin-right: auto;
+	width: 790px;
 }
 
 .light1{
 	text-align: left;
-	margin-left: 210px;
-	width: 400px;
 	font-size: 20px;
 	font-weight: lighter;
 	line-height: 30px;
 	max-width: 100%;
+	width: 300px;
+	margin-right: 30px;
 }
 
 .light2{
 	font-size: 20px;
 	font-weight: lighter;
 	line-height: 30px;
-	width: 780px;
+	width: 790px;
 	text-align: left;
-	margin-left: 210px;
+	margin-left: auto;
+	margin-right: auto;
 	margin-bottom: 30px;
 	margin-top: 30px;
 	max-width: 100%;
@@ -207,61 +203,118 @@ HR{
 
 .tweet{
     margin-bottom: 30px;
-	margin-left: 285px;
 	max-width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	width: 530px;
 }
 
-img {
-    opacity: 0.6;
-    filter: alpha(opacity=50);
+
+a:link {
+	color: #06648A;
 }
 
-img:hover {
-    opacity: 1.0;
-    filter: alpha(opacity=100);
+a:visited{
+	color: #06648A;
 }
 
-a:hover{
-	color: black;
+.opening1:hover{
+color: gray;
 }
+
+.suicide1:hover{
+color: gray;
+}
+
+.shooting1:hover{
+color: gray;
+}
+
+.deck1:hover{
+color: gray;
+}
+
+.broadcast1:hover{
+	color:gray;
+}
+
+.bold{
+	font-weight: bold;
+}
+
+.opening2, .suicide2, .shooting2, .deck2, .broadcast2{
+	font-size: 20px;
+	font-weight: lighter;
+	line-height: 30px;
+	width: 790px;
+	text-align: left;
+	margin-bottom: 30px;
+	max-width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	display: none;
+}
+
+.opening1, .suicide1, .shooting1, .deck1, .broadcast1{
+	font-size: 25px;
+	line-height: 30px;
+	width: 790px;
+	text-align: left;
+	margin-bottom: 30px;
+	max-width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+	font-weight: bold;
+}
+
 
 @media (max-width: 480px){
-.headline{
-	font-size: 30px;
+#media img{
+	width: 20px;
 }
-.subhead{
-	font-size: 15px;
+#facebook img{
+	margin-left: 0px;
 }
-.media img{
-	width: 10px;
-}
-.byline{
-	font-size: 10px;
-}
+
 .captial{
-	font-size: 30px;
+	font-size: 25px;
 }
+
+.intro{
+	margin-top: 15%;
+}
+
 .intro1, .intro2, .intro3, .intro4, .movie, .light1, .light2{
 	font-size: 15px;
 	margin-left: 0px;
-	max-width: 100%;
+	width: 480px;
 }
-.white{
-	margin-top: 200px;
+
+.opening2, .suicide2, .shooting2, .deck2, .broadcast2{
+	font-size: 15px;
 }
+
+.opening1, .suicide1, .shooting1, .deck1, .broadcast1{
+	font-size: 20px;
+}
+
+.floatone{
+	float: none;
+}
+
 .map{
 	margin-left: 0px;}
 
 .photo1, .photo2{
 	margin-left: 0px;
-	position: relative;
 	margin-top: 5px;
-	margin-bottom: 5px
+	margin-bottom: 5px;
 }
 
 .credit1, .credit2{
 	margin-left: 0px;
-	position: relative;
+	margin-bottom: 5px;
 }
 
 .youtube{
@@ -273,8 +326,8 @@ a:hover{
 	font-size: 10px;
 	margin-bottom: 30px;
 }
+
 .tweet{
     margin-bottom: 30px;
-	margin-left: 0px;
-}
+    margin-left: 0px;
 }

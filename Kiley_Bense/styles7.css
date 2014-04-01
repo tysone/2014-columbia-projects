@@ -1,0 +1,86 @@
+.ireland {
+	margin-left: -150px;
+	margin-bottom: 20px;
+}
+
+.image {
+	float: left;
+	margin-right: 20px;
+	margin-bottom: -10px;
+	margin-top: -5px;
+}
+
+a {
+	color: #55BD33;
+	text-decoration: none;
+}
+
+h1 {
+	font-family: "Fette Steinschrift",Helvetica,sans-serif;
+	font-weight: bold;
+	text-transform: uppercase;
+	margin-top: 80px;
+	font-size: 100px;
+	text-align: left;
+	line-height: 110px;
+	margin-bottom: 30px;
+	
+	
+
+}
+
+p {
+	font-family: georgia;
+	text-align: justify;
+	line-height: 24px;
+
+}
+
+.topgraf {
+	font-size: 25px;
+	font-family: georgia;
+	line-height: 30px;
+	text-align: justify;
+	margin-top: 50px;
+}
+
+.topgraf2 {
+	font-size: 25px;
+	font-family: georgia;
+	line-height: 30px;
+	text-align: justify;
+	margin-top: 80px;
+
+}
+.topgraf3 {
+ 	font-size: 25px;
+ 	font-family: georgia;
+ 	line-height: 30px;
+ 	text-align: justify;
+ 	margin-top: 100px;
+ }
+.drop {
+	font-size: 80px;
+	font-family: "fette steinschrift",helvetica,sans-serif;
+	font-weight: bold;
+	margin-bottom: 1px;
+	float: left;
+	margin-right: 7px;
+}
+
+h2 {
+	font-family: georgia;
+	text-align: left;
+}
+
+
+
+h3 {
+	font-family: georgia;
+	text-align: left;
+}
+
+.video {
+	text-align: center;
+}
+

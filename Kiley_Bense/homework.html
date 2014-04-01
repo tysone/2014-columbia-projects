@@ -1,0 +1,51 @@
+<html>
+<head>
+	<title>title</title>
+	<style>
+	.rectangle {
+		height: 300px;
+		width: 300px;
+		margin: 20px;
+		background-color: blue;
+	}
+
+	.rectangle-clicked {
+		background-color: red;
+
+	}
+
+	.rectangle-width {
+		width: 600px;
+	}
+
+	.rectangle-border {
+		border-radius: 30px;
+	}
+	</style>
+</head>
+
+<body>
+
+<div class="rectangle" id="rectangle-1"></div>
+<div class="rectangle" id="rectangle-2"></div>
+<div class="rectangle" id="rectangle-3"></div>
+
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script>
+$('#rectangle-1').on('click', function() {
+	$(this).toggleClass('rectangle-clicked');
+});
+ 
+$('#rectangle-2').on('click', function(){
+	$(this).toggleClass('rectangle-width');
+})
+
+$('#rectangle-3').on('click', function(){
+	$(this).toggleClass('rectangle-border');
+})
+</script>
+</body>
+
+
+</html>

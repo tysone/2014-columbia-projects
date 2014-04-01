@@ -1,7 +1,145 @@
+html, body {
+		margin-left:10%;
+		margin-right:10%;
+		padding: 0;
+		border: 0;
+max-width: 960px;
+}
+
 .wrapper {
-	margin-left: 0px;
+	height:100%;
 }
-img.lrg {
-	width: 1200px;
-	height: 1920px;
+
+.openingimage {
+	text-align: center;
+	margin-top: 10px;
+	position: absolute;
+	z-index: 1;
 }
+
+.openingimage2 {
+	margin-top: 20px;
+}
+
+.headline {z-index: 2;
+position: relative;
+margin-right: 5%;
+margin-left:70%;
+padding-top: 80px;
+margin-top: 20px;
+height:500px;
+text-align: left;
+max-width: 100%;
+display: none;
+}
+
+.sub2 {width: 960px;
+margin-left:10%;
+margin-right:10%;}
+
+h1 {font: bold 72px Helvetica;
+color:white;
+text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.text {float:left;
+	width:250px;}
+
+.subhead {
+padding-top: 40px;
+margin-top: 40px;
+text-align: left;
+width: 900px;
+height: 100%;
+}
+.subhead1 {
+padding-top: 10px;
+margin-top: 10px;
+text-align: left;
+width: 900px;
+height: 100%;
+}
+h2 {font: bold 36px Helvetica;
+	color:black;
+	text-align: right;
+	}
+
+h3 {font: 24px Helvetica;
+	color:black;
+	text-align: right;
+	}
+
+p {font: 18px Arial;
+color: black;}
+
+blockquote {font: bold 60px Helvetica;
+color: white;
+text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+text-align: right;}
+
+.leftcap{
+	font: 12px Arial;
+	text-align: left;
+	margin-top: 20px
+}
+
+.rightcap{font: 12px Arial;
+	text-align: right;
+	margin-top: 15px;}
+
+.apolloimage {
+	float:right;
+}
+
+.clear {
+	clear:left;
+}
+
+.vertical{
+	float:left;
+	padding-bottom: 20px;
+}
+
+.text2 {float:left;
+padding-left: 20px;}
+
+.vertical2{
+float: right;
+padding-bottom: 20px;
+}
+
+.music {float:right;
+text-align: right;}
+
+.gladys1 {float:left;
+text-align: left}
+
+.headline2 {z-index: 2;
+position: relative;
+margin-right: 10%;
+margin-left:10%;
+padding-top: 200px;
+margin-top: 40px;
+height:430px;
+text-align: center;
+max-width: 100%;
+}
+
+.intro {text-align: right}
+
+
+@media (max-width: 800px) { 
+		h1 {
+			font: bold 42px Helvetica;
+			color:white; 
+		text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;}
+
+	}
+
+@media (max-width: 400px) { 
+		h1 {
+			font: bold 22px Helvetica;
+			color:white; 
+		text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;}
+
+	}
