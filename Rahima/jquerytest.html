@@ -1,0 +1,93 @@
+<html>
+
+<head>
+  <title>Using jQuery to select HTML elements</title>
+
+<style>
+
+  body {
+    background-color: #f7f7f7;
+  }
+
+  .rectangle-1 {
+    width: 100px;
+    height: 100px;
+    margin: 20px ;
+    background-color: blue;
+}
+    .rectangle-2 {
+    width: 100px;
+    height: 100px;
+    margin: 20px ;
+
+    background-color: red;
+}
+    .rectangle-3 {
+    width: 100px;
+    height: 100px;
+    margin: 20px ;
+    background-color: green;
+    
+
+
+  }
+
+  .rectangle-1-clicked {
+    background-color: black;
+  }
+
+  .rectangle-2-clicked {
+    width: 200px;
+  }
+
+.rectangle-3-clicked {
+   border-radius: 50px;
+  }
+
+</style>
+
+</head>
+
+<body>
+
+  <h1>Using jQuery to select HTML elements</h1>
+
+  <div class="rectangle-1" id="rectangle-1">hello there</div>
+
+  <div class="rectangle-2" id="rectangle-2"></div>
+
+  <div class="rectangle-3" id="rectangle-3"></div>
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script>
+
+$('#rectangle-1').on('click', function() {
+
+  $(this).addClass('rectangle-1-clicked');
+
+});
+
+$('#rectangle-2').on('click', function() {
+
+  $(this).addClass('rectangle-2-clicked');
+
+});
+
+$('#rectangle-3').on('click', function() {
+
+  $(this).addClass('rectangle-3-clicked');
+
+});
+
+ // $(this).html('oh hi there');
+
+// var firstrectangle= $('#rectangle-1');
+
+// firstrectangle.on ( 'click', function)
+
+
+</script>
+
+</body>
+
+</html>
