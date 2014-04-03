@@ -3,6 +3,19 @@ body{
 	max-width: 100%;
 }
 
+.show1,.show2,.show3,.show4,.show5,.show6{
+	font-size: 13px;
+	color: #06648A;
+}
+
+#flicker2 img {
+  margin: 10px;
+  border: 1px solid #333;
+}
+
+#temp{
+	color: #06648A;
+}
 #back{
 	width: 100%;
 	height: 100%;
@@ -201,6 +214,19 @@ body{
 	max-width: 100%;
 }
 
+.light3{
+	font-size: 16px;
+	font-weight: lighter;
+	line-height: 30px;
+	width: 790px;
+	text-align: left;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 30px;
+	margin-top: 30px;
+	max-width: 100%;
+}
+
 .tweet{
     margin-bottom: 30px;
 	max-width: 100%;
@@ -209,6 +235,7 @@ body{
 	width: 530px;
 }
 
+
 a:link {
 	color: #06648A;
 }
@@ -216,6 +243,61 @@ a:link {
 a:visited{
 	color: #06648A;
 }
+
+.show1:hover{
+color: gray;
+}
+
+.show2:hover{
+color: gray;
+}
+
+.show3:hover{
+color: gray;
+}
+
+.show4:hover{
+color: gray;
+}
+
+.show5:hover{
+color: gray;
+}
+
+.show6:hover{
+color: gray;
+}
+
+.bold{
+	font-weight: bold;
+}
+
+.opening2, .suicide2, .shooting2, .deck2, .broadcast2, #flicker2{
+	font-size: 20px;
+	font-weight: lighter;
+	line-height: 30px;
+	width: 790px;
+	text-align: left;
+	margin-bottom: 30px;
+	max-width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	display: none;
+}
+
+.opening1, .suicide1, .shooting1, .deck1, .broadcast1, #flicker1{
+	font-size: 25px;
+	line-height: 30px;
+	width: 790px;
+	text-align: left;
+	margin-bottom: 30px;
+	max-width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+	font-weight: bold;
+}
+
 
 @media (max-width: 480px){
 #media img{
@@ -239,6 +321,14 @@ a:visited{
 	width: 480px;
 }
 
+.opening2, .suicide2, .shooting2, .deck2, .broadcast2, .flicker2{
+	font-size: 15px;
+}
+
+.opening1, .suicide1, .shooting1, .deck1, .broadcast1, .flicker1{
+	font-size: 20px;
+}
+
 .floatone{
 	float: none;
 }
@@ -249,7 +339,7 @@ a:visited{
 .photo1, .photo2{
 	margin-left: 0px;
 	margin-top: 5px;
-	margin-bottom: 5px
+	margin-bottom: 5px;
 }
 
 .credit1, .credit2{
@@ -266,8 +356,8 @@ a:visited{
 	font-size: 10px;
 	margin-bottom: 30px;
 }
+
 .tweet{
     margin-bottom: 30px;
-	margin-left: 0px;
-}
+    margin-left: 0px;
 }

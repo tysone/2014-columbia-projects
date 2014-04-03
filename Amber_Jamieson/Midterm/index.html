@@ -8,16 +8,16 @@
 
 	</head>
 
+
 	<body>
 		
 
 		<div class="wrapper">
-		<div class="openingimage"><img src="Harlemintroa.jpg" alt="Harlem mural" style="max-width:100%;height:auto;">
+		<div class="openingimage" id="intropic"><img src="Harlemintroa.jpg" alt="Harlem mural" style="max-width:100%;height:auto;">
 	</div>
 
 		<div class="headline"><h1>The heart of Harlem...</h1>
 		</div>
-
 		<div class="subhead">
 			<div class="text"><h2>... beats at W 125th St between Frederick Douglass and Adam Clayton Powell Junior Boulevards.</h2>
 				</div>
@@ -26,7 +26,6 @@
 			</div>
 		<div class="text2"><p>If Harlem is the home of soul music in New York City, then the <b>Apollo Theater</b> on <b>W 125th St</b> is its lounge room. The theater opened in 1934 and quickly became an international icon of the African-American community, hosting stars such as <b>Sam Cooke</b>, <b>The Temptations</b> and <b>Etta James</b>. <b>Ella Fitzgerald</b> was discovered at one of the Apollo's famous "Amateur Nights" in its inaugural year, when she entered to dance and decided to sing at the last minute. The Apollo was just one of several theaters in Harlem that opened as part of the Harlem Renaissance, a highly influential cultural movement in the 1920s and 30s that saw a growth of art, music and writing in African-American communities.</p></div>
 	</div>
-
 	<div class="clear"></div>
 
 	<div class="openingimage2"><img src="door.jpg" alt="Garage door on W 125th" style="max-width:100%;height:auto;">
@@ -53,19 +52,37 @@
 
 	
 
-		<div class="openingimage"><img src="outside.jpg" alt="Apollo Theater" style="max-width:100%;height:auto;">
+		<div class="openingimage" id="finimage"><img src="outside.jpg" alt="Apollo Theater" style="max-width:100%;height:auto;">
 	</div>
 
 		<div class="headline2"><blockquote>"Where stars are born and legends are made"</blockquote>
 		</div>
 	</div>
-		
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>	
+<script>
+	
 
+  $('#intropic').on('click', function() {
+  		
+  		$('.headline').fadeIn('slow');
+ 
+  });
+// 	$('#finimage').on('click', function() {
+//   $('headline2').fadeIn('slow', function() {
+   
+//   });
+		
+// $('openingimage2').on('mouseover',function() {
+// 	$('intro').toggle();
+
+// });
+
+
+		</script>
 
 		
 	</div>
 
-	
 
 		</div>
 	</body>
