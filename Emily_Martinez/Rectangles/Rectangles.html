@@ -6,6 +6,8 @@
 </head>
 <body>
 <h1>Don't Be a Square</h1>
+
+<p>The weather today in New York is <span id="temp"></span></p>
 <div id="wrapper">
 <div class="square" id="one"></div>
 <div class="square" id="two"></div>
@@ -19,6 +21,11 @@ $("#two").click(function(){$("#two").toggleClass("width");
 });
 $("#three").click(function(){$("#three").toggleClass("round");
 });
+
+ $.getJSON('http://api.openweathermap.org/data/2.5/weather?q=New%20York,USA&units=imperial', function(data){
+       $('#temp').text(data.main.temp + ' degrees');
+      })
+
 </script>
 </body>
 
