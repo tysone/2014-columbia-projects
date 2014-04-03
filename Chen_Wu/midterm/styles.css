@@ -3,6 +3,19 @@ body{
 	max-width: 100%;
 }
 
+.show1,.show2,.show3,.show4,.show5,.show6{
+	font-size: 13px;
+	color: #06648A;
+}
+
+#flicker2 img {
+  margin: 10px;
+  border: 1px solid #333;
+}
+
+#temp{
+	color: #06648A;
+}
 #back{
 	width: 100%;
 	height: 100%;
@@ -201,6 +214,19 @@ body{
 	max-width: 100%;
 }
 
+.light3{
+	font-size: 16px;
+	font-weight: lighter;
+	line-height: 30px;
+	width: 790px;
+	text-align: left;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 30px;
+	margin-top: 30px;
+	max-width: 100%;
+}
+
 .tweet{
     margin-bottom: 30px;
 	max-width: 100%;
@@ -218,31 +244,35 @@ a:visited{
 	color: #06648A;
 }
 
-.opening1:hover{
+.show1:hover{
 color: gray;
 }
 
-.suicide1:hover{
+.show2:hover{
 color: gray;
 }
 
-.shooting1:hover{
+.show3:hover{
 color: gray;
 }
 
-.deck1:hover{
+.show4:hover{
 color: gray;
 }
 
-.broadcast1:hover{
-	color:gray;
+.show5:hover{
+color: gray;
+}
+
+.show6:hover{
+color: gray;
 }
 
 .bold{
 	font-weight: bold;
 }
 
-.opening2, .suicide2, .shooting2, .deck2, .broadcast2{
+.opening2, .suicide2, .shooting2, .deck2, .broadcast2, #flicker2{
 	font-size: 20px;
 	font-weight: lighter;
 	line-height: 30px;
@@ -255,7 +285,7 @@ color: gray;
 	display: none;
 }
 
-.opening1, .suicide1, .shooting1, .deck1, .broadcast1{
+.opening1, .suicide1, .shooting1, .deck1, .broadcast1, #flicker1{
 	font-size: 25px;
 	line-height: 30px;
 	width: 790px;
@@ -291,11 +321,11 @@ color: gray;
 	width: 480px;
 }
 
-.opening2, .suicide2, .shooting2, .deck2, .broadcast2{
+.opening2, .suicide2, .shooting2, .deck2, .broadcast2, .flicker2{
 	font-size: 15px;
 }
 
-.opening1, .suicide1, .shooting1, .deck1, .broadcast1{
+.opening1, .suicide1, .shooting1, .deck1, .broadcast1, .flicker1{
 	font-size: 20px;
 }
 

@@ -1,0 +1,19 @@
+body {background: #56C5C5;}
+h1 {color: white;
+font-family: helvetica;
+font-weight: 100;
+font-size: 50px;}
+.square {height: 200px; width: 200px;	
+	background-color: white;
+border: solid;
+border-color: gray;
+border-width: 1px;}
+#one {float: left;}
+#two {float: right;
+background: #585858;}
+#three {float: right;
+background: #797979;}
+#wrapper {width: 606px;}
+.color {background: red;}
+.width {width: 400px;}
+.round {border-radius: 200px;}
