@@ -91,7 +91,8 @@ em {font-size: 30px;
 		padding-top: 20px;
 		color: white;
 		padding-right: 10%;}
-.scroll {float: right;}
+.scroll {float: right;
+display: none;}
 
 
 
@@ -179,8 +180,8 @@ p 	{color: white;
 		margin-top: 110%;
 		padding-right: 5%;}
 .expanded {margin-top: 5%;
-height: 100%;
-overflow: scroll;}
+		height: 100%;
+		overflow: scroll;}
 
 #title {color: white;
 		font-size: 30px;
@@ -218,7 +219,7 @@ em {float: right;
 		width: 100%;
 		background-color: black;
 		padding-right: 5%;} 
-
+.scroll {display: inherit;}
 	}
 
 
