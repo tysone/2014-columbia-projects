@@ -14,7 +14,13 @@
 		height: 300px;
 		margin: 20px 0;
 		background-color: green;
+		color: white;
+		font-size: 30px;
 	}
+
+/*	#rectangle-1 {
+		background-color: blue;
+	}*/
 
 	.rectangle-clicked {
 		background-color: red;
@@ -32,7 +38,7 @@
 
 	<h1>Using jQuery to select HTML elements</h1>
 
-	<div class="rectangle" id="rectangle-1"></div>
+	<div class="rectangle" id="rectangle-1"><span id="word-1">HELLO</span> <span id="word-2">THERE</span></div>
 
 	<div class="rectangle" id="rectangle-2"></div>
 
@@ -42,13 +48,28 @@
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 <script>
 
-$('.rectangle').on('click', function() {
-	$(this).addClass('rectangle-clicked');
+// var r = $('#rectangle-1');
+
+$('#rectangle-1').on('mouseover', function() {
+
+	$(this).toggleClass('rectangle-clicked');	
+
 });
 
+// // IDs
 // $('#rectangle-1').on('click', function() {
-// 	$(this).addClass('rectangle-wide');
-// })
+// 	$(this).addClass('rectangle-clicked');
+// });
+
+// // Classes
+// $('.rectangle').on('click', function() {
+// 	$(this).addClass('rectangle-clicked');
+// });
+
+// // Tag
+// $('div').on('click', function() {
+// 	$(this).addClass('rectangle-clicked');
+// });
 
 </script>
 
