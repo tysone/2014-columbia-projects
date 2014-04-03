@@ -162,7 +162,7 @@
             <br>
 
             <span class="light3">
-            (The weather in New York today is <a href="http://openweathermap.org/city/5128581" target="_blank"><span id="temp"></span></a> degree.)</span>
+            (The weather in New York today is <a href="http://openweathermap.org/city/5128581" target="_blank"><span id="temp"></span></a> degree and <a href="http://openweathermap.org/city/5128581" target="_blank"><span id="weather"></span></a>.)</span>
 
             <br><br/>
 
@@ -203,6 +203,7 @@
     });
 
     $.getJSON('http://api.openweathermap.org/data/2.5/weather?q=New%20York,USA&units=imperial', function(data){
+       $('#weather').text(data.weather[0].description + '');
        $('#temp').text(data.main.temp);
 
       });
