@@ -1,0 +1,9 @@
+body {
+  background-color: #ccc;
+}
+
+.slider {
+  width: 300px;
+  height: 300px;
+  margin: auto;
+}

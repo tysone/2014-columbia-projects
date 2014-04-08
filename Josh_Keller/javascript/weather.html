@@ -1,0 +1,38 @@
+<html>
+  <head>
+    <title>My Page Title</title>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+ 
+    <style type="text/css">
+      #temp {font-weight: bold; background-color: yellow;}
+    </style>
+ 
+  </head>
+  <body>
+    <h1>The Weather Today!</h1>
+ 
+    <p>The weather today in New York is <span id="description"></span> and the temperature is <span id="temp"></span></p>
+ 
+    <script type="text/javascript">
+
+      function add(num1, num2) {
+        return num1 + num2;
+      }
+
+      function processData(data) {
+        console.log(data);
+
+        $('#description').text(data.weather[0].description + '');
+        $('#temp').text(data.main.temp);
+      }
+
+      // console.log(add('word', 4));
+
+      $('#id').css('margin-top', '5px');
+
+
+      $.getJSON('http://api.openweathermap.org/data/2.5/weather?q=New%20York,USA&units=imperial', processData)
+    </script>
+ 
+  </body>
+</html>
