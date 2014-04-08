@@ -6,52 +6,49 @@
 		<link rel="stylesheet" type="text/css" href="css/styles.css">
 
 		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+		<script src="mulberrystreet.js" type="text/javascript"></script>
 	</head>
 
 	<body>
 
-		<div id="wrapper" class="container_12">
+		<div id="wrapper">
 
-			<div id="headline" class="grid_12">
+			<div id="firstphoto">
+				
+			</div>
+
+			<div id="header">
 				<h1>Mulberry Street</h1>
 				<h2 id="subhead">The Heart of Little Italy</h2>
 				<h3>By: Daniel Wroclawski</h3>
-				<h4>Show/Hide Text</h4>
-			</div>
-
-			<div id="firstphoto" class="prefix_1 grid_11">
-				<img src="images/little italy sign.jpg">
-			</div>
-
-			<div class="text prefix_3 grid_6 suffix_3">
 				<p>Little Italy has been on an unfortunate decline for years. Chinatown has grown up and around the neighborhood. The New York Times <a href="http://www.nytimes.com/2011/02/22/nyregion/22littleitaly.html?pagewanted=all">reported</a> on the neighborhood's dwindling population in 2011 and found that only five percent of the population was of Italian descent. It was even concluded that there was not one person living in the neighborhood who was born in Italy.</p>
 				<p>Despite the dwindling Italian population, there are still holdouts. Mulberry Street is still alive and well, filled with Italian restaurants, cafes, and the occasional bakery.</p>
 			</div>
 
-			<div class="grid_4 alpha">
+			<div>
 				<img src="images/ferrara sign.jpg">
 			</div>
-			<div class="grid_8 omega">
+			<div>
 				<img src="images/ferrara tile.jpg">
 			</div>
 
-			<div class="subhead grid_4 suffix_8">
+			<div>
 				<h2>Ferrara</h2>
 			</div>
 
-			<div class="text prefix_3 grid_6 suffix_3">
+			<div>
 				<p>The most well-known bakery is Ferrara, which is just off of Mulberry on Grand Street. The over 120-year-old institution is known around the world and will ship its Italian pastries right to your door.</p>
 			</div>
 
-			<div class="grid_12">
+			<div>
 				<img src="images/caffe roma.jpg">
 			</div>
 
-			<div class="subhead grid_4 suffix_8">
+			<div>
 				<h2>Caffe Roma</h2>
 			</div>
 
-			<div class="text prefix_3 grid_6 suffix_3">
+			<div>
 				<p>Caffe Roma, a block up Mulberry on the corner of Broome Street, is just as old as Ferrara's, but not as well-known. It is also a bakery and cafe <a href="http://nymag.com/listings/stores/caffe-roma/">known</a> for its own hard-to-pronounce Italian treats like sfogliatella and pasticciotto.</p>
 			</div>
 
@@ -101,15 +98,12 @@
 				<img src="images/tables.jpg">
 			</div>
 
-			
+			<div class="grid_12">
+				<h4 id="flickr">Click here to see more photos! Courtesy of Flickr</h4>
+			</div>
+			<div class="grid_12"id="flickrPhotos"></div>
 
 		</div>
-
-		<script>
-		$('h4').click(function(){
-			$('p').toggle();
-		});
-		</script>
 
 	</body>
 </html>
