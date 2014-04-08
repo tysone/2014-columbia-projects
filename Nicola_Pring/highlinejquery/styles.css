@@ -93,7 +93,7 @@ h2 {
 }
 
 .description {
-	width: 375px;
+	width: 300px;
 	height: 100px;
 	margin-left: 5px;
 	color: #E0E0E0;
@@ -169,6 +169,7 @@ h2 {
 	margin-left: 2px;
 	margin-top: 10px;
 	color: #E0E0E0;
+	width: 300px;
 }
 
 p {
@@ -225,7 +226,7 @@ p {
 
 }
 
-@media (width: 400px) {
+@media (min-device-width: 320px) and (max-device-width: 568px){
 
 #wrapper {
 	background-color: #1F1F1F;
@@ -234,7 +235,7 @@ p {
 }
 
 .page {
-	width: 400px;
+	width: 320px;
 	min-height: 7000px;
 	margin-left: auto;
 	margin-right: auto;
@@ -301,7 +302,7 @@ h2 {
 }
 
 .description {
-	width: 375px;
+	width: 300px;
 	height: 100px;
 	margin-left: 5px;
 	color: #E0E0E0;
@@ -312,9 +313,8 @@ h2 {
 	margin-left: auto;
 	margin-right: auto;
 	margin-bottom: 10px;
-	max-width: 100%;
+	width: 300px;
 	height: auto;
-
 }
 
 #two {
@@ -388,7 +388,7 @@ p {
 }
 
 #footer {
-	width: 1000px;
+	width: 320px;
 	height: 20px;
 	background-color: #E0E0E0;
 	margin-left: auto;
@@ -402,7 +402,7 @@ p {
 	font-size: 12px;
 	margin-left: auto;
 	margin-right: auto;
-	width: 400px;
+	width: 320px;
 	height: 25px;
 
 }
@@ -424,7 +424,7 @@ p {
 }
 
 #weather-box {
-	width: 320px;
+	width: 300px;
 	height: 90px;
 	border: 2px solid #E0E0E0;
 	margin-top: 250px;
