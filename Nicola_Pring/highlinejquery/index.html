@@ -12,13 +12,14 @@
 <body id="wrapper">
 <div class="page">
 
+
+		<h1> The High Line </h1>
+		<h2> an art lover's guide </h2>
+
 	<div id="introphoto"> 
 		<img src= "http://i.imgur.com/v3xEUts.jpg?2"
 		alt= "High Line"
 		title= "High Line"/>
-		<div class="transbox"> </div>
-		<h1> The High Line </h1>
-		<h2> an art lover's guide </h2>
 		<figcaption class="caption"> David Berkowitz via Flickr </figcaption>
 	</div>
 
@@ -34,7 +35,8 @@
 		<div class="photo">
 		<img src= "http://i.imgur.com/DzrIvmq.jpg?1"
 		alt= "Pan"
-		title= "Pan"/>
+		title= "Pan"
+		style="max-width:100%;height:auto"/>
 		</div>
 
 		<div class="description">
@@ -172,8 +174,8 @@
 <script type="text/javascript">
 
 	$.getJSON('http://api.openweathermap.org/data/2.5/weather?lat=40.741940&lon=-74.007764&units=imperial',function(data){
-       $('#temp').text(data.main.temp + ' degrees and');
-       $('#description').text(data.weather[0].description);
+       $('#temp').text(data.main.temp + ' degrees and' );
+       $('#description').text(data.weather[0].description + '.');
       })
 
 
