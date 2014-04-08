@@ -1,0 +1,16 @@
+.panel1 {
+  background-color: pink;
+}
+
+.panel2 {
+  background-color: yellow;
+}
+
+.panel3 {
+  background-color: #ccc;
+}
+
+h3, p {
+  margin: 0 200px;
+  padding: 50px;
+}
