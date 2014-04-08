@@ -8,6 +8,12 @@ $("#flickr").click(function(){
 });
 */
 
+$('#header').blurjs({
+	source: '#firstphoto',			//Background to blur
+	radius: 5,			//Blur Radius
+	overlay: ''
+});
+
 var flickerAPI = "https://api.flickr.com/services/feeds/groups_pool.gne?jsoncallback=?";
 
 $.getJSON(flickerAPI, {
