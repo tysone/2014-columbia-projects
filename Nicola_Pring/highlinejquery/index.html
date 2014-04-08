@@ -28,6 +28,8 @@
 
 	<div id="mapkey"> The High Line currently runs from Gansevoort Street to West 30th Street. Click each point for a preview of the artwork there. </div>
 
+	<div id="weather-box"> <p id="weather"> The weather at the High Line is currently: <span id="temp"> </span> <span id="description"></span> </p> </div>
+
 	<div id="one">
 		<div class="photo">
 		<img src= "http://i.imgur.com/DzrIvmq.jpg?1"
@@ -167,63 +169,17 @@
 <div id="copyright"> <p id="copy"> Photographs &copy; 2014 <ahref="www.nicolapring.com"> Nicola Pring </a>, except where otherwise noted. </p> </div>
 
 
-<script>
+<script type="text/javascript">
 
-	$('h1').hover(function(){
-		$('h1').fadeToggle(1200);
-		})
-
-	$('h2').hover(function(){
-		$('h2').fadeToggle(1200);
-		})
-
-	$('#one').click(function(){
-		$('#one').fadeOut(1200);
-	})
-
-	$('#two').click(function(){
-		$('#two').fadeOut(1200);
-	})
+	$.getJSON('http://api.openweathermap.org/data/2.5/weather?lat=40.741940&lon=-74.007764&units=imperial',function(data){
+       $('#temp').text(data.main.temp + ' degrees and');
+       $('#description').text(data.weather[0].description);
+      })
 
 
-	$('#three').click(function(){
-		$('#three').fadeOut(1200);
-	})
-
-
-	$('#four').click(function(){
-		$('#four').fadeOut(1200);
-	})
-
-
-	$('#five').click(function(){
-		$('#five').fadeOut(1200);
-	})
-
-
-	$('#six').click(function(){
-		$('#six').fadeOut(1200);
-	})
-
-
-	$('#seven').click(function(){
-		$('#seven').fadeOut(1200);
-	})
-
-
-	$('#eight').click(function(){
-		$('#eight').fadeOut(1200);
-	})
-
-		$('#nine').click(function(){
-		$('#nine').fadeOut(1200);
-	})
-
-
-	$('#ten').click(function(){
-		$('#ten').fadeOut(1200);
-	})
-
+//	 $('#one').on('click', function(){
+//	$('img').addClass('highlight');
+// })
 
 
 </script>

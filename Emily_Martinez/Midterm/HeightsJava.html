@@ -25,7 +25,7 @@
 
 		<div class="quote" id="box1">
 			<div class="scroll"><img src="Media/expand.jpg" height="20" width="20"></div>
-		<div id="quot1" >&ldquo;Well, you have <br>to be strong.&rdquo;</q><br></div>
+		<div>&ldquo;Well, you have <br>to be strong.&rdquo;</q><br></div>
 			<audio controls class="audio">
 			  <source src="Media/Audio/Abuelita.mp3" type="audio/mpeg">
 			  <embed height="50" width="100" src="Media/Audio/Abuelita.mp3">
@@ -41,7 +41,7 @@
 <div id="image2">
 	<div class="quote" id="box2">
 		<div class="scroll"><img src="Media/expand.jpg" height="20" width="20"></div>
-		<div id="quot2">&ldquo;Moro de gandules, <br>unos tostonsitos, aguacate...&rdquo;<br></div>
+		<div>&ldquo;Moro de gandules, <br>unos tostonsitos, aguacate...&rdquo;<br></div>
 			<p class="name"><b>Euclides Nunez, 76</b></p>
 			<p class="content">Those are some of Euclides' favorite foods, all traditional Dominican dishes. If Juana and Euclides seem to look alike, it's because they're siblings. They live a block away from one another, and they both have Alzheimer's. When I showed her a photo of him my grandmother said, "Isn't he dead?" No, that's another brother. Delighted, she asked, <q>How did he look? Gordito?</q> Yes. 
 		
@@ -52,7 +52,7 @@
 <div id="image3">
 	<div class="quote" id="box3">
 		<div class="scroll"><img src="Media/expand.jpg" height="20" width="20"></div>
-		<div id="quot3">&ldquo;Hoping for health, even a little bit.&rdquo;<br></div>
+		<div>&ldquo;Hoping for health, even a little bit.&rdquo;<br></div>
 			<audio controls class="audio">
 			  <source src="Media/Audio/Nunez.mp3" type="audio/mpeg">
 			  <embed height="50" width="100" src="Media/Audio/Nunez.mp3">
@@ -67,7 +67,7 @@
 <div id="image4">
 	<div class="quote" id="box4">
 		<div class="scroll"><img src="Media/expand.jpg" height="20" width="20"></div>
-		<div id="quot4">&ldquo;Education <br>will carry <br>you forward.&rdquo;<br></div>
+		<div>&ldquo;Education will <br>carry you forward.&rdquo;<br></div>
 			<audio controls class="audio">
 			  <source src="Media/Audio/Miguel.mp3" type="audio/mpeg">
 			  <embed height="50" width="100" src="Media/Audio/Miguel.mp3">
@@ -79,7 +79,7 @@
 
 <div id="image5">
 	<div class="quote" id="box5">
-		<div id="quot5"><div class="scroll"><img src="Media/expand.jpg" height="20" width="20"></div>
+		<div><div class="scroll"><img src="Media/expand.jpg" height="20" width="20"></div>
 		&ldquo;I'm always among<br> my family.&rdquo;<br></div>
 	<audio controls class="audio">
 			  <source src="Media/Audio/Francisco.mp3" type="audio/mpeg">
@@ -93,15 +93,11 @@
 </div>
 
 <script>
-var quo = $(".quot")
 
 
-$(".scroll").click(function(){
-	$("#box1").toggleClass("expanded")});
-$(".scroll").click(function(){$("#box2").toggleClass("expanded")});
-$(".scroll").click(function(){$("#box3").toggleClass("expanded")});
-$(".scroll").click(function(){$("#box4").toggleClass("expanded")});
-$(".scroll").click(function(){$("#box5").toggleClass("expanded")});
+
+$(".scroll").click(function(){$(".quote").toggleClass("expanded")});
+
 
 </script>
 
