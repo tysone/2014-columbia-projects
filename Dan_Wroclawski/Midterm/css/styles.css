@@ -35,6 +35,7 @@ h3 {
 
 body {
 	background-color: black;
+	margin: 0px;
 }
 
 @import url(http://fonts.googleapis.com/css?family=Droid+Serif);
