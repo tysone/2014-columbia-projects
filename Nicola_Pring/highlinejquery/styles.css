@@ -173,7 +173,7 @@ p {
 	color: blue;
 }
 
-@media (max-width: 400px){
+@media (max-width: 320px){
 
 #wrapper {
 	background-color: #1F1F1F;
