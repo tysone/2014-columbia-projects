@@ -173,7 +173,7 @@ p {
 	color: blue;
 }
 
-@media (max-width: 320px){
+@media (max-width: 400px){
 
 #wrapper {
 	background-color: #1F1F1F;
@@ -194,7 +194,6 @@ p {
 }
 
 h1 {
-	bottom: 450px;
 	font-size: 60px;
 	font-family: 'News Cycle', sans-serif;
 	color: #E0E0E0;
