@@ -5,8 +5,9 @@ $.getJSON( flickerAPI, {
   format: "json"
 }).done(function( data ) {
     $.each( data.items, function(i, item) {
-      $("<a>", {"href": item.link})
-      .append($( "<img>" ).attr( "src", item.media.m ))
+      console.log(item);
+      $("<a>").attr("href", item.link)
+      .append($("<img>").attr("src", item.media.m ))
       .appendTo( "#photos" );
     });
   });

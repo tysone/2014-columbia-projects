@@ -1,11 +1,21 @@
 <html>
 <head>
 <title>Hamilton Heights</title>
+
 <link href="heightsstyle2.css" rel="stylesheet" type="text/css" />
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link href='http://fonts.googleapis.com/css?family=Playfair+Display+SC:400,700,900' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Josefine+SlabCinzel+Decorative|Stoke:300,400|Cinzel:400,700,900|Wire+One|Balthazar|IM+Fell+French+Canon+SC|Jacques+Francois|Forum|Playfair+Display+SC:400,700,900|Neuton:200,300,400,700,400italic|Oswald|Libre+Baskerville:400,700&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+
+
+
+<meta charset="utf-8"> 
+
+
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+
+
 </head>
+
 
 <body>
 
@@ -15,7 +25,7 @@
 	
 
 
-	<div id="titlebox"><h1 id="title">80 &amp Approaching: <br>Growing Old in Hamilton Heights <br><em>By Emily Martinez</em></div>
+	<div id="titlebox"><h1 id="title">80 &amp Approaching: <br><br>Growing Old in Hamilton Heights <br><b class="name">By Emily Martinez</b></div>
 	</div>
 
 
@@ -25,7 +35,15 @@
 
 		<div class="quote" id="box1">
 			<div class="scroll"><img src="Media/expand.jpg" height="20" width="20"></div>
-		<div id="quot1" >&ldquo;Well, you have <br>to be strong.&rdquo;</q><br></div>
+		<div id="quot1">
+			
+
+			&ldquo;Well, you have <br>to be strong.&rdquo;
+
+
+			<br>
+
+			</div>
 			<audio controls class="audio">
 			  <source src="Media/Audio/Abuelita.mp3" type="audio/mpeg">
 			  <embed height="50" width="100" src="Media/Audio/Abuelita.mp3">
@@ -80,7 +98,7 @@
 <div id="image5">
 	<div class="quote" id="box5">
 		<div id="quot5"><div class="scroll"><img src="Media/expand.jpg" height="20" width="20"></div>
-		&ldquo;I'm always among<br> my family.&rdquo;<br></div>
+		&ldquo;I’m always among<br> my family.&rdquo;<br></div>
 	<audio controls class="audio">
 			  <source src="Media/Audio/Francisco.mp3" type="audio/mpeg">
 			  <embed height="50" width="100" src="Media/Audio/Francisco.mp3">
@@ -93,14 +111,12 @@
 </div>
 
 <script>
-var quo = $(".quot")
 
-
-$(".scroll").click(function(){$("#box1").toggleClass("expanded")});
-$(".scroll").click(function(){$("#box2").toggleClass("expanded")});
-$(".scroll").click(function(){$("#box3").toggleClass("expanded")});
-$(".scroll").click(function(){$("#box4").toggleClass("expanded")});
-$(".scroll").click(function(){$("#box5").toggleClass("expanded")});
+$("#box1 .scroll").click(function(){$("#box1").toggleClass("expanded")});
+$("#box2 .scroll").click(function(){$("#box2").toggleClass("expanded")});
+$("#box3 .scroll").click(function(){$("#box3").toggleClass("expanded")});
+$("#box4 .scroll").click(function(){$("#box4").toggleClass("expanded")});
+$("#box5 .scroll").click(function(){$("#box5").toggleClass("expanded")});
 
 </script>
 

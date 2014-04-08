@@ -1,10 +1,14 @@
+#wrapper {
+	width: 100%;
+}
+
 h1 {
 	font-family: Helvetica, sans-serif;
 	font-size: 80px;
 	font-weight: normal;
 	font-style: normal;
 	font-variant: small-caps;
-	margin-bottom: 0px;
+	margin: 0px;
 }
 
 h2 {
@@ -16,7 +20,7 @@ h2 {
 }
 
 #subhead {
-	margin-top: 0px;
+	margin: 0px;
 }
 
 h3 {
@@ -24,13 +28,14 @@ h3 {
 	font-size: 14px;
 	font-weight: normal;
 	font-style: normal;
-	margin-bottom: 0px;
+	margin-bottom: 10px;
 	padding-bottom: 0px;
 	border-bottom: 0px;
 }
 
 body {
-	background-color: white;
+	background-color: black;
+	margin: 0px;
 }
 
 @import url(http://fonts.googleapis.com/css?family=Droid+Serif);
@@ -40,18 +45,29 @@ p {
 	font-size: 18px;
 	font-weight: normal;
 	font-style: normal;
+	color: white;
 }
 
 #firstphoto {
-	margin-top: 0px;
-	padding-top: 0px;
-	border-top: 0px;
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+	width: 100%;
+	height: 75%;
+	background-image: url("../images/littleItalySign.jpg");
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: left;
+	background-repeat: no-repeat;
 }
 
-img {
-	max-height: 100%;
-	max-width: 100%;
-	margin-top: 50px;
+#header {
+	width: 100%;
+
+}
+
+#photo {
+
 }
 
 #lastphoto {

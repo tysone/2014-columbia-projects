@@ -211,9 +211,10 @@
     var flickerAPI = "http://api.flickr.com/services/feeds/photos_public.gne?jsoncallback=?";
 
     $.getJSON( flickerAPI, {
-    tags: "the empire state building",
+    tags:"the empire state building",
     format: "json"
     }).done(function( data ) {
+    console.log(data)
     $.each( data.items, function(i, item) {
     $("<a>", {"href": item.link})
     .append($( "<img>" ).attr( "src", item.media.m ))

@@ -1,4 +1,5 @@
-body {background-color: black;}
+body {background-color: black;
+margin: 0px;}
 #page {background-color: black;
 		width: 100%;
 		height: 100%;}
@@ -76,23 +77,29 @@ p 	{color: white;
 #titlebox {height: 100%;
 		width: 100%;}
 #title {color: white;
-		font-size: 100px;
-		padding-left: 50px;
+		font-size: 85px;
+		font-style: normal;
+		padding-left: 20px;
 		padding-top: 50px;
 		font-weight: 400;
-		font-family: 'Playfair Display SC', serif;}
+		line-height: 0.87;
+		word-spacing: -0.02em;
+		font-family: 'Josefine Slab', serif;}
 .name {font-size: 25px;
 		font-family: Times;
 		letter-spacing: 1px;
 		padding-right: 20px;
 		line-height: 5px;}
-em {font-size: 30px;
+.name {font-size: 18px;
 		float: right;
-		padding-top: 20px;
+		padding-top: 50px;
 		color: white;
-		padding-right: 10%;}
+		padding-right: 5%;
+		font-weight: 100;
+	font-family: 'georgia', serif;}
 .scroll {float: right;
-display: none;}
+		display: none;}
+audio {display: none;}
 
 
 
@@ -178,11 +185,10 @@ p 	{color: white;
 		background-color: black;
 		opacity: .6;
 		margin-top: 110%;
-		padding-right: 5%;}
+		padding-right: 0;}
 .expanded {margin-top: 5%;
 		height: 100%;
 		overflow: scroll;}
-
 #title {color: white;
 		font-size: 30px;
 		font-weight: 100;
@@ -190,13 +196,13 @@ p 	{color: white;
 		padding-left: 5px;
 		width: 90%;
 		font-weight: 400;
-		font-family: 'Playfair Display SC', serif;}
+		font-family: 'Josefine Slab', serif;}
 body {background-color: black;}
-.content {text-align: justify;
+.content {text-align: left;
 		width: 80%;
-		float: right;}
-#titlebox {
-		height: 50%;}
+		float: right;
+		padding-right: 0;}
+#titlebox {height: 50%;}
 em {float: right;
 		padding-right: 5%;
 		font-size: 18px;}
@@ -213,6 +219,8 @@ em {float: right;
 		float: right;}
  
 .scroll {display: inherit;}
+audio {display: inherit;}
 	}
+
 
 
