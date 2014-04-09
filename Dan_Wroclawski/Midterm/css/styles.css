@@ -9,6 +9,7 @@ h1 {
 	font-style: normal;
 	font-variant: small-caps;
 	margin: 0px;
+	color: white;
 }
 
 h2 {
@@ -17,6 +18,7 @@ h2 {
 	font-weight: normal;
 	font-style: normal;
 	margin-top: 20px;
+	color: white;
 }
 
 #subhead {
@@ -31,6 +33,7 @@ h3 {
 	margin-bottom: 10px;
 	padding-bottom: 0px;
 	border-bottom: 0px;
+	color: white;
 }
 
 body {
@@ -53,21 +56,35 @@ p {
 	padding: 0px;
 	border: 0px;
 	width: 100%;
-	height: 75%;
+	height: 100%;
 	background-image: url("../images/littleItalySign.jpg");
 	background-size: cover;
 	background-attachment: fixed;
 	background-position: left;
 	background-repeat: no-repeat;
+	position: relative;
 }
 
 #header {
 	width: 100%;
-
+	height: 25%;
+	position: absolute;
+	left: 0px;
+	bottom: 0px;
 }
 
-#photo {
-
+#photo2 {
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+	width: 100%;
+	height: 100%;
+	background-image: url("../images/ferrara sign.jpg");
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	position: relative;
 }
 
 #lastphoto {
