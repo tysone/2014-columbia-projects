@@ -123,11 +123,25 @@ img {position: absolute;
 		z-index: -1;
 		max-width: 100%;}
 
-#img {background-size: 100%;}
-#image {background-size: auto 100%;}
-#image2 {background-size: auto 100%;}
-#image3 {background-size: 100%;}
-#image4 {background-size: auto 100%;}
+#img {width: 100%; 
+		background-size: 100%;
+		margin-right: 0px;
+		margin-left: 0px;}
+#image {width: 100%;background-size: auto 100%;
+		margin-right: 0px;
+		margin-left: 0px;}
+#image2 {width: 100%;background-size: auto 100%;
+		margin-right: 0px;
+		margin-left: 0px;}
+#image3 {width: 100%;background-size: 100%;
+		margin-right: 0px;
+		margin-left: 0px;}
+#image4 {width: 100%;background-size: auto 100%;
+		margin-right: 0px;
+		margin-left: 0px;}
+#image5 {width: 100%;background-size: auto 100%;
+		margin-right: 0px;
+		margin-left: 0px;}
 
 p 	{color: white;
 		font-family: Helvetica; 
@@ -160,7 +174,8 @@ p 	{color: white;
 		width: 90%;
 		font-weight: 400;
 		font-family: 'Josefine Slab', serif;}
-body {background-color: black;}
+body {background-color: black;
+		margin: 0;}
 .content {text-align: right;
 		width: 80%;
 		float: right;
