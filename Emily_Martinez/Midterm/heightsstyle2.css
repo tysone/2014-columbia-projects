@@ -124,22 +124,28 @@ em {font-size: 30px;
 #img {width: 100%; 
 		background-size: 100%;
 		margin-right: 0px;
-		margin-left: 0px;}
+		margin-left: 0px;
+		z-index: 1;}
 #image {width: 100%;background-size: auto 100%;
 		margin-right: 0px;
-		margin-left: 0px;}
+		margin-left: 0px;
+	z-index: 1;}
 #image2 {width: 100%;background-size: auto 100%;
 		margin-right: 0px;
-		margin-left: 0px;}
+		margin-left: 0px;
+	z-index: 1;}
 #image3 {width: 100%;background-size: 100%;
 		margin-right: 0px;
-		margin-left: 0px;}
+		margin-left: 0px;
+	z-index: 1;}
 #image4 {width: 100%;background-size: auto 100%;
 		margin-right: 0px;
-		margin-left: 0px;}
+		margin-left: 0px;
+	z-index: 1;}
 #image5 {width: 100%;background-size: auto 100%;
 		margin-right: 0px;
-		margin-left: 0px;}
+		margin-left: 0px;
+	z-index: 1;}
 img {position: absolute;
 		z-index: -1;
 		max-width: 100%;}
