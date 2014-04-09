@@ -147,8 +147,10 @@ em {font-size: 30px;
 		margin-left: 0px;
 	z-index: 1;}
 img {position: absolute;
+	-webkit-transform: translate3d(0,0,0);
 		z-index: -1;
-		max-width: 100%;}
+		max-width: 100%;
+	}
 p 	{color: white;
 		font-family: Helvetica; 
 		font-size: 16px;
