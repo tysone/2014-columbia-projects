@@ -122,33 +122,34 @@ em {font-size: 30px;
 
 
 #img {width: 100%; 
+	background-attachment: scroll;
 		background-size: 100%;
 		margin-right: 0px;
 		margin-left: 0px;
-		z-index: 1;}
-#image {width: 100%;background-size: auto 100%;
+		z-index: 0;}
+#image {width: 100%;
+	background-attachment: scroll;
+	background-size: auto 100%;
 		margin-right: 0px;
-		margin-left: 0px;
-	z-index: 1;}
-#image2 {width: 100%;background-size: auto 100%;
+		margin-left: 0px;}
+#image2 {width: 100%;
+background-attachment: scroll;
+	background-size: auto 100%;
 		margin-right: 0px;
-		margin-left: 0px;
-	z-index: 1;}
-#image3 {width: 100%;background-size: 100%;
+		margin-left: 0px;}
+#image3 {width: 100%;
+	background-attachment: scroll;background-size: 100%;
 		margin-right: 0px;
-		margin-left: 0px;
-	z-index: 1;}
+		margin-left: 0px;}
 #image4 {width: 100%;background-size: auto 100%;
+	background-attachment: scroll;
 		margin-right: 0px;
-		margin-left: 0px;
-	z-index: 1;}
-#image5 {width: 100%;background-size: auto 100%;
+		margin-left: 0px;}
+#image5 {width: 100%;
+	background-attachment: scroll;background-size: auto 100%;
 		margin-right: 0px;
-		margin-left: 0px;
-	z-index: 1;}
+		margin-left: 0px;}
 img {position: absolute;
-	-webkit-transform: translate3d(0,0,0);
-		z-index: -1;
 		max-width: 100%;
 	}
 p 	{color: white;
