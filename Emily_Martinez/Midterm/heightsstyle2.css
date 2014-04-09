@@ -210,12 +210,12 @@ body {background-color: black;
 		top: 80%;
 		color: white;
 		font-family: Times;
-		font-size: 40px;
+		font-size: 32px;
 		text-align: right;
 		float: right;
 		padding-right: 0;
 		margin-right: 0;}
-.quot2 {top: 70%;}
+.quot2 {top: 75%;}
 .quot3 {top: 75%;}
 .exp {position: relative;
 	float: right;}
