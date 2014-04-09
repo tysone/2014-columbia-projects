@@ -183,9 +183,9 @@ p 	{color: white;
 body {background-color: black;
 		margin: 0;}
 .content {text-align: right;
-		width: 90%;
+		width: 95%;
 		float: right;
-		padding-right: 5px;
+		padding-right: 0;
 	}
 #titlebox {position: relative;
 		}
@@ -215,7 +215,7 @@ body {background-color: black;
 		float: right;
 		padding-right: 0;
 		margin-right: 0;}
-.quot2 {top: 75%;}
+.quot2 {top: 70%;}
 .quot3 {top: 75%;}
 .exp {position: relative;
 	float: right;}
