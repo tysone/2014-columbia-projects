@@ -1,5 +1,4 @@
-body {background-color: black;
-margin: 0px;}
+body {background-color: black;}
 #page {background-color: black;
 		width: 100%;
 		height: 100%;}
@@ -77,30 +76,42 @@ p 	{color: white;
 #titlebox {height: 100%;
 		width: 100%;}
 #title {color: white;
-		font-size: 85px;
-		font-style: normal;
-		padding-left: 20px;
+		font-size: 100px;
+		padding-left: 50px;
 		padding-top: 50px;
 		font-weight: 400;
-		line-height: 0.87;
-		word-spacing: -0.02em;
 		font-family: 'Josefine Slab', serif;}
 .name {font-size: 25px;
 		font-family: Times;
 		letter-spacing: 1px;
 		padding-right: 20px;
 		line-height: 5px;}
-.name {font-size: 18px;
+em {font-size: 30px;
 		float: right;
-		padding-top: 50px;
+		padding-top: 20px;
 		color: white;
-		padding-right: 5%;
-		font-weight: 100;
-	font-family: 'georgia', serif;}
+		padding-right: 10%;}
 .scroll {float: right;
-		display: none;}
-audio {display: none;}
-
+	display: none;}
+.hide {display: none;
+		position: relative;
+		bottom: 5px;
+		right: 5px;
+		color: white;
+		font-family: Times;
+		font-size: 30px;
+		text-align: right;
+		float: right;
+		padding-right: 0;
+		margin-right: 5%;}
+.exp {float: right;
+	z-index: 1;
+}
+#box1 {display: inherit;}
+#box2 {display: inherit;}
+#box3 {display: inherit;}
+#box4 {display: inherit;}
+#box5 {display: inherit;}
 
 
 @media (max-width: 800px) {
@@ -108,66 +119,12 @@ audio {display: none;}
 #page {background-color: black;
 		width: 100%;
 		height: 100%;}
+img {position: absolute;
+z-index: -1;}
 
-#img {max-width: 100%;
-		max-height: 100%;
-		background-image: url("Media/Hands.jpg"); 
-		background-attachment: scroll;
-		background-size: contain;
-		background-repeat: no-repeat;
-		background-position: center;
-		margin-left: 5%;
-		}
-#image {max-width: 100%;
-		max-height: 100%;
-		background-image: url("Media/Abuelita.jpg"); 
-		background-attachment: scroll;
-		background-size: 200%;
-		background-repeat: no-repeat;
-		background-position: center;
-		overflow: hidden;
-	margin-left: 5%;
-margin-bottom: 150px;}
-#image2 {max-width: 100%;
-		max-height: 100%;
-		background-image: url("Media/Euclides.jpg"); 
-		background-attachment: scroll;
-		background-size: 200%;
-		background-repeat: no-repeat;
-		background-position: center;
-		overflow: hidden;
-	margin-left: 5%;
-margin-bottom: 150px;}
-#image3 {max-width: 100%;
-		height: 100%;
-		background-image: url("Media/Nunez.jpg"); 
-		background-attachment: scroll;
-		background-size: 150%;
-		background-repeat: no-repeat;
-		background-position: center;
-		overflow: hidden;
-	margin-left: 5%;
-margin-bottom: 150px;}
-#image4 {max-width: 100%;
-		max-height: 100%;
-		background-image: url("Media/Miguel.jpg"); 
-		background-attachment: scroll;
-		background-size: 200%;
-		background-repeat: no-repeat;
-		background-position: center;
-		overflow: hidden;
-	margin-left: 5%;
-margin-bottom: 150px;}
-#image5 {max-width: 100%;
-		max-height: 100%;
-		background-image: url("Media/Francisco.jpg"); 
-		background-attachment: scroll;
-		background-size: 200%;
-		background-repeat: no-repeat;
-		background-position: center;
-		overflow: hidden;
-	margin-left: 5%;
-margin-bottom: 150px;}
+#img {background-size: 100%;}
+#image3 {background-size: 100%;}
+
 p 	{color: white;
 		font-family: Helvetica; 
 		font-size: 16px;
@@ -182,43 +139,64 @@ p 	{color: white;
 		text-align: right;
 		float: right;
 		width: 100%;
+		height: 100%;
 		background-color: black;
 		opacity: .6;
-		margin-top: 110%;
-		padding-right: 0;}
-.expanded {margin-top: 5%;
-		height: 100%;
+		margin-top: 0%;
+		padding-right: 0;
 		overflow: scroll;}
+.expanded {display: inherit;
+		height: 100%;}
+
 #title {color: white;
-		font-size: 25;
+		font-size: 30px;
+		font-weight: 100;
 		padding-top: 20%;
-		padding-left: 5%;
+		padding-left: 5px;
 		width: 90%;
 		font-weight: 400;
 		font-family: 'Josefine Slab', serif;}
 body {background-color: black;}
-.content {text-align: left;
+.content {text-align: right;
 		width: 80%;
 		float: right;
-		padding-right: 0;}
-#titlebox {height: 50%;}
-.name {float: right;
+	}
+#titlebox {
+		height: 50%;}
+em {float: right;
 		padding-right: 5%;
-		font-size: 12px;}
+		font-size: 18px;}
 .audio {height: 40; width: 80px;
 		padding-top: 40px;
 		padding-right: 15px;
 		float: right;}
-.name {font-size: 12px;
-		float: right;
-		padding-top: 10px;
+.name {font-size: 18px;
+		font-family: Times;
+		letter-spacing: 1px;
+		line-height: 20px;
+		text-align: right;
+		padding-left: 30px;
+		float: right;}
+.scroll {display: inherit;
+		width: 20px;}
+.hide {display: inherit;
+		position: relative;
+		top: 80%;
 		color: white;
-		padding-right: 5%;
-		font-weight: 100;
-	font-family: 'georgia', serif;}
-.scroll {display: inherit;}
-audio {display: inherit;}
+		font-family: Times;
+		font-size: 40px;
+		text-align: right;
+		float: right;
+		padding-right: 0;
+		margin-right: 0;}
+.exp {position: relative;
+	float: right;}
+.show {display: none;}
+#box1 {display: none;}
+#box2 {display: none;}
+#box3 {display: none;}
+#box4 {display: none;}
+#box5 {display: none;}
 	}
-
 
 
