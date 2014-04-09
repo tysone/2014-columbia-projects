@@ -1,0 +1,63 @@
+ <!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Harlem: W 125th between Frederick Douglas Blvd and Adam Clayton Powell Drive</title>
+	
+		
+		<link rel="stylesheet" type="text/css" href="styles.css" />
+		<script src="onepage-scroll-master/jquery.onepage-scroll.js" type="text/javascript"/></script>
+		<link rel="stylesheet" type="text/css" href="onepage-scroll-master/onepage-scroll.css" />
+		<script src= "harlem.js" type="text/javascript"/></script>
+
+
+
+
+	</head>
+
+
+	<body>
+		
+
+
+
+ <div class="main">
+
+    <div class="wrapper">
+		<section><div class="openingimage" id="intropic"><img src="Harlemintroa.jpg" alt="Harlem mural" style="max-width:100%;height:auto;"><div class="headline"><h1>The heart of Harlem...</h1>
+		</div></section>
+	</div>
+
+	<div class="clear"></div>
+
+
+<section><div class="subhead">
+			<div class="text"><h2>... beats at W 125th St between Frederick Douglass and Adam Clayton Powell Junior Boulevards.</h2>
+				</div>
+			<div class="apolloimage">
+			<img src="apollo.jpg" alt="Apollo Theater Harlem" style="max-width:100%;height:auto;">
+			</div>
+		<div class="text2"><p>If Harlem is the home of soul music in New York City, then the <b>Apollo Theater</b> on <b>W 125th St</b> is its lounge room. The theater opened in 1934 and quickly became an international icon of the African-American community, hosting stars such as <b>Sam Cooke</b>, <b>The Temptations</b> and <b>Etta James</b>. <b>Ella Fitzgerald</b> was discovered at one of the Apollo's famous "Amateur Nights" in its inaugural year, when she entered to dance and decided to sing at the last minute. The Apollo was just one of several theaters in Harlem that opened as part of the Harlem Renaissance, a highly influential cultural movement in the 1920s and 30s that saw a growth of art, music and writing in African-American communities.</p></div>
+	</div> </section>
+</div>
+
+</body>
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>	
+<script>
+$(".main").onepage_scroll({
+   sectionContainer: "section",     // sectionContainer accepts any kind of selector in case you don't want to use section
+   easing: "ease",                  // Easing options accepts the CSS3 easing animation such "ease", "linear", "ease-in", 
+                                    // "ease-out", "ease-in-out", or even cubic bezier value such as "cubic-bezier(0.175, 0.885, 0.420, 1.310)"
+   animationTime: 1000,             // AnimationTime let you define how long each section takes to animate
+   pagination: true,                // You can either show or hide the pagination. Toggle true for show, false for hide.
+   updateURL: false,                // Toggle this true if you want the URL to be updated automatically when the user scroll to each page.
+   beforeMove: function(index) {},  // This option accepts a callback function. The function will be called before the page moves.
+   afterMove: function(index) {},   // This option accepts a callback function. The function will be called after the page moves.
+   loop: false,                     // You can have the page loop back to the top/bottom when the user navigates at up/down on the first/last page.
+   keyboard: true,                  // You can activate the keyboard controls
+   responsiveFallback: false        // You can fallback to normal page scroll by defining the width of the browser in which
+                                    // you want the responsive fallback to be triggered. For example, set this to 600 and whenever 
+                                    // the browser's width is less than 600, the fallback will kick in.
+});
+ </script>
+</html>
