@@ -124,8 +124,8 @@ z-index: -1;
 max-width: 100%;}
 
 #img {background-size: 100%;}
-#image {max-width: 100%;}
-#image2 {max-width: 100%;}
+#image {max-width: 800px;}
+#image2 {max-width: 800px;}
 #image3 {background-size: 100%;}
 #image4 {max-width: 100%;}
 
@@ -165,7 +165,7 @@ body {background-color: black;}
 		width: 80%;
 		float: right;
 	}
-#titlebox {
+#titlebox {position: relative;
 		height: 50%;}
 em {float: right;
 		padding-right: 5%;
