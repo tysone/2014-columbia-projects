@@ -147,7 +147,7 @@ p 	{color: white;
 		background-color: black;
 		opacity: .6;
 		margin-top: 0%;
-		padding-right: 0;
+		padding-right: 5%;
 		overflow: scroll;}
 .expanded {display: inherit;
 		height: 100%;}
@@ -166,7 +166,7 @@ body {background-color: black;}
 		float: right;
 	}
 #titlebox {position: relative;
-		height: 50%;}
+		}
 em {float: right;
 		padding-right: 5%;
 		font-size: 18px;}
