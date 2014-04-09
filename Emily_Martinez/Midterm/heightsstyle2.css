@@ -82,12 +82,8 @@ p 	{color: white;
 		padding-top: 50px;
 		font-weight: 400;
 		font-family: 'Josefine Slab', serif;}
-.name {font-size: 25px;
-		font-family: Times;
-		letter-spacing: 1px;
-		padding-right: 20px;
-		line-height: 5px;}
-em {font-size: 30px;
+.name {font-size: 30px;
+	font-family: georgia, serif;
 		float: right;
 		padding-top: 20px;
 		color: white;
@@ -193,14 +189,14 @@ body {background-color: black;
 	}
 #titlebox {position: relative;
 		}
-em {float: right;
+.name {float: right;
 		padding-right: 5%;
 		font-size: 18px;}
 .audio {height: 40; width: 80px;
 		padding-top: 40px;
 		padding-right: 15px;
 		float: right;}
-.name {font-size: 18px;
+.name {font-size: 16px;
 		font-family: Times;
 		letter-spacing: 1px;
 		line-height: 20px;
