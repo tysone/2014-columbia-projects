@@ -1,0 +1,139 @@
+
+
+body{
+	margin:0px;
+	background:#FFFFFF;
+
+}
+h1{
+	font-size: 100px;
+	font-family: Palatino;
+	line-height: 15px;
+	font color:#FFFFFF;
+	position: relative;
+	padding-left: 825px;
+	text-align: center;
+	padding-bottom: 0px;
+	margin-bottom: 20px;
+	margin-top: -1150px;
+}
+h2{
+	text-align: right;
+	margin-top: 40px;
+	padding-left: 700px;
+	font-size: 25px;
+}
+p{
+	font-family: Palatino;
+	font color: #7E7E7E;
+	padding-left: 300px;
+	padding-right: 300px;
+}
+#top{
+	width: 1175px;
+	height: 1200px;
+	padding-left: 30px;
+}
+
+.intro{
+	font-family: adelle-sans, Helvetica Neue, Arial, sans-serif;
+	font-size: 25px
+
+}
+
+.hover {
+    position: relative;
+    width:300px;
+    display:block;
+    float: left;
+    padding:21px;
+}
+.text {
+    position: absolute;
+    top: 10px;
+    color:#7D7D7D;
+    background-color:rgba(255,255,255,0.8);
+    width: 320px;
+    height: 336px;
+    line-height:300px;
+    text-align: center;
+    font-size: 100px;
+    font-family: Helvetica;
+    z-index: 10;
+    opacity: 0;
+    float:left;
+}
+.text:hover {
+    opacity:1;
+}
+#blocks{
+	padding-left: 97px;
+
+}
+.quote1{
+	font-family: Palatino;
+	font-style: bold;
+	font-size: 40px;
+	border-style: solid;
+	border-color: #000000;
+	margin-top: 20px;
+	margin-left: 350px;
+	margin-right: 365px;
+	padding-top: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	text-align: center;
+
+}
+#video{
+	text-align: center;
+}
+.ellipses{
+	font-size: 100px;
+	text-align: center;
+	margin-top: -50px;
+}
+.return1{
+	text-align: center;
+	font-size: 17px;
+	
+}
+.plaque{
+	text-align: center;
+
+}
+.source2{
+	float:right;
+	font-size: 15px;
+	margin-right: 365px;	
+}
+.hall{
+	text-align: center;
+}
+.lobby{
+	text-align: center;
+}
+.poem{
+	text-align: center;
+	font-style: italic;
+}	
+a { 
+	color:#7D7D7D; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
