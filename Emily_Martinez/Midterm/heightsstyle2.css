@@ -183,9 +183,9 @@ p 	{color: white;
 body {background-color: black;
 		margin: 0;}
 .content {text-align: right;
-		width: 90%;
+		width: 95%;
 		float: right;
-		padding-right: 5px;
+		padding-right: 0;
 	}
 #titlebox {position: relative;
 		}
@@ -210,7 +210,7 @@ body {background-color: black;
 		top: 80%;
 		color: white;
 		font-family: Times;
-		font-size: 40px;
+		font-size: 32px;
 		text-align: right;
 		float: right;
 		padding-right: 0;

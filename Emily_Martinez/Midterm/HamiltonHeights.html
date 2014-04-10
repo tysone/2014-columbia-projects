@@ -39,7 +39,7 @@
 			<audio controls class="audio">
 			  <source src="Media/Audio/Abuelita.mp3" type="audio/mpeg">
 			  <embed height="50" width="100" src="Media/Audio/Abuelita.mp3">
-			</audio><br>
+			</audio>
 			<p class="name"><b>Juana Cepeda, 79</b></p>
 			
 		<p class="content">
@@ -56,7 +56,7 @@
 			
 				<img class="scroll exp" src="Media/expand.jpg" height="20" width="20">
 			
-		&ldquo;Moro de gandules, <br>unos tostonsitos, aguacate...&rdquo;
+		&ldquo;Moro de gandules, unos tostonsitos, aguacate...&rdquo;
 	</div>
 
 	<div class="quote" id="box2">
@@ -83,7 +83,7 @@
 			<audio controls class="audio">
 			  <source src="Media/Audio/Nunez.mp3" type="audio/mpeg">
 			  <embed height="50" width="100" src="Media/Audio/Nunez.mp3">
-			</audio><br>
+			</audio>
 			<p class="name"><b>Tersidad Nunez, 71</b></p>
 			<p class="content">
 
@@ -104,14 +104,15 @@
 			<audio controls class="audio">
 			  <source src="Media/Audio/Miguel.mp3" type="audio/mpeg">
 			  <embed height="50" width="100" src="Media/Audio/Miguel.mp3">
-			</audio><br><p class="name"><b>Miguel Nunez, 78</b></p>
+			</audio>
+			<p class="name"><b>Miguel Nunez, 78</b></p>
 			<p class="content">	
 			 Though also a Nunez, Miguel is not family. He is however, from the same town in the D.R., Santiago, like many families in Hamilton Heights. He's lived here for 49 years. Behind him is his daughter's Bachelor's degree from Tufts University. Nearly all of his children have degrees.
 		</p></div>
 </div>
 
 <div id="image5">
-	<div class="hide quot4">
+	<div class="hide quot5">
 			
 				<img class="scroll exp" src="Media/expand.jpg" height="20" width="20">
 			
@@ -120,10 +121,13 @@
 	<div class="quote" id="box5">
 		<div><div class="scroll"><img src="Media/expand.jpg" height="20" width="20"></div>
 		&ldquo;I'm always among<br> my family.&rdquo;<br></div>
-	<audio controls class="audio">
+		
+		<audio controls class="audio">
 			  <source src="Media/Audio/Francisco.mp3" type="audio/mpeg">
 			  <embed height="50" width="100" src="Media/Audio/Francisco.mp3">
-			</audio><br><p class="name"><b>Francisco De Garcia, 80</b></p>
+		</audio>
+
+			<p class="name"><b>Francisco De Garcia, 80</b></p>
 			<p class="content">
 				Francisco has lived on 135th street for 38 years. He said, having lived there for so long, he sees something new everyday, including vandalism and drug addicts. He feels lucky though, that none of his five children ever gave him trouble. <q>I'm a homebody,</q> he said, <q>I like tranquility.</q> He enjoys being home with his family. 
 
@@ -146,7 +150,6 @@ $("#box1 .scroll").click(function(){
 });
 
 
-
 $(".quot2 .scroll").click(function(){
 	$(".quot2").hide()
 	$("#box2").show()
@@ -158,8 +161,38 @@ $("#box2 .scroll").click(function(){
 
 });
 
+$(".quot3 .scroll").click(function(){
+	$(".quot3").hide()
+	$("#box3").show()
+});
 
+$("#box3 .scroll").click(function(){
+	$("#box3").hide()
+	$(".quot3").show()
 
+});
+
+$(".quot4 .scroll").click(function(){
+	$(".quot4").hide()
+	$("#box4").show()
+});
+
+$("#box4 .scroll").click(function(){
+	$("#box4").hide()
+	$(".quot4").show()
+
+});
+
+$(".quot5 .scroll").click(function(){
+	$(".quot5").hide()
+	$("#box5").show()
+});
+
+$("#box5 .scroll").click(function(){
+	$("#box5").hide()
+	$(".quot5").show()
+
+});
 
 
 </script>

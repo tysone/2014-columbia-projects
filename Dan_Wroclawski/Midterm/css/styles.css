@@ -1,4 +1,4 @@
-#wrapper {
+.main {
 	width: 100%;
 }
 
@@ -51,42 +51,82 @@ p {
 	color: white;
 }
 
-#firstphoto {
+.photo {
 	margin: 0px;
 	padding: 0px;
 	border: 0px;
 	width: 100%;
 	height: 100%;
-	background-image: url("../images/littleItalySign.jpg");
-	background-size: cover;
-	background-attachment: fixed;
-	background-position: left;
-	background-repeat: no-repeat;
-	position: relative;
-}
-
-#header {
-	width: 100%;
-	height: 25%;
-	position: absolute;
-	left: 0px;
-	bottom: 0px;
-}
-
-#photo2 {
-	margin: 0px;
-	padding: 0px;
-	border: 0px;
-	width: 100%;
-	height: 100%;
-	background-image: url("../images/ferrara sign.jpg");
 	background-size: cover;
 	background-attachment: fixed;
 	background-position: center;
 	background-repeat: no-repeat;
 	position: relative;
 }
+.firstphoto {
+	background-image: url("../images/littleItalySign.jpg");
+	z-index: 0;
+}
 
-#lastphoto {
+#headerBlur {
+	width: 100%;
+	height: 25%;
+	position: absolute;
+	left: 0px;
+	bottom: 0px;
+	background-position: center, bottom;
+	z-index: 1;
+}
+
+.header {
+	width: 100%;
+	height: 25%;
+	position: absolute;
+	left: 20px;
+	bottom: 0px;
+	z-index: 2;
+}
+
+.text {
+	position: absolute;
+	text-align: center;
+	width: 50%;
+	height:50%;
+}
+
+.photo2 {
+	background-image: url("../images/ferrara sign.jpg");
+}
+
+.photo3 {
+	background-image: url("../images/ferrara tile.jpg");
+}
+
+.photo4 {
+	background-image: url("../images/caffe roma.jpg");
+}
+
+.photo5 {
+	background-image: url("../images/grotta azzurra.jpg");
+}
+
+.photo6 {
+	background-image: url("../images/chinese store.jpg");
+}
+
+.photo7 {
+	background-image: url("../images/memorial wall.jpg");
+}
+
+.photo8 {
+	background-image: url("../images/clock.jpg");
+}
+
+.photo9 {
+	background-image: url("../images/sal.jpg");
+}
+
+.lastphoto {
+	background-image: url("../images/tables.jpg");
 	margin-bottom: 100px;
 }
