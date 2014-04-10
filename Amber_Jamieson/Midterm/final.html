@@ -47,18 +47,25 @@
 			</div>
 			<div class="rectangle2"><div class="text2"><p>If Harlem is the home of soul music in New York City, then the <b>Apollo Theater</b> on <b>W 125th St</b> is its lounge room. The theater opened in 1934 and quickly became an international icon of the African-American community, hosting stars such as <b>Sam Cooke</b>, <b>The Temptations</b>, <b>Etta James</b> and <b>James Brown</b>.</p></div><audio src="JamesBrownIFeelAllRight.mp3" controls></audio></div> </section>
 
-		<section> <div class="wrapper"><div class="openingimage" id="HR">
-			<img src="HR.jpg" alt="Harlem Renaissance" style="max-width:100%;height:679px;"></div>
+		<section> <div class="wrapper"><div class="openingimage" id="ella">
+			<img src="ella-fitzgerald.jpg" alt="Ella Fitzegerald" style="max-width:100%;height:679px;"></div>
 
-			<div class="rectangle2"><div class="text3"><p><b>Ella Fitzgerald</b> was discovered at one of the Apollo's famous "Amateur Nights" in its inaugural year, when she entered to dance and decided to sing at the last minute. The Apollo was just one of several theaters in Harlem that opened as part of the Harlem Renaissance, a highly influential cultural movement in the 1920s and 30s that saw a growth of art, music and writing in African-American communities.</p></div></div><
+			<div class="rectangle3"><div class="text3"><p><b>Ella Fitzgerald</b> was discovered at one of the Apollo's famous "Amateur Nights" in its inaugural year, when she entered to dance and decided to sing at the last minute. The Apollo was just one of several theaters in Harlem that opened as part of the Harlem Renaissance, a highly influential cultural movement in the 1920s and 30s that saw a growth of art, music and writing in African-American communities.</p></div></div><
 		</section>
+
+		<section><div class="wrapper"><div class="rectangle4"><div class="text4"><h5>The block now also holds a GAP, Starbucks, American Apparel and MAC Cosmetics. The Victoria Theater, which along with the Apollo helped make 125th St Harlem's "Opera Row", was abandoned in the late 1980s. Soon it will become a 21-storey apartment tower with a hotel built to hold large-scale conferences.</h5></div></div>
+			<div class="vertical"><img src="harlemold2.jpg" alt="W 125th St in 1950s" style="max-width:100%;height:auto;">
+		</div>
+		<!-- <div class="vertical2"> <img src="harlemnew2.jpg" alt="W 125th St in 2014" style="max-width:100%;height:auto;"></div> -->
+			<!-- <div id="leftcap"><h4><em>First photo from an unknown magazine in the 1950s</em></h4></div>
+			<div id="rightcap"><h4><em>Second photo taken by Amber Jamieson in March 2014</em></h4></div> -->
+		</div></section>
 
 		<section><div class="wrapper" id="flickr"><div id="photos"><h3>Latest photos from the Apollo Theater</h3></div>
 	</div></section>
 </div>
 
-<!-- </div> -->
-<!-- </div> -->
+
 
 </body>
 
@@ -78,11 +85,9 @@ $.getJSON( flickerAPI, {
   });
 
 
- // $('#intropic').on('click', function() {
-  		
- // 		$('.headline').fadeIn();
- 
- // });
+$('.vertical').on('click', function() {
+	$(this).Toggle('vertical2');
+});
 
 $(".main").onepage_scroll();
 

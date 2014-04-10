@@ -124,6 +124,23 @@ padding-left: 350px;
 text-align: center;
 }
 
+.rectangle3 {
+	z-index:6;
+	width: 400px;
+	position: relative;
+top:90px;
+left: 200px;
+text-align: left;
+}
+
+.rectangle4 {
+	z-index:6;
+	width: 800px;
+	position: relative;
+top:45px;
+padding-left: 250px;
+text-align: center;
+}
 .subhead1 {
 padding-top: 10px;
 margin-top: 10px;
@@ -151,6 +168,26 @@ p {
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
     }
 
+ h4 {
+    font-family: 'Alice', serif;
+    font-size: 12px;
+    font-weight: normal;
+    line-height: 12px;
+    margin: 0 0 10px 0;
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    }
+
+    h5 {
+    font-family: 'Alice', serif;
+    font-size: 26px;
+    font-weight: normal;
+    line-height: 26px;
+    margin: 0 0 10px 0;
+    color: black;
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+    }
+
 blockquote {font: bold 60px Helvetica;
 color: white;
 text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
@@ -166,12 +203,14 @@ text-align: right;}
 	text-align: right;
 	margin-top: 15px;}
 
-#blank{background-color: black;}
+#blank
+{background-color: black;
+text-align: center;
+	
+	position: absolute;
+	margin-left: 150px;}
 
-/*.apolloimage {
-	float:right;
-}
-*/
+
 .clear {
 	clear:left;
 }
@@ -179,6 +218,8 @@ text-align: right;}
 .vertical{
 	float:left;
 	padding-bottom: 20px;
+	margin-top: 50px;
+	margin-left:350px;
 }
 
 .text2 {float:left;
@@ -192,6 +233,7 @@ z-index: 6;}
 .vertical2{
 float: right;
 padding-bottom: 20px;
+margin-right:150px;
 }
 
 .music {float:right;
@@ -212,6 +254,8 @@ max-width: 100%;
 }
 
 .intro {text-align: right}
+
+
 
 
 @media (max-width: 800px) { 
