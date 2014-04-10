@@ -3,9 +3,23 @@ body{
 	max-width: 100%;
 }
 
+audio{
+	width: 88px;
+}
+
 .show1,.show2,.show3,.show4,.show5,.show6{
 	font-size: 13px;
 	color: #06648A;
+}
+
+.esbtweet{
+	font-size: 13px;
+	color: #06648A;
+	font-weight: bold;
+}
+
+.tweet{
+	display: none;
 }
 
 #flicker2 img {
@@ -33,6 +47,10 @@ body{
 	position: absolute;
 }
 
+#imagesmall{
+	display:none;
+}
+
 .credit{
 	margin-top: 10px;
 	font-size: 13px;
@@ -54,6 +72,12 @@ body{
 
 #twitter img{
     padding-left: 10px;
+    padding-right: 10px;
+}
+
+#header{
+	margin-top: 10px;
+	margin-left:50px;
 }
 
 .capital{
@@ -75,8 +99,8 @@ body{
 	margin-right: auto;
 }
 
-.intro{
-	margin-top: 6%;
+#intro{
+	margin-top: 4%;
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -155,7 +179,7 @@ body{
    margin-left: 30px;
 }
 
-.movie{
+.movie, .light{
 	font-size: 20px;
 	font-weight: lighter;
 	line-height: 30px;
@@ -268,6 +292,10 @@ color: gray;
 color: gray;
 }
 
+.esbtweet:hover{
+	color:gray;
+}
+
 .bold{
 	font-weight: bold;
 }
@@ -298,27 +326,112 @@ color: gray;
 	font-weight: bold;
 }
 
+.map2{
+	display: none;
+}
+
+.youtube2{
+	display: none;
+}
+
+.slideshow1{
+	display: none;
+}
+
 
 @media (max-width: 480px){
+
+#image{
+display:none;
+}
+
+#imagesmall{
+	width: 100%;
+    height: 100%;
+    top: 0px;
+	left: 0px;
+	right: 0px;
+	position: absolute;
+	display: block;
+}
+
+#header{
+display: none;
+}
+
 #media img{
 	width: 20px;
+	margin-bottom: 30px;
 }
 #facebook img{
 	margin-left: 0px;
 }
 
 .captial{
-	font-size: 25px;
+	font-size: 10px;
 }
 
-.intro{
-	margin-top: 15%;
+#intro{
+	margin-top: 80px;
 }
 
-.intro1, .intro2, .intro3, .intro4, .movie, .light1, .light2{
-	font-size: 15px;
+.map2{
+	display: block;
+}
+
+.map{
+	display: none;
+}
+
+.youtube2{
+	display: block;
+}
+
+.youtube{
+	display: none;
+}
+
+.slideshow1{
+	display: block;
+}
+
+.slideshow{
+	display: none;
+}
+
+.photo1, .photo2{
 	margin-left: 0px;
-	width: 480px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+.credit1, .credit2{
+	margin-left: 0px;
+}
+
+.intro3{
+	margin-top: 30px;
+}
+
+.hr2{
+	margin-top: 40px;
+}
+
+.intro3, .intro4{
+	margin-left: 0px;
+	width: 50%;
+}
+
+.intro1, .intro2, .intro3, .intro4, .movie, .light, .light1, .light2{
+	font-size: 15px;
+}
+
+.light3{
+	font-size: 12px;
+}
+
+.light1{
+	width: 440px;
 }
 
 .opening2, .suicide2, .shooting2, .deck2, .broadcast2, .flicker2{
@@ -329,22 +442,13 @@ color: gray;
 	font-size: 20px;
 }
 
+.show1,.show2,.show3,.show4,.show5,.show6, .esbtweet{
+	font-size: 10px;
+	color: #06648A;
+}
+
 .floatone{
 	float: none;
-}
-
-.map{
-	margin-left: 0px;}
-
-.photo1, .photo2{
-	margin-left: 0px;
-	margin-top: 5px;
-	margin-bottom: 5px;
-}
-
-.credit1, .credit2{
-	margin-left: 0px;
-	margin-bottom: 5px;
 }
 
 .youtube{
