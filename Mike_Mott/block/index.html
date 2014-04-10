@@ -7,33 +7,22 @@
 		<link href='http://fonts.googleapis.com/css?family=Poiret+One' rel='stylesheet' type='text/css'>
 		<meta charset=utf-8 />
 		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-		<script>
-			$(document).ready(function(){
-			  $(".hide").click(function(){
-			  $("example").hide(1000);
-			  });
-			  $(".show").click(function(){
-			  $("example").show(1000);
-			  });
-			});
-		</script>
+		<link rel="stylesheet" href="css/960-responsive.css" />
 	</head>
 	<body class="container_12 clearfix">
-		<button class="hide">Hide</button>
-		<button class="show">Show</button>	
 		<div class="grid_12 header">
 			<div id="outer-header">
 				<img src="top.jpg" width="960" alt="block-wide pic">
 				<p id="inner-header"><span id="title">West 114th Street: <br />From Broadway to Amsterdam (and Back Again)</span></p>
 			</div>	
 			<div style="padding: 25px 0px" >
-				<audio controls autoplay style="float:right">
+				<audio controls style="float:right">
   					<source src="back.mp3" type="audio/mpeg">
   					Your browser does not support the audio tag.
 				</audio>
 			</div>
-			<div style="padding: 30px 65px 30px 50px">
-				<span>Columbia students stroll, backpacks on shoulders. A green borough taxi speeds past. Birds chirp.<br /><br />Like most Manhattan streets, the block beneath Columbia University is a busy one. Greek life is present, but like most cultures in New York City, is surrounded by many other forms of life.</span>
+			<div id="scroll" style="padding: 30px 65px 30px 50px">
+				<span>Columbia students stroll by, backpacks on shoulders. A green borough taxi speeds past. Birds chirp.<br /><br />Like most Manhattan streets, the block beneath Columbia University is a busy one. Greek life is present, but like most cultures in New York City, is surrounded by many other forms of life.</span>
 			</div>
 		</div>
 		<div class="grid_12">
@@ -122,6 +111,14 @@
 		</div>
 		<div>
 			<img src="end.jpg" width="960" alt="block-wide pic">
-		</div>					
+		</div>		
+		<script>
+		$( "#scroll" ).clone().appendTo( document.body );
+		$( window ).scroll(function() {
+		  $( "span" ).css( "display", "inline" ).fadeOut(1500);
+		});
+		</script>	
+
+		<!--try opacity, animate to limit event-->
 	</body>
 </html>s

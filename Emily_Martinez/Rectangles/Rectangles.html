@@ -1,0 +1,38 @@
+<html>
+<head>
+<title>Rectangles</title>
+<link rel="stylesheet" type="text/css" href="Styles.css">
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+</head>
+<body>
+<h1>Don't Be a Square</h1>
+
+<p>In New York today the <span id="description"></span>.</p>
+<div id="wrapper">
+<div class="square" id="one"></div>
+<div class="square" id="two"></div>
+<div class="square" id="three"></div>
+</div>
+
+
+<script type="text/javascript">
+$("#one").click(function(){$("#one").toggleClass("color");
+});
+$("#two").click(function(){$("#two").toggleClass("width");
+});
+$("#three").click(function(){$("#three").toggleClass("round");
+});
+
+function processData(data) {console.log(data);
+	$('#description').text(data.weather[0].description);
+
+}
+
+$.getJSON('http://api.openweathermap.org/data/2.5/weather?q=New%20York,USA&units=imperial', processData)
+
+
+       
+</script>
+</body>
+
+</html>

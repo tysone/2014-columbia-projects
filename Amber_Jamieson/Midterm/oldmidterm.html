@@ -1,0 +1,116 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Harlem: W 125th between Frederick Douglas Blvd and Adam Clayton Powell Drive</title>
+	
+		
+		<link rel="stylesheet" type="text/css" href="styles.css" />
+
+	</head>
+
+
+	<body>
+		
+
+		<div class="wrapper">
+		<div class="openingimage" id="intropic"><img src="Harlemintroa.jpg" alt="Harlem mural" style="max-width:100%;height:auto;">
+	</div>
+
+		<div class="headline"><h1>The heart of Harlem...</h1>
+		</div>
+		<div class="subhead">
+			<div class="text"><h2>... beats at W 125th St between Frederick Douglass and Adam Clayton Powell Junior Boulevards.</h2>
+				</div>
+			<div class="apolloimage">
+			<img src="apollo.jpg" alt="Apollo Theater Harlem" style="max-width:100%;height:auto;">
+			</div>
+		<div class="text2"><p>If Harlem is the home of soul music in New York City, then the <b>Apollo Theater</b> on <b>W 125th St</b> is its lounge room. The theater opened in 1934 and quickly became an international icon of the African-American community, hosting stars such as <b>Sam Cooke</b>, <b>The Temptations</b> and <b>Etta James</b>. <b>Ella Fitzgerald</b> was discovered at one of the Apollo's famous "Amateur Nights" in its inaugural year, when she entered to dance and decided to sing at the last minute. The Apollo was just one of several theaters in Harlem that opened as part of the Harlem Renaissance, a highly influential cultural movement in the 1920s and 30s that saw a growth of art, music and writing in African-American communities.</p></div>
+	</div>
+	<div class="clear"></div>
+
+	<div class="openingimage2"><img src="door.jpg" alt="Garage door on W 125th" style="max-width:100%;height:auto;">
+	</div>
+	<div class="intro"><h2>The street, W 125th St, is changing.</h2>
+		<h3>Only a handful of classic painted garage doors remain.</h3>.</div>
+
+	<div class="clear"></div>
+
+	<div class="subhead1">
+		
+			<p>The block that holds the Apollo Theater now also holds a GAP, Starbucks, American Apparel and MAC Cosmetics. The Victoria Theater, which along with the Apollo helped make 125th Harlem's "Opera Row", became a cinema until it was abandoned in the late 1980s. Soon it will become a 21-storey apartment tower with a hotel built to hold large-scale conferences.</p>
+			<p>The Apollo Theater doesn't have quite the pulling power it had in the past, but it still serves a strong function in the community: after James Brown's death in 2006, thousands came to the public viewing of his gold casket at the Apollo Theater. Plus, the famed Amateur Night continues.</p>
+		<div class="vertical"><img src="harlemold2.jpg" alt="W 125th St in 1950s" style="max-width:100%;height:auto;">
+		</div>
+		<div class="vertical2"> <img src="harlemnew2.jpg" alt="W 125th St in 2014" style="max-width:100%;height:auto;"></div>
+		<br /><br /><br />
+			<div id="leftcap"><p><em>First photo from an unknown magazine in the 1950s</em></p></div>
+			<div id="rightcap"><p><em>Second photo taken by Amber Jamieson in March 2014</em></p></div>
+		</div>
+		
+	</div>
+		<div class="clear"></div>
+
+	
+
+		<div class="openingimage" id="finimage"><img src="outside.jpg" alt="Apollo Theater" style="max-width:100%;height:auto;">
+	</div>
+
+
+
+		<div class="headline2"><blockquote>"Where stars are born and legends are made"</blockquote>
+		</div>
+		<div id="photos"><h2>Latest photos from the Apollo Theater</h2></div>
+	</div>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>	
+<script>
+	
+
+  $('#intropic').on('click', function() {
+  		
+  		$('.headline').fadeIn('slow');
+ 
+  });
+
+  $('#finimage').on('click', function() {
+  		
+  		$('.headline2').fadeIn('slow');
+ 
+  });
+
+  $('.vertical').on('click', function() {
+	$(this).addClass('vertical2');
+});
+
+// 	$('#finimage').on('click', function() {
+//   $('headline2').fadeIn('slow', function() {
+   
+//   });
+		
+// $('openingimage2').on('mouseover',function() {
+// 	$('intro').toggle();
+
+// });
+
+var flickerAPI = "http://api.flickr.com/services/feeds/photos_public.gne?jsoncallback=?";
+
+$.getJSON( flickerAPI, {
+ 	tags: "Apollo Theater",
+  format: "json"
+}).done(function( data ) {
+    $.each( data.items, function(i, item) {
+    	$("<a>").attr("href", item.link)
+    	.append($("<img>").attr("src", item.media.m))
+    	.appendTo('#photos');
+    });
+  });
+
+
+
+		</script>
+
+		
+	</div>
+
+
+		</div>
+	</body>

@@ -65,7 +65,7 @@
         <div class="hr2"><hr /></div>
 
         <div class="opening1">
-        Opening 
+        Opening&nbsp;&nbsp;&nbsp;<span class="show1">SHOW</span>
         </div>
         <div class="opening2">
         The building's opening coincided with the Great Depression in the United States, and as a result much of its office space was initially unrented. The building's vacancy was exacerbated by its poor location on 34th Street, which placed it relatively far from public transportation, as Grand Central Terminal and Penn Station were (and are) several blocks away, as is the more-recently built Port Authority Bus Terminal. Other more successful skyscrapers, such as the Chrysler Building, did not have this problem. 
@@ -73,13 +73,13 @@
         In its first year of operation, the observation deck took in approximately 2 million dollars, as much money as its owners made in rent that year. The lack of renters led New Yorkers to deride the building as the "Empty State Building".The building would not become profitable until 1950. The famous 1951 sale of the Empire State Building to Roger L. Stevens and his business partners was brokered by the prominent upper Manhattan real-estate firm Charles F. Noyes &amp; Company for a record $51 million. At the time, that was the highest price paid for a single structure in real-estate history. --- Wikipedia</div>
 
         <div class="suicide1">
-        Suicide Attempts
+        Suicide Attempts &nbsp;&nbsp;&nbsp;<span class="show2">SHOW</span>
         </div>
         <div class="suicide2">
         Over the years, more than thirty people have attempted suicide, most successfully, by jumping from the upper parts of the building. The first suicide occurred even before its completion, by a worker who had been laid off.The fence around the observatory terrace was put up in 1947 after five people tried to jump during a three-week span.--- Wikipedia</div>
 
         <div class="shooting1">
-        Shootings
+        Shootings&nbsp;&nbsp;&nbsp;<span class="show3">SHOW</span>
         </div>
         <div class="shooting2">
         Two major shooting incidents have occurred at or in front of the Empire State Building.On February 24, 1997, a gunman shot seven people on the observation deck, killing one, then fatally wounded himself.
@@ -87,7 +87,7 @@
         On August 24, 2012 at about 9 am EDT, on the sidewalk at the Fifth Avenue side of the building, a gunman shot and killed a former co-worker from a workplace that had laid him off in 2011. When two police officers confronted the gunman, 58-year-old Jeffrey T. Johnson, he aimed his firearm at them. They responded by firing 16 shots at Johnson, killing him but also wounding nine bystanders, most of whom were hit by fragments, although three took direct hits from stray bullets.--- Wikipedia</div>
 
         <div class="deck1">
-        Observation Decks
+        Observation Decks&nbsp;&nbsp;&nbsp;<span class="show4">SHOW</span>
         </div>
         <div class="deck2">
         The Empire State Building has one of the most popular outdoor observatories in the world, having been visited by over 110 million people. The 86th-floor observation deck offers impressive 360-degree views of the city. There is a second observation deck on the 102nd floor that is open to the public. It was closed in 1999, but reopened in November 2005. It is completely enclosed and much smaller than the first one; it may be closed on high-traffic days. Tourists may pay to visit the observation deck on the 86th floor and an additional amount for the 102nd floor.
@@ -95,7 +95,7 @@
         The lines to enter the observation decks, according to Concierge.com, are "as legendary as the building itself:" there are five of them: the sidewalk line, the lobby elevator line, the ticket purchase line, the second elevator line, and the line to get off the elevator and onto the observation deck. For an extra fee tourists can skip to the front of the line. The Empire State Building makes more money from tickets sales for its observation decks that it does from renting office space. --- Wikipedia</div>
 
         <div class="broadcast1">
-        Broadcast Stations
+        Broadcast Stations&nbsp;&nbsp;&nbsp;<span class="show5">SHOW</span>
         </div>
         <div class="broadcast2">
         According to Wikipedia, New York City is the largest media market in the United States. Since the September 11 attacks, nearly all of the city's commercial broadcast stations (both television and FM radio) have transmitted from the top of the Empire State Building. 
@@ -107,6 +107,12 @@
         <p class="bold">Television broadcasting:</p> WCBS-2, WNBC-4, WNYW-5, WABC-7, WWOR-9 Secaucus, WPIX-11, WNET-13 Newark, WNYE-25, WPXN-31, WXTV-41 Paterson, WNJU-47 Linden and WFUT-68 Newark
         <br></br>
         <p class="bold">FM broadcasting:</p> WNOW-92.3, WPAT-93.1 Paterson, WNYC-93.9, WPLJ-95.5, WXNY-96.3, WQHT-97.1, WSKQ-97.9, WEPN-98.7, WBAI-99.5, WHTZ-100.3 Newark, WCBS-101.1, WFAN-101.9, WWFS-102.7, WKTU-103.5 Lake Success, WAXQ-104.3, WWPR-105.1, WQXR-105.9 Paterson, WLTW-106.7 and WBLS-107.5</div>
+
+        <div id="flicker1">
+        Photos on Flicker&nbsp;&nbsp;&nbsp;<span class="show6">SHOW</span>
+        </div>
+        <div id="flicker2">
+        </div>
   
         <div class="hr2"><hr /></div>
 
@@ -151,7 +157,14 @@
 
             <br><br/>
 
-        	So, what color is the Empire State Building tonight?</div>
+        	So, what color is the Empire State Building tonight?
+
+            <br>
+
+            <span class="light3">
+            (The weather in New York today is <a href="http://openweathermap.org/city/5128581" target="_blank"><span id="temp"></span></a> degree and <a href="http://openweathermap.org/city/5128581" target="_blank"><span id="weather"></span></a>.)</span>
+
+            <br><br/>
 
             <div class="tweet">
             <a class="twitter-timeline" href="https://twitter.com/EmpireLights" data-widget-id="441267470481907712">Tweets by @EmpireLights</a>
@@ -159,24 +172,54 @@
 
     
     <script>
-    $('.Opening1').click(function(){
-        $('.Opening2').slideToggle();
+    $('.show1').click(function(){   
+        $('.opening2').slideToggle();
+        $('.show1').html($('.show1').text() == 'HIDE' ? 'SHOW' : 'HIDE');
     });
     
-    $('.suicide1').click(function(){
+    $('.show2').click(function(){
+        $('.show2').html($('.show2').text() == 'HIDE' ? 'SHOW' : 'HIDE');
         $('.suicide2').slideToggle();
     });
     
-    $('.shooting1').click(function(){
+    $('.show3').click(function(){
         $('.shooting2').slideToggle();
+        $('.show3').html($('.show3').text() == 'HIDE' ? 'SHOW' : 'HIDE');
     });
 
-    $('.deck1').click(function(){
+    $('.show4').click(function(){
         $('.deck2').slideToggle();
+        $('.show4').html($('.show4').text() == 'HIDE' ? 'SHOW' : 'HIDE');
     });
 
-    $('.broadcast1').click(function(){
+    $('.show5').click(function(){
         $('.broadcast2').slideToggle();
+        $('.show5').html($('.show5').text() == 'HIDE' ? 'SHOW' : 'HIDE');
+    });
+
+    $('.show6').click(function(){
+        $('#flicker2').slideToggle();
+        $('.show6').html($('.show6').text() == 'HIDE' ? 'SHOW' : 'HIDE');
+    });
+
+    $.getJSON('http://api.openweathermap.org/data/2.5/weather?q=New%20York,USA&units=imperial', function(data){
+       $('#weather').text(data.weather[0].description + '');
+       $('#temp').text(data.main.temp);
+
+      });
+
+    var flickerAPI = "http://api.flickr.com/services/feeds/photos_public.gne?jsoncallback=?";
+
+    $.getJSON( flickerAPI, {
+    tags:"the empire state building",
+    format: "json"
+    }).done(function( data ) {
+    console.log(data)
+    $.each( data.items, function(i, item) {
+    $("<a>", {"href": item.link})
+    .append($( "<img>" ).attr( "src", item.media.m ))
+    .appendTo( "#flicker2" );
+    });
     });
 
     </script>

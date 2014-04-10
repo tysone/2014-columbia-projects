@@ -1,0 +1,13 @@
+body {
+  max-width: 600px;
+  margin: auto;
+}
+#bills li {
+  font: 18px Helvetica;
+  margin-bottom: 15px;
+}
+
+#bills strong {
+  text-transform: uppercase;
+  background-color: yellow;
+}

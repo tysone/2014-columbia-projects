@@ -1,0 +1,57 @@
+<html>
+<head>
+	<title>jQuery Rectangles</title>
+	<style type="text/css">
+
+		h1 {
+			font-family: "Helvetica", Arial, sans-serif;
+			font-style: normal;
+			font-weight: normal;
+			font-size: 40px;
+		}
+
+		.rectangle {
+			width: 400px;
+			height: 200px;
+			background-color: blue;
+			margin: 50px;
+
+		}
+
+		.changeColor {
+			background-color: red;
+		}
+
+		.increaseWidth {
+			width: 600px;
+		}
+		.roundCorners {
+			border-radius: 50px;
+		}
+	</style>
+</head>
+
+<body>
+	<h1>Click on the Rectangles!</h1>
+
+	<div class="rectangle" id="rec1"></div>
+	<div class="rectangle" id="rec2"></div>
+	<div class="rectangle" id="rec3"></div>
+
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+	<script>
+		$('#rec1').on('click', function() {
+			$('#rec1').toggleClass('changeColor');
+		});
+
+		$('#rec2').on('click', function() {
+			$('#rec2').toggleClass('increaseWidth');
+		});
+
+		$('#rec3').on('click', function() {
+			$('#rec3').toggleClass('roundCorners');
+		});
+	</script>
+
+</body>
+</html>

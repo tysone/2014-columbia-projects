@@ -1,0 +1,40 @@
+<html>
+<head>
+<title> </title>
+<link rel="stylesheet" type="text/css" href="style.css" />
+<link href='http://fonts.googleapis.com/css?family=Playfair+Display' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Alice' rel='stylesheet' type='text/css'>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"> </script>
+
+</head>
+<body id="wrapper">
+<div id="page">
+
+<p id="header"> Using jQuery to Select HTML Elements </p>
+<p id="subhead"> Click each rectangle. </p>
+
+<div class="rectangle" id="rectangle-1"> </div>
+
+<div class="rectangle" id="rectangle-2"> </div>
+
+<div class="rectangle" id="rectangle-3"> </div>
+
+</div>
+<script>
+
+ $('#rectangle-1').on('click', function(){
+	$(this).addClass('rectangle-clicked');
+})
+
+$('#rectangle-2').on('click', function(){
+	$(this).addClass('rectangle-tall');
+})
+
+$('#rectangle-3').on('click', function(){
+	$(this).addClass('rectangle-round');
+})
+
+</script>
+
+</body>
+</html>

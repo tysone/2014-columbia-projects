@@ -1,0 +1,22 @@
+.rectangle
+	  {
+		  width: 200px;
+    	height:200px;
+	  	background-color:#9E6585;
+    	display: inline-block;
+	  }
+
+.size
+	  {
+    	width:400px;
+  	}
+
+.color
+	  {
+	  	background-color:black
+	  }
+
+.edge
+	  { 
+		  border-radius: 5px;
+	  }
