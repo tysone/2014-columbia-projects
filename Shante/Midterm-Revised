@@ -1,0 +1,229 @@
+<html>
+	<head>
+		<title>Upper West Side</title>
+	<link href="style.css" rel="stylesheet" type="text/css" />
+	<script type="text/javascript" src="js/jquery.scrollmagic.js"></script>
+	<script type="text/javascript" src="js/jquery.scrollmagic.debug.js"></script>
+	<link href="http://fonts.googleapis.com/css?family=Dancing+Script:700|EB+Garamond" rel="stylesheet" type="text/css" />
+	
+
+
+	<style>
+	#title-1{
+		text-align: center;
+		font-family: 'Dancing Script', cursive;
+    	font-weight: 700;
+    	line-height: 46px;
+    	font-size: 42px;
+    	margin: 0 0 0px 0;}
+
+    #sub-1{
+    	text-align: center;
+	    font-family: 'EB Garamond', serif;
+	    font-weight: normal;
+	    text-transform: uppercase;
+	    font-size: 18px;
+	    line-height: 23px;
+	    letter-spacing: 2px;
+	    margin: 0 0 23px 0;}
+
+    h2	{
+		text-align: left;
+		font-family: 'Dancing Script', cursive;
+    	font-weight: 700;
+    	line-height: 46px;
+    	font-size: 40px;
+    	margin: 0 0 0px 0;
+		padding: 5px;
+		margin: 10px;
+		width: 250px;}
+
+    img {
+    	width: 90%;
+		height: 100%;
+		margin-left: 5%;}
+
+   #media img {
+		float:left;
+		width: 32px;
+		height:40px;
+		}
+
+	#title-2 {
+		color: white;
+		position: absolute;
+		left: 245px;
+		width: 250px;
+		background-color: rgba (0.0.0);
+		opacity: 0.7;}
+
+	#title-3 {
+		color: white;
+		position: absolute;
+		left: 245px;
+		width: 250px;
+		background-color: rgba (0.0.0);
+		opacity: 0.7;}
+
+	#title-4 {
+		color: white;
+		position: absolute;
+		left: 245px;
+		width: 250px;
+		background-color: rgba (0.0.0);
+		opacity: 0.7;}
+
+	#title-5 {
+		color: white;
+		position: absolute;
+		left: 245px;
+		width: 250px;
+		background-color: rgba (0.0.0);
+		opacity: 0.7;}
+
+   p {
+		text-align: center;
+		padding: 10px;
+		font-family: "arielblack";
+		padding: 10px;
+		margin: 10px;
+		font-size: 26px;
+		color: white;
+		background-color: rgba (0.0.0);
+		opacity: 0.7;}
+
+	#content-2 {
+		width: 550px;
+		position: absolute;
+		top: 2800px;
+		left: 100px;}
+		
+	#content-3 {
+		width: 550px;
+		position: absolute;
+		top: 3420px;
+		left: 100px;}
+
+	#content-4 {
+		width: 550px;
+		position: absolute;
+		top: 4040px;
+		left: 100px;}
+
+	#content-5 {
+		width: 550px;
+		position: absolute;
+		top: 4650px;
+		left: 100px;}
+
+	
+
+	@media (max-width: 700px) {
+
+	#page {
+		
+		width: 100%;
+		height: 100%;}
+
+
+
+img {
+		position: relative;
+		max-width: 100%;
+		height: 300px;}
+
+p 	{
+		color: white;
+		font-family: Helvetica; 
+		font-size: 16px;
+		line-height: 16px;
+		letter-spacing: 3px;
+		font-weight: 100;
+		background-color: blue;
+    }
+
+
+}
+
+	</style>
+	</head>
+
+		<body>
+			<section>
+			<div id="page">
+			<div id="img">
+			<div class="titles" id="title-1">
+				<h1>Welcome to My Block</h1></br> 
+
+			<div class="subtitles" id="sub-1">
+				De Hostos Apartments</br>Building #201
+			</div>
+			</div>
+			
+			<img class="displayed" src="http://farm4.staticflickr.com/3233/12993106083_782a254bcc_t.jpg" width="620">
+			<img class="displayed" src="http://img1.wikia.nocookie.net/__cb20120409220859/disney/images/0/07/Simba-2-%28The_Lion_King%29.jpg" width="620">
+			<img class="displayed" src="http://farm4.staticflickr.com/3233/12993106083_782a254bcc_t.jpg" width="620">
+			<img class="displayed" src="http://img1.wikia.nocookie.net/__cb20120409220859/disney/images/0/07/Simba-2-%28The_Lion_King%29.jpg" width="620">
+			</div>
+
+			<!--div class="hover">
+			<div class="content">
+			<p>De Hostos Apartments is named after Eugenio Maria de Hostos. Hostos was an educator, humanist, abolitionist, philosopher, writer and politician. He advocated for Puerto Rico to be a part of the United States, as well as for its citizens to be recognized as U.S. citizens. He was born in 1839 and died in 1903.
+			De Hostos Apartments is a 22-story building with 218 apartments, serving 480 residents. It’s located on the Upper West Side of Manhattan at 201 West 93 St. I’ve called it home for 24 years.</p>
+			</div>
+			</div-->
+		</br>
+		</br>
+
+			
+			<div id="image-2">
+			<div class="titles" id="title-2">
+				<h2>No more candy?</h2>
+			</div>
+			<div class="content" id="content-2">
+			<p>Six months ago this vacant space was decorated with bright colors and a 7-Eleven logo. Customers were constantly shuffeling in and out. In the mornings, majority of its customers consisted of teens and pre-teens who were looking to stock up on sweet treats before making their way to school. Ironically, twenty years before it was a 7-Eleven, part of this space was a candy store owned by a man who's personality resembeled Willy Wonker. The other half was a TV repair shop.</p>
+			</div>
+			<img class="displayed" src="http://farm4.staticflickr.com/3538/12993684103_1c66f4e94f_t.jpg" width="620">
+			
+			
+
+			<div class="titles" id="title-3">
+				<h2>Health Center</h2>
+			</div>
+			<div class="content" id="content-3">
+			<p>Six months ago this vacant space was decorated with bright colors and a 7-Eleven logo. Customers were constantly shuffeling in and out. In the mornings, majority of its customers consisted of teens and pre-teens who were looking to stock up on sweet treats before making their way to school. Ironically, twenty years before it was a 7-Eleven, part of this space was a candy store owned by a man who's personality resembeled Willy Wonker. The other half was a TV repair shop.</p>
+			</div>
+			<img class="displayed" src="http://farm4.staticflickr.com/3074/13071963124_95659f2edb_t.jpg" width="620">
+			
+			
+
+			<div class="titles" id="title-4">
+				<h2>Parking Lot</h2>
+			</div>
+			<div class="content" id="content-4">
+			<p>Six months ago this vacant space was decorated with bright colors and a 7-Eleven logo. Customers were constantly shuffeling in and out. In the mornings, majority of its customers consisted of teens and pre-teens who were looking to stock up on sweet treats before making their way to school. Ironically, twenty years before it was a 7-Eleven, part of this space was a candy store owned by a man who's personality resembeled Willy Wonker. The other half was a TV repair shop.</p>
+			</div>
+			<img class="displayed" src="http://farm4.staticflickr.com/3233/12993106083_782a254bcc_t.jpg" width="620">
+			
+
+			<div class="titles" id="title-5">
+				<h2>New Kam Lai</h2>
+			</div>
+			<div class="content" id="content-5">
+			<p>Six months ago this vacant space was decorated with bright colors and a 7-Eleven logo. Customers were constantly shuffeling in and out. In the mornings, majority of its customers consisted of teens and pre-teens who were looking to stock up on sweet treats before making their way to school. Ironically, twenty years before it was a 7-Eleven, part of this space was a candy store owned by a man who's personality resembeled Willy Wonker. The other half was a TV repair shop.</p>
+			</div>
+			<img class="displayed" src="http://farm4.staticflickr.com/3576/13071685904_70c0109a0b_t.jpg" width="620">
+			
+			<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+			</script>
+
+			<script>
+			$('#square-1').on('click', function() {
+			$(this).addClass('hover');
+
+			</script>
+		
+		
+		</body>
+
+</html>
