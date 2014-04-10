@@ -96,7 +96,7 @@ text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
   }
 
  .img {
-max-width: 100%;
+width: 100%;
 }
 
 
@@ -234,15 +234,14 @@ filter:alpha(opacity=40);}
 	clear:left;
 }
 
-.vertical{
-	float:left;
-	padding-bottom: 20px;
+#oldnew img {
+padding-bottom: 20px;
 	margin-top: 50px;
 	margin-left:420px;
 	bottom: 150px;
-	z-index: 13;
-	position: relative;
-}
+	}
+
+/*#oldnew {position:relative;}*/
 
 .text2 {float:left;
 padding-left: 20px;
@@ -252,15 +251,15 @@ z-index: 6;}
 	z-index:7;
 }
 
-.vertical2{
-float:left;
+/*.vertical2{
+\
 	padding-bottom: 20px;
 	margin-top: 50px;
 	margin-left:420px;
 	bottom: 150px;
 	z-index: 13;
-	position: relative;
-}
+	position: absolute;
+}*/
 
 .music {float:right;
 text-align: right;}
@@ -285,7 +284,7 @@ max-width: 100%;
 
 
 @media (max-width: 800px) { 
-		h1 {
+		h1,h2,h3,h4 {
 			left:10%;
 top:10px;
 text-align: right;
@@ -293,19 +292,18 @@ max-width: 100px;
 font-size:76px;
 line-height: 75px;
 			}
-		h2 {
+		p {
 			left:10%;
 top:10px;
-text-align: right;
+text-align: left;
 max-width: 100px;
-font-size:76px;
-line-height: 75px;
+font-size:35px;
+line-height: 35px;
 			}
 
 .openingimage {
 	text-align: center;
-	max-width: 800px;
-	max-height:65%;
+	width: 100%;
 	position: absolute;
 	margin-left: 0px;
 }
@@ -314,8 +312,8 @@ line-height: 75px;
 top:10px;
 text-align: right;
 max-width: 100px;
-font-size:76px;
-line-height: 75px;
+/*font-size:76px;
+line-height: 75px;*/
 }
 
 	}
@@ -324,70 +322,32 @@ line-height: 75px;
 
 	.openingimage {
 	text-align: center;
-	max-width: 350px;
+	width:100%;
 	margin-left: 0px;
-	position: relative;
+	
 }
-h1 {left:10%;
+h1, h2, h3, h4, h5 {left:10%;
 top:10px;
 text-align: right;
-max-width: 100px;
+max-width: 300px;
 font-size:36px;
 line-height: 35px;
-}
-
-h2 
-
-{left:10%;
-top:10px;
-text-align: right;
-max-width: 100px;
-font-size:36px;
-line-height: 35px;
-}
-
-h3 
-
-{left:10%;
-top:10px;
-text-align: right;
-max-width: 100px;
-font-size:36px;
-line-height: 35px;
-}
-h4 
-
-{left:10%;
-top:10px;
-text-align: right;
-max-width: 100px;
-font-size:36px;
-line-height: 35px;
-}
-h5
-{left:10%;
-top:10px;
-text-align: right;
-max-width: 100px;
-font-size:26px;
-line-height: 25px;
 }
 
 p
 {left:10%;
 top:10px;
 text-align: right;
-max-width: 100px;
+max-width: 300px;
 font-size:26px;
 line-height: 25px;
 }
 
-.headline 
-{left:10%;
-top:10px;
-text-align: left;
-max-width: 100px;
-padding-right: 20px;
+#harlemheart
+{margin-right:40px;
+text-align: center;
+/*max-width: 100px;
+padding-right: 20px;*/
 }
 
 .wrapper
