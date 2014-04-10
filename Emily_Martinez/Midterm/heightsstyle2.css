@@ -129,7 +129,8 @@ p 	{color: white;
 	background-attachment: scroll;
 	background-size: auto 100%;
 		margin-right: 0px;
-		margin-left: 0px;}
+		margin-left: 0px;
+	margin-bottom: 100px;}
 #image2 {width: 100%;
 background-attachment: scroll;
 	background-size: auto 100%;
@@ -142,11 +143,13 @@ background-attachment: scroll;
 #image4 {width: 100%;background-size: auto 100%;
 	background-attachment: scroll;
 		margin-right: 0px;
-		margin-left: 0px;}
+		margin-left: 0px;
+	margin-bottom: 100px;}
 #image5 {width: 100%;
 	background-attachment: scroll;background-size: auto 100%;
 		margin-right: 0px;
-		margin-left: 0px;}
+		margin-left: 0px;
+	margin-bottom: 100px;}
 img {position: absolute;
 		max-width: 100%;
 	}
@@ -199,7 +202,8 @@ body {background-color: black;
 		line-height: 20px;
 		text-align: right;
 		padding-left: 30px;
-		float: right;}
+		float: right;
+	}
 .scroll {display: inherit;
 		width: 20px;}
 .hide {display: inherit;
