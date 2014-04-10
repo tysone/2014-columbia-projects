@@ -80,8 +80,9 @@ h3 {
     font-weight: 900;
     line-height: 50px;
     font-size: 50px;
-    margin: 0 0 10px 0;
+    margin: 10 0 10px 0;
     color:white;
+
 text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
     }
 
