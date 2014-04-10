@@ -11,7 +11,7 @@ $("#flickr").click(function(){
 $('.blur').foggy();
 
 
-$(".main").onepage_scroll();
+//$(".main").onepage_scroll();
 
 
 $(".main").onepage_scroll({
@@ -30,7 +30,7 @@ $(".main").onepage_scroll({
                                     // the browser's width is less than 600, the fallback will kick in.
 });
 
-/*
+
 
 var flickerAPI = "https://api.flickr.com/services/feeds/groups_pool.gne?jsoncallback=?";
 
