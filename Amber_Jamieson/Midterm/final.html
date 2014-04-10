@@ -86,9 +86,24 @@ $.getJSON( flickerAPI, {
   });
 
 
-$('.vertical').on('click', function() {
-	$(this).toggle('vertical2')
-});
+// $('.vertical').on('click', function() {
+// 	$(this).toggle('vertical2')
+// });
+
+// $('vertical').
+// (function(){
+// hover(handlerIn,handlerOut)function(){
+// 	$('vertical2').toggle();
+
+// });
+
+$( "vertical" ).hover(
+  function() {
+    $( this ).append( $( "vertical" ) );
+  }, function() {
+    $( this ).find( "vertical2" ).remove();
+  }
+);
 
 $(".main").onepage_scroll();
 
