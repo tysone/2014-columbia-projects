@@ -127,7 +127,10 @@ hr {border-color: #BA1619;
 
 
 @media all and (max-width:320px) {
+p {font-size: 14px;
+}
 
+}
 
 
 
