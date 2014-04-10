@@ -14,6 +14,7 @@ padding-right: 30px;
 padding-bottom: 30px;
 margin-right: 10px;
 margin-bottom: 10px;
+margin-left: 10px;
 
 }
 
@@ -30,13 +31,11 @@ padding-left: 30px;
 padding-right: 10%;
 padding-left: 30px;
 position: relative;
+margin-top: 10px;
 
 }
 
-#facebook {height:30px;
-width:25px;
-padding-bottom: 40px;
-}
+
 
 .twitter {height: 20px;
 width:25px;
@@ -45,18 +44,17 @@ padding-bottom: 40px;
 padding-top: 2px;
 }
 
-img {width: 900px;
-margin-top: 60px;
+img {
+margin-top: 10px;
 width:100%;
 
 }
 
-.image1 { padding-top: 400px;
-	margin-top: 25px;
+.image1 { padding-top: 300px;
+	margin-top: 20px;
 	width:100%;
-
-	
-}
+position: relative;
+	}
 
 .image1 {padding-top: 100px;
 	width:100%;
@@ -82,35 +80,11 @@ h1 { font-family: 'Baskerville', serif;
 display:none;
 }
 
-#text {
-
-padding-top: 570px;
-font-size: 22px;
-text-align: justify;
-
-
-
-}
-
- #text1 { padding-top: 720px;
-font-size: 16px;
-text-align: justify;
-
-
-
-}
-
-#text2 {padding-top: 25px;
-	font-size: 22px;
-	text-align: justify;
-	
-
-}
-
-
 p {padding-top: 20px;
-	font-size: 22px;
+	font-size: 20px;
 text-align: justify;
+padding-left: 30px;
+padding-right: 30px;
 }
 
 .firstword { font-family: 'Baskerville', serif;
@@ -126,6 +100,9 @@ a:active {color:#BA1619;}
 
 
 iframe { padding-top: 25px;
+	padding-left: 30px;
+	padding-right: 30px;
+	width: 100%;
 
 }
 
@@ -139,6 +116,7 @@ hr {border-color: #BA1619;
 #google {
 	padding-top: 5px;
 	padding-bottom: 300px;
+	width: 100%
 
 
 }
