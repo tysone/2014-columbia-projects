@@ -1,0 +1,99 @@
+.headline {
+	font-family: futura;
+	text-transform: uppercase;
+	font-size: 50px;
+	line-height: 100px;
+	text-align: left;
+
+
+}
+
+h1 {
+	margin-bottom: 20px;
+	margin-top: 10px;
+
+}
+
+.text {
+	font-family: helvetica;
+	font-weight: lighter;
+	text-align: justify;
+	margin-top: 20px;
+	margin-bottom: 0px;
+
+}
+
+.quote {
+	font-family: futura;
+	font-size: 40px;
+	text-align: right;
+	text-transform: uppercase;
+	line-height: 37px;
+	font-weight: bold;
+	margin-bottom: -10px;
+	margin-top: -15px;
+    
+}
+
+
+.drop {
+	font-family: futura;
+	font-size: 71px;
+	float: left;
+	line-height: 10px;
+	margin-bottom: 9px;
+	margin-right: 9px;
+}
+
+.topimage {
+
+	margin-top: 0px;
+	margin-bottom: 20px;
+	width: 100%;
+}
+
+.image {
+	margin-bottom: 20px;
+}
+
+#cf img {
+position: absolute;
+	left: 5px;
+
+}
+
+#cf {
+	position: relative;
+   margin-left: -16px;
+  width: 940px;
+}
+
+.text1 {
+	right: 10px; 
+}
+
+.quickfix {
+	height: 590px;
+}
+
+@media screen and (max-width: 960px) {
+	img {
+		width: 100%;
+		margin: 10px;
+
+	}
+    #cf img {
+    	position: absolute;
+    }
+	#cf {
+		width: 100%;
+		position: relative;
+	}
+
+	.quickfix {
+		width: 100%;
+		height: 100%;
+	}
+	
+}
+
