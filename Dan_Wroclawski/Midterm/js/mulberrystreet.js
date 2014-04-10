@@ -1,6 +1,10 @@
 $(function(){
 
-$('.blur').foggy();
+$('.blur').foggy({
+    blurRadius: 4,          // In pixels.
+    opacity: 0.8,           // Falls back to a filter for IE.
+    cssFilterSupport: true  // Use "-webkit-filter" where available.
+  }); 
 
 $(".main").onepage_scroll({
    sectionContainer: "section",     // sectionContainer accepts any kind of selector in case you don't want to use section
