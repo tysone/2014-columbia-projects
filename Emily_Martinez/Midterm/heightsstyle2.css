@@ -53,12 +53,11 @@ margin: 0;}
 		background-repeat: no-repeat;
 		background-position: center;}
 p 	{color: white;
-		font-family: Times; 
+		font-family: 'Cardo', serif; 
 		font-size: 22px;
 		line-height: 32px;
-		letter-spacing: 2px;
-		text-shadow: 0 0 0.1em black, 0 0 0.1em black,
-        0 0 0.1em black;}
+		letter-spacing: 1px;
+		}
 .content {text-align: right;
 		padding-right: 20px;
 		width: 550px;
@@ -69,7 +68,7 @@ p 	{color: white;
 		padding-right: 20px;
 		float: right;}
 .quote {color: white;
-		font-family: Times;
+		font-family: 'Josefine Slab', serif;
 		font-size: 80px;
 		width: 700px;
 		text-align: right;
@@ -83,11 +82,13 @@ p 	{color: white;
 		font-weight: 400;
 		font-family: 'Josefine Slab', serif;}
 .name {font-size: 30px;
-	font-family: georgia, serif;
+	font-family: "Cardo", serif;
 		float: right;
 		padding-top: 20px;
 		color: white;
 		padding-right: 10%;}
+.name1 {font-family: "Cardo", serif;
+	padding-right: 5%;}
 .scroll {float: right;
 	display: none;}
 .hide {display: none;
@@ -150,15 +151,15 @@ img {position: absolute;
 		max-width: 100%;
 	}
 p 	{color: white;
-		font-family: Helvetica; 
-		font-size: 16px;
+		font-family: "Roboto", serif; 
+		font-size: 14px;
 		line-height: 16px;
 		letter-spacing: 3px;
 		font-weight: 100;
 		text-shadow: 0 0 0.1em black, 0 0 0.1em black,
         0 0 0.1em black;}
 .quote {color: white;
-		font-family: Times;
+		font-family: 'Josefine Slab', serif;
 		font-size: 30px;
 		text-align: right;
 		float: right;
@@ -209,7 +210,7 @@ body {background-color: black;
 		position: relative;
 		top: 80%;
 		color: white;
-		font-family: Times;
+		font-family: 'Josefine Slab', serif;
 		font-size: 32px;
 		text-align: right;
 		float: right;
