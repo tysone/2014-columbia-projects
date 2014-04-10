@@ -7,6 +7,10 @@ audio{
 	width: 88px;
 }
 
+.bold{
+	font-weight: bold;
+}
+
 .show1,.show2,.show3,.show4,.show5,.show6{
 	font-size: 13px;
 	color: #06648A;
