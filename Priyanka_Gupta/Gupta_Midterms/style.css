@@ -158,12 +158,12 @@ font-family:{'Baskerville', serif;
 }
 
 }
-img {width:100px;
+img {width:100%;
 }
 
 #text: {
 
-font-size: 10px;
+font-size: 10;
 
 }
 
