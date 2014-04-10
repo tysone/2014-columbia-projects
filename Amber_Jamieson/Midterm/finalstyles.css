@@ -6,6 +6,15 @@ html, body {
 
 .wrapper {
 	height:100%;
+
+}
+
+#flickr{
+	width: 100%;
+	margin-right: 150px;
+	position: absolute;
+	text-align: center;
+	background-color: black;
 }
 
 .openingimage {
@@ -13,8 +22,6 @@ html, body {
 	
 	position: absolute;
 	margin-left: 150px;
-
-
 }
 
 #intropic {z-index: 1;}
@@ -68,8 +75,24 @@ h1 {
 text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
     }
 
+h3 {
+    font-family: 'Playfair Display', serif;
+    font-weight: 900;
+    line-height: 50px;
+    font-size: 50px;
+    margin: 0 0 10px 0;
+    color:white;
+text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    }
+
 .text {/*float:left;*/
 	width:250px;}
+
+	#photos img {
+  margin: 10px;
+  border: 2px solid #333;
+  max-width: 600px;
+}
 
 /*.subhead {
 padding-top: 40px;
@@ -91,6 +114,15 @@ text-align: left;
 max-width: 400px;
 }
 
+.rectangle2 {
+	z-index:6;
+	width: 600px;
+	position: relative;
+top:45px;
+padding-left: 350px;
+text-align: center;
+}
+
 .subhead1 {
 padding-top: 10px;
 margin-top: 10px;
@@ -108,17 +140,14 @@ h2 {
 text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
     }
 
-h3 {font: 24px Helvetica;
-	color:black;
-	text-align: right;
-	}
-
 p {
     font-family: 'Alice', serif;
-    font-size: 18px;
+    font-size: 26px;
     font-weight: normal;
-    line-height: 23px;
-    margin: 0 0 23px 0;
+    line-height: 26px;
+    margin: 0 0 10px 0;
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
     }
 
 blockquote {font: bold 60px Helvetica;
@@ -136,6 +165,8 @@ text-align: right;}
 	text-align: right;
 	margin-top: 15px;}
 
+#blank{background-color: black;}
+
 /*.apolloimage {
 	float:right;
 }
@@ -150,7 +181,12 @@ text-align: right;}
 }
 
 .text2 {float:left;
-padding-left: 20px;}
+padding-left: 20px;
+z-index: 6;}
+
+.text3 {
+	z-index:7;
+}
 
 .vertical2{
 float: right;
