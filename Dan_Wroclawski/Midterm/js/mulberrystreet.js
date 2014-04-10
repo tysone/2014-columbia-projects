@@ -1,18 +1,6 @@
 $(function(){
 
-/*
-$("#flickrPhotos").fadeToggle();
-
-$("#flickr").click(function(){
-	$("#flickrPhotos").fadeToggle();
-});
-*/
-
 $('.blur').foggy();
-
-
-//$(".main").onepage_scroll();
-
 
 $(".main").onepage_scroll({
    sectionContainer: "section",     // sectionContainer accepts any kind of selector in case you don't want to use section
@@ -44,5 +32,7 @@ $.getJSON(flickerAPI, {
       	.appendTo("#flickrPhotos");
     });
 });
+
+$('#flickrPhotos').slick();
 
 });
