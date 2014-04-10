@@ -203,6 +203,14 @@ body {background-color: black;
 		padding-left: 30px;
 		float: right;
 	}
+.byline {font-size: 16px;
+		font-family: 'Cardo', serif;
+		letter-spacing: 1px;
+		line-height: 20px;
+		text-align: right;
+		padding-top: 20px;
+	float: right;
+		padding-right: 0;}
 .scroll {display: inherit;
 		width: 20px;
 		margin-right: 5px;}
