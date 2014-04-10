@@ -261,7 +261,7 @@ a:hover {
 	text-decoration: underline;
 }
 
-@media all and (max-width: 320px){
+@media all and (max-width: 400px){
 
 #wrapper {
 	background-color: white;
