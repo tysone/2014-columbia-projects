@@ -10,24 +10,25 @@ html, body {
 
 .openingimage {
 	text-align: center;
-	margin-top: 10px;
+	
 	z-index: 1;
+
+
 }
 
 .openingimage2 {
 	margin-top: 20px;
 }
-/*
+
 .headline {z-index: 2;
 position: relative;
 margin-right: 5%;
 margin-left:70%;
-padding-top: 80px;
-margin-top: 20px;
-height:500px;
+/*padding-top: 80px;
+margin-top: 20px;*/
 text-align: left;
-max-width: 100%;
-}*/
+/*max-width: 100%;*/
+}
 
 .sub2 {width: 960px;
 margin-left:10%;
@@ -38,7 +39,7 @@ color:white;
 text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
-.text {float:left;
+.text {/*float:left;*/
 	width:250px;}
 
 /*.subhead {
@@ -83,10 +84,10 @@ text-align: right;}
 	text-align: right;
 	margin-top: 15px;}
 
-.apolloimage {
+/*.apolloimage {
 	float:right;
 }
-
+*/
 .clear {
 	clear:left;
 }
@@ -96,8 +97,8 @@ text-align: right;}
 	padding-bottom: 20px;
 }
 
-.text2 {float:left;
-padding-left: 20px;}
+/*.text2 {float:left;
+padding-left: 20px;}*/
 
 .vertical2{
 float: right;
