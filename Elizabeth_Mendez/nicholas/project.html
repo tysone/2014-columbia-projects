@@ -37,6 +37,14 @@
       <style type="text/css">
           #point {font-weight: bold;}
         </style>
+     	<script type="text/javascript">
+	$.getJSON('http://data.cityofnewyork.us/resource/ccab-jb4k.json', function(data){
+       $('#point').text(data._number_1.);
+      }) 
+
+
+ 	</script>
+        
         
         NYPD patrol guide does not specifically detail any protocols for unholserting a firearm. NYC Open Data's most recent information about instances where police officer have pointed or shot their firearm are from 2006-2009. 
 
@@ -80,13 +88,7 @@
 
 </div>
  
- <script type="text/javascript">
-$.getJSON('http://data.cityofnewyork.us/resource/ccab-jb4k.json', function(data){
-       $('#point').text(data._number_1.);
-      }) 
 
-
- </script>
  
  
  
