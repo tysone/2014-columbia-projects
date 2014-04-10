@@ -304,7 +304,11 @@ h2 {
 }
 
 .caption {
-	display: none;
+	font-size: 10px;
+	text-align: right;
+	font-family: Minion Pro, Georgia, serif;
+	color: #1F1F1F;
+}
 
 }
 
