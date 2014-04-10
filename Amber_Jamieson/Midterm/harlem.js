@@ -1,7 +1,3 @@
-<script>
-	
-
-
 $('#intropic').on('click', function() {
   		
   		$('.headline').fadeIn('slow');
@@ -35,4 +31,4 @@ $(".main").onepage_scroll({
 // });
 
 
-		</script>
+	
