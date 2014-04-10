@@ -17,7 +17,7 @@ html, body {
 .openingimage2 {
 	margin-top: 20px;
 }
-
+/*
 .headline {z-index: 2;
 position: relative;
 margin-right: 5%;
@@ -27,7 +27,7 @@ margin-top: 20px;
 height:500px;
 text-align: left;
 max-width: 100%;
-}
+}*/
 
 .sub2 {width: 960px;
 margin-left:10%;
@@ -41,13 +41,13 @@ text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 .text {float:left;
 	width:250px;}
 
-.subhead {
+/*.subhead {
 padding-top: 40px;
 margin-top: 40px;
 text-align: left;
 width: 900px;
 height: 100%;
-}
+}*/
 .subhead1 {
 padding-top: 10px;
 margin-top: 10px;
