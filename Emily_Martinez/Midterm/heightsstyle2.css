@@ -86,9 +86,14 @@ p 	{color: white;
 		float: right;
 		padding-top: 20px;
 		color: white;
+		padding-right: 5%;}
+.byline {font-size: 30px;
+		font-family: 'Cardo', serif;
+		letter-spacing: 1px;
+		line-height: 20px;
+		padding-top: 100px;
+	float: right;
 		padding-right: 10%;}
-.name1 {font-family: "Cardo", serif;
-	padding-right: 5%;}
 .scroll {float: right;
 	display: none;}
 .hide {display: none;
@@ -194,15 +199,15 @@ body {background-color: black;
 .audio {height: 40; width: 80px;
 		padding-top: 40px;
 		padding-right: 15px;
-		float: right;}
+		float: right;
+		padding-top: 0px;}
 .name {font-size: 16px;
 		font-family: 'Cardo', serif;
 		letter-spacing: 1px;
 		line-height: 20px;
 		text-align: right;
 		padding-left: 30px;
-		float: right;
-	}
+		float: right;}
 .byline {font-size: 16px;
 		font-family: 'Cardo', serif;
 		letter-spacing: 1px;
