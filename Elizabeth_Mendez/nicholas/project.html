@@ -76,12 +76,14 @@
 
     <div id="last">"I would like to stop being an activist against police brutality. It is so stressful, so pianful. I cry a lot. I hurt a lot behind this."</div>
 
+   <script type="text/javascript">
+        $.getJSON('http://data.cityofnewyork.us/resource/ccab-jb4k.json', function(data){
+       console.log(data);
+       $('#point').text(data[0]._number_1);
+      }) 
+        
+      </script>
 </div>
- 
-
- 
- 
- 
   </body>
 </html>
   
