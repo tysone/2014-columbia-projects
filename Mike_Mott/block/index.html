@@ -5,28 +5,40 @@
 		<link rel="stylesheet" type="text/css" href="css/960.css"/>
 		<link href='http://fonts.googleapis.com/css?family=Lusitana' rel='stylesheet' type='text/css'>
 		<link href='http://fonts.googleapis.com/css?family=Poiret+One' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Parisienne' rel='stylesheet' type='text/css'>
 		<meta charset=utf-8 />
 		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 		<link rel="stylesheet" href="css/960-responsive.css" />
+		<script type="text/javascript" src="johnpolacek-superscrollorama-c2461ac/js/jquery.scrollmagic.js"></script>
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+		<script type="text/javascript" src="johnpolacek-superscrollorama-c2461ac/js/jquery.scrollmagic.min.js"></script>
+		<script type="text/javascript" src="johnpolacek-superscrollorama-c2461ac/js/_dependent/greensock/TweenMax.min.js"></script>
 	</head>
 	<body class="container_12 clearfix">
 		<div class="grid_12 header">
 			<div id="outer-header">
-				<img src="top.jpg" width="960" alt="block-wide pic">
-				<p id="inner-header"><span id="title">West 114th Street: <br />From Broadway to Amsterdam (and Back Again)</span></p>
+				<img src="top.jpg" width="960" alt="block-wide pic" >
+				<p id="inner-header">West 114th Street: From Broadway to Amsterdam (and Back Again)</span></p>
 			</div>	
-			<div style="padding: 25px 0px" >
-				<audio controls style="float:right">
-  					<source src="back.mp3" type="audio/mpeg">
-  					Your browser does not support the audio tag.
-				</audio>
-			</div>
-			<div id="scroll" style="padding: 30px 65px 30px 50px">
-				<span>Columbia students stroll by, backpacks on shoulders. A green borough taxi speeds past. Birds chirp.<br /><br />Like most Manhattan streets, the block beneath Columbia University is a busy one. Greek life is present, but like most cultures in New York City, is surrounded by many other forms of life.</span>
-			</div>
+	<div style="padding: 25px 0px" >
+		<br />
+				<span style="font-family: 'Parisienne', cursive;">Press play to hear sounds of the street →</span>
+		<span>
+			<audio controls style="float:right">
+					<source src="back.mp3" type="audio/mpeg">
+					Your browser does not support the audio tag.
+			</audio>
+		</span>
+	</div>
+
+	<div class="headtext" style="padding: 30px 65px 30px 50px" class="headtext">
+		<span>Columbia students stroll by, backpacks on shoulders. A green borough taxi speeds past. Birds chirp.<br /><br />Like most Manhattan streets, the block beneath Columbia University is a busy one. Greek life is present, but like most cultures in New York City, is surrounded by many other forms of life.</span>
+	</div>
+		
+		</div>
 		</div>
 		<div class="grid_12">
-			<h1>Greek Brownstones</h1>
+			<h2>Greek Brownstones</h2>
 			<p>In a stronghold of fraternities and sororities, many of the buildings on the stretch of 114th Street between Amsterdam and Broadway make up a Greek alphabet. Some of these extend to 113th Street, however the grand majority are here.</p>
 			<div>
 				<img src="frats.jpg" width="960" alt="block-wide pic">
@@ -87,8 +99,16 @@
 			</div>
 		</div>	
 		<hr />
-		<h1>Wildlife, Moviestars and the City</h1>
-		<p>While Columbia University's greek life is concentrated, life around these fraternities and sororities continues.</p>
+		<div class="grid_12" style="background-color: #eae4c0
+;padding-left: 20px">
+			<span class="grid_5 alpha">
+				<h1>Wildlife, Moviestars and the City</h1>
+			</span>
+			<span class="grid_3 omega">
+				<div align="middle" class="grid_6" id="weather"></div>
+			</span>
+		</div>
+		<p class="grid_12">While Columbia University's greek life is concentrated, life around these fraternities and sororities continues.</p>
 		<div class="grid_12">
 			<div>
 				<img src="bird.jpg" alt="Bird" width="960">
@@ -112,13 +132,37 @@
 		<div>
 			<img src="end.jpg" width="960" alt="block-wide pic">
 		</div>		
-		<script>
-		$( "#scroll" ).clone().appendTo( document.body );
-		$( window ).scroll(function() {
-		  $( "span" ).css( "display", "inline" ).fadeOut(1500);
-		});
-		</script>	
-
-		<!--try opacity, animate to limit event-->
 	</body>
-</html>s
+
+	<script>
+	jQuery("a[href='#top']").click(function() {
+	  jQuery("html, body").animate({ scrollTop: 0 }, "slow");
+	  return false;
+	});
+
+	jQuery(window).scroll(function() {
+	    if (jQuery(this).scrollTop()> 200)
+	     {
+	        jQuery('.headtext').fadeIn();
+	     }
+	    else
+	     {
+	      jQuery('.headtext').fadeOut();
+	     }
+	});
+	</script>
+
+	<script>
+	jQuery(document).ready(function($) {
+	  $.ajax({
+	  url : "http://api.wunderground.com/api/44e8f9bbdac2e3e8/geolookup/conditions/q/NY/New_York.json",
+	  dataType : "jsonp",
+	  success : function(parsed_json) {
+	  var location = parsed_json['location']['city'];
+	  var temp_f = parsed_json['current_observation']['temp_f'];
+	  $('#weather').append("The current temperature on 114th and Broadway, " + location + ", is: " + temp_f + " degrees Fahrenheit.");
+	  }
+	  });
+	});
+	</script>
+</html>
