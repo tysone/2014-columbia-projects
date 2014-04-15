@@ -32,10 +32,10 @@
 .slick-prev:before, .slick-next:before { font-family: "slick"; font-size: 20px; line-height: 1; color: black; opacity: 0.85; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
 
 .slick-prev { left: -25px; }
-.slick-prev:before { content: '&lt;'; }
+.slick-prev:before { content: "&lt;"; }
 
 .slick-next { right: -25px; }
-.slick-next:before { content: '&gt;'; }
+.slick-next:before { content: "&gt;"; }
 
 /* Dots */
 .slick-slider { margin-bottom: 30px; }
