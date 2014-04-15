@@ -35,7 +35,7 @@
 .slick-prev:before { content: '&lt;'; }
 
 .slick-next { right: -25px; }
-.slick-next:before { content: '\8594'; }
+.slick-next:before { content: '&gt;'; }
 
 /* Dots */
 .slick-slider { margin-bottom: 30px; }
