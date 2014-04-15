@@ -3,8 +3,11 @@
 
 <link href="styles.css" rel="stylesheet" type="text/css" />
 <link href='http://fonts.googleapis.com/css?family=News+Cycle:400,700' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Bitter:400' rel='stylesheet' type='text/css'>
 <link rel="icon" type="image/ico" href="http://i.imgur.com/vPobcHU.png" />
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+<script type="text/javascript" src="slick/slick.min.js"></script>
 
 <title> High Line Art </title>
 
@@ -12,29 +15,34 @@
 <body id="wrapper">
 <div class="page">
 
+
+		<h1> The High Line </h1>
+		<h2> an art lover's guide </h2>
+
+<div id="line-1"> </div>
+
 	<div id="introphoto"> 
 		<img src= "http://i.imgur.com/v3xEUts.jpg?2"
 		alt= "High Line"
-		title= "High Line"/>
-		<div class="transbox"> </div>
-		<h1> The High Line </h1>
-		<h2> an art lover's guide </h2>
+		title= "High Line"
+		style="max-width:100%;height:auto"/>
 		<figcaption class="caption"> David Berkowitz via Flickr </figcaption>
 	</div>
 
-	<div id="intro"> <p> <div class="firstline"> The High Line is more than just a park&mdash;it's an outdoor art gallery.</div> Completed in 2009, the High Line is an aboveground walkway constructed on old railroad tracks, running Manhattan's west side, from Gansevoort Street to 30th Street. The park often features an eclectic mix of sculptures, sometimes so subtle they blend into the architecture. Along with a few regular fixtures, the High Line is currently hosting <em> Busted </em>, a collection of ancient world-inspired pieces by 10 different artists. <em> Busted, </em> which runs through April of this year, also explores ideas about heroes and public monuments. Follow this guide to the exhibit as you head north along the High Line. </p> </div>
+	<div class="intro"> <p> <div class="firstline"> The High Line is more than just a park&mdash;it's an outdoor art gallery.</div> Completed in 2009, the High Line is an aboveground walkway constructed on old railroad tracks, running Manhattan's west side, from Gansevoort Street to 30th Street. The park often features an eclectic mix of sculptures, sometimes so subtle they blend into the architecture. Along with a few regular fixtures, the High Line is currently hosting <em> Busted </em>, a collection of ancient world-inspired pieces by 10 different artists. <em> Busted, </em> which runs through April of this year, also explores ideas about heroes and public monuments. Follow this guide to the exhibit as you head north along the High Line. </p> </div>
 
-	<div id="map"> <iframe src="https://mapsengine.google.com/map/u/0/embed?mid=zl2Wcu8aJNBo.kZuuayhbeqOU" width="640" height="480"> </iframe> </div>
+	<div id="line-1"> </div>
 
-	<div id="mapkey"> The High Line currently runs from Gansevoort Street to West 30th Street. Click each point for a preview of the artwork there. </div>
+	<div class="intro-2"> Click the arrows to see each piece in the <em> Busted </em> Collection. </div>
 
-	<div id="weather-box"> <p id="weather"> The weather at the High Line is currently: <span id="temp"> </span> <span id="description"></span> </p> </div>
+<div class="fader">
 
 	<div id="one">
-		<div class="photo">
-		<img src= "http://i.imgur.com/DzrIvmq.jpg?1"
+		<div class="photo-1">
+		<img src= "http://i.imgur.com/Y2wflUx.jpg?1"
 		alt= "Pan"
-		title= "Pan"/>
+		title= "Pan"
+		style="max-width:100%;height:auto"/>
 		</div>
 
 		<div class="description">
@@ -45,10 +53,11 @@
 	</div>
 
 	<div id="two">
-		<div class="photo">
-		<img src= "http://i.imgur.com/VumlMlF.jpg?1"
+		<div class="photo-2">
+		<img src= "http://i.imgur.com/GddUcix.jpg?1"
 		alt= "Untitled"
-		title= "Untitled"/>
+		title= "Untitled"
+		style="max-width:100%;height:auto"/>
 		</div>
 
 
@@ -59,10 +68,11 @@
 	</div>
 
 	<div id="three"> 
-		<div class="photo">
-		<img src= "http://i.imgur.com/5rntoPm.jpg?3"
+		<div class="photo-3">
+		<img src= "http://i.imgur.com/BrMTqjl.jpg?1"
 		alt= "Nose Job"
-		title= "Nose Job"/>
+		title= "Nose Job"
+		style="max-width:100%;height:auto"/>
 		</div>
 
 		<div class="description">
@@ -72,10 +82,11 @@
 	</div>
 
 	<div id="four">
-		<div class="photo">
-		<img src= "http://i.imgur.com/GYMr6Fm.jpg?1"
+		<div class="photo-4">
+		<img src= "http://i.imgur.com/YaBzGn3.jpg?1"
 		alt= "Florent"
-		title= "Florent"/>
+		title= "Florent"
+		style="max-width:100%;height:auto"/>
 		</div>
 
 		<div class="description">
@@ -85,10 +96,11 @@
 	</div>
 
 	<div id="five">
-		<div class="photo">
-		<img src= "http://i.imgur.com/CBZywru.jpg?1"
+		<div class="photo-5">
+		<img src= "http://i.imgur.com/NRCK0jk.jpg?1"
 		alt= "Jessie"
-		title= "Jessie"/>
+		title= "Jessie"
+		style="max-width:100%;height:auto"/>
 		</div>
 
 		<div class="description">
@@ -98,10 +110,11 @@
 	</div>
 
 	<div id="six">
-		<div class="photo">
-		<img src= "http://i.imgur.com/8KxDQJK.jpg?1"
+		<div class="photo-6">
+		<img src= "http://i.imgur.com/8faM3Qn.jpg?1"
 		alt= "Number One"
-		title= "Number One"/>
+		title= "Number One"
+		style="max-width:100%;height:auto"/>
 		</div>
 
 		<div class="description">
@@ -112,10 +125,11 @@
 
 	<div id="seven">
 
-		<div class="photo">
-		<img src= "http://i.imgur.com/2BcrdP5.jpg?1"
+		<div class="photo-7">
+		<img src= "http://i.imgur.com/xx9PpcB.jpg?1"
 		alt= "Before a Framework"
-		title= "Before a Framework"/>
+		title= "Before a Framework"
+		style="max-width:100%;height:auto"/>
 		</div>
 
 		<div class="description">
@@ -125,10 +139,11 @@
 	</div>
 
 	<div id="eight">
-		<div class="photo">
-		<img src= "http://i.imgur.com/6Uv9uwi.jpg?1"
+		<div class="photo-8">
+		<img src= "http://i.imgur.com/s7rxvj5.jpg?1"
 		alt= "Colin Powell"
-		title= "Colin Powell"/>
+		title= "Colin Powell"
+		style="max-width:100%;height:auto"/>
 		</div>
 
 		<div class="description">
@@ -138,10 +153,11 @@
 	</div>
 
 	<div id="nine">
-		<div class="photo">
-		<img src= "http://i.imgur.com/IBxa4BW.jpg?1"
+		<div class="photo-9">
+		<img src= "http://i.imgur.com/3LqoF5i.jpg?1"
 		alt= "Liquor Store Attendant"
-		title= "Liquor Store Attendant"/>
+		title= "Liquor Store Attendant"
+		style="max-width:100%;height:auto"/>
 		</div>
 
 		<div class="description">
@@ -151,10 +167,11 @@
 	</div>
 
 	<div id="ten">
-		<div class="photo">
-		<img src= "http://i.imgur.com/iw7AQVT.jpg?1"
+		<div class="photo-10">
+		<img src= "http://i.imgur.com/vLKuKqi.jpg?1"
 		alt= "Unlimiteds &amp; Limiters"
-		title= "Unlimiteds &amp; Limiters"/>
+		title= "Unlimiteds &amp; Limiters"
+		style="max-width:100%;height:auto"/>
 		</div>
 
 		<div class="description">
@@ -163,26 +180,54 @@
 		</div>
 	</div>
 
+<!-- close fader-->
+
+</div>
+<br>
+<br>
+<br>
+<div id="line-1"> </div>
+
+<div id="visit"> Plan your visit </div>
+
+	<div id="mapkey"> The High Line runs from Gansevoort Street to West 30th Street. Click each point for a preview of the artwork there. </div>
+
+	<div id="sidebar">
+
+	<div id="weather-box"> <br> <p id="weather"> The High Line today: <div id="line-2"> </div> <br> <span id="temp"> </span> <span id="description"></span> </p> </div>
+
+	<div id="links"> <p id="link1-text"> <a href="http://www.thehighline.org/"> Visit the High Line's website </a> </p> <div id="line-3"> </div> <p id="link2-text"> <a href="http://art.thehighline.org/"> Visit the High Line's art blog </a> </p> </div>
+
+	</div>
+
+	<div id="map"> <iframe src="https://mapsengine.google.com/map/u/0/embed?mid=zl2Wcu8aJNBo.kZuuayhbeqOU" width="640" height="480"> </iframe> </div>
+
+
 <!-- close page div -->
 </div>
-
-<div id="copyright"> <p id="copy"> Photographs &copy; 2014 <ahref="www.nicolapring.com"> Nicola Pring </a>, except where otherwise noted. </p> </div>
-
 
 <script type="text/javascript">
 
 	$.getJSON('http://api.openweathermap.org/data/2.5/weather?lat=40.741940&lon=-74.007764&units=imperial',function(data){
-       $('#temp').text(data.main.temp + ' degrees and');
+       $('#temp').text(data.main.temp + ' degrees and' );
        $('#description').text(data.weather[0].description);
       })
 
 
-//	 $('#one').on('click', function(){
-//	$('img').addClass('highlight');
-// })
-
+	$(document).ready(function(){
+		$('.fader').slick({
+		  dots: true,
+		  infinite: true,
+		  speed: 1000,
+		  fade: true,
+		  slide: 'div',
+		  cssEase: 'linear'
+		});
+	});
 
 </script>
+
+<div id="copyright"> <p id="copy"> Photographs &copy; 2014 Nicola Pring, except where otherwise noted. </p> </div>
 
 </body>
 </html>

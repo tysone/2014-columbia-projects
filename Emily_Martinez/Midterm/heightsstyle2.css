@@ -1,4 +1,5 @@
-body {background-color: black;}
+body {background-color: black;
+margin: 0;}
 #page {background-color: black;
 		width: 100%;
 		height: 100%;}
@@ -52,12 +53,11 @@ body {background-color: black;}
 		background-repeat: no-repeat;
 		background-position: center;}
 p 	{color: white;
-		font-family: Times; 
+		font-family: 'Cardo', serif; 
 		font-size: 22px;
 		line-height: 32px;
-		letter-spacing: 2px;
-		text-shadow: 0 0 0.1em black, 0 0 0.1em black,
-        0 0 0.1em black;}
+		letter-spacing: 1px;
+		}
 .content {text-align: right;
 		padding-right: 20px;
 		width: 550px;
@@ -68,7 +68,7 @@ p 	{color: white;
 		padding-right: 20px;
 		float: right;}
 .quote {color: white;
-		font-family: Times;
+		font-family: 'Josefine Slab', serif;
 		font-size: 80px;
 		width: 700px;
 		text-align: right;
@@ -80,20 +80,41 @@ p 	{color: white;
 		padding-left: 50px;
 		padding-top: 50px;
 		font-weight: 400;
-		font-family: 'Playfair Display SC', serif;}
-.name {font-size: 25px;
-		font-family: Times;
-		letter-spacing: 1px;
-		padding-right: 20px;
-		line-height: 5px;}
-em {font-size: 30px;
+		font-family: 'Cardo', serif;}
+.name {font-size: 30px;
+	font-family: "Cardo", serif;
 		float: right;
 		padding-top: 20px;
 		color: white;
+		padding-right: 5%;}
+.byline {font-size: 30px;
+		font-family: 'Cardo', serif;
+		letter-spacing: 1px;
+		line-height: 20px;
+		padding-top: 100px;
+	float: right;
 		padding-right: 10%;}
 .scroll {float: right;
-display: none;}
-
+	display: none;}
+.hide {display: none;
+		position: relative;
+		bottom: 5px;
+		right: 5px;
+		color: white;
+		font-family: Times;
+		font-size: 30px;
+		text-align: right;
+		float: right;
+		padding-right: 0;
+		margin-right: 5%;}
+.exp {float: right;
+	z-index: 1;
+}
+#box1 {display: inherit;}
+#box2 {display: inherit;}
+#box3 {display: inherit;}
+#box4 {display: inherit;}
+#box5 {display: inherit;}
 
 
 @media (max-width: 800px) {
@@ -102,117 +123,123 @@ display: none;}
 		width: 100%;
 		height: 100%;}
 
-#img {max-width: 100%;
-		max-height: 100%;
-		background-image: url("Media/Hands.jpg"); 
-		background-attachment: scroll;
-		background-size: contain;
-		background-repeat: no-repeat;
-		background-position: center;
-		margin-left: 5%;
-		}
-#image {max-width: 100%;
-		max-height: 100%;
-		background-image: url("Media/Abuelita.jpg"); 
-		background-attachment: scroll;
-		background-size: 200%;
-		background-repeat: no-repeat;
-		background-position: center;
-		overflow: hidden;
-	margin-left: 5%;
-margin-bottom: 150px;}
-#image2 {max-width: 100%;
-		max-height: 100%;
-		background-image: url("Media/Euclides.jpg"); 
-		background-attachment: scroll;
-		background-size: 200%;
-		background-repeat: no-repeat;
-		background-position: center;
-		overflow: hidden;
-	margin-left: 5%;
-margin-bottom: 150px;}
-#image3 {max-width: 100%;
-		height: 100%;
-		background-image: url("Media/Nunez.jpg"); 
-		background-attachment: scroll;
-		background-size: 150%;
-		background-repeat: no-repeat;
-		background-position: center;
-		overflow: hidden;
-	margin-left: 5%;
-margin-bottom: 150px;}
-#image4 {max-width: 100%;
-		max-height: 100%;
-		background-image: url("Media/Miguel.jpg"); 
-		background-attachment: scroll;
-		background-size: 200%;
-		background-repeat: no-repeat;
-		background-position: center;
-		overflow: hidden;
-	margin-left: 5%;
-margin-bottom: 150px;}
-#image5 {max-width: 100%;
-		max-height: 100%;
-		background-image: url("Media/Francisco.jpg"); 
-		background-attachment: scroll;
-		background-size: 200%;
-		background-repeat: no-repeat;
-		background-position: center;
-		overflow: hidden;
-	margin-left: 5%;
-margin-bottom: 150px;}
+
+#img {width: 100%; 
+	background-attachment: scroll;
+		background-size: 100%;
+		margin-right: 0px;
+		margin-left: 0px;
+		z-index: 0;}
+#image {width: 100%;
+	background-attachment: scroll;
+	background-size: auto 100%;
+		margin-right: 0px;
+		margin-left: 0px;
+	margin-bottom: 100px;}
+#image2 {width: 100%;
+background-attachment: scroll;
+	background-size: auto 100%;
+		margin-right: 0px;
+		margin-left: 0px;}
+#image3 {width: 100%;
+	background-attachment: scroll;background-size: 100%;
+		margin-right: 0px;
+		margin-left: 0px;}
+#image4 {width: 100%;background-size: auto 100%;
+	background-attachment: scroll;
+		margin-right: 0px;
+		margin-left: 0px;
+	margin-bottom: 100px;}
+#image5 {width: 100%;
+	background-attachment: scroll;background-size: auto 100%;
+		margin-right: 0px;
+		margin-left: 0px;}
+img {position: absolute;
+		max-width: 100%;
+	}
 p 	{color: white;
-		font-family: Helvetica; 
+		font-family: "Roboto", serif; 
 		font-size: 16px;
 		line-height: 16px;
-		letter-spacing: 3px;
+		letter-spacing: 1px;
 		font-weight: 100;
-		text-shadow: 0 0 0.1em black, 0 0 0.1em black,
-        0 0 0.1em black;}
+		}
 .quote {color: white;
-		font-family: Times;
+		font-family: 'Cardo', serif;
 		font-size: 30px;
 		text-align: right;
 		float: right;
 		width: 100%;
+		height: 100%;
 		background-color: black;
 		opacity: .6;
-		margin-top: 110%;
-		padding-right: 5%;}
-.expanded {margin-top: 5%;
-		height: 100%;
+		margin-top: 0%;
+		padding-right: 5%;
 		overflow: scroll;}
+.expanded {display: inherit;
+		height: 100%;}
 
 #title {color: white;
 		font-size: 30px;
 		font-weight: 100;
-		padding-top: 20%;
-		padding-left: 5px;
+		padding-top: 45%;
+		padding-left: 5%;
 		width: 90%;
 		font-weight: 400;
-		font-family: 'Playfair Display SC', serif;}
-body {background-color: black;}
-.content {text-align: justify;
-		width: 80%;
-		float: right;}
-#titlebox {
-		height: 50%;}
-em {float: right;
-		padding-right: 5%;
-		font-size: 18px;}
+		font-family: 'Cardo', serif;}
+body {background-color: black;
+		margin: 0;}
+.content {text-align: right;
+		width: 95%;
+		float: right;
+		padding-right: 0;
+	}
+#titlebox {position: relative;
+		}
 .audio {height: 40; width: 80px;
 		padding-top: 40px;
 		padding-right: 15px;
-		float: right;}
-.name {font-size: 18px;
-		font-family: Times;
+		float: right;
+		padding-top: 0px;}
+.name {font-size: 16px;
+		font-family: 'Cardo', serif;
 		letter-spacing: 1px;
 		line-height: 20px;
 		text-align: right;
 		padding-left: 30px;
 		float: right;}
- 
-.scroll {display: inherit;}
+.byline {font-size: 16px;
+		font-family: 'Cardo', serif;
+		letter-spacing: 1px;
+		line-height: 20px;
+		text-align: right;
+		padding-top: 20px;
+	float: right;
+		padding-right: 0;}
+.scroll {display: inherit;
+		width: 20px;
+		margin-right: 5px;}
+.hide {display: inherit;
+		position: relative;
+		top: 80%;
+		color: white;
+		font-family: 'Cardo', serif;
+		font-size: 32px;
+		text-align: right;
+		float: right;
+		padding-right: 0;
+		margin-right: 0;
+		line-height: 35px;}
+.quot2 {top: 75%;}
+.quot3 {top: 75%;}
+.exp {position: relative;
+	float: right;}
+.show {display: none;}
+#box1 {display: none;}
+#box2 {display: none;}
+#box3 {display: none;}
+#box4 {display: none;}
+#box5 {display: none;}
 	}
 
 

@@ -1,0 +1,23 @@
+<html>
+  <head>
+    <title>My Page Title</title>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+ 
+    <style type="text/css">
+      #temp {font-weight: bold; background-color: yellow;}
+    </style>
+ 
+  </head>
+  <body>
+    <h1>The Weather Today!</h1>
+ 
+    <p>The weather today in New York is <span id="temp"></span></p>
+ 
+    <script type="text/javascript">
+      $.getJSON('http://api.openweathermap.org/data/2.5/weather?q=New%20York,USA&units=imperial', function(data){
+       $('#temp').text(data.main.temp + ' degrees');
+      })
+    </script>
+ 
+  </body>
+</html>

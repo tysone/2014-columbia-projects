@@ -1,0 +1,38 @@
+<html>
+	<head>
+		<title>Scroll</title>
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+		<style type="text/css"> 
+		#scroll{
+			display:none;	
+			}
+		</style>
+	</head>
+	<body>
+		<div id="scroll" style="padding: 30px 65px 30px 50px">
+			<span>Columbia students stroll by, backpacks on shoulders. A green borough taxi speeds past. Birds chirp.<br /><br />Like most Manhattan streets, the block beneath Columbia University is a busy one. Greek life is present, but like most cultures in New York City, is surrounded by many other forms of life.</span>
+		</div>
+
+		<p> lorem ipsum </p>
+		<p> lorem ipsum </p><p> lorem ipsum </p><p> lorem ipsum </p><p> lorem ipsum </p><p> lorem ipsum </p><p> lorem ipsum </p><p> lorem ipsum </p><p> lorem ipsum </p><p> lorem ipsum </p><p> lorem ipsum </p><p> lorem ipsum </p><p> lorem ipsum </p><p> lorem ipsum </p><p> lorem ipsum </p><p> lorem ipsum </p><p> lorem ipsum </p><p> lorem ipsum </p><p> lorem ipsum </p><p> lorem ipsum </p><p> lorem ipsum </p><p> lorem ipsum </p><p> lorem ipsum </p><p> lorem ipsum </p><p> lorem ipsum </p><p> lorem ipsum </p><p> lorem ipsum </p><p> lorem ipsum </p><p> lorem ipsum </p><p> lorem ipsum </p><p> lorem ipsum </p><p> lorem ipsum </p><p> lorem ipsum </p><p> lorem ipsum </p><p> lorem ipsum </p><p> lorem ipsum </p><p> lorem ipsum </p><p> lorem ipsum </p><p> lorem ipsum </p><p> lorem ipsum </p><p> lorem ipsum </p><p> lorem ipsum </p><p> lorem ipsum </p><p> lorem ipsum </p><p> lorem ipsum </p><p> lorem ipsum </p><p> lorem ipsum </p><p> lorem ipsum </p><p> lorem ipsum </p><p> lorem ipsum </p><p> lorem ipsum </p><p> lorem ipsum </p><p> lorem ipsum </p><p> lorem ipsum </p><p> lorem ipsum </p><p> lorem ipsum </p><p> lorem ipsum </p><p> lorem ipsum </p><p> lorem ipsum </p><p> lorem ipsum </p><p> lorem ipsum </p><p> lorem ipsum </p><p> lorem ipsum </p><p> lorem ipsum </p><p> lorem ipsum </p><p> lorem ipsum </p><p> lorem ipsum </p><p> lorem ipsum </p><p> lorem ipsum </p><p> lorem ipsum </p><p> lorem ipsum </p><p> lorem ipsum </p><p> lorem ipsum </p><p> lorem ipsum </p><p> lorem ipsum </p><p> lorem ipsum </p><p> lorem ipsum </p><p> lorem ipsum </p><p> lorem ipsum </p><p> lorem ipsum </p><p> lorem ipsum </p><p> lorem ipsum </p><p> lorem ipsum </p>
+	<!--
+		<script>
+		$( "#scroll" ).clone().appendTo( document.body );
+		$( window ).scroll(function() {
+		  $( "span" ).css( "display", "inline" ).fadeOut(1500);
+		  $fadingElement.stop().animate({opacity: opacity}, 200);
+
+		});
+		</script>	
+-->
+<script>
+		$(document).ready(function() 
+{
+		// fade in content.
+		$( window ).scroll(function(){
+		$('#scroll').css( "display", "inline" ).fadeIn("slow");	
+	});
+});
+		</script>
+</body>
+</html>

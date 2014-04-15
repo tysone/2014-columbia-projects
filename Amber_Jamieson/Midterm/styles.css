@@ -30,7 +30,7 @@ margin-top: 20px;
 height:500px;
 text-align: left;
 max-width: 100%;
-display: none;
+
 }
 
 .sub2 {width: 960px;
@@ -104,7 +104,7 @@ text-align: right;}
 padding-left: 20px;}
 
 .vertical2{
-float: right;
+
 padding-bottom: 20px;
 }
 
@@ -123,23 +123,35 @@ margin-top: 40px;
 height:430px;
 text-align: center;
 max-width: 100%;
+
 }
 
 .intro {text-align: right}
 
+#photos {height:2000px;}
+
+#photos img {
+  margin: 10px;
+  border: 2px solid #333;
+  max-width: 1000px;
+}
+
 
 @media (max-width: 800px) { 
 		h1 {
-			font: bold 42px Helvetica;
-			color:white; 
-		text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;}
+			font: 42;
+			}
+		h2 {
+			font: 42;
+			}
+
+.openingimage {max-width: 600px;
+max-height: 400px}
 
 	}
 
 @media (max-width: 400px) { 
 		h1 {
-			font: bold 22px Helvetica;
-			color:white; 
-		text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;}
+			font: 22px }
 
 	}

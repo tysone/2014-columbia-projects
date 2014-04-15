@@ -4,7 +4,7 @@ padding:0;
 border:10px, black;
 background-color: #F0F0F0;
 font-family: 'Baskerville', serif;
-max-width: 100%
+	
 
 
 }
@@ -21,6 +21,7 @@ margin-bottom: 10px;
 .image {position: absolute;
 	border: 20px, solid, black;
 	margin-top: 10px;
+	
 
 }
 
@@ -42,16 +43,19 @@ margin-top: 60px;
 
 .image1 { padding-top: 400px;
 	margin-top: 25px;
+	width:100%;
 
 
 
 }
 
 .image1 {padding-top: 100px;
+	width:100%;
 
 }
 
 .image2 {padding-top: 50px;
+	width:100%;
 }
 
 figcaption {font-size: 16px;
@@ -66,7 +70,7 @@ h1 { font-family: 'Baskerville', serif;
      font-weight: 500;
      text-align: justify;
      color: #BA1619;
-
+display:none;
 }
 
 #text {
@@ -74,6 +78,7 @@ h1 { font-family: 'Baskerville', serif;
 padding-top: 570px;
 font-size: 22px;
 text-align: justify;
+width:100%;
 
 
 }
@@ -81,6 +86,7 @@ text-align: justify;
  #text1 { padding-top: 720px;
 font-size: 22px;
 text-align: justify;
+width:100%;
 
 
 }
@@ -88,6 +94,7 @@ text-align: justify;
 #text2 {padding-top: 25px;
 	font-size: 22px;
 	text-align: justify;
+	width:100%;
 
 }
 
@@ -95,7 +102,7 @@ text-align: justify;
 p {padding-top: 20px;
 	font-size: 22px;
 text-align: justify;
-
+width:100%;
 }
 
 .firstword { font-family: 'Baskerville', serif;
@@ -111,6 +118,7 @@ a:active {color:#BA1619;}
 
 
 iframe { padding-top: 25px;
+	width:100%;
 
 
 }
@@ -137,7 +145,7 @@ hr {border-color: #BA1619;
 
 
 
-@media(max-width:700px) and (orientation: landscape) {
+@media all and (max-width:320px) {
 
 
 html,body {margin:0;
@@ -158,12 +166,12 @@ font-family:{'Baskerville', serif;
 }
 
 }
-img {width:100px;
+img {width:100%;
 }
 
 #text: {
 
-font-size: 10px;
+font-size: 10;
 
 }
 

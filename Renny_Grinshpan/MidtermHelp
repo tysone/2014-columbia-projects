@@ -1,0 +1,83 @@
+<html>
+<head>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<link rel="stylesheet" type="text/css" href="village1.css">
+<link href='http://fonts.googleapis.com/css?family=Lusitana' rel='stylesheet' type='text/css'>
+<title>
+	Macdougal St.
+</title>
+</head>
+<body>
+		<div id="streetsigns" class="photo">
+		<img src="_DSC1568.jpg" alt="streetsigns">
+		<div class="newyork">
+		New York, NY
+		</div>
+		</div>
+		<div class="Intro">
+		<p>The block of Macdougal Street between Bleecker Street and West 3rd Street in the heart of Greenwich Village is as New York as it gets. It has seen some serious history - and has the local landmarks to show for it. Always a tourist destination, the block today seems to have reached the limit of its tourist trappings - what with nearly every square inch of it being filled with signage. Check out this short series on the block. You'll see what I mean.</p> 
+		</div>			
+		<div class="streetview photo">
+		<img src="_DSC1437.jpg" alt="streetview">
+		</div>		
+		<div class="creperie photo">
+		<img src="_DSC1476.jpg" alt="creperie">
+		</div>
+		<div class="content">
+		<p>It's 8:00 on a Tuesday night in March and Macdougal is buzzing. From seeing live music and comedy shows, to getting your fortune told, to drinking at a variety of bars and shopping for your typical tourist merchandise, you can do almost anything here. And you can cheaply snack on a number of different cuisines. Your poision is undoubtedly among the diverse options: pizza, falafel and shawarma, Vietnamese banh mi sandwiches, bubble tea, Greek gyros...the list goes on.</p>
+		</div>
+		<div class="alehouse photo">
+		<img src="_DSC1504.jpg" alt="alehouse">
+		</div>
+		<div class="content2">
+		<p>Macdougal Street is particularly well-known for its live music and comedy scenes. These comedy clubs admit several hundred patrons a night, a particularly easy feat for'Comedy Cellar,' which has featured nearly every notable American comedian. 'Comedy Club' increases its numbers by stationing a promoter outside its entrance. You cannot walk from one end of Macdougal to the other without hearing encouragement from at least one of these fixtures to check out their clubs.</p>
+		</div>
+		<div class="comedyclub photo">
+		<img src="_DSC1470.jpg" alt="comedyclub">
+		</div>
+		<div class="comedycellar photo">
+		<img src="_DSC1554.jpg" alt="comedycellar">
+		</div>
+		<div class="tourvideo photo">
+		<iframe width="1000" height="600" src="http://www.youtube.com/embed/oFa9ppu8fEY" frameborder="0" allowfullscreen></iframe>
+		</div>
+		<div class="pizza photo">
+		<img src="_DSC1498.jpg" alt="pizza">
+		</div>
+		<div class="streetview1 photo">
+		<img src="_DSC1483.jpg" alt="streetview1">
+		</div>
+		<div class="content3">
+		<p>The cafes on Macdougal are staple tourist destinations of Greenwich Village. Bob Dylan had his first gig in New York at 'Cafe Wha?' which is also famous as the venue for some of Jimi Hendrix's early shows. The coffeehouse 'Caffe Reggio,' which has been open since 1927, features in many films, including, most recently, the Oscar-nominated "Inside Llewyn Davis" by the Coen Brothers movie. Many celebrities have been spotted or photographed here.</p>
+		</div>
+		<div class="cafewha photo">
+		<img src="_DSC1509.jpg" alt="cafewha">
+		</div>
+		<div class="video">
+		<iframe width="1000" height="600" src="http://www.youtube.com/embed/Z7JMT41jDy4" frameborder="0" allowfullscreen></iframe>
+		</div>
+		<div class="tavern photo">
+		<img src="_DSC1512.jpg" alt="tavern">
+		</div>
+		<div class="content4">
+		<p> Macdougal is also home to Minetta Tavern, a trattoria/bar which has seen such regulars as E. E. Cummings, Joe Gould, Ernest Hemingway, Eugene O'Neill, and Ezra Pound.</p>
+		</div>
+		<div class="tattoo photo">
+		<img src="_DSC1497.jpg" alt="tattoo">
+		</div>
+		<div class="cafe photo">
+		<img src="_DSC1522.jpg" alt="cafe">
+		</div>
+		<div class="content5">
+		<p>All in all, yes - Macdougal St is a giant tourist trap. But with its rich history and diverse offerings for passing time, it is also the place to feel like a true New Yorker.</p>
+		</div>
+<script>
+$('.newyork').on('mouseover',function() {
+	$(this).addClass('newyork-clicked');
+  });
+$('.content5').on('mouseover',function(){
+    $(this).addClass('newyork-clicked');
+  });
+</script>
+</body>
+</html>

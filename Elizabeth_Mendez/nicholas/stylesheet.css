@@ -1,0 +1,127 @@
+
+#headline 
+  {
+     color: black;
+	     font-family: Baskerville;
+	     font-size: 60px;
+     	width: 100%;
+    height:100px;
+   background-color:white;
+  }
+
+#wrapper
+  {
+    background-color:white;
+    height:2300px; 
+    width: 90%;
+    margin-left:3%;
+    margin-right:3%
+  }
+
+.intro
+	  {
+    		background-color:white;
+		    width:960px;
+		    height:385px;
+    margin-top:5px;
+    font-size: 18px;
+    font-family:Baskerville;  
+	  }
+
+.leftop
+  {
+    float: left;
+    background-color:white;
+    width: 560px;
+    font-family:Baskerville;
+    font-size:15px;
+    font-color:#4D5749;
+    display: inline-block;
+  }
+
+#text
+  {/*need to fix alignment at the top of this text box #BEC4BB*/
+    background-color:white;
+    height:370px;
+    width: 350px;
+    display: inline-block;
+    padding-top:0px;
+    padding-right:20px;
+    padding-left:20px;
+  }
+
+#json
+  {
+    width:960px;
+    height:150px;
+    background-color:white;
+    font-size: 18px;
+    font-family:Baskerville;
+    padding-top:15px;
+  }
+
+
+#smalls
+  {
+    background-color:white;
+    height:540px;
+    width:960px;
+  }
+.columns
+  {
+    background-color:white;
+    height:540px;
+    width:480px;
+    font-family:Baskerville;
+    font-size:15px;
+    font-color:#4D5749;
+    border-radius: 5px;
+  }
+
+  #left{
+    float:left;
+  }
+
+#right{
+  float:right;
+}
+
+.confronting
+  {
+    width:960px;
+    height:400px;
+    background-color:white;
+    font-family:Baskerville;
+    color:red;
+    font-size:40px;
+    padding-top:15px;
+    padding-bottom:25px;
+  }
+
+.ending
+  {
+    background-image:url('http://i752.photobucket.com/albums/xx162/MECHA09-10/Mendez_Heyward_2013_2_3-5.jpg');
+    width:960px;
+    height:610px;
+    font-size:35px;
+  }
+
+.soften
+  {
+    background-image:url('http://i752.photobucket.com/albums/xx162/MECHA09-10/Mendez_Heyward_2013_2_3-5-1.jpg');
+    width:960px;
+    height:610px;
+    border-radius: 8px;
+   
+  }
+
+#last
+  {
+    font-family:Baskerville;
+    font-size:20px;
+    padding-top:5px;
+  }
+
+
+
+

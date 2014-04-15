@@ -5,6 +5,11 @@
 	
 		
 		<link rel="stylesheet" type="text/css" href="styles.css" />
+		<link rel="stylesheet" type="text/css" href="jquery.onepage-scroll.js" />
+		<link rel="stylesheet" type="text/css" href="onepage-scroll.css" />
+
+
+
 
 	</head>
 
@@ -43,8 +48,8 @@
 		</div>
 		<div class="vertical2"> <img src="harlemnew2.jpg" alt="W 125th St in 2014" style="max-width:100%;height:auto;"></div>
 		<br /><br /><br />
-			<div id="leftcap"><p><em>Photo on the left: from an unknown magazine in the 1950s</em></p></div>
-			<div id="rightcap"><p><em>Photo on the right: taken by Amber Jamieson in March 2014</em></p></div>
+			<div id="leftcap"><p><em>First photo from an unknown magazine in the 1950s</em></p></div>
+			<div id="rightcap"><p><em>Second photo taken by Amber Jamieson in March 2014</em></p></div>
 		</div>
 		
 	</div>
@@ -55,8 +60,11 @@
 		<div class="openingimage" id="finimage"><img src="outside.jpg" alt="Apollo Theater" style="max-width:100%;height:auto;">
 	</div>
 
+
+
 		<div class="headline2"><blockquote>"Where stars are born and legends are made"</blockquote>
 		</div>
+		<div id="photos"><h2>Latest photos from the Apollo Theater</h2></div>
 	</div>
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>	
 <script>
@@ -67,6 +75,17 @@
   		$('.headline').fadeIn('slow');
  
   });
+
+  $('#finimage').on('click', function() {
+  		
+  		$('.headline2').fadeIn('slow');
+ 
+  });
+
+  $('.vertical').on('click', function() {
+	$(this).addClass('vertical2');
+});
+
 // 	$('#finimage').on('click', function() {
 //   $('headline2').fadeIn('slow', function() {
    
@@ -76,6 +95,20 @@
 // 	$('intro').toggle();
 
 // });
+
+var flickerAPI = "http://api.flickr.com/services/feeds/photos_public.gne?jsoncallback=?";
+
+$.getJSON( flickerAPI, {
+ 	tags: "Harlem",
+  format: "json"
+}).done(function( data ) {
+    $.each( data.items, function(i, item) {
+    	$("<a>").attr("href", item.link)
+    	.append($("<img>").attr("src", item.media.m))
+    	.appendTo('#photos');
+    });
+  });
+
 
 
 		</script>
