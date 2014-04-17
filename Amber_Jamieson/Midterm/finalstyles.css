@@ -372,9 +372,9 @@ padding-left:20px;
 top:10px;
 text-align: right;
 max-width: 300px;
-font-size:36px;
-line-height: 35px;
-font-color:black;
+font-size:26px;
+line-height: 25px;
+color:black;
 }
 
 p
@@ -382,15 +382,16 @@ p
 top:10px;
 text-align: right;
 max-width: 300px;
-font-size:26px;
-line-height: 25px;
-font-color:black;
+font-size:12px;
+line-height: 12px;
+color:black;
 }
 
 h3{
 text-align: left;
-font-size:26px;
-line-height: 25px;
+font-size:18px;
+line-height: 18px;
+color:black;
 			}
 
 
@@ -411,7 +412,7 @@ line-height: 25px;
 
 .headline
 {margin-top:400px;
-text-align: center;
+text-align: left;
 
 
 }
