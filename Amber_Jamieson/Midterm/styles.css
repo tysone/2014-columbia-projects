@@ -139,16 +139,19 @@ max-width: 100%;
 
 @media (max-width: 800px) { 
 		h1 {
-			font: bold 42px Helvetica;
-			color:white; 
-		text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;}
+			font: 42;
+			}
+		h2 {
+			font: 42;
+			}
+
+.openingimage {max-width: 600px;
+max-height: 400px}
 
 	}
 
 @media (max-width: 400px) { 
 		h1 {
-			font: bold 22px Helvetica;
-			color:white; 
-		text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;}
+			font: 22px }
 
 	}

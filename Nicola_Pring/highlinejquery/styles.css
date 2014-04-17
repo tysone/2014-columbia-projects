@@ -261,7 +261,7 @@ a:hover {
 	text-decoration: underline;
 }
 
-@media (max-width: 400px){
+@media all and (max-width: 400px){
 
 #wrapper {
 	background-color: white;
@@ -304,8 +304,10 @@ h2 {
 }
 
 .caption {
-	display: none;
-
+	font-size: 10px;
+	text-align: right;
+	font-family: Minion Pro, Georgia, serif;
+	color: #1F1F1F;
 }
 
 #line-1 {

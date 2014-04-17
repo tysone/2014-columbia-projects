@@ -1,0 +1,90 @@
+@media {
+	body {
+		min-width: 10px;
+		background-color: black;
+	}
+}
+@media all and (max-width: 500px) {
+	img {
+	width: 100%;
+	}
+	
+}
+.header, .Intro, .content, .content2, .content3, .content4, .content5 {
+		width: 100%;
+}
+
+.page {
+	background-color: black;
+}
+
+img{
+	width: 100%;
+}
+.photo {
+	/*height: 600px; */
+	width: 100%;
+}
+#streetsigns {
+	position: absolute;
+}
+.newyork {
+	position: relative; left: 600px; bottom: 150px;
+	font-size: 50px;
+	color: white;
+	font: sans-serif;
+}
+.header {
+	font-family: 'Lusitana', serif;
+}
+.Intro {
+	color: white;
+	font-size: 30px;
+	font-family: 'Lusitana', serif;
+	background-color: black;
+}
+.content {
+	font-size: 30px;
+	font-family: 'Lusitana', serif;
+	background-color: black;
+	color: white;
+}
+.content2 {
+	color: white;
+	background-color: black;
+	font-size: 30px;
+	font-family: 'Lusitana', serif;
+}
+.content3 {
+	font-size: 30px;
+	font-family: 'Lusitana', serif;
+	color: white;
+	background-color: black;
+}
+.content4 {
+	font-size: 30px;
+	font-family: 'Lusitana', serif;
+	color: white;
+	background-color: black;
+}
+.content5 {
+	font-size: 30px;
+	font-family: 'Lusitana', serif;
+	color: white;
+	background-color: black;
+	position: relative;
+	left: 40px;
+	top: 60px;
+	right: 40px;
+	margin-right: 2000px;
+}
+.newyork-clicked {
+	color: #8B008B;
+}
+.cafe {
+	position: absolute;
+}
+
+
+
+
