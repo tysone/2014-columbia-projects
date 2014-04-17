@@ -404,8 +404,9 @@ color:black;
 	.openingimage {
 	width:100%;
 	margin-left: 0px;
-
-
+	text-align: left;
+	position: fixed;
+}
 	
 }
 
@@ -413,6 +414,7 @@ color:black;
 .headline
 {margin-top:400px;
 text-align: left;
+position: fixed;
 
 
 }
