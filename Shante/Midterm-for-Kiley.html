@@ -6,6 +6,7 @@
 	<!-- <script type="text/javascript" src="js/jquery.scrollmagic.js"></script> -->
 	<!-- <script type="text/javascript" src="js/jquery.scrollmagic.debug.js"></script> -->
 	<link href="http://fonts.googleapis.com/css?family=Dancing+Script:700|EB+Garamond" rel="stylesheet" type="text/css" />
+	
 
 	<style>
 	#title-1{
@@ -24,18 +25,59 @@
 	    font-size: 18px;
 	    line-height: 23px;
 	    letter-spacing: 2px;
-	    margin: 0 0 23px 0;}
+	    margin: 0 0 23px 0;
+	    position: relative;
+		right: 400px;}
 
+	#title-1 {
+	 	position: relative;
+	 	left: 400px;
+	 	margin: 40px;
+	 	top: 10px;
+	 }
+
+	 #title-2 {
+	 	position: relative;
+	 	left: 420px;
+	 	margin: 40px;
+	 	top: 10px;
+	 }
+
+	  #title-3 {
+	 	position: relative;
+	 	left: 420px;
+	 	margin: 40px;
+	 	top: 10px;
+	 }
+
+	  #title-4 {
+	 	position: relative;
+	 	left: 420px;
+	 	margin: 40px;
+	 	top: 10px;
+	 }
+
+	  #title-5 {
+	 	position: relative;
+	 	left: 420px;
+	 	margin: 40px;
+	 	top: 10px;
+	 }
+
+	h1 {
+		position: relative;
+		right: 400px;
+	}
     h2	{
 		text-align: left;
 		font-family: 'Dancing Script', cursive;
     	font-weight: 700;
     	line-height: 46px;
-    	font-size: 40px;
+    	font-size: 50px;
     	margin: 0 0 0px 0;
 		padding: 5px;
 		margin: 10px;
-		width: 250px;}
+		width: 400px;}
 
     img {
     	width: 90%;
@@ -44,40 +86,96 @@
 
 
    p {
-		text-align: center;
-		padding: 10px;
+		text-align: left;
 		font-family: "arielblack";
-		padding: 10px;
-		margin: 10px;
 		font-size: 26px;
-		color: black;}
+		color: black;
+		width: 500px;}
+
+#content-1 {
+		padding: 5px;
+		margin: 10px;
+		position: relative;
+		left: 365px;
+		text-align: left;
+		font-family: "arielblack";
+		font-size: 26px;
+		color: black;
+		width: 500px;}
+
+#content-2 {
+		padding: 5px;
+		margin: 10px;
+		position: relative;
+		left: 365px;
+		text-align: left;
+		font-family: "arielblack";
+		font-size: 26px;
+		color: black;
+		width: 500px;}
+
+#content-3 {
+		padding: 5px;
+		margin: 10px;
+		position: relative;
+		left: 365px;
+		text-align: left;
+		font-family: "arielblack";
+		font-size: 26px;
+		color: black;
+		width: 500px;}
+
+#content-4 {
+		padding: 5px;
+		margin: 10px;
+		position: relative;
+		left: 365px;
+		text-align: left;
+		font-family: "arielblack";
+		font-size: 26px;
+		color: black;
+		width: 500px;}
+
+#content-5 {
+		padding: 5px;
+		margin: 10px;
+		position: relative;
+		left: 365px;
+		text-align: left;
+		font-family: "arielblack";
+		font-size: 26px;
+		color: black;
+		width: 500px;}
+
+.drop {
+	font-family: "arielblack";
+	font-size: 71px;
+	float: left;
+	line-height: 31px;
+	color: #bd1616;}
 
 
-	@media (max-width: 700px) {
+@media (max-width: 700px) {
 
 	#page {
 		
 		width: 100%;
 		height: 100%;}
 
-
-
-img {
+	img {
 		position: relative;
 		max-width: 100%;
 		height: 300px;}
 
-p 	{
+	p 	{
 		color: white;
-		font-family: Helvetica; 
+		font-family: "arielblack"; 
 		font-size: 16px;
 		line-height: 16px;
 		letter-spacing: 3px;
 		font-weight: 100;
-		background-color: blue;
-    }
-
-
+		position: relative;
+		left: 100px;}
 }
 
 
@@ -108,15 +206,22 @@ p 	{
 					<div><img class="displayed" src="http://img1.wikia.nocookie.net/__cb20120409220859/disney/images/0/07/Simba-2-%28The_Lion_King%29.jpg" width="620"></div>
 				</div>
 			</div>
-			
-			<p>De Hostos Apartments is named after Eugenio Maria de Hostos. Hostos was an educator, humanist, abolitionist, philosopher, writer and politician. He advocated for Puerto Rico to be a part of the United States, as well as for its citizens to be recognized as U.S. citizens. He was born in 1839 and died in 1903.
-			De Hostos Apartments is a 22-story building with 218 apartments, serving 480 residents. It's located on the Upper West Side of Manhattan at 201 West 93 St; I've called it home for 24 years.</p>
-		
+
+			<div class="titles" id="title-1">
+				<h2>Who is de Hostos?</h2>
+			</div>
+			<div class="content" id="content-1">
+			<p><div class="drop">D</div>e Hostos Apartments is named after Eugenio Maria de Hostos. de Hostos was an educator, abolitionist, philosopher, writer and politician. He advocated for Puerto Rico to be a part of the United States, as well as for its citizens to be recognized as U.S. citizens. He was born in 1839 and died in 1903.
+		</br>
+		</br>
+			De Hostos Apartments is a 22-story building with 218 apartments, serving 480 residents. It's located on the Upper West Side of Manhattan at 201 West 93 St. I've called it home for 24 years.</p>
+			</div>
 		</br>
 		</br>
 
 			
-			<div id="image-1">
+
+			<div id="image-2">
 			<img class="displayed" src="https://farm4.staticflickr.com/3538/12993684103_ba73952089_o.jpg" width="620">
 			</div>
 
@@ -125,9 +230,11 @@ p 	{
 				<h2>No more candy?</h2>
 			</div>
 			<div class="content" id="content-2">
-			<p>Six months ago this vacant space was decorated with bright colors and a 7-Eleven logo. The entire neighborhood was shocked when it closed down, and couldn't think of a reason why, as the store was always busy. "That store stayed packed! As fast as one group of people would leave, another group would come in," said Karen Marshall, a resident of De Hostos for over 10 years.
+			<p><div class="drop">S</div>ix months ago this vacant space was decorated with bright colors and a 7-Eleven logo. The entire neighborhood was shocked when it closed down, and couldn't think of a reason why, as the store was always busy. "That store stayed packed! As fast as one group of people would leave, another group would come in," said Karen Marshall, a resident of De Hostos for over 10 years.
+		</br>
 		</br>
 			Though it isn't clear why the 7-Eleven closed down, many speculate that the store had a lot of "fishy" buisiness going down. "I'm not sure, but I think things weren't right with the money," said a former employee, who asked to remain anonymous. 
+		</br>
 		</br>
 			In the mornings, majority of the booming store's customers consisted of teens and pre-teens who were looking to stock up on sweet treats before making their way to school. Ironically, twenty years before it was a 7-Eleven, it was a candy store owned by a man who's personality resembeled Willy Wonker.</p>
 			</div>
@@ -135,7 +242,7 @@ p 	{
 			
 
 
-			<div id="image-2">
+			<div id="image-3">
 			
 			<img class="displayed" src="https://farm4.staticflickr.com/3074/13071963124_95659f2edb_b.jpg" width="620">
 			</div>
@@ -143,12 +250,12 @@ p 	{
 				<h2>Health Center</h2>
 			</div>
 			<div class="content" id="content-3">
-			<p>Amsterdamn Avenue Family Practice is a health clinic opperated by certified physicians. It's sponsered by the Institute for Urban Family Health, which is a non-profit organization dedicated to providing affordable healthcare to low income neigborhoods. They opened their first clinic in 1987 in Bronx, New York. This particular clinic was opend in 2007.</p>
+			<p><div class="drop">A</div>msterdamn Avenue Family Practice is a health clinic opperated by certified physicians. It's sponsered by the Institute for Urban Family Health, which is a non-profit organization dedicated to providing affordable healthcare to low income neigborhoods. They opened their first clinic in 1987 in Bronx, New York. This particular clinic was opend in 2007.</p>
 			</div>
 			
 			
 			
-			<div id="image-3">
+			<div id="image-4">
 			</div>
 			<img class="displayed" src="https://farm4.staticflickr.com/3233/12993106083_b91deec04e_o.jpg" width="620">
 			</div>
@@ -156,19 +263,20 @@ p 	{
 				<h2>Parking Lot</h2>
 			</div>
 			<div class="content" id="content-4">
-			<p>The children who currently live in 201 are not allowed to play in this area, as my childhood friends and I did before them. We used to play tag, jump double-dutch and race each other up and down this entire lot. Our favorite game to play was handball. I can recall hitting the ball so hard on one occasion that it bounced over the wall and hit a window.</p>
+			<p><div class="drop">T</div>he children who currently live in 201 are not allowed to play in this area, as my childhood friends and I did before them. We used to play tag, jump double-dutch and race each other up and down this entire lot. Our favorite game to play was handball. I can recall hitting the ball so hard on one occasion that it bounced over the wall and hit a window.</p>
 			
 
 			</div>
 			<img class="displayed" src="https://farm4.staticflickr.com/3576/13071685904_c49aa7c0cf_o.jpg" width="620">
 			</div>
-			<div id="image-4">
+			<div id="image-5">
 			<div class="titles" id="title-5">
 				<h2>New Kam Lai</h2>
 			</div>
 			<div class="content" id="content-5">
-			<p>New Kam Lai is a Chinese restaurant that has served De Hostos residents, and surrounding communities, for 15 fifteen years. Vivienne, New Kam Lai's manager, describes her relationship with her customers as "wonderful." She often refers to us as her "family." We simply call her Vivvie.
-
+			<p><div class="drop">N</div>ew Kam Lai is a Chinese restaurant that has served De Hostos residents, and surrounding communities, for 15 fifteen years. Vivienne, New Kam Lai's manager, describes her relationship with her customers as "wonderful." She often refers to us as her "family." We simply call her Vivvie.
+		</br>
+		</br>
 			New Kam Lai caught an electrical fire in 2008. Vivienne and her workers were forced to take four years off as the restaurant was repaired. Business has been going better than ever since they reopened in 2012. "I don't ever plan on leaving this neighborhood," said Vivienne. "This is my home."</p>
 			
 			
@@ -182,7 +290,12 @@ p 	{
 				$('.carousel').slick({
 			  		
 				});
+
+			var controller = new ScrollMagic();
 			});
+
+			var scene = new ScrollScene({duration: 100})
+                .addTo(controller);
 		</script>
 		</body>
 
