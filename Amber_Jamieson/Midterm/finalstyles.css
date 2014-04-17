@@ -395,6 +395,22 @@ color:black;
 			}
 
 
+.rectangle6, .rectangle2
+{padding-right: 900px;
+text-align: left;
+position: fixed;
+width: 400px;
+}
+
+.rectangle5
+{max-width: 700px;
+text-align: left;
+padding-right: 1000px;
+padding-bottom: 50px;
+padding-left:20px;
+position: fixed;
+}
+
 
 	.wrapper {
 	height:100%;
@@ -408,16 +424,16 @@ color:black;
 	position: fixed;
 }
 	
-}
 
 
+/*
 .headline
 {margin-top:400px;
 text-align: left;
 position: fixed;
 
 
-}
+}*/
 
 .wrapper
 {max-width: 360px}
