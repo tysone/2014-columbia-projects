@@ -1,5 +1,4 @@
 
-
 body{
 	margin:0px;
 	background:#FFFFFF;
@@ -121,7 +120,21 @@ p{
 a { 
 	color:#7D7D7D; 
 }
+@media all and (max-width: 1000px) { 
 
+}
+
+@media all and (max-width:600px){
+	.box,
+	.column{
+		display:block;
+		width: 200px;
+		height: 200px;
+	}
+
+	img{
+		width:100%;
+	}
 
 
 

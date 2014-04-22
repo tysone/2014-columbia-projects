@@ -6,16 +6,48 @@ html, body {
 
 .wrapper {
 	height:100%;
+	width:1024px;
 
 }
 
 #flickr{
-	width: 100%;
-	margin-right: 150px;
+	width: 1024px;
 	position: absolute;
 	text-align: center;
 	background-color: black;
+	height:800px;
+	margin-left: 130px; 
 }
+
+#photos img {
+  margin: 10px;
+  border: 2px solid #333;
+  max-width: 980px;
+  max-height: 600px
+  }
+
+
+.vertical {padding-bottom: 20px;
+	margin-top: 50px;
+	margin-left:420px;
+	bottom: 150px;
+	z-index: 14;
+	position: absolute;}
+
+.vertical2{
+
+	padding-bottom: 20px;
+	margin-top: 50px;
+	margin-left:420px;
+	bottom: 150px;
+	z-index: 13;
+	position: absolute;
+}
+
+.vertical3 {
+	display:none;
+}
+
 
 .openingimage {
 	text-align: center;
@@ -34,12 +66,6 @@ html, body {
 
 .headline {z-index: 5;
 position: relative;
-/*top: 5%;
-left:60%;
-top:40px;
-padding-top: 80px;
-text-align: left;
-max-width: 400px;*/
 }
 
 #harlemheart
@@ -52,13 +78,6 @@ max-width: 300px;
 #heartbeats{
 	text-align: right;
 }
-/*top: 5%;
-left:60%;
-top:40px;
-padding-top: 80px;
-text-align: left;
-max-width: 400px;*/
-
 
 
 .sub2 {width: 960px;
@@ -86,28 +105,14 @@ h3 {
 text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
     }
 
-.text {/*float:left;*/
+.text {/
 	width:250px;}
 
-	#photos img {
-  margin: 10px;
-  border: 2px solid #333;
-  max-width: 600px;
-  }
 
  .img {
 width: 100%;
 }
 
-
-
-/*.subhead {
-padding-top: 40px;
-margin-top: 40px;
-text-align: left;
-width: 900px;
-height: 100%;
-}*/
 
 .rectangle {
 	z-index:4;
@@ -116,7 +121,6 @@ height: 100%;
 top: 5%;
 left:15%;
 top:50px;
-/*padding-top: 80px;*/
 text-align: left;
 max-width: 400px;
 }
@@ -241,7 +245,6 @@ padding-bottom: 20px;
 	bottom: 150px;
 	}
 
-/*#oldnew {position:relative;}*/
 
 .text2 {float:left;
 padding-left: 20px;
@@ -251,15 +254,7 @@ z-index: 6;}
 	z-index:7;
 }
 
-/*.vertical2{
-\
-	padding-bottom: 20px;
-	margin-top: 50px;
-	margin-left:420px;
-	bottom: 150px;
-	z-index: 13;
-	position: absolute;
-}*/
+
 
 .music {float:right;
 text-align: right;}
@@ -280,25 +275,46 @@ max-width: 100%;
 
 .intro {text-align: right}
 
+.vertical2{
 
-
+	padding-bottom: 20px;
+	margin-top: 50px;
+	margin-left:420px;
+	bottom: 150px;
+	z-index: 13;
+	position: absolute;
+}
 
 @media (max-width: 800px) { 
-		h1,h2,h3,h4 {
-			left:10%;
-top:10px;
-text-align: right;
-max-width: 100px;
+		h1,h2,h4 {
+text-align: left;
 font-size:76px;
 line-height: 75px;
 			}
+
+			h3{
+text-align: left;
+font-size:46px;
+line-height: 45px;
+			}
+		
+
 		p {
-			left:10%;
+right:50%;
 top:10px;
 text-align: left;
-max-width: 100px;
-font-size:35px;
-line-height: 35px;
+max-width: 600px;
+font-size:25px;
+line-height: 25px;
+			}
+
+			h5 {
+right:50%;
+top:10px;
+text-align: left;
+max-width: 600px;
+font-size:22px;
+line-height: 22px;
 			}
 
 .openingimage {
@@ -306,32 +322,59 @@ line-height: 35px;
 	width: 100%;
 	position: absolute;
 	margin-left: 0px;
+
 }
-.headline 
-{left:10%;
-top:10px;
-text-align: right;
-max-width: 100px;
-/*font-size:76px;
-line-height: 75px;*/
+
+#oldnew img {margin-left: 90px;
+margin-top: 50px;
+bottom:90px;
+}
+
+
+.rectangle6, .rectangle2
+{padding-right: 900px;
+text-align: left;
+position: relative;
+width: 400px;
+}
+
+.rectangle5
+{max-width: 700px;
+text-align: left;
+padding-right: 1000px;
+padding-bottom: 50px;
+padding-left:20px;
+}
+
+
+#oldnew
+{text-align: left;
+	bottom: 50px;
+	margin-right: 100px;
+	z-index: 14;
+	position: absolute;
+	max-width: 300px;
+}
+
+#flickr{
+	width: 100%;
+	position: absolute;
+	text-align: left;
+	background-color: black;
+	height:800px;
 }
 
 	}
 
 @media (max-width: 400px) { 
-
-	.openingimage {
-	text-align: center;
-	width:100%;
-	margin-left: 0px;
-	
-}
-h1, h2, h3, h4, h5 {left:10%;
+	h1, h2, h4 
+	{left:10%;
 top:10px;
 text-align: right;
 max-width: 300px;
-font-size:36px;
-line-height: 35px;
+font-size:26px;
+line-height: 25px;
+color:black;
 }
 
 p
@@ -339,19 +382,61 @@ p
 top:10px;
 text-align: right;
 max-width: 300px;
-font-size:26px;
-line-height: 25px;
+font-size:12px;
+line-height: 12px;
+color:black;
 }
 
-#harlemheart
-{margin-right:40px;
-text-align: center;
-/*max-width: 100px;
-padding-right: 20px;*/
+h3{
+text-align: left;
+font-size:18px;
+line-height: 18px;
+color:black;
+			}
+
+
+.rectangle6, .rectangle2
+{padding-right: 900px;
+text-align: left;
+position: fixed;
+width: 400px;
 }
+
+.rectangle5
+{max-width: 700px;
+text-align: left;
+padding-right: 1000px;
+padding-bottom: 50px;
+padding-left:20px;
+position: fixed;
+}
+
+
+	.wrapper {
+	height:100%;
+	width:400px;
+
+}
+	.openingimage {
+	width:100%;
+	margin-left: 0px;
+	text-align: left;
+	position: fixed;
+}
+	
+
+
+/*
+.headline
+{margin-top:400px;
+text-align: left;
+position: fixed;
+
+
+}*/
 
 .wrapper
 {max-width: 360px}
 
 
-	}
+	}}
