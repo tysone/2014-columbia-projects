@@ -145,6 +145,11 @@ p {
 	margin-bottom: 100px;
 }
 
+.flickrPhotos {
+	width: 240px;
+	height: 240px;
+}
+
 @media screen and (max-width: 600px) {
 	h1 {
 		font-size: 60px;
