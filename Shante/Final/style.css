@@ -1,0 +1,41 @@
+.title {
+    font-family: 'Coustard', serif;
+    font-weight: 900;
+    line-height: 46px;
+    font-size: 41px;
+    margin: 0 0 23px 0;
+    color: #cf3939;
+    text-align: center;}
+
+.sub {
+	font-family: 'Cantarell', sans-serif;
+    font-size: 17px;
+    line-height: 23px;
+    margin: 0 0 23px 0;
+    text-align: center;
+    position: relative;
+	left: 35px;}
+
+.byline {
+	font-family: 'Leckerli One', cursive;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 23px;
+    margin: 0 0 23px 0;
+    text-align: center;
+    position: relative;
+    left: 190px;}
+
+img {
+	position: relative;
+	left: 140px;
+}
+
+p {
+	text-align: left;
+	font-family: 'Cantarell', sans-serif;
+	font-size: 16px;
+	color: black;
+	width: 500px;
+	position: relative;
+	left: 350px;}
