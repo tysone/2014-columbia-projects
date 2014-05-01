@@ -394,7 +394,7 @@ line-height: 18px;
 color:black;
 			}
 
-
+/*
 .rectangle6, .rectangle2
 {padding-right: 900px;
 text-align: left;
@@ -409,7 +409,7 @@ padding-right: 1000px;
 padding-bottom: 50px;
 padding-left:20px;
 position: fixed;
-}
+}*/
 
 
 	.wrapper {
@@ -421,7 +421,7 @@ position: fixed;
 	width:100%;
 	margin-left: 0px;
 	text-align: left;
-	position: fixed;
+	/*position: fixed;*/
 }
 	
 
