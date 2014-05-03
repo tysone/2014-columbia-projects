@@ -1,0 +1,36 @@
+#wrapper {
+	margin: 0px;
+	border: 0px;
+	padding: 0px;
+}
+
+.bannerPhoto {
+	width: 100%;
+	height: 100%;
+	margin: 0px;
+	border: 0px;
+	padding: 0px;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	position: relative;
+}
+#firstPhoto {
+	background-image: url("images/Moto 360_Map.jpg");
+	z-index: 0;
+}
+
+#headline {
+	position: absolute;
+	z-index: 1;
+}
+
+.text {
+	margin: 0 auto;
+	width: 33%;
+	display: block;
+}
+
+#googleGlass {
+	background-image: url("images/isabelle_olsson_glass.jpg");
+}
