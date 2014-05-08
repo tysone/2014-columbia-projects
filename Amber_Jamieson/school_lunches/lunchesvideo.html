@@ -1,22 +1,23 @@
+<html>
+
 <header>
-    <h1>School lunches in NYC public schools</h1>
+    <title><h1>School lunches in NYC public schools</h1></title>
 
     <link rel="stylesheet" type="text/css" href="lunches.css" />
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-
-<script>window.jQuery || document.write('<script src="js/jquery-1.7.2.min.js"><\/script>')</script>
+<script src="js/jquery-1.7.2.min.js"></script>
 <script src="js/jquery-ui-1.10.22.custom.min.js"></script>
 <script src="js/jquery.imagesloaded.min.js"></script>
 <script src="http://vjs.zencdn.net/c/video.js"></script>
- 
-<!-- BigVideo -->
 <script src="js/bigvideo.js"></script>
     
 </header>
+
+<body>
  
 <div class="wrapper">
     <div class="screen" id="screen-1" data-video="lunch.mp4">
-        <img src="lunchesscreen.jpg" class="big-image" />
+        <img src="pizza.png" class="big-image" />
         <h1 class="video-title">Pizza Party Time</h1>
     </div>
     <div class="screen" id="screen-2" data-video="lunch.mp4">
@@ -24,11 +25,11 @@
         <h1 class="video-title">Serving up Lunch</h1>
     </div>
     <div class="screen" id="screen-3" data-video="salad.mp4">
-        <img src="salad.jpg" class="big-image" />
+        <img src="salad.png" class="big-image" />
         <h1 class="video-title">Welcome to the Salad Bar</h1>
     </div>
     <div class="screen" id="screen-4" data-video="kidsfeetwide.mp4">
-        <img src="kidsfeetwide.jpg" class="big-image" />
+        <img src="kidsfeetwide.png" class="big-image" />
         <h1 class="video-title">Kids waiting in line</h1>
     </div>
    <!--  <div class="screen" id="screen-5" data-video="vid/dandelion.mp4">
@@ -40,3 +41,41 @@
 <nav id="next-btn">
     <a href="#" class="next-icon"></a>
 </nav>
+</body>
+
+<script>$(function() {
+    var screenIndex = 1,
+    numScreens = $('.screen').length,
+    isTransitioning = false,
+    transitionDur = 1000;
+}
+
+$('#next-btn').on('click', function(e) {
+    e.preventDefault();
+    if (!isTransitioning) {
+        next();
+    }
+});
+ 
+function next() {
+    isTransitioning = true;
+     
+    // update video index
+    if (screenIndex === numScreens) {
+        screenIndex = 1;
+    } else {
+        screenIndex++;
+    }
+     
+    $('.wrapper').transit(
+        {'left':'-'+(100*(screenIndex-1))+'%'},
+        transitionDur,
+        onTransitionComplete);
+}
+ 
+function onTransitionComplete() {
+    isTransitioning = false;
+}
+</script>
+
+</html>
