@@ -1,4 +1,4 @@
-	
+		
 html,body {margin:0;
 padding:0;
 border:10px, black;
@@ -120,12 +120,13 @@ hr {border-color: #BA1619;
 
 
 
-@media all and (max-width:320px) {
+@media all and (max-width:620px) {
 p {font-size: 14px;
 }
-
+iframe {display: none;
 }
 
+}
 
 
 

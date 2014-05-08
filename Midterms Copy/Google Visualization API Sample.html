@@ -1,0 +1,37 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!-- saved from url=(0078)http://savedbythegoog.appspot.com/?id=631bfe07fe81ec21b835aed099708df8e6f7d821 -->
+<html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <title>
+      Google Visualization API Sample
+    </title>
+    <script type="text/javascript" src="./Google Visualization API Sample_files/jsapi"></script><style type="text/css"></style>
+    <script type="text/javascript">
+      google.load('visualization', '1', {packages: ['corechart']});
+    </script><script src="./Google Visualization API Sample_files/saved_resource" type="text/javascript"></script><link href="./Google Visualization API Sample_files/ui+en.css" type="text/css" rel="stylesheet"><script src="./Google Visualization API Sample_files/format+en,default+en,ui+en,corechart+en.I.js" type="text/javascript"></script>
+    <script type="text/javascript">
+      function drawVisualization() {
+        // Create and populate the data table.
+        var data = google.visualization.arrayToDataTable([
+          ['Year', 'New York', 'Bronx', 'Hunts Point-Mott Haven'],
+          ['2012',  10.9,   16.1,       23.5,]
+        ]);
+      
+        // Create and draw the visualization.
+        new google.visualization.ColumnChart(document.getElementById('visualization')).
+            draw(data,
+                 {title:"Drug Overdose Related Death",
+                  width:900, height:400,
+                  hAxis: {title: "Year"}}
+            );
+      }
+      
+
+      google.setOnLoadCallback(drawVisualization);
+    </script>
+  <link type="text/css" rel="stylesheet" href="chrome-extension://cpngackimfmofbokmjmljamhdncknpmg/style.css"><script type="text/javascript" charset="utf-8" src="chrome-extension://cpngackimfmofbokmjmljamhdncknpmg/js/page_context.js"></script><link href="./Google Visualization API Sample_files/tooltip.css" rel="stylesheet" type="text/css"></head>
+  <body style="font-family: Baskerville;border: 0 none;" screen_capture_injected="true">
+    <div id="visualization" style="width: 600px; height: 400px; position: relative;"><div dir="ltr" style="position: relative; width: 900px; height: 400px;"><div style="position: absolute; left: 0px; top: 0px; width: 100%; height: 100%;"><svg width="900" height="400" style="overflow: hidden;"><defs id="defs"><clippath id="_ABSTRACT_RENDERER_ID_0"><rect x="140" y="77" width="621" height="247"></rect></clippath></defs><rect x="0" y="0" width="900" height="400" stroke="none" stroke-width="0" fill="#ffffff"></rect><g><text text-anchor="start" x="140" y="51.9" font-family="Arial" font-size="14" font-weight="bold" stroke="none" stroke-width="0" fill="#000000">Drug Overdose Related Death</text></g><g><rect x="775" y="77" width="111" height="96" stroke="none" stroke-width="0" fill-opacity="0" fill="#ffffff"></rect><g><rect x="775" y="77" width="111" height="14" stroke="none" stroke-width="0" fill-opacity="0" fill="#ffffff"></rect><g><text text-anchor="start" x="794" y="88.9" font-family="Arial" font-size="14" stroke="none" stroke-width="0" fill="#222222">New York</text></g><rect x="775" y="77" width="14" height="14" stroke="none" stroke-width="0" fill="#3366cc"></rect></g><g><rect x="775" y="100" width="111" height="14" stroke="none" stroke-width="0" fill-opacity="0" fill="#ffffff"></rect><g><text text-anchor="start" x="794" y="111.9" font-family="Arial" font-size="14" stroke="none" stroke-width="0" fill="#222222">Bronx</text></g><rect x="775" y="100" width="14" height="14" stroke="none" stroke-width="0" fill="#dc3912"></rect></g><g><rect x="775" y="123" width="111" height="50" stroke="none" stroke-width="0" fill-opacity="0" fill="#ffffff"></rect><g><text text-anchor="start" x="794" y="134.9" font-family="Arial" font-size="14" stroke="none" stroke-width="0" fill="#222222">Hunts</text><text text-anchor="start" x="794" y="152.9" font-family="Arial" font-size="14" stroke="none" stroke-width="0" fill="#222222">Point-Mott</text><text text-anchor="start" x="794" y="170.9" font-family="Arial" font-size="14" stroke="none" stroke-width="0" fill="#222222">Haven</text></g><rect x="775" y="123" width="14" height="14" stroke="none" stroke-width="0" fill="#ff9900"></rect></g></g><g><rect x="140" y="77" width="621" height="247" stroke="none" stroke-width="0" fill-opacity="0" fill="#ffffff"></rect><g clip-path="url(#_ABSTRACT_RENDERER_ID_0)"><g><rect x="140" y="323" width="621" height="1" stroke="none" stroke-width="0" fill="#cccccc"></rect><rect x="140" y="262" width="621" height="1" stroke="none" stroke-width="0" fill="#cccccc"></rect><rect x="140" y="200" width="621" height="1" stroke="none" stroke-width="0" fill="#cccccc"></rect><rect x="140" y="139" width="621" height="1" stroke="none" stroke-width="0" fill="#cccccc"></rect><rect x="140" y="77" width="621" height="1" stroke="none" stroke-width="0" fill="#cccccc"></rect></g><g><rect x="259" y="310" width="127" height="13" stroke="none" stroke-width="0" fill="#3366cc"></rect><rect x="387" y="230" width="127" height="93" stroke="none" stroke-width="0" fill="#dc3912"></rect><rect x="515" y="116" width="127" height="207" stroke="none" stroke-width="0" fill="#ff9900"></rect></g><g><rect x="140" y="323" width="621" height="1" stroke="none" stroke-width="0" fill="#333333"></rect></g></g><g></g><g><g><text text-anchor="middle" x="450.5" y="344.9" font-family="Arial" font-size="14" stroke="none" stroke-width="0" fill="#222222">2012</text></g><g><text text-anchor="end" x="126" y="328.4" font-family="Arial" font-size="14" stroke="none" stroke-width="0" fill="#444444">10</text></g><g><text text-anchor="end" x="126" y="266.9" font-family="Arial" font-size="14" stroke="none" stroke-width="0" fill="#444444">14</text></g><g><text text-anchor="end" x="126" y="205.4" font-family="Arial" font-size="14" stroke="none" stroke-width="0" fill="#444444">18</text></g><g><text text-anchor="end" x="126" y="143.9" font-family="Arial" font-size="14" stroke="none" stroke-width="0" fill="#444444">22</text></g><g><text text-anchor="end" x="126" y="82.4" font-family="Arial" font-size="14" stroke="none" stroke-width="0" fill="#444444">26</text></g></g></g><g><g><text text-anchor="middle" x="450.5" y="378.4" font-family="Arial" font-size="14" font-style="italic" stroke="none" stroke-width="0" fill="#222222">Year</text></g></g><g></g></svg></div></div><div style="display: none; position: absolute; top: 410px; left: 910px; white-space: nowrap; font-family: Arial; font-size: 14px;">Haven</div><div></div></div>
+  
+
+</body></html>
