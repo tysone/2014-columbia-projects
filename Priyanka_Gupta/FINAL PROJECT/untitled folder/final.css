@@ -1,0 +1,30 @@
+
+body{
+
+width: 100%;
+height: 100%;
+font-family: "Dubiel";
+background-color: #000000;
+
+
+}
+
+.container {
+
+
+margin-bottom: 2%;
+width: 100%;
+height: 100%;
+}
+
+#titlemovie {
+margin-bottom: 2%;
+width: 100%;
+height:100%;
+position: fixed;
+display: block;
+}
+
+video::-webkit-media-controls {
+  display:none !important;
+}
