@@ -14,10 +14,10 @@ body {
 	background: url('http://i.imgur.com/v49fX1i.jpg?1');
 	background-repeat: no-repeat;
 	background-position: center;
-	background-attachment: fixed;
 	background-size: cover;
 	height: 100%;
 	width: 100%;
+	margin-bottom: 50px;
 }
 
 @font-face {
@@ -33,9 +33,9 @@ body {
 
 h1 {
 	font-family: 'wisdom_scriptregular';
-	font-size: 1.1em;
+	font-size: 1em;
 	color: #282828;
-	padding-left: 2%;
+	padding-left: 1%;
 }
 
 #article-title {
@@ -44,20 +44,20 @@ h1 {
 	left: 50%;
 	margin-left: -45%;
 	position: absolute;
-	bottom: 10px;
+	bottom: 15px;
 }
 
 h3 {
 	color: #282828;
 	font-family: Georgia, serif;
-	font-size: 50px;
+	font-size: 42px;
 	margin-bottom: 5px;
 	font-weight: 500;
 }
 
 #divider {
 	height: 1px;
-	width: 40%;
+	width: 300px;
 	background-color: #282828;
 	margin-left: auto;
 	margin-right: auto;
@@ -110,7 +110,6 @@ h3 {
 	color: #505050;
 	width: 90%;
 	margin-top: 5px;
-	margin-left: 1%;
 }
 
 .text {
@@ -200,7 +199,7 @@ iframe {
 
 .left-quote-1 {
 	position: absolute;
-	bottom: 60px;
+	bottom: 65px;
 	left: -45px;
 	font-size: 90px;
 	font-weight: 500;
@@ -210,7 +209,7 @@ iframe {
 
 .left-quote-2 {
 	position: absolute;
-	bottom: 65px;
+	bottom: 70px;
 	left: -40px;
 	font-size: 90px;
 	font-weight: 500;
@@ -250,17 +249,21 @@ a:visited {
 
 @media all and (max-width: 970px) {
 
+#intro {
+	height: 80%;
+}
+
 #article-title {
 	width: 100%;
-	bottom: 10px;
+	bottom: 22%;
 }
 
 #divider {
-	width: 40%;
+	width: 250px;
 }
 
 h3 {
-	font-size: 40px;
+	font-size: 34px;
 }
 
 #byline {
@@ -333,13 +336,19 @@ h1 {
 	font-size: 1.5em;
 }
 
+#intro {
+	height: 51%;
+	margin-bottom: 10px;
+}
+
 #article-title {
 	width: 95%;
-	bottom: 10px;
+	bottom: 50%;
 }
 
 h3 {
-	font-size: 40px;
+	font-size: 30px;
+	margin-bottom: 0px;
 }
 
 
@@ -349,6 +358,8 @@ h3 {
 
 #divider {
 	width: 75%;
+	margin-top: 5px;
+	margin-bottom: 5px;
 }
 
 .image {
@@ -364,7 +375,7 @@ h3 {
 	width: 95%;
 	margin-left: auto;
 	margin-right: auto;
-	margin-top: 50px;
+	margin-top: 30px;
 }
 
 p {
@@ -410,7 +421,7 @@ iframe {
 }
 
 .caption {
-	width: 100%;
+	margin-left: 1%;
 }
 
 .pull-quote-1 {
