@@ -31,12 +31,21 @@ $.getJSON(flickerAPI, {
   	format: "json"
 }).done(function(data) {
     $.each(data.items, function(i, item) {
-      	$("<a>", {"href":item.link})
+        $("<div>")
+        .append($("<a>", {"href":item.link}))
       	.append($("<img>").attr("src", item.media.m))
-      	.appendTo("#flickrPhotos");
+      	.appendTo(".flickrPhotos");
+
+          $('.flickrPhotos').slick({
+            dots: true,
+            infinite: false,
+            speed: 300,
+            slide: 'div',
+            slidesToShow: 4,
+            slidesToScroll: 4
+          });
+
     });
 });
-
-$('#flickrPhotos').slick();
 
 });

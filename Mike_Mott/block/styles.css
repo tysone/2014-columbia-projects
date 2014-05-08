@@ -1,3 +1,14 @@
+img {
+width:100%;
+max-width:960px;
+}
+
+#weather{
+	padding-top:17px;
+	font-family: 'Parisienne', cursive;
+	font-size: 18px
+}
+
 html{
 	margin:0;
 	padding:0;
@@ -30,7 +41,7 @@ html{
 
 #title {
 	font-family: 'Poiret One', cursive;
-	font-size: 40px;
+	font-size: 32px;
 	color: white;
 }
 
