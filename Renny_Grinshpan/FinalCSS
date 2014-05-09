@@ -1,0 +1,87 @@
+.heading1 {
+	font-family: 'Raleway', 'sans-serif';
+	font-size: 36px;
+	text-align: center;
+}
+.heading2 {
+	font-family: 'Raleway', 'sans-serif';
+	font-size: 36px;
+	text-align: center;
+	margin-top: -25px;
+}
+.heading3 {
+	font-family: 'Raleway', 'sans-serif';
+	font-size: 60px;
+	text-align: center;
+	font-weight: 300;
+	margin-top: -50px;
+}
+.subheading {
+	font-family: 'Raleway', 'sans-serif';
+	font-size: 24px;
+	text-align: center;
+	margin-top: -50px;4
+}
+.intro {
+	font-family: 'Raleway', 'sans-serif';
+	font-size: 24px;
+}
+.history {
+	font-family: 'Raleway', 'sans-serif';
+	font-size: 24px;
+	position: relative; 
+	top: 50;
+}
+.rootsandruckus {
+	font-family: 'Raleway', 'sans-serif';
+	font-size: 24px;
+	text-align: center;
+	position: relative;
+	top: 50;
+}
+.moving {
+	font-family: 'Raleway', 'sans-serif';
+	font-size: 24px;
+	text-align: center;
+	position: relative;
+	top: 50;
+}
+.jalopy {
+	font-family: 'Raleway', 'sans-serif';
+	font-size: 24px;
+	text-align: center;
+	position: relative;
+	top: 50;
+}
+.conclusion {
+	font-family: 'Raleway', 'sans-serif';
+	font-size: 24px;
+	text-align: center;
+	position: relative;
+	top: 50;
+}
+.youtube {
+	background-color: black;
+}
+
+body {
+	width:80%;
+	margin: 0 auto;
+}
+.poster {
+	position: relative;
+	left: 180;
+}
+.video-container iframe {
+	position: absolute;
+	left: 360;
+}
+.youtube-container iframe {
+	position: absolute;
+	left: 400;
+}
+.youtube-poster {
+	position: relative;
+	left: 400;
+	top: 100;
+}
