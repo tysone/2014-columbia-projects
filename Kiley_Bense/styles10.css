@@ -1,0 +1,252 @@
+.box {
+	height: 3000px;
+	width: 100%;
+	
+}
+
+body {
+	
+	margin-top: 0px;
+	margin-bottom:0px;
+	margin-left: 0px;
+	margin-right: 0px;
+}
+
+.headline {
+	font-family: 'Dawning of a New Day', cursive;
+	font-size: 100px;
+	text-align: left;
+	line-height: 100px;
+	position: absolute;
+	z-index:0;
+	margin-left: 61%;
+	margin-top: 120px;
+
+}
+
+.byline {
+	font-family: 'Dawning of a New Day', cursive;
+	font-size: 40px;
+	text-align: left;
+	z-index:0;
+    position: absolute;
+    margin-left: 61%;
+    margin-top:520px;
+}
+
+.grave2 {
+	margin-left: 63%;
+	margin-top: 300px;
+	position: absolute;
+	z-index:0;
+	width: 5%;
+}
+
+.grave1 {
+	margin: auto;
+
+}
+
+.beach {
+	width: 50%;
+	margin-left: 25%;
+	margin-bottom: 10px;
+}
+.beach1 {
+	font-family: 'Dawning of a New Day', cursive;
+	font-size: 30px;
+	width: 50%;
+	line-height: 30px;
+	margin: auto;
+}
+
+.cover {
+	position: relative;
+	z-index:-1;
+}
+
+.text1 {
+	
+	width: 60%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 95px;
+	font-size: 25px;
+	font-family: georgia;
+	font-weight: lighter;
+	text-align: left;
+	line-height: 30px;
+}
+
+.text {
+	
+	width: 60%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 50px;
+	font-size: 25px;
+	font-family: georgia;
+	font-weight: lighter;
+	text-align: left;
+	line-height: 30px;
+}
+.italic {
+	font-family:'Dawning of a New Day', cursive;
+	line-height: 25px;
+	font-size: 30px;
+}
+
+
+
+.obit4 {
+	width: 30%;
+	margin-left: 20%;
+	float: left;
+	margin-top: 30px;
+}
+
+.obit5 {
+	width:30%;
+	margin-right: 20%;
+	float: right;
+	margin-top: 30px;
+}
+
+
+
+.obit {
+	height: 800px;
+}
+
+.telegram {
+	width: 90%;
+	margin-left: 5%;
+}
+.caption {
+	font-family: 'Dawning of a New Day', cursive;
+	font-size: 30px;
+	width: 50%;
+	line-height: 30px;
+	margin: auto;
+	margin-bottom: 20px;
+
+}
+.covers {
+	width: 40%;
+	margin-left: 30%;
+}
+
+
+
+.caption2 {
+	font-family:'Dawning of a New Day', cursive;
+	font-size: 30px;
+	line-height: 25px;
+	color: black;
+	text-align: left;
+	margin-top: 170px;
+
+}
+a:link{
+	text-decoration: none;
+	color: black;
+}
+a:hover {
+	color: #292B73;
+	text-decoration: none;
+
+}
+
+.doc {
+	margin-bottom: -10px;
+	margin-right: 0px;
+	margin-left: 0px;
+}
+.drop {
+	font-size: 100px;
+	float: left;
+	margin-bottom: 10px;
+	margin-right: 10px;
+	margin-top: 0px;
+	font-family:'Dawning of a New Day', cursive;, cursive;
+}
+
+.ring {
+	margin-left: 50%;
+	width: 20%;
+	margin-bottom: -20px;
+
+}
+
+.portrait {
+	width: 50%;
+	margin-left: 25%;
+	margin-bottom: 20px;
+	margin-top: 20px;
+	
+
+}
+
+.speech {
+	width: 70%;
+	margin-left: 16%;
+	margin-top: 35px;
+}
+
+
+.white-popup {
+  position: relative;
+  background: #FFF;
+  padding: 20px;
+  width: auto;
+  margin: 20px auto;
+}
+
+.mfp-wrap .mfp-container .mfp-content {
+	max-width: 100%;
+	width: auto !important;
+}
+
+.map1 {
+	margin-left: 5%;
+	margin-top: 35px;
+	margin-bottom: -5px;
+	
+}
+
+.map {
+	position: relative;
+	z-index:-1;
+	width: 90%;
+}
+
+.poem {
+
+width: 40%;
+margin-left: 30%;
+margin-bottom: 30px;
+}
+
+@media screen and (max-width: 960px) {
+	.headline {
+		font-size: 300%;
+		line-height: 50px;
+		margin-top: 20px;
+	}
+
+	.byline {
+		font-size: 15px;
+		margin-top: 220px;
+	}
+
+	.grave2 {
+		margin-top: 140px;
+	}
+
+	.obit {
+		height: 400px;
+	}
+	}
+
+	@media screen and (max-width: 480px) {
+	}
