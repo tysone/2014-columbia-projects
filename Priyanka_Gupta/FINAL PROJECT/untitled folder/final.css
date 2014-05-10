@@ -1,6 +1,6 @@
 
 header{
-	position: fixed;
+	position: relative;
 }
 
 body{
@@ -25,6 +25,7 @@ margin-right: 5px;
 margin-top: 2px;
 
 
+
 }
 
 #titlemovie {
@@ -38,28 +39,27 @@ display: block;
 
 video::-webkit-media-controls {
   display:none !important;
-
- border-radius: 70px;
+border-radius: 70px;
  padding-top: 5px;
  margin-top: 5px;
- padding-left: 50px;
+ padding-left: 85px;
+ padding-bottom: 5px;
+ margin-left: 50px;
 }
 
 .container1{
 
-height: 450px;
-width: 1000px;
+height: 400px;
+width: 1100px;
 position: relative;
 padding-left: 100px;
-background-color: #F7E945;
+background-color: #F7E945;opacity:0.9;
 padding-top: 10px;
 font-size: 20px;
 border-top: 1px;
-margin-top: 5px;
-margin-left: 85px;
+margin-top: 2px;
+margin-left: 50px;
 margin-right: 5px;
-border-radius: 70px;
-
 
 }
 
@@ -68,24 +68,27 @@ border-radius: 70px;
 	font-size: 85px;
 	color: #000000;
 	margin:0;
-	;
+	
 
 }
 
 p {
 	text-align: justify;
-	padding-right: 5px;
-	padding-right: 30px;
+	padding-right: 50px;
+	padding-left: 0px;
 }
 
 img
-{width: 400px; 
-  height: 500px;
-    border-radius: 70px;
+{width: 300px; 
+  height: 350px;
+  border-radius: 50em;
     position: right;
     padding-top: 15px;
     padding-bottom: 15px;
     border: 2px,#000000;
+    	border-radius: 100px / 50px;
+
+
    }
 
 
@@ -93,12 +96,47 @@ img
 
 	padding-left: 80px;
 	padding-right: 10px;
-	width: 400px; 
-  height: 450px;
+	width: 200px; 
+  height: 200px;
   border: 2px,#000000;
   margin-bottom: 20px;
   padding-bottom: 30px;
+
+  border-radius: 50em;
 }
+
+#image2{
+
+	margin-right: 80px;
+	width: 200px; 
+  height: 200px;
+  border: 2px,#000000;
+  margin-bottom: 20px;
+  padding-bottom: 30px;
+  position: absolute;
+  margin-left: 105px;
+  float: left;
+
+  border-radius: 50em;
+}
+
+
+#image3{
+
+	margin-right: 80px;
+	width: 200px; 
+  height: 200px;
+  border: 2px,#000000;
+  margin-bottom: 20px;
+  padding-bottom: 30px;
+  position: absolute;
+  margin-left: 520px;
+  
+  float: right;
+
+  border-radius: 50em;
+}
+
 
 #gifs {
 
@@ -106,6 +144,28 @@ img
 	margin-bottom: 40px;
 	padding-bottom: 100px;
 	position: absolute;
+	z-index: 100;
+	height: 500px;
 }
 
 
+
+.container2{
+
+height: 450px;
+width: 1000px;
+position: absolute;
+padding-left: 100px;
+background-color: #F7E945;
+opacity:0.9;
+padding-top: 10px;
+font-size: 20px;
+border-top: 1px;
+margin-top: 5px;
+margin-left: 85px;
+margin-right: 5px;
+z-index: 0;
+
+
+
+}
