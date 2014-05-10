@@ -1,0 +1,144 @@
+
+body{
+padding:0;
+margin:0 auto;
+position:relative;
+}
+
+.scrollContent {
+	height: 100%;
+}
+
+.content{
+position:relative;
+margin:0;
+         
+     }
+
+section#titlechart {
+	text-align: center;
+	position: relative;
+	height: 100%;
+	min-height: 500px;
+	min-width: 100%;     
+
+.header {
+	    font-family: Georgia;
+        font-size: 80px;
+        font color:white;
+        position:absolute;
+        left:40px;
+        margin:0 auto;
+        padding:20px;
+        top:350px;
+        text-align:center;
+        width: 40%;
+        height:30%;
+        z-index:3; 
+        display:none;
+}
+
+.header{
+font-family: Georgia;
+        font-size: 80px;
+        font color:white;
+        position:absolute;
+        left:40px;
+        margin:0 auto;
+        padding:20px;
+        top:350px;
+        text-align:center;
+        width: 40%;
+        height:30%;
+        z-index:3; 
+        display:none;
+}
+
+}
+
+.caption1, caption2, {
+	     font-family: Georgia;
+         font-size: 36px;
+         font-color:white;
+         position:absolute;
+         left:40px;
+         bottom:10px;
+         margin:40 auto;
+         background: rgba(0, 0,0, 0.4);
+         padding:20px;
+         text-align:center;
+         width: 40%;
+         height:30%;
+         z-index:3;
+         display:visible;  
+        }     
+
+
+
+------------------------------
+
+
+
+.hsContainer {
+    display: table;
+    table-layout: fixed;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+    opacity: 0;
+}
+.hsContent {
+    max-width: 450px;
+    margin: -150px auto 0 auto;
+    display: table-cell;
+    vertical-align: middle;
+    color: #ebebeb;
+    padding: 0 8%;
+    text-align: center
+}
+.bcg {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+
+/* Slide 1 */
+#slide-1 .bcg {background-image:url('Images/Being_Brielle_01.jpg')}
+
+/* CSS - Slide 2 */
+#slide-2 .bcg {
+    background: none;
+    background-color: #010101;
+    height: 200px;
+    text-align: center
+}
+
+/* CSS - Slide 3 */
+#slide-3 .bcg {background-image:url('Images/Being_Brielle_02.jpg')}
+
+/* Slide 4 */
+.curtainContainer {
+    width: 100%; height: 100%;
+    position: relative;
+}
+.curtainContainer .curtain {
+    width: 300%; height: 1px;
+    background-color: #000000;
+    position: absolute; top: 25%; left: 0;
+    opacity: 0
+}
+.curtainContainer .copy {
+    position: absolute;
+    bottom: 30%; left: 0;
+    width: 100%; text-align: center;
+}
+#slide-4 .bcg {background-image:url('Images/Being_Brielle_03.jpg')}
+
+
+
+
+

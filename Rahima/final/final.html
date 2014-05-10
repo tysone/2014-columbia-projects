@@ -1,0 +1,192 @@
+<!doctype html>
+<html>
+   <head>
+      <title>Final project</title>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+      <script type="text/javascript" src="js/jquery.stellar.min.js"></script>
+      <script type="text/javascript" src="js/waypoints.js"></script>
+      <script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+      <script type="text/javascript" src="js/main.js"></script>
+      <link href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" rel="stylesheet">
+      <link href="css/final.css" rel="stylesheet" type="text/css"/>
+    </head>
+
+<body>
+
+  <nav>
+    <ul class='navigation'>
+      <li data-slide='1'><a href="a">1</a></li>
+      <li data-slide='2'><a href="a">2</a></li>
+      <li data-slide='3'><a href="a">3</a></li>
+      <li data-slide='4'><a href="a">4</a></li>
+    </ul>
+  </nav>
+  
+  <div class='main'>
+
+
+   <div class='slide' id='slide1' data-slide='1' data-stellar-background-ratio='1.0'>
+      <div class='container'>
+        <div class= 'row'>
+          <div class='col-md-12 slide-1-image'</div>
+              <img src="images/slide1/Being_Brielle_01.jpg" class='image1'>
+              <div class="header" ><h2> Being Brielle </h2></div>
+          </div>
+        </div>
+      </div>
+
+
+
+    <div class='slide' id='slide2' data-slide='2' data-stellar-background-ratio='0.5'>
+      <div class='container'>
+        <div class= 'row'>
+          <div class='col-md-12 slide-1-image'</div>
+            <img src="images/slide2/Being_Brielle_02.jpg" class='image2'>
+          </div>
+        </div> 
+      </div>
+
+
+
+
+    <div class='slide' id'slide3' data-slide='3' data-stellar-background-ratio='0.5'>
+      <div class='container'>
+        <div class= 'row'>
+          <div class='col-md-12 slide-1-image'</div>
+            <img src="images/slide3/Being_Brielle_03.jpg" class='image3'>
+
+          </div> 
+        </div>
+      </div>
+    </div>
+
+
+    <div class='slide' id'slide4' data-slide='4' data-stellar-background-ratio='0.5'>
+      <div class='container'>
+        <div class= 'row'>
+          <div class='col-md-12 slide-1-image'</div>
+            <img src="images/slide4/Being_Brielle_04.jpg" class='image4'>
+          </div>
+        </div> 
+    </div>
+
+</div>
+
+
+
+
+  <script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js">
+
+var divs = $('.header');
+$(window).scroll(function(){
+   if($(window).scrollTop() <10 ){
+       divs.fadeOut("slow");
+       console.log('a')
+   } else {
+        divs.fadeIn("slow");
+       console.log('b')
+  }
+  });
+
+</script>
+</body>
+</html>
+
+<!--
+<main>
+<section id="slide-1" class="homeSlide">
+    <div class="bcg"
+        data-center="background-position: 50% 0px;"
+        data-top-bottom="background-position: 50% -100px;"
+        data-anchor-target="#slide-1"
+    >
+        <div class="hsContainer">
+            <div class="hsContent"
+                data-center="opacity: 1"
+                data-106-top="opacity: 0"
+                data-anchor-target="#slide-1 h2"
+            >
+                <h2>Fade out elements before <br>they leave viewport</h2>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="slide-2">
+    <div class="bcg"
+        data-0="background-color:rgb(1,27,59);"
+        data-top="background-color:(0,0,0);"
+        data-anchor-target="#slide-2"
+    >
+        <div class="hsContainer">
+            <div class="hsContent">
+                <h2
+                    data--200-bottom="opacity: 0"
+                    data-center="opacity: 1"
+                    data-206-top="opacity: 1"
+                    data-106-top="opacity: 0"
+                    data-anchor-target="#slide-2 h2"
+                >
+                    Fade me in and out
+                </h2>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="slide-3" class="homeSlide">
+    <div class="bcg"
+        data-center="background-position: 0px 50%;"
+        data-bottom-top="background-position: 0px 40%;"
+        data-top-bottom="background-position: -40px 50%;"
+        data-anchor-target="#slide-3"
+    >
+        <div class="hsContainer">
+            <div class="hsContent">
+                <div class="plaxEl"
+                    data-106-top="opacity: 0"
+                    data-bottom="opacity: 1; position: fixed; top: 206px; width: 100%; left: 0;"
+                    data--30p-top="opacity: 1;"
+                    data--60p-top="opacity: 0;"
+                    data-anchor-target="#slide-3"
+                >
+                    <h2>Fixed element fading in and out</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="slide-4" class="homeSlide homeSlideTall">
+    <div class="bcg"
+        data-center="background-position: 50% 0px;"
+        data-bottom-top="background-position: 50% 100px;"
+        data-top-bottom="background-position: 50% -100px;"
+        data-anchor-target="#slide-4"
+    >
+        <div class="curtainContainer">
+            <div class="curtain"
+                data-bottom-top="opacity: 0"
+                data-106-top="height: 1%; top: -10%; opacity: 0;"
+                data-center="height: 100%; top: 0%; opacity: 0.5"
+                data-anchor-target="#slide-4"
+            ></div>
+            <div class="copy"
+                data-bottom-top="opacity: 0"
+                data--100-bottom="opacity: 0"
+                data--280-bottom="opacity: 1;"
+                data-280-top="opacity: 1;"
+                data-106-top="opacity: 0;"
+                data-anchor-target="#slide-4 .copy"
+            >
+                <h2>Curtain effect while you scroll</h2>
+            </div>
+ 
+        </div>
+    </div>
+</section>
+
+
+<script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+</body>
+</html>
