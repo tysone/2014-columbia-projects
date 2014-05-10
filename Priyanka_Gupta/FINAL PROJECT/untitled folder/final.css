@@ -171,7 +171,8 @@ position: relative;
 }
 
 .gallery {
-height: 400px;
+
+height: 300px;
 width: 1100px;
 position: relative;
 padding-left: 20px;
