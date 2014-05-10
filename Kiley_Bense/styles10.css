@@ -229,7 +229,7 @@ margin-bottom: 30px;
 
 @media screen and (max-width: 960px) {
 	.headline {
-		font-size: 250%;
+		font-size: 200%;
 		line-height: 50px;
 		margin-top: 5px;
 	}
