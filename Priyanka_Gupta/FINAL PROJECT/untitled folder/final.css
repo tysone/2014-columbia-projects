@@ -10,8 +10,15 @@ height: 10000px;
 font-family: "Didot";
 background-color: #000000;
 position: relative;
+margin-top: 0px;
 
 
+}
+
+#wrapper{
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .container {
@@ -23,7 +30,6 @@ padding-top: 5px;
 margin-left: 35px;
 margin-right: 5px;
 margin-top: 2px;
-
 
 
 }
@@ -40,9 +46,7 @@ display: block;
 video::-webkit-media-controls {
   display:none !important;
 border-radius: 70px;
- padding-top: 5px;
- margin-top: 5px;
- padding-left: 85px;
+padding-left: 85px;
  padding-bottom: 5px;
  margin-left: 50px;
 }
@@ -53,24 +57,32 @@ height: 400px;
 width: 1100px;
 position: relative;
 padding-left: 100px;
-background-color: #F7E945;opacity:0.9;
+background-color: #FFFFFF;opacity:0.9;
 padding-top: 10px;
 font-size: 20px;
 border-top: 1px;
-margin-top: 2px;
 margin-left: 50px;
 margin-right: 5px;
+
 
 }
 
 #firstword {
-	font-family:"Didot";
+	font-family:"Connie";
 	font-size: 85px;
 	color: #000000;
 	margin:0;
+  font-weight:600px;
 	
 
 }
+
+#firstword2 {
+  font-family:"Connie";
+  font-size:20px;
+  color: #000000;
+  margin:0;
+  }
 
 p {
 	text-align: justify;
@@ -152,20 +164,63 @@ img
 
 .container2{
 
-height: 450px;
-width: 1000px;
+height: 400px;
+width: 1100px;
 position: absolute;
 padding-left: 100px;
-background-color: #F7E945;
+background-color: #FFFFFF;
 opacity:0.9;
 padding-top: 10px;
 font-size: 20px;
 border-top: 1px;
 margin-top: 5px;
-margin-left: 85px;
 margin-right: 5px;
-z-index: 0;
+margin-left: 50px;
+text-align: justify;
+position: relative;
+}
 
+.gallery {
+
+height: 400px;
+width: 1100px;
+position: relative;
+padding-left: 20px;
+background-color: #FFFFFF;
+opacity:0.9;
+padding-left: 100px;
+margin-right: 5px;
+margin-left: 50px;
+margin-top: 0;
+position: relative;
+display: block;
+}
+
+#gallery1
+{
+opacity:0.4;
+filter:alpha(opacity=40);
+img
+}
+
+}
+
+
+
+
+
+.imagenew{
+  width: 1100px;
+  height: 400px;
+  float: left;
+  border-radius: 50em;
+  margin-top: 500px;
+  margin-left: 100px;
+  margin-top: 10px;
+  width: 500px;
+  background-image: url('imagebk.jpg');
+  position: relative;
 
 
 }
+
