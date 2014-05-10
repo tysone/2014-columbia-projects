@@ -181,7 +181,11 @@ position: relative;
 
 .gallery {
 
+<<<<<<< HEAD
 height: 420px;
+=======
+height: 300px;
+>>>>>>> FETCH_HEAD
 width: 1100px;
 position: relative;
 padding-left: 20px;
