@@ -116,7 +116,7 @@ body {
 
 
 .obit {
-	height: 800px;
+	height: 850px;
 }
 
 .telegram {
@@ -250,4 +250,16 @@ margin-bottom: 30px;
 	}
 
 	@media screen and (max-width: 480px) {
+		.headline {
+			font-size: 200%;
+			line-height: 40px;
+		}
+		.byline {
+			font-size: 15px;
+			margin-top: 185px;
+		}
+
+		.obit {
+			height: 300px;
+		}
 	}
