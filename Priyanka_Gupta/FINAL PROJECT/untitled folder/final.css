@@ -295,3 +295,59 @@ blockquote {
   font-size: 15px;
 
   }
+
+
+.container4{
+
+height: 400px;
+width: 1100px;
+position: relative;
+padding-left: 100px;
+background-color: #FFFFFF;
+opacity:0.9;
+padding-top: 10px;
+font-size: 20px;
+border-top: 1px;
+margin-right: 5px;
+margin-left: 50px;
+text-align: justify;
+margin-top: 520px;
+position: relative;
+}
+
+.gifs1{
+
+margin-right: 5px;
+margin-left: 50px;
+position: relative;
+height: 500px;
+width: 12000px;
+
+
+}
+#image5{
+
+  margin-top: 20px;
+  float: left;
+  position: relative;
+  margin-left: 10px;
+}
+
+
+
+.clothes {
+font-size: 40px;
+color:#FFFFFF;opacity:0.9; 
+margin-left: 10px;
+margin-top:39px;
+float: left;
+font-family: 'Fabrics';
+position: relative;
+
+}
+
+#image6{
+
+  margin-top: 20px;
+  float: right;
+}
