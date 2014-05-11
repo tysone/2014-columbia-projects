@@ -49,12 +49,12 @@ z-index: 1
 
 
 
-/*.wrapper {
+.wrapper {
 	height:100%;
 	width:1024px;
 
-}*/
-/*
+}
+
 html, body {
     margin: 0;
     padding: 0;
@@ -83,10 +83,10 @@ header {
 .screen {
     position: relative;
     height: 100%; 
-    width: 25%; /*  NOTE:numVideos/100%  */
- /*   float: left;
+    width: 25%;   /*NOTE:numVideos/100%  */
+    float: left;
     overflow: hidden;
-}*/
+}
 .big-image {
     min-width: 100%;
     min-height: 100%; 
@@ -136,15 +136,15 @@ nav {
     text-decoration: none;
 }*/
 
-/*html { 
+html { 
   background: url(lunchesscreen.jpg) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-}*/
+}
 
-/*video#bgvid {
+video#bgvid {
 position: fixed; right: 0; bottom: 0;
 max-width: 1024px; min-height: 100%;
 width: auto; height: auto; z-index: -100;
@@ -152,4 +152,4 @@ background: url(lunchesscreen.jpg) no-repeat;
 background-size: cover;
 volume:0;
 position: absolute;
-/*display: block;*/ }*/
+/*display: block; }*/

@@ -1,23 +1,29 @@
+ <!-- <!DOCTYPE HTML> -->
 <html>
+    <head>
+        <title>School lunches in NYC public schools</title>
 
-<header>
-    <title><h1>School lunches in NYC public schools</h1></title>
-
-    <link rel="stylesheet" type="text/css" href="lunches.css" />
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-<script src="js/jquery-1.7.2.min.js"></script>
-<script src="js/jquery-ui-1.10.22.custom.min.js"></script>
+<link rel="stylesheet" type="text/css" href="lunches2.css">
+<!-- BigVideo Dependencies -->
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<!-- // window.jQuery || document.write('<\/script>')// --></script>
+<link href="http://vjs.zencdn.net/4.5/video-js.css" rel="stylesheet">
+<!-- <script src="http://vjs.zencdn.net/4.5/video.js"></script> -->
+<script src="js/jquery-ui-1.8.22.custom.min.js"></script>
 <script src="js/jquery.imagesloaded.min.js"></script>
-<script src="http://vjs.zencdn.net/c/video.js"></script>
+<!-- <script src="http://vjs.zencdn.net/c/video.js"></script> -->
+<script src="js/jquery-1.8.1.min.js"></script>
+ 
+<!-- BigVideo -->
 <script src="js/bigvideo.js"></script>
     
-</header>
+</head>
 
 <body>
  
 <div class="wrapper">
     <div class="screen" id="screen-1" data-video="lunch.mp4">
-        <img src="pizza.png" class="big-image" />
+        <img src="pizza.png" class="big-image" style="position: relative; width: 1264px; height: 711px; left: 0px; top: -269px;">   
         <h1 class="video-title">Pizza Party Time</h1>
     </div>
     <div class="screen" id="screen-2" data-video="lunch.mp4">
@@ -41,14 +47,17 @@
 <nav id="next-btn">
     <a href="#" class="next-icon"></a>
 </nav>
-</body>
 
-<script>$(function() {
-    var screenIndex = 1,
+
+
+<script>
+
+$(function() {
+
+var screenIndex = 1,
     numScreens = $('.screen').length,
     isTransitioning = false,
     transitionDur = 1000;
-}
 
 $('#next-btn').on('click', function(e) {
     e.preventDefault();
@@ -56,26 +65,72 @@ $('#next-btn').on('click', function(e) {
         next();
     }
 });
+if (!isTouch) {
+    // initialize BigVideo
+    BV = new $.BigVideo({forceAutoplay:isTouch});
+    BV.init();
+    showVideo();
+     
+    BV.getPlayer().addEvent('loadeddata', function() {
+        onVideoLoaded();
+    });
+ 
+    // adjust image positioning so it lines up with video
+    $bigImage
+        .css('position','relative')
+        .imagesLoaded(adjustImagePositioning);
+    // and on window resize
+    $(window).on('resize', adjustImagePositioning);
+}// Next button click goes to next div
+$('#next-btn').on('click', function(e) {
+    e.preventDefault();
+    if (!isTransitioning) {
+        next();
+    }
+});
+ 
+function showVideo() {
+    BV.show($('#screen-'+screenIndex).attr('data-video'),{ambient:true});
+}
+
  
 function next() {
     isTransitioning = true;
      
     // update video index
     if (screenIndex === numScreens) {
+        $bigImage.css('opacity',1);
         screenIndex = 1;
     } else {
         screenIndex++;
     }
      
+if (!isTouch) {
+        $('#big-video-wrap').transit({'left':'-100%'},transitionDur)
+    }
+
+
     $('.wrapper').transit(
         {'left':'-'+(100*(screenIndex-1))+'%'},
         transitionDur,
         onTransitionComplete);
 }
+
+function onVideoLoaded() {
+    $('#screen-'+screenIndex).find('.big-image').transit({'opacity':0},200)
+}
  
 function onTransitionComplete() {
     isTransitioning = false;
-}
+    if (!isTouch) {
+        $('#big-video-wrap')
+            .css('left',0);
+        showVideo();
+    }
+
+// A
 </script>
+
+</body>
 
 </html>
