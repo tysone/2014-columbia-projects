@@ -4,45 +4,60 @@
 	margin-right: auto;
 }
 
-#intro-photo {
-	max-height: 733px;
-	max-width: 1100px;
-	margin-left: auto;
-	margin-right: auto;
-	position: relative;
+body {
+	margin-top: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+}
+
+#intro {
+	background: url('http://i.imgur.com/v49fX1i.jpg?1');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	height: 100%;
+	width: 100%;
+	margin-bottom: 50px;
+}
+
+@font-face {
+    font-family: 'wisdom_scriptregular';
+    src: url('fonts/wisdom_script_aj-webfont.eot');
+    src: url('fonts/wisdom_script_aj-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/wisdom_script_aj-webfont.woff') format('woff'),
+         url('fonts/wisdom_script_aj-webfont.ttf') format('truetype'),
+         url('fonts/wisdom_script_aj-webfont.svg#wisdom_scriptregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
 }
 
 h1 {
-	font-family: Wisdom Script;
-	font-size: 110px;
+	font-family: 'wisdom_scriptregular';
+	font-size: 1em;
 	color: #282828;
-	position: absolute;
-	bottom: 540px;
-	left: 10px;
+	padding-left: 1%;
 }
 
 #article-title {
-	max-height: auto;
-	margin-left: auto;
-	margin-right: auto;
 	text-align: center;
+	width: 90%;
+	left: 50%;
+	margin-left: -45%;
 	position: absolute;
-	bottom: 25;
-	left: 30%;
-	max-width: 40%;
+	bottom: 15px;
 }
 
 h3 {
 	color: #282828;
 	font-family: Georgia, serif;
-	font-size: 50px;
+	font-size: 42px;
 	margin-bottom: 5px;
 	font-weight: 500;
 }
 
 #divider {
 	height: 1px;
-	width: 75%;
+	width: 300px;
 	background-color: #282828;
 	margin-left: auto;
 	margin-right: auto;
@@ -102,8 +117,6 @@ h3 {
 	margin-left: auto;
 	margin-right: auto;
 	margin-bottom: 25px;
-	display: block;
-	position: relative;
 
 }
 
@@ -120,7 +133,7 @@ p {
 
 .letter {
 	font-size: 60px;
-	font-family: Wisdom Script;
+	font-family: 'wisdom_scriptregular';
 	display: inline-block;
 	height: 60px;
 	width: 30px;
@@ -130,7 +143,7 @@ p {
 
 .letter-wide {
 	font-size: 60px;
-	font-family: Wisdom Script;
+	font-family: 'wisdom_scriptregular';
 	display: inline-block;
 	height: 60px;
 	width: 50px;
@@ -143,12 +156,12 @@ p {
 	margin-bottom: 50px;
 	margin-left: auto;
 	margin-right: auto;
-	max-width: 700px;
+	max-width: 800px;
 }
 
 iframe {
-	width: 700px;
-	height: 526px;
+	width: 800px;
+	height: 601px;
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -175,7 +188,7 @@ iframe {
 	font-size: 28px;
 	color: #383838;
 	height: 155px;
-	width: 300px;
+	width: 310px;
 	margin-right: -175px;
 	margin-left: 80px;
 	margin-top: 30px;
@@ -186,22 +199,22 @@ iframe {
 
 .left-quote-1 {
 	position: absolute;
-	bottom: 55px;
+	bottom: 65px;
 	left: -45px;
 	font-size: 90px;
 	font-weight: 500;
 	margin-left: 5px;
-	font-family: Wisdom Script;
+	font-family: 'wisdom_scriptregular';
 }
 
 .left-quote-2 {
 	position: absolute;
-	bottom: 60px;
+	bottom: 70px;
 	left: -40px;
 	font-size: 90px;
 	font-weight: 500;
 	margin-left: 5px;
-	font-family: Wisdom Script;
+	font-family: 'wisdom_scriptregular';
 }
 
 #credit {
@@ -209,6 +222,7 @@ iframe {
 	font-size: 13px;
 	color: #505050;
 	margin-top: 5px;
+	margin-left: 1%;
 }
 
 #footer {
@@ -233,17 +247,38 @@ a:visited {
 	color: #E5E5E5;
 }
 
-@media all and (max-width: 760px) {
+@media all and (max-width: 970px) {
 
-.image {
+#intro {
+	height: 80%;
+}
+
+#article-title {
 	width: 100%;
-	height: auto;
+	bottom: 22%;
+}
+
+#divider {
+	width: 250px;
+}
+
+h3 {
+	font-size: 34px;
+}
+
+#byline {
+	font-size: 15px;
 }
 
 .text {
-	width: 500px;
+	width: 95%;
 	margin-left: auto;
 	margin-right: auto;
+}
+
+.photo {
+	margin-bottom: 20px;
+	max-width: 95%
 }
 
 .photo-left {
@@ -258,21 +293,18 @@ a:visited {
 }
 
 .video {
-	max-width: 500px;
+	max-width: 700px;
 	margin-left: auto;
 	margin-right: auto;
 }
 
 iframe {
-	width: 500px;
-	height: 375px;
+	width: 700px;
+	height: 526px;
 }
 
-.video-caption {
-	width: 350px;
-	font-size: 14px;
-	margin-left: auto;
-	margin-right: auto;
+.caption {
+	width: 100%;
 }
 
 .pull-quote-1 {
@@ -300,48 +332,96 @@ iframe {
 
 @media all and (max-width: 400px) {
 
+h1 {
+	font-size: 1.5em;
+}
+
+#intro {
+	height: 51%;
+	margin-bottom: 10px;
+}
+
+#article-title {
+	width: 95%;
+	bottom: 50%;
+}
+
+h3 {
+	font-size: 30px;
+	margin-bottom: 0px;
+}
+
+
+#byline {
+	font-size: 14px;
+}
+
+#divider {
+	width: 75%;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
 .image {
 	width: 100%;
 	height: auto;
 }
 
+#intro-text {
+	font-size: 18px;
+}
+
 .text {
-	width: 300px;
+	width: 95%;
 	margin-left: auto;
 	margin-right: auto;
+	margin-top: 30px;
+}
+
+p {
+	font-size: 18px;
 }
 
 .photo-left {
 	margin-top: 30px;
 	margin-bottom: 50px;
-	text-align: center;
 	float: none;
+	width: 95%;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .photo-right {
 	display: none;
 }
 
+.letter {
+	font-size: 60px;
+	height: 60px;
+	width: 30px;
+}
+
+.letter-wide {
+	font-size: 60px;
+	height: 60px;
+	width: 50px;
+}
+
 .video {
 	margin-top: 30px;
-	margin-bottom: 20px;
-	max-width: 300px;
+	margin-bottom: 10px;
+	max-width: 350px;
 	margin-left: auto;
 	margin-right: auto;
 }
 
 iframe {
-	width: 300px;
-	height: 225px;
-
+	width: 350px;
+	height: 263px;
 }
 
-.video-caption {
-	width: 250px;
-	margin-left: auto;
-	margin-right: auto;
-	margin-bottom: 20px;
-	font-size: 14px;
+.caption {
+	margin-left: 1%;
 }
 
 .pull-quote-1 {

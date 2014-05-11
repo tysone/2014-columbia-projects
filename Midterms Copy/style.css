@@ -1,0 +1,137 @@
+	
+html,body {margin:0;
+padding:0;
+border:10px, black;
+background-color: #F0F0F0;
+font-family: 'Baskerville', serif;
+	
+}
+
+.page {
+
+padding-left: 30px;
+padding-right: 30px;
+padding-bottom: 30px;
+margin-right: 10px;
+margin-bottom: 10px;
+margin-left: 10px;
+
+}
+
+h1 {padding-top: 40px;
+	padding-left: 30px;
+	font-size: 50px;
+
+}
+
+.image {
+	padding-top: 2px;
+	width: 100%;
+padding-left: 30px;
+padding-right: 10%;
+padding-left: 30px;
+position: relative;
+margin-top: 10px;
+
+}
+
+
+
+.twitter {height: 20px;
+width:25px;
+margin-left: 30px;
+padding-bottom: 40px;
+padding-top: 2px;
+}
+
+img {
+margin-top: 10px;
+width:100%;
+
+}
+
+.image1 { padding-top: 300px;
+	margin-top: 20px;
+	width:100%;
+position: relative;
+	}
+
+.image1 {padding-top: 100px;
+	width:100%;
+	}
+
+.image2 {padding-top: 50px;
+	width:100%;
+	
+}
+
+figcaption {font-size: 16px;
+	word-spacing: .5px;
+	padding-top: 10px;
+	letter-spacing: .5px;
+}
+
+
+h1 { font-family: 'Baskerville', serif;
+     font-size: 50px ;
+     font-weight: 500;
+     text-align: justify;
+     color: #BA1619;
+display:none;
+}
+
+p {padding-top: 20px;
+	font-size: 20px;
+text-align: justify;
+padding-left: 30px;
+padding-right: 30px;
+}
+
+.firstword { font-family: 'Baskerville', serif;
+     font-size: 40px ;
+     color: #BA1619;
+     letter-spacing: .1px;
+}
+
+a:link {color:#BA1619;}   
+a:visited {color:#BA1619;}
+a:hover {color:#E38687;}  
+a:active {color:#BA1619;} 
+
+
+iframe { padding-top: 25px;
+	padding-left: 30px;
+	padding-right: 30px;
+	width: 100%;
+
+}
+
+hr {border-color: #BA1619;
+	height: 5px;
+	width: 100%;
+
+
+}
+
+#google {
+	padding-top: 5px;
+	padding-bottom: 300px;
+	width: 100%
+
+
+}
+
+
+
+
+
+
+
+
+
+@media all and (max-width:320px) {
+
+
+
+
+
