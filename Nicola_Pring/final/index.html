@@ -7,7 +7,11 @@
 <link href="style.css" rel="stylesheet" type="text/css" />
 <link rel="icon" type="image/ico" href="http://i.imgur.com/qo7gGCq.jpg?1" />
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"> </script>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 <script src="jquery.fittext.js"> </script>
+<link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+<script type="text/javascript" src="slick/slick.min.js"></script>
+
 
 </head>
 
@@ -209,12 +213,27 @@
 	<p> Megan and Liz won a spot to perform at the Festival through the Macy’s iHeartRadio Rising Star competition, in which they beat out 25 other acts for the coveted opening spot. The winner was determined by fan votes, and Megan and Liz’s fans worked hard to make sure they won. </p> </div>
 
 
-		<div class="photo">
-		<img src="http://i.imgur.com/I58jOTl.jpg?1" 
-		alt= "Megan &amp; Liz"
-		title= "Megan &amp; Liz" 
-		style= "max-width:100%;height:auto"/>
-		<div class="caption"> “We want 15-year-olds and their moms to listen to our music, but we also want to sing songs that are relatable to 18 plus,” Liz says. </div>
+		<div id="fade">
+
+			<div class="photo">
+			<img src="http://i.imgur.com/I58jOTl.jpg?1" 
+			style= "max-width:100%;height:auto"/>
+			<div class="caption"> The girls will open for Taylor Swift at the iHeart Radio Festival in Las Vegas. </div>
+			</div>
+
+			<div class="photo">
+			<img src="http://i.imgur.com/RHcvk6l.jpg?1" 
+			style= "max-width:100%;height:auto"/>
+			<div class="caption"> “We want 15-year-olds and their moms to listen to our music, but we also want to sing songs that are relatable to 18 plus,” Liz says. </div>
+			</div>
+
+			<div class="photo">
+			<img src="http://i.imgur.com/MBateSw.jpg?1"
+			style= "max-width:100%;height:auto"/>
+			<div class="caption"> “It’s about finding that line in between that’s really hard to stay on and to not go above or below. That’s what the challenge is now. It’s to be classy, but to be edgy, too,” Megan says. </div>
+			</div>
+
+		<!--close slider-->
 		</div>
 
 	<div class="text"> <p> The girls are “beyond stoked” for the Festival, especially to open for Taylor Swift, who has been their inspiration since before they started their YouTube channel. They met the country star in 2009 at her concert in Chicago after being introduced to her by Oprah Winfrey via Skype on The Oprah Winfrey Show. A fan had submitted Megan and Liz’s cover of Swift’s song “White Horse,” and Oprah liked it so much that she surprised the girls by introducing them to Swift on live television. </p>
@@ -249,7 +268,17 @@
 <script>
 
   $("#headline").fitText(1);
-  $("#article-title").fitText(1);
+
+  	$(document).ready(function(){
+		$('#fade').slick({
+		  dots: true,
+		  infinite: true,
+		  speed: 500,
+		  fade: true,
+		  slide: 'div',
+		  cssEase: 'linear,'
+		});
+	});
 
 </script>
 
