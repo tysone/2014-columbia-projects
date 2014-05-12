@@ -5,8 +5,8 @@
 
     <title>School lunches in NYC public schools</title>
     <link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="lunches.css">
-    <link rel="stylesheet" href="bigvideo.css">
+    <link rel="stylesheet" href="css/lunches.css">
+    <link rel="stylesheet" href="css/bigvideo.css">
     <script src="js/modernizr-2.5.3.min.js"></script>
     
 </head>
@@ -19,26 +19,26 @@
     </header>
 
     <div class="wrapper">
-        <div class="screen" id="screen-1" data-video="pizza2.webm">
-            <img src="pizza.png" class="big-image" />
+        <div class="screen" id="screen-1" data-video="vid/pizza2.webm">
+            <img src="img/pizza.png" class="big-image" />
             <h1 class="video-title">#1 Pizza</h1>
         </div>
-        <div class="screen" id="screen-2" data-video="lunch.webm">
-            <img src="lunchesscreen.png" class="big-image" />
+        <div class="screen" id="screen-2" data-video="vid/lunch.webm">
+            <img src="img/lunchesscreen.png" class="big-image" />
             <h1 class="video-title">#2 Lunch</h1>
         </div>
-        <div class="screen" id="screen-3" data-video="salad.webm">
-            <img src="salad.png" class="big-image" />
+        <div class="screen" id="screen-3" data-video="vid/salad.webm">
+            <img src="img/salad.png" class="big-image" />
             <h1 class="video-title">#3 Salad</h1>
         </div>
-        <div class="screen" id="screen-4" data-video="kidsfeetwide.webm">
-            <img src="kidsfeetwide.png" class="big-image" />
+        <div class="screen" id="screen-4" data-video="vid/kidsfeetwide.webm">
+            <img src="img/kidsfeetwide.png" class="big-image" />
             <h1 class="video-title">#4 Kids</h1>
         </div>
-       <!--  <div class="screen" id="screen-5" data-video="vid/dandelion.mp4">
-            <img src="img/dandelion.jpg" class="big-image" />
-            <h1 class="video-title">#5 Dandelion</h1>
-        </div> -->
+        <div class="screen" id="screen-5" data-video="vide/pizza2.webm">
+            <img src="img/pizza.png" class="big-image" />
+            <h1 class="video-title">#1 Pizza</h1>
+        </div>
     </div>
 
     <nav id="next-btn">
@@ -47,8 +47,9 @@
 
     <!-- BigVideo Dependencies -->
    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js"></script> 
+   <script src="js/jquery-ui-1.8.22.custom.min.js"></script>
     <script>window.jQuery || document.write('<script src="js/jquery-1.8.1.min.js"><\/script>')</script> 
-    <script src="js/jquery-ui-1.8.22.custom.min.js"></script>
+    
     <script src="js/jquery.imagesloaded.min.js"></script>
     <script src="http://vjs.zencdn.net/c/video.js"></script> 
 
@@ -127,7 +128,8 @@
                         {'left':'-'+(100*(screenIndex-1))+'%'},
                         transitionDur,
                         onTransitionComplete):
-                    onTransitionComplete();
+                      onTransitionComplete();
+                  
             }
 
             function onVideoLoaded() {
