@@ -53,7 +53,7 @@ body {
 	height: 100%;
 	width: 100%;
 	margin-bottom: 50px;
-	margin-top: 0px;
+	top: 0;
 }
 
 @font-face {
@@ -70,9 +70,18 @@ body {
 
 h1 {
 	font-family: 'wisdom_scriptregular';
-	font-size: 1em;
+	font-size: .75em;
 	color: #282828;
 	padding-left: 1%;
+	margin-top: 0px;
+	top: 0;
+	text-align: center;
+}
+
+#headline {
+	margin-top: 0px;
+	position: absolute;
+	width: 100%;
 }
 
 #article-title {
@@ -82,7 +91,6 @@ h1 {
 	margin-left: -45%;
 	bottom: 15px;
 	position: absolute;
-
 }
 
 h3 {
