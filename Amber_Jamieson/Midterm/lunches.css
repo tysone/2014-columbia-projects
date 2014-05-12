@@ -48,6 +48,26 @@ z-index: 99
 
 
 
+.box { 
+    padding:20px;
+    border-radius:5px;
+    margin-bottom:20px;
+position:fixed; 
+    top:50px;left:50px;
+    z-index: 999999;
+    width:500px; 
+    
+}
+
+#text {
+    background:#444; background:rgba(0,0,0,.6);
+padding:20px;
+    border-radius:5px;
+    margin-bottom:20px;
+position:fixed; 
+    top:300px;left:50px;)
+
+
 .wrapper {
 	height:100%;
 	width:1024px;

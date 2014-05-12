@@ -1,0 +1,81 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    overflow: hidden;
+    font-family: 'Open Sans Condensed', Arial, sans-serif;
+    font-weight: 300;
+    font-size: 1em;
+}
+
+.wrapper {
+    position: absolute;
+    width: 500%;
+    height: 100%;
+    z-index: 0;
+}
+
+header {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 999;
+    color: #fff;
+    background: rgba(0,0,0,0.5);
+    padding: 60px;
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    margin: -200px 0 0 -200px;
+    text-align: center;
+}
+
+.screen {
+    position: relative;
+    height: 100%; 
+    width: 25%; /*  NOTE:numVideos/100%  */
+    float: left;
+    overflow: hidden;
+}
+
+.video-title {
+    position: absolute;
+    bottom: 5%;
+    left: 5%;
+    opacity: .5;
+    margin: 0;
+    padding: 0;
+    line-height: .65;
+    font-size: 4em;
+    text-transform: uppercase;
+}
+
+nav {
+    position:absolute; 
+    right: 5%; 
+    top: 45%; 
+    padding: 20px; 
+    background: #000; 
+    border-radius: 40px; 
+    opacity: .4; 
+    cursor: pointer;}
+    nav: hover {
+    opacity: .6;
+}
+ 
+.next-icon {
+    display: block;
+    border-top: solid 2px #fff; 
+    border-right: solid 2px #fff; 
+    width: 20px; 
+    height: 20px;
+    position: relative;
+    left: -5px;
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+    color: #fff;
+    text-decoration: none;
+}
