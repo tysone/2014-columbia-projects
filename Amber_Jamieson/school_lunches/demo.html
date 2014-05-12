@@ -178,6 +178,11 @@
                 });
 
             }
+            $bigImage
+    .css('position','relative')
+    .imagesLoaded(adjustImagePositioning);
+// and on window resize
+$(window).on('resize', adjustImagePositioning);
         });
     </script>
 
