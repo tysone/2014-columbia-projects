@@ -10,7 +10,6 @@
 <script src="jquery.fittext.js"> </script>
 <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
 <script type="text/javascript" src="slick/slick.min.js"></script>
-<script type="text/javascript" src="slick/slick.js"></script>
 
 </head>
 
@@ -289,11 +288,22 @@ stickyNav();
 $(window).scroll(function() {  
     stickyNav();  
 });  
+
+$(document).scroll(function () {
+    var y = $(this).scrollTop();
+    if (y > 850) {
+        $('.nav').show();
+    } else {
+        $('.nav').hide();
+    }
+});
 }); 
 
 //fittext headline
 
 $("#headline").fitText(1);
+
+//slick carousel
 
 $(document).ready(function(){
 	$('#fade').slick({
