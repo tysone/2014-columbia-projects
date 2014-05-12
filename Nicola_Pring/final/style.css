@@ -31,14 +31,15 @@ body {
 
 @font-face {
     font-family: 'wisdom_scriptregular';
-    src: url('https://www.dropbox.com/s/aa87grjvxozc6u5/wisdom_script_aj-webfont.eot');
+    src: url('fonts/wisdom_script_aj-webfont.eot');
     src: url('fonts/wisdom_script_aj-webfont.eot?#iefix') format('embedded-opentype'),
-         url('https://www.dropbox.com/s/4bfduwuzfufn6v9/wisdom_script_aj-webfont.woff') format('woff'),
-         url('https://www.dropbox.com/s/5rj0eh30jugt4lt/wisdom_script_aj-webfont.ttf') format('truetype'),
-         url('font.svg') format('svg');
+         url('fonts/wisdom_script_aj-webfont.woff') format('woff'),
+         url('fonts/wisdom_script_aj-webfont.ttf') format('truetype'),
+         url('fonts/wisdom_script_aj-webfont.svg#wisdom_scriptregular') format('svg');
     font-weight: normal;
     font-style: normal;
 }
+
 
 h1 {
 	font-family: 'wisdom_scriptregular';
@@ -227,6 +228,19 @@ iframe {
 	font-family: 'wisdom_scriptregular';
 }
 
+#fade {
+	height: 650px;
+	width: 900px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 70px;
+}
+
+#fade > div {
+	height: 650px;
+	width: 900px;
+}
+
 #credit {
 	font-family: Georgia, serif;
 	font-size: 13px;
@@ -327,6 +341,20 @@ iframe {
 
 .left-quote {
 	display: none;
+}
+
+#fade {
+	height: 550px;
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 50px;
+}
+
+#fade > div {
+	height: 550px;
+	width: 90%;
+	margin-top: 50px;
 }
 
 #credit {
@@ -444,6 +472,20 @@ iframe {
 
 .left-quote {
 	display: none;
+}
+
+#fade {
+	height: 275px;
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 50px;
+}
+
+#fade > div {
+	height: 275px;
+	width: 80%;
+	margin-top: 50px;
 }
 
 #footer {
