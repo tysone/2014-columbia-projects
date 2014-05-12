@@ -13,21 +13,25 @@
 <body>
 
 
-    <header>
-        <h1>No such thing as a free lunch</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus tortor nisl, lacinia sit amet facilisis nec, varius quis justo. Proin tempus leo accumsan, cursus ligula at, bibendum ante. Mauris pulvinar metus in libero tincidunt tempor. Nunc metus arcu, dignissim sed turpis fermentum, faucibus ultricies risus. </p>
-    </header>
+ 
 
     <div class="wrapper">
         <div class="screen" id="screen-1" data-video="vid/pizza2.webm">
+            <div id="text" class="box"><h2>New York City's new mayor, Bill de Blasio, came to power promising to make school lunches free for all public school children, in a bid to reduce the stigma around the free meals.</h2></div>
             <img src="img/pizza.png" class="big-image" />
             <h1 class="video-title">#1 Pizza</h1>
+            
+
         </div>
         <div class="screen" id="screen-2" data-video="vid/lunch.webm">
+            <div id="text" class="box"><h2>tra lalala</h2></div>
+
             <img src="img/lunchesscreen.png" class="big-image" />
             <h1 class="video-title">#2 Lunch</h1>
         </div>
         <div class="screen" id="screen-3" data-video="vid/salad.webm">
+            <div id="text" class="box"><h2>kdsjisdjfksd</h2></div>
+
             <img src="img/salad.png" class="big-image" />
             <h1 class="video-title">#3 Salad</h1>
         </div>
@@ -122,6 +126,8 @@
                 if (!isTouch) {
                     $('#big-video-wrap').transit({'left':'-100%'},transitionDur);
                 }
+                    
+
                     
                 (Modernizr.csstransitions)?
                     $('.wrapper').transit(

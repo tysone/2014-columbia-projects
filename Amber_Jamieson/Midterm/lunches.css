@@ -92,12 +92,40 @@ header {
     color: #fff;
     background: rgba(0,0,0,0.5);
     padding: 60px;
-    width: 400px;
-    height: 400px;
+    width: 600px;
+    height: 600px;
     border-radius: 50%;
     margin: -200px 0 0 -200px;
     text-align: center;
 }
+
+.box { 
+    padding:20px;
+    border-radius:5px;
+    margin-bottom:20px;
+position:fixed; 
+    top:50px;left:50px;
+    z-index: 999999;
+    width:500px; 
+    
+}
+
+#overview {padding:20px;
+    border-radius:5px;
+    margin-bottom:20px;
+position:fixed;
+    top:50px;left:70px;
+    z-index: 999999;
+    width:800px; }
+
+#text {
+    background:#444; background:rgba(0,0,0,.6);
+padding:5px;
+    border-radius:5px;
+    margin-bottom:20px;
+position:fixed; 
+    top:330px;left:70px;}
+
 
 .screen {
     position: relative;
@@ -239,7 +267,7 @@ p a {
 /* Header */
 
 header {
-    position: absolute;
+    position: relative;
     top: 50%;
     left: 50%;
     z-index: 999;
