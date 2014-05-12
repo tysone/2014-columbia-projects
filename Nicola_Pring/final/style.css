@@ -35,7 +35,7 @@ body {
     src: url('fonts/wisdom_script_aj-webfont.eot?#iefix') format('embedded-opentype'),
          url('https://www.dropbox.com/s/4bfduwuzfufn6v9/wisdom_script_aj-webfont.woff') format('woff'),
          url('https://www.dropbox.com/s/5rj0eh30jugt4lt/wisdom_script_aj-webfont.ttf') format('truetype'),
-         url('fonts/wisdom_script_aj-webfont.svg#wisdom_scriptregular') format('svg');
+         url('font.svg') format('svg');
     font-weight: normal;
     font-style: normal;
 }
