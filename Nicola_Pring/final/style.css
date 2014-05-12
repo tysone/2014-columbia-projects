@@ -255,19 +255,6 @@ iframe {
 	font-family: 'wisdom_scriptregular';
 }
 
-#fade {
-	height: 675px;
-	width: 900px;
-	margin-left: auto;
-	margin-right: auto;
-	margin-bottom: 70px;
-}
-
-#fade > div {
-	height: 675px;
-	width: 900px;
-}
-
 #credit {
 	font-family: Georgia, serif;
 	font-size: 13px;
@@ -372,20 +359,6 @@ iframe {
 
 .left-quote {
 	display: none;
-}
-
-#fade {
-	height: 550px;
-	width: 90%;
-	margin-left: auto;
-	margin-right: auto;
-	margin-top: 50px;
-}
-
-#fade > div {
-	height: 550px;
-	width: 90%;
-	margin-top: 50px;
 }
 
 #credit {
@@ -507,20 +480,6 @@ iframe {
 
 .left-quote {
 	display: none;
-}
-
-#fade {
-	height: 275px;
-	width: 80%;
-	margin-left: auto;
-	margin-right: auto;
-	margin-top: 50px;
-}
-
-#fade > div {
-	height: 275px;
-	width: 80%;
-	margin-top: 50px;
 }
 
 #footer {
