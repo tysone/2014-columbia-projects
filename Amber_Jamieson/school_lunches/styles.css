@@ -142,14 +142,18 @@ margin-left: 100px;
 } 
 
 @media (max-width: 800px) {
-h3 {font-size:16px;}
+h3 {font-size:20px;}
 h1 h2 {font-size:80px;}
-#text #text2 #text3 #text4 #text5 {margin-left: 50px; margin-right: 300px;
+#text2, #text3, #text4 {margin-left: 50px; margin-right: 300px;
+width: 450px;}
+#text {margin-left: 50px; margin-top: 370px; margin-right: 300px;
+width: 450px;}
+#text5 {margin-left: 50px; margin-right: 250px; margin-top: 5px;
 width: 450px;}
 }
 
 @media (max-width: 400px) {
-h3 {font-size:10px;}
+h3 {font-size:15px;}
 h1 h2 {font-size:40px;}
 }
 
