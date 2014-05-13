@@ -155,5 +155,6 @@ width: 450px;}
 @media (max-width: 400px) {
 h3 {font-size:15px;}
 h1 h2 {font-size:40px;}
-}
+#text, #text2, #text3, #text4, #text5 {width:350px;} }
+
 
