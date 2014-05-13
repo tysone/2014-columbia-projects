@@ -271,7 +271,7 @@ $(window).scroll(function() {
 
 $(document).scroll(function () {
     var y = $(this).scrollTop();
-    if (y > 800) {
+    if (y > 850) {
         $('.nav').show();
     } else {
         $('.nav').hide();
@@ -281,7 +281,7 @@ $(document).scroll(function () {
 
 //fittext headline
 
-$("#headline").fitText(1);
+jQuery("#headline").fitText(1, { maxFontSize: '100px' });
 
 </script>
 
