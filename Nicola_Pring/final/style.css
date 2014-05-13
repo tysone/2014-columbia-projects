@@ -380,7 +380,11 @@ iframe {
 }
 
 @media all and (max-width: 400px) {
-	
+
+h1 {
+	font-size: 1em;
+}
+
 #social {
 	display: none;
 }
@@ -397,17 +401,17 @@ iframe {
 }
 
 h3 {
-	font-size: 30px;
+	font-size: 22px;
 	margin-bottom: 0px;
 }
 
 
 #byline {
-	font-size: 14px;
+	font-size: 12px;
 }
 
 #divider {
-	width: 75%;
+	width: 70%;
 	margin-top: 5px;
 	margin-bottom: 5px;
 }
