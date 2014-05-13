@@ -36,36 +36,9 @@ h2 {font-family: 'Lobster', serif;
     color:white;
 text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;}
 
-.textbox {z-index:70;
-	width: 600px;
-top:45px;
-padding-left: 350px;
-text-align: center;
-z-index: 99
-}
 
 .wrap {position: absolute}
 
-
-
-.box { 
-    padding:20px;
-    border-radius:5px;
-    margin-bottom:20px;
-position:fixed; 
-    top:50px;left:50px;
-    z-index: 999999;
-    width:500px; 
-    
-}
-
-#text {
-    background:#444; background:rgba(0,0,0,.6);
-padding:20px;
-    border-radius:5px;
-    margin-bottom:20px;
-position:fixed; 
-    top:300px;left:50px;)
 
 
 .wrapper {
