@@ -67,20 +67,18 @@ body {
     font-style: normal;
 }
 
-
 h1 {
 	font-family: 'wisdom_scriptregular';
-	font-size: .75em;
+	font-size: .85em;
 	color: #282828;
 	padding-left: 1%;
-	margin-top: 0px;
-	top: 0;
 	text-align: center;
+	padding-top: 0;
+	line-height: .9;
 }
 
 #headline {
 	margin-top: 0px;
-	position: absolute;
 	width: 100%;
 }
 
@@ -91,12 +89,13 @@ h1 {
 	margin-left: -45%;
 	bottom: 15px;
 	position: absolute;
+	line-height: .5;
 }
 
 h3 {
 	color: #282828;
 	font-family: Georgia, serif;
-	font-size: 42px;
+	font-size: 40px;
 	margin-bottom: 5px;
 	font-weight: 500;
 }
@@ -398,6 +397,7 @@ h1 {
 #article-title {
 	width: 95%;
 	bottom: 50%;
+	line-height: 1;
 }
 
 h3 {
