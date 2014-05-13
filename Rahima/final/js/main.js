@@ -49,4 +49,55 @@ jQuery(document).ready(function ($) {
         dataslide = $(this).attr('data-slide');
         goToByScroll(dataslide);
     });
+
+
+    $(window).scroll(function () {
+    if ($(window).scrollTop() >= 30) {
+        $('.header').fadeIn('slow');
+    }
+    if ($(window).scrollTop() >= 700) {
+        $('.caption').fadeIn('slow');
+    } 
+
+    if ($(window).scrollTop() >= 1500) {
+        $('.caption2').fadeIn('slow');
+    } 
+
+    if ($(window).scrollTop() >= 2200) {
+        $('.caption3').fadeIn('slow');
+    } 
+
+    if ($(window).scrollTop() >= 3000) {
+        $('.caption4').fadeIn('slow');
+    } 
+
+    if ($(window).scrollTop() >= 3700) {
+        $('.caption5').fadeIn('slow');
+    } 
+
+    if ($(window).scrollTop() >= 4500) {
+        $('.caption6').fadeIn('slow');
+    } 
+
+    if ($(window).scrollTop() >= 5300) {
+        $('.caption7').fadeIn('slow');
+    } 
+
+    if ($(window).scrollTop() >= 6000) {
+        $('.caption8').fadeIn('slow');
+    } 
+
+    if ($(window).scrollTop() >= 6600) {
+        $('.caption9').fadeIn('slow');
+    } 
+
+    });
+
+
+
 });
+
+
+
+
+

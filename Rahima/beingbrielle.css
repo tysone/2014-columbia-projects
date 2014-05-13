@@ -21,25 +21,11 @@ section#titlechart {
 	height: 100%;
 	min-height: 500px;
 	min-width: 100%;     
-
-.header {
-	    font-family: Georgia;
-        font-size: 80px;
-        font color:white;
-        position:absolute;
-        left:40px;
-        margin:0 auto;
-        padding:20px;
-        top:350px;
-        text-align:center;
-        width: 40%;
-        height:30%;
-        z-index:3; 
-        display:none;
 }
+
 
 .header{
-font-family: Georgia;
+        font-family: Georgia;
         font-size: 80px;
         font color:white;
         position:absolute;
@@ -54,9 +40,8 @@ font-family: Georgia;
         display:none;
 }
 
-}
 
-.caption1, caption2, {
+.caption1, .caption2, {
 	     font-family: Georgia;
          font-size: 36px;
          font-color:white;
