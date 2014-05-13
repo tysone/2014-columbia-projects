@@ -6,7 +6,6 @@
 						<link href='http://fonts.googleapis.com/css?family=Petit+Formal+Script' rel='stylesheet' type='text/css'>
 						<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 						<link rel="stylesheet" type="text/css" href="slick/slick.css"/>
-					<script type="text/javascript" src="slick/slick.min.js"></script>
 				
 
 
@@ -111,26 +110,68 @@ Now - silk stockings,mi friend!"<br>
 </div>
 						
 
+<div class="container5">
 
-
-
-
-
-
-
+<p>
+The world war also saw New York City emerging as the fashion capital of the world. Designers of continental Europe were out of reach for the Americans during the war. Labor unions were in panic as Germany & Italy stormed through Europe. Together they formed the New York Dress Institute in 1940.Fashion publicist Eleanor Lambert saw that as an opportunity and launched America's first ever fashion week in New York City showcasing American designers. 53 designers showcased their work and the rest was history. America emerged as a legitimate stakeholder in the fashion industry of the world. 
+</p>
 
 </div>
+
+<div class="container6">
+
+	<button onclick="playPause()">Play/Pause</button> 
+  <button onclick="makeBig()">Big</button>
+  <button onclick="makeSmall()">Small</button>
+  <button onclick="makeNormal()">Normal</button>
+  <br> 
+
+  <video width="1080" height="720" id="video1" src="week.mov"controls >
+
+  </video>
+</div> 
+
+
+		
+
 						
 </div>
 
 
-</div>
 
 </section>
 
 
 
+</div>
 
+
+<script> 
+var myVideo=document.getElementById("video1"); 
+
+function playPause()
+{ 
+if (myVideo.paused) 
+  myVideo.play(); 
+else 
+  myVideo.pause(); 
+} 
+
+function makeBig()
+{ 
+myVideo.width=10000; 
+} 
+
+function makeSmall()
+{ 
+myVideo.width=800; 
+} 
+
+function makeNormal()
+{ 
+myVideo.width=500; 
+} 
+</script> 
 
 
 
