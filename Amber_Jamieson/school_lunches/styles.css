@@ -143,7 +143,7 @@ margin-left: 100px;
 
 @media (max-width: 800px) {
 h3 {font-size:20px;}
-h1, h2 {font-size:80px;}
+h1, h2 {font-size:80px; max-width: 500px;}
 #text2, #text3, #text4 {margin-left: 50px; margin-right: 300px;
 width: 450px;}
 #text {margin-left: 50px; margin-top: 370px; margin-right: 300px;
@@ -154,8 +154,10 @@ width: 450px;}
 
 @media (max-width: 400px) {
 h3 {font-size:16px;}
-h1, h2 {font-size:50px; width:350px;}
-#text, #text2, #text3, #text4, #text5 {width:350px;} 
-#text5 {margin-right: 15px;}}
+h1, h2 {font-size:50px; width:300px;}
+#freefree h2 {font-size: 50px;}
+#text, #text2, #text3, #text4, #text5 {width:300px;} 
+#text5 {margin-right: 30px;}
+#text{margin-top: 250px;}}
 
 
