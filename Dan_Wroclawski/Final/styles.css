@@ -160,7 +160,7 @@ p {
 	}
 }
 
-@media screen and (max-width: 650px) {
+@media screen and (max-device-width: 640px) {
 	.rotate {
 		display: block;
 		-webkit-transform: rotate(90deg);
