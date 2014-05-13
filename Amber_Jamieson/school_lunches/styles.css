@@ -25,6 +25,11 @@ h3 {font-family: 'Josefin Slab', serif;
     
 }
 
+p {font-family: 'Amatic SC', cursive;
+font-size: 24px;
+color:white;
+}
+
 img {
 max-width: 100%;
 }
@@ -126,7 +131,7 @@ margin-left: 100px;
  	color:#0060b6
  }
 
- #author {margin-top: 225px;
+ #author {margin-top: 205px;
  	width: 200px	;}
 
 .main {
