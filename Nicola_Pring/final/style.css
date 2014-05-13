@@ -450,15 +450,15 @@ p {
 }
 
 .letter {
-	font-size: 60px;
+	font-size: 40px;
 	height: 60px;
 	width: 30px;
 }
 
 .letter-wide {
-	font-size: 60px;
+	font-size: 40px;
 	height: 60px;
-	width: 50px;
+	width: 60px;
 }
 
 .video {
