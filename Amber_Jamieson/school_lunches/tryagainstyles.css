@@ -6,7 +6,8 @@ html, body {
 h1 {font-family: 'Lobster', serif;
     font-size:100px;
     margin: 0 0 10px 0;
-    color:white;
+    /*color:#60b600;*/
+    color: white;
 text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;}
 
 h2 {font-family: 'Open Sans', sans-serif;
@@ -30,8 +31,6 @@ p {color:white;
 	padding:20px;
 	border-radius:5px;
 	margin-bottom:20px;
-position:fixed; 
-	top:50px;left:50px;
 	z-index: 999999;
 	width:500px; 
 	
@@ -40,18 +39,29 @@ position:fixed;
 #overview {padding:20px;
 	border-radius:5px;
 	margin-bottom:20px;
-position:fixed;
-	top:50px;left:70px;
+	top:50px;left:300px;
 	z-index: 999999;
-	width:800px; }
+	width:700px;
+	margin-left: 100px; }
 
 #text {
 	background:#444; background:rgba(0,0,0,.6);
-padding:5px;
+	padding:15px;
 	border-radius:5px;
 	margin-bottom:20px;
-position:fixed; 
-	top:330px;left:70px;}
+ 	margin-left: 600px;
+ }
+
+ #text2 {
+	background:#444; background:rgba(0,0,0,.6);
+	padding:15px;
+	border-radius:5px;
+	margin-top: 250px;
+	margin-bottom:20px;
+	margin-left: 50px;
+ 	position: relative;
+ 	height: 350px;
+ }
 
 
 .main {
