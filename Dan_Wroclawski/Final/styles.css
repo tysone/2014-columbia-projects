@@ -59,7 +59,13 @@ h1 {
 	margin-bottom: 10px;
 }
 
+@import url(http://fonts.googleapis.com/css?family=Maven+Pro);
+
 h2 {
+	font-family: "Maven Pro", Courier, sans-serif;
+	font-size: 45px;
+	font-style: italic;
+	font-weight: normal;
 	position: absolute;
 	top: 100px;
 	left: 50px;
@@ -120,7 +126,7 @@ p {
 }
 
 #jawbone {
-	margin: -250 +40%;
+	margin: -275 +40%;
 	/*margin: -250 +500;*/
 }
 
