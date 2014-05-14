@@ -61,9 +61,19 @@ h1 {
 
 h2 {
 	position: absolute;
-	left: 0; 
+	top: 100px;
+	left: 50px; 
    	width: 100%;
 	z-index: 1;
+	color: black;
+}
+
+#misfitMan h2 {
+	color: white;
+}
+
+#fuelbandBanner h2 {
+	color: white;
 }
 
 h3 {
