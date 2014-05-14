@@ -165,7 +165,7 @@ p {
 	}
 }
 
-@media screen and (max-width: 650px) {
+@media screen and (max-device-width: 650px) {
 	.rotate {
 		display: block;
 		transform:rotate(90deg);
@@ -197,7 +197,7 @@ p {
 	}
 }
 
-@media screen and (max-device-width: 650px) {
+@media screen and (max-width: 650px) {
 	.rotate {
 		display: block;
 		transform:rotate(90deg);
