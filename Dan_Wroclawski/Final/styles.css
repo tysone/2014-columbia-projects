@@ -61,6 +61,8 @@ h1 {
 
 h2 {
 	position: absolute;
+	left: 0; 
+   	width: 100%;
 	z-index: 1;
 }
 
@@ -164,6 +166,38 @@ p {
 }
 
 @media screen and (max-width: 650px) {
+	.rotate {
+		display: block;
+		transform:rotate(90deg);
+		-webkit-transform:rotate(90deg);
+		-moz-transform:rotate(90deg);
+		-ms-transform:rotate(90deg);
+	}
+
+	.rotateCounter {
+		display: block;
+		transform:rotate(-90deg);
+		-webkit-transform:rotate(-90deg);
+		-moz-transform:rotate(-90deg);
+		-ms-transform:rotate(-90deg);
+	}
+
+	h1 {
+		font-size: 50px;
+	}
+
+	h4 {
+		text-align: left;
+		margin-left: 50px;
+	}
+
+	h5 {
+		margin-left: 0px;
+		text-align: center;
+	}
+}
+
+@media screen and (max-device-width: 650px) {
 	.rotate {
 		display: block;
 		transform:rotate(90deg);
