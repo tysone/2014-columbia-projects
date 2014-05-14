@@ -62,8 +62,8 @@ h1 {
 h2 {
 	position: absolute;
 	top: 100px;
-	left: 50px; 
-   	width: 100%;
+	left: 50px;
+   	width: 50%;
 	z-index: 1;
 	color: black;
 }
@@ -110,35 +110,43 @@ p {
 }
 
 #fuelband {
-	margin: -450 -350;
+	margin: -450 -28%;
+	/*margin: -450 -350;*/
 }
 
 #gearFit {
-	margin: -500 +500;
+	margin: -500 +40%;
+	/*margin: -500 +500;*/
 }
 
 #jawbone {
-	margin: -250 +500;
+	margin: -250 +40%;
+	/*margin: -250 +500;*/
 }
 
 #nymi {
-	margin: -200 -400;
+	margin: -200 -32%;
+	/*margin: -200 -400;*/
 }
 
 #narrative {
-	margin: -400 +550;
+	margin: -400 +44%;
+	/*margin: -400 +550;*/
 }
 
 #glass {
-	margin: -300 -400;
+	margin: -300 -32%;
+	/*margin: -300 -400;*/
 }
 
 #moto360 {
-	margin: +125 +500;
+	margin: +125 +40%;
+	/*margin: +125 +500;*/
 }
 
 #misfit {
-	margin: +50 -350;
+	margin: +50 -28%;
+	/*margin: +50 -350;*/
 }
 
 @media screen and (max-width: 1160px) {
@@ -196,6 +204,11 @@ p {
 		font-size: 50px;
 	}
 
+	h2 {
+		width: 100%;
+		margin: 0 auto;
+	}
+
 	h4 {
 		text-align: left;
 		margin-left: 50px;
@@ -226,6 +239,11 @@ p {
 
 	h1 {
 		font-size: 50px;
+	}
+
+	h2 {
+		width: 100%;
+		margin: 0 auto;
 	}
 
 	h4 {
