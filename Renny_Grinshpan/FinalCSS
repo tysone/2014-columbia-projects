@@ -1,87 +1,213 @@
-.heading1 {
-	font-family: 'Raleway', 'sans-serif';
-	font-size: 36px;
-	text-align: center;
+body {
+	width: 100%;
+	padding: 0;
+	border: 0;
+	margin: 0;
 }
-.heading2 {
-	font-family: 'Raleway', 'sans-serif';
-	font-size: 36px;
-	text-align: center;
-	margin-top: -25px;
+.wrapper {
+	width: 100%;
 }
-.heading3 {
+.titles {
+	background: url('banner.jpg');
+	background-size: cover; 
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 1080;
+	width: 100%;
+	max-width: 1920px;
 	font-family: 'Raleway', 'sans-serif';
 	font-size: 60px;
-	text-align: center;
 	font-weight: 300;
-	margin-top: -50px;
+	color: white;
 }
-.subheading {
+h1 h2 h3 {
 	font-family: 'Raleway', 'sans-serif';
 	font-size: 24px;
-	text-align: center;
-	margin-top: -50px;4
+	margin-left: 20%;
+	margin-top: 10%;
+}
+h4 {
+	font-family: 'Raleway', 'sans-serif';
+	font-size: 20px;
 }
 .intro {
 	font-family: 'Raleway', 'sans-serif';
 	font-size: 24px;
+	width: 80%;
+	margin-left: 10%;
+	margin-top: 50px;
+}
+.smith-caption {
+	font-family: 'Raleway', 'sans-serif';
+	font-size: 18px;
+	margin-left: 20%;
 }
 .history {
 	font-family: 'Raleway', 'sans-serif';
 	font-size: 24px;
-	position: relative; 
-	top: 50;
+	margin-top: 680px;
+	width: 80%;
+	margin-left: 10%;
 }
+.villagema-caption {
+	font-family: 'Raleway', 'sans-serif';
+	font-size: 18px;
+	margin-left: 30%;
+	margin-top: 500px;
+ }
 .rootsandruckus {
 	font-family: 'Raleway', 'sans-serif';
 	font-size: 24px;
-	text-align: center;
-	position: relative;
-	top: 50;
+	margin-top: 80px;
+	width: 80%;
+	margin-left: 10%;
+}
+.geoff-caption {
+	font-family: 'Raleway', 'sans-serif';
+	font-size: 18px;
+	margin-left: 20%;
+	margin-top: 800px;
 }
 .moving {
 	font-family: 'Raleway', 'sans-serif';
 	font-size: 24px;
+	width: 80%;
+	margin-top: 100px;
+	margin-left: 10%;
+}
+.quote1 {
+	font-family: 'Raleway', 'sans-serif';
+	font-size: 48px;
+	width: 86%;
+	margin-left: 7%;
 	text-align: center;
-	position: relative;
-	top: 50;
+}
+.willy-caption {
+	font-family: 'Raleway', 'sans-serif';
+	font-size: 18px;
+	margin-left: 20%;
+	margin-top: 770px;
 }
 .jalopy {
 	font-family: 'Raleway', 'sans-serif';
 	font-size: 24px;
+	width: 80%;
+	margin: 100px;
+	margin-left: 10%;
+}
+.quote2 {
+	font-family: 'Raleway', 'sans-serif';
+	font-size: 48px;
+	width: 86%;
+	margin-left: 7%;
 	text-align: center;
-	position: relative;
-	top: 50;
+}
+.feral-caption {
+	font-family: 'Raleway', 'sans-serif';
+	font-size: 18px;
+	margin-left: 20%;
+	margin-top: 670px;
+}
+.audience {
+	font-family: 'Raleway', 'sans-serif';
+	font-size: 24px;
+	width: 80%;
+	margin-top: 100px;
+	margin-left: 10%;
+}
+.quote3 {
+	font-family: 'Raleway', 'sans-serif';
+	font-size: 48px;
+	width: 86%;
+	margin-left: 7%;
+	text-align: center;
+}
+.geoff2-caption {
+	font-family: 'Raleway', 'sans-serif';
+	font-size: 18px;
+	margin-left: 20%;
+	margin-top: 825px;
+}
+.strugglers-caption {
+	font-family: 'Raleway', 'sans-serif';
+	font-size: 18px;
+	margin-left: 20%;
+	margin-top: 740px;
 }
 .conclusion {
 	font-family: 'Raleway', 'sans-serif';
 	font-size: 24px;
-	text-align: center;
-	position: relative;
-	top: 50;
+	width: 80%;
+	margin-top: 100px;
+	margin-left: 10%;
 }
-.youtube {
-	background-color: black;
-}
-
-body {
-	width:80%;
-	margin: 0 auto;
+.ending {
+	font-family: 'Raleway', 'sans-serif';
+	font-size: 24px;
+	width: 80%;
+	margin-left: 10%;
+	margin-top: 100px;
 }
 .poster {
-	position: relative;
-	left: 180;
+	position: relative; bottom: 700;
+	pointer-events: none;
 }
-.video-container iframe {
-	position: absolute;
-	left: 360;
+.video-container {
+	position: absolute; 
+	margin-left: 20%;
+	max-width: 1075px;
 }
-.youtube-container iframe {
-	position: absolute;
-	left: 400;
+.youtube-container {
+	position: absolute; top: 3750; 
+	margin-left: 30%;
+	max-width: 1075px;
 }
-.youtube-poster {
-	position: relative;
-	left: 400;
-	top: 100;
+.youtube {
+	position: relative; bottom: 480;
+	pointer-events: none;
+}
+.geoff-container {
+	position: absolute; top: 4300;
+	margin: 20%;
+	max-width: 1075px;
+}
+.geoff-poster {
+	position: relative; bottom: 700;
+	pointer-events: none;
+}
+.willy-container {
+	position: absolute; top: 5900;
+	margin: 20%;
+	max-width: 1075px;
+}
+.willy-poster {
+	position: relative; bottom: 710;
+	pointer-events: none;
+}
+.feral-container {
+	position: absolute; top: 7750;
+	margin: 20%;
+	max-width: 1075px;
+}
+.feral-poster {
+	position: relative; bottom: 700;
+	pointer-events: none;
+}
+.geoff2-container {
+	position: absolute; top: 10500;
+	margin: 20%;
+	max-width: 1075px;
+}
+.geoff2-poster {
+	position: relative; bottom: 700;
+	pointer-events: none;
+}
+.strugglers-container {
+	position: absolute; top: 11520;
+	margin: 20%;
+	max-width: 1075px;
+}
+.strugglers-poster {
+	position: relative; bottom: 700;
+	pointer-events: none;
 }
