@@ -42,7 +42,7 @@ height:100%;
 
     }
       .navigation a {
-            color:#B51438;
+            color:white;
             font-size:16px;
           }
 
@@ -64,11 +64,11 @@ height:100%;
 
 .header{
        font-family: 'Lobster', cursive;
-       color:black;
+       color:grey;
        position:absolute;
        top:30%;
        left:10%;
-        font-size: 50%;
+        size: 50%;
         text-align:center;
         width: 50%;
         height:50%; 
@@ -83,11 +83,12 @@ height:100%;
         position:absolute;
         top:80%;
         font-size: 100%;
-        color:black;
+        color:white;
         text-align:left;
         width: 100%;
         height:15%; 
-        background-color:#B51438;
+        background-color:black;
+        opacity:0.5;
         padding:3%;
         margin-bottom:20%;
         
@@ -95,48 +96,51 @@ height:100%;
 }
 
 .caption2{
-        display:none;
+       display:none;
         font-family: helvetica;
         position:absolute;
         top:80%;
         font-size: 100%;
-        color:black;
+        color:white;
         text-align:left;
         width: 100%;
         height:15%; 
-        background-color:#B51438;
+        background-color:black;
+        opacity:0.5;
         padding:3%;
         margin-bottom:20%;
 
 }
 
 .caption3{
-        display:none;
+      display:none;
         font-family: helvetica;
         position:absolute;
         top:80%;
         font-size: 100%;
-        color:black;
+        color:white;
         text-align:left;
         width: 100%;
         height:15%; 
-        background-color:#B51438;
+        background-color:black;
+        opacity:0.5;
         padding:3%;
         margin-bottom:20%;
 
 }
 
 .caption4{
-        display:none;
+       display:none;
         font-family: helvetica;
         position:absolute;
         top:80%;
         font-size: 100%;
-        color:black;
+        color:white;
         text-align:left;
         width: 100%;
         height:15%; 
-        background-color:#B51438;
+        background-color:black;
+        opacity:0.5;
         padding:3%;
         margin-bottom:20%;
 
@@ -144,16 +148,17 @@ height:100%;
 }
 
 .caption5{
-        display:none;
+       display:none;
         font-family: helvetica;
         position:absolute;
         top:80%;
         font-size: 100%;
-        color:black;
+        color:white;
         text-align:left;
         width: 100%;
         height:15%; 
-        background-color:#B51438;
+        background-color:black;
+        opacity:0.5;
         padding:3%;
         margin-bottom:20%;
 
@@ -161,33 +166,34 @@ height:100%;
 }
 
 .caption6{
-        display:none;
+       display:none;
         font-family: helvetica;
         position:absolute;
         top:80%;
         font-size: 100%;
-        color:black;
+        color:white;
         text-align:left;
         width: 100%;
         height:15%; 
-        background-color:#B51438;
+        background-color:black;
+        opacity:0.5;
         padding:3%;
         margin-bottom:20%;
-
 
 }
 
 .caption7{
-        display:none;
+       display:none;
         font-family: helvetica;
         position:absolute;
         top:80%;
         font-size: 100%;
-        color:black;
+        color:white;
         text-align:left;
         width: 100%;
         height:15%; 
-        background-color:#B51438;
+        background-color:black;
+        opacity:0.5;
         padding:3%;
         margin-bottom:20%;
 
@@ -195,33 +201,33 @@ height:100%;
 }
 
 .caption8{
-        display:none;
+       display:none;
         font-family: helvetica;
         position:absolute;
         top:80%;
         font-size: 100%;
-        color:black;
+        color:white;
         text-align:left;
         width: 100%;
         height:15%; 
-        background-color:#B51438;
+        background-color:black;
+        opacity:0.5;
         padding:3%;
         margin-bottom:20%;
-
-
 }
 
 .caption9{
-        display:none;
+      display:none;
         font-family: helvetica;
         position:absolute;
         top:80%;
         font-size: 100%;
-        color:black;
+        color:white;
         text-align:left;
         width: 100%;
         height:15%; 
-        background-color:#B51438;
+        background-color:black;
+        opacity:0.5;
         padding:3%;
         margin-bottom:20%;
 
@@ -249,7 +255,7 @@ position:relative;
  padding:0%;
  font-family: helvetica;
  font-size: 110%;
- color: #B51438;
+ color: white;
  
 }
 
