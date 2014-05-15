@@ -67,9 +67,9 @@ h2 {
 	font-style: italic;
 	font-weight: normal;
 	position: absolute;
-	top: 100px;
-	left: 50px;
-   	width: 50%;
+	top: 10%%;
+	left: 5%;
+   	width: 40%;
 	z-index: 1;
 	color: black;
 }
@@ -83,7 +83,7 @@ h2 {
 }
 
 h3 {
-	font-family: 'Helvetica Ultra Neue', Arial, sans-serif;
+	font-family: 'Helvetica', Arial, sans-serif;
 	font-weight: normal;
 	font-style: normal;
 	margin-right: 50px;
@@ -92,19 +92,28 @@ h3 {
 }
 
 h4 {
-	font-family: 'Helvetica Neue', Arial, sans-serif;
-	font-weight: normal;
+	font-family: 'Roboto', Arial, sans-serif;
+	font-weight: 300;
 	font-style: normal;
 	text-align: center;
 	margin: 5px;
 }
 
 h5 {
-	font-family: 'Helvetica Neue', Arial, sans-serif;
-	font-weight: normal;
+	font-family: 'Roboto', Arial, sans-serif;
+	font-weight: 400;
 	font-style: italic;
 	margin-left: 50px;
 	margin-bottom: 0px;
+}
+
+h6 {
+	font-family: 'Roboto', Arial, sans-serif;
+	font-weight: 400;
+	font-style: italic;
+	margin: 10px;
+	margin-top: 0px;
+	text-align: center;
 }
 
 p {
@@ -126,7 +135,7 @@ p {
 }
 
 #jawbone {
-	margin: -275 +40%;
+	margin: -285 +40%;
 	/*margin: -250 +500;*/
 }
 
@@ -189,7 +198,7 @@ p {
 	}
 }
 
-@media screen and (max-device-width: 650px) {
+@media screen and (max-device-width: 750px) {
 	.rotate {
 		display: block;
 		transform:rotate(90deg);
@@ -211,8 +220,9 @@ p {
 	}
 
 	h2 {
-		width: 100%;
-		margin: 0 auto;
+		width: 80%;
+		font-size: 30px;
+		color: white;
 	}
 
 	h4 {
@@ -223,10 +233,15 @@ p {
 	h5 {
 		margin-left: 0px;
 		text-align: center;
+	}
+
+	h6 {
+		text-align: left;
+		margin-left: 50px;
 	}
 }
 
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 750px) {
 	.rotate {
 		display: block;
 		transform:rotate(90deg);
@@ -248,8 +263,9 @@ p {
 	}
 
 	h2 {
-		width: 100%;
-		margin: 0 auto;
+		width: 80%;
+		font-size: 30px;
+		color: white;
 	}
 
 	h4 {
@@ -260,5 +276,10 @@ p {
 	h5 {
 		margin-left: 0px;
 		text-align: center;
+	}
+
+	h6 {
+		text-align: left;
+		margin-left: 50px;
 	}
 }
