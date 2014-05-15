@@ -58,7 +58,7 @@ max-width: 100%;
 }
 
 #overview {border-radius:5px;
-	z-index: 999999;
+	z-index: 99;
 	width:700px;
 	margin-left: 50px; 
 	position: absolute;}
