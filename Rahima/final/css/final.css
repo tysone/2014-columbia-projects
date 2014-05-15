@@ -63,12 +63,12 @@ height:100%;
 
 
 .header{
-       font-family: courier;
+       font-family: 'Lobster', cursive;
        color:black;
        position:absolute;
        top:30%;
        left:10%;
-        font-size: 30%;
+        font-size: 50%;
         text-align:center;
         width: 50%;
         height:50%; 
