@@ -3,27 +3,19 @@
 		<link rel="stylesheet" type="text/css" href="final.css">
 		<link href='http://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
 		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+		<meta charset="utf-8">
 		<title>Final</title>
 	</head>
 
 	<body>
-	
-		<div class="heading1">
+	<div class="wrapper">
+	<div class="titles">
 			<h1>Keepers</h1>
-		</div>
-
-		<div class="heading2">
 			<h2>of the</h2>
-		</div>
-
-		<div class="heading3">
 			<h3>Folk Flame</h3>
-		</div>
-
-		<div class="subheading">
-			<h4>By Renny Grinshpan</h4>
-		</div>
-
+			<h4>Text by Renny Grinshpan<br>
+			Video by Renny Grinshpan and Sean Ryon</h4>
+	</div>
 		<div class="intro">
 		<p>Eli Smith gingerly picks up his banjo.</p>
 		<p>"Here's a folk song that I like a great deal, a pretty popular one, called 'Darlin' Cory'," he says before rapidly picking away at the prohibition era crime ballad. Smith, who is playing traditional folk music, is performing at the Bait & Tackle, a bar on the edge of Red Hook, Brooklyn. Tapping his big brown laced-up boots along to the rhythm of his music, Smith keeps his head down, his eyes glued to his banjo, hinting at his shy demeanor. It is 9:30 on a Friday night and the small bar has only a handful of patrons, most of whom talk among themselves and pay Smith little attention.</p>
@@ -41,10 +33,11 @@
 <br>
 	<div class="video-container">
 		<iframe src="http://player.vimeo.com/video/94521735?title=0&amp;byline=0&amp;portrait=0" width="1075" height="700" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> 
-		<img class="poster" src="banjobw.jpg">
+		<img class="poster" src="banjobw.jpg" width="1075" height="700"/>
 	</div>
-	<br><br>
-
+	<div class="smith-caption">
+			<p> Eli Smith picks an old banjo tune in one of the Jalopy's music classrooms.</p>
+	</div><br>
 	<div class="history"> 
 		<p>Born in Milwaukee and raised in Houston, Willy Gantrim discovered Bob Dylan when he was 18. Dylan's autobiography instilled in him a romantic idea of 1960s Greenwich Village, and brought him to the city in 2005 - "I hate to admit it," he says with a laugh, given how cliched a story it is. He knew no one in New York. Still, he boarded a Greyhound bus to Port Authority and, after moving to a hostel in Washington Heights, found work as a busboy.</p>
 		<p>Gantrim began playing music on the streets and in Washington Square Park, where Dylan and folk musicians of the 60s had played before him. It was there that he met Feral Foster, who was doing much the same thing - an introduction that Gantrim calls "a turning point" in his musical career. The pair became roommates and roamed through the five boroughs, usually latching on to other people's leases. Gantrim subsisted off restaurant work and Foster did "anything and everything" - from working as a carpenter's assistant to engaging in political canvassing jobs - to get by.</p>
@@ -55,79 +48,216 @@
 	</div>
 
 		<div class="youtube-container">
-			<img class="youtube-poster" src="villagema.jpg">
 			<iframe width="740" height="480" src="http://www.youtube.com/embed/fQLWmFjfIO4?rel=0" frameborder="0" allowfullscreen></iframe>
-		</div>
+			<img class="youtube" src="villagemabw.jpg" width="740" height="480">
+		</div> <br>
+	<div class="villagema-caption">
+		<p> Feral Foster playing the Roots and Ruckus show at its original location in The Village Ma, <br>a Thai restaurant on the 1960s folk strip in Greenwich Village. 2007.</p>
+	</div>
 	<div class="rootsandruckus">
 		<p>Meanwhile, the Jalopy had just opened as a theater and music school. Its owners Geoff and Lynette Wiley envisioned a place where, Lynette says, "artists could both make money teaching and playing." Their focus, she adds, was on folk music, which suited their idea of a community built around music – "songs that you can learn at your grandpa's knee, that type of thing." </p>
 		<p>By 2007 Eli Smith had started teaching banjo at the Jalopy. And he had been attending the "Roots and Ruckus" show, which, he says, "was vibrant and had potential. It was down and out, but a great show." When Smith heard that the Thai restaurant was closing, he told Geoff Wiley, who was looking for a weekly show, about "Roots and Ruckus." He organized a ride to the village with his mom "to make it real easy" for Geoff to get there.</p>
 	</div>
 
 	<div class="geoff-container">
+		<iframe src="http://player.vimeo.com/video/94549499" width="1075" height="700" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> 
+		<img class="geoff-poster" src="geoff_thumbnail.jpg" width="1075" height="700">
 	</div>
-
+	<div class="geoff-caption">
+		<p> The owner of the Jalopy Tavern, Geoff Wiley, describes his first experience at a Roots and Ruckus show when it was located in <br>the old home of folk in NYC, Greenwich Village.</p>
+	</div>
 	<div class="moving">
 		<p>If the Wileys were going to create their musical community, they needed performers. Foster's model of hosting a free show, in which performers earn their money from tips and the venue earns its money from the bar, seemed a solution.</p>
 		<p>More importantly, however, Foster had an audience to bring to the Jalopy. Having had busked nearly everywhere in the city, Foster knew perhaps 40 musicians who performed various folk-styles and whom he had encouraged to attend "Roots and Ruckus."  They were lots of college kids and they were all in their early 20s or late teens. Foster himself was only 18 when he started hosting "Roots and Ruckus," 20 when the show made its move to the Jalopy.</p>	
-		<p>"Roots and Ruckus" brought a consistent audience to the Jalopy. At the time, "we could count on people showing up for a show," Lynette says. "Not a full show, but people showing up. 'Roots and Ruckus' really changed things in that it got us in with younger musicians and it brought a scene to us that we hadn't really had." </p>
+		<p>"Roots and Ruckus" brought a consistent audience to the Jalopy. At the time, "we could count on people showing up for a show," Lynette says. "Not a full show, but people showing up."</p> 
+	<div class="quote1">
+		<p>"'Roots and Ruckus' really changed things in that it got us in with younger musicians and it brought a scene to us that we hadn't really had." </p>
+	</div>
 		<p>Along with Gantrim, the crowd that followed Foster to the Jalopy included musicians who would become well known and well-respected in the folk world, among them Jessy Carolina of Jessy Carolina and The Hot Mess -- a six-piece traditional jazz band in New York -- and Hubby Jenkins who plays several instruments for The Carolina Chocolate Drops, an old-time string band that won the Grammy Award for Best Traditional Folk Album in 2010.</p>  
 	</div> <br>
-		<div class="jalopy">
-Now on a cold Wednesday night, eight years after "Roots and Ruckus" moved to the Jalopy, the small theater is nearing the end of its show with Gantrim smoothly strumming his old Stella parlor guitar and singing the blues. The musician's relaxed energy radiates off the Jalopy stage and into his audience, where visitors sit side by side in church pews. The pews are filled and the air is intimate and cozy. Small white bulbs frame the stage and dimly light the room.<br><br>
-
-*WILLY VIDEO AT R+R*
-
-Gantrim followed a raucous performance of traditional Balkan music by a visiting fiddler and accordion player. Yet another diverse show at the Jalopy theater is coming to a close.<br><br>
- "I really am unwilling to be too puristic about it 'cause it just limits you," Geoff says. By "puristic" he means only playing traditional music. When he's considering new acts, he says with a laugh, "ah, it's close enough, just let 'em in! Can't be too narrow about things."<br><br>
-Smith believes this approach keeps the Jalopy "interesting for people and keeps people coming back.
-"So it's not just 'folk music' or old-time music," he continues. "That would be boring. It's songwriters, and Balkan music, traditional music from all over. Good stuff." It's people like Smith and people like Gantrim and Foster - and as a result it's authentic and justifiably "folk." <br><br>
-Smith's mentor, John Cohen, says the Jalopy is a "summary of the aspirations of all folklore places" in New York. The man should know. A member of the old-time string band "The New Lost City Ramblers" that formed in 1958, Cohen is well known for his fidelity to and championing of traditional folk music styles.  He says the Jalopy reminds him of Izzy Young's famous Folklore Center of 1950s Greenwich Village. Young's center also sold instruments and had a performance space – and it too was a hangout for musicians.<br><br>
- "Jalopy is one of the hubs for folk and roots musicians in the country," Smith says. "They get into town and come right to the Jalopy."<br><br>
-And the Jalopy has become a home away from home for its regular performers – several of whom, including Smith and Foster, double as the theater's employees. This way, the Wileys reason, the Jalopy can support its musicians – by giving them work, students to teach, and a stage to perform on.<br><br>
-"That was part of the point of opening the place," Geoff says, "so we could support the artists that we're working with."<br><br>
-Gantrim says it is "pretty impossible to make a living from folk music alone."<br><br> The music, Smith explains, "is not considered 'salable.'"<br><br>
-Still, Smith, Gantrim and Foster are all putting out records – Gantrim with a Denmark-based record label that he describes as "two guys in an attic." Foster, for whom this will be his debut album, is not depending on big sales.<br><br>
-Booking, hosting and performing in "Roots and Ruckus" every Wednesday, Foster also works closely with Lynette throughout the week on maintaining social media, inventory, and event planning. Smith, who lives nearby, teaches banjo and an ensemble class, and often performs at the Jalopy with his old-time string band "The Down Hill Strugglers." Smith's band mate Jackson Lynch, who also often performs solo, works the bar at the theater and has been repairing music instruments in the basement shop since he was just 16.<br><br>
-Ernie Vega, another Jalopy employee and consistent performer, started working sound at its shows several nights a week in 2009. He also teaches mandolin and finger picking guitar classes "'cause Geoff liked the fact that I learned from Van Ronk" – Vega studied with the late legend of the village folk scene in 2001.<br><br>
-"There's maybe eight of us that are running everything," Geoff says. "The more hats anyone can wear, the better." Lynette says the Jalopy has about 50 employees. <br><br>
-Because the musicians working multiple roles at the Jalopy can be found there most of the week, they are able to trade ideas and even form bands; Vega and Lynch play in several of them. One of those bands, "The Brotherhood" has an impressive 25 members, including Smith, Lynch, Vega and Geoff Wiley.
-Solo acts also develop and change in the creative Jalopy setting.<br><br>
-"Personally, I can't imagine being the musician I am today without meeting Feral and that group of musicians," Gantrim says.  "We are driven mainly by each other and the music, but not by the city - that's the backdrop and challenge for us."<br><br>
-Gantrim raises an important question: what happens when the Jalopy's regular performers venture off its stage to find gigs?<br><br>
-"People have no idea what we're doing, basically," Smith says of performances with his band, "The Strugglers." It is "not easily understood in my experience so far."<br><br>
-So Smith engages in what he calls "edutainment" - a mix of education and entertainment that attempts to give its audience "an idea about what we're doing" and where the music came from. He has been writing, lecturing, researching, and promoting folk music for years. He helps organize the Brooklyn Folk Festival, which he started with the Wileys in 2009, and the Washington Square Park Folk Festival. He also hosts his own radio show called "Down Home Radio," which he started in summer 2006 with Henrietta Gurchenko, who in 1939 became the first folk music radio show host on WNYC.<br><br>  
-Meanwhile, Vega says and that he and Lynch "have taken so many bluegrass gigs where we just show up and play blues and old-time." The audiences, he adds, "don't really know it's not bluegrass that you're playing." But that's fine with Vega, as long as there are shows to be played.<br><br>
-"At least these terms are floating around," he continues. "Fifteen years ago, that wouldn't have been the case."<br><br>
-Now, he says, a term like "bluegrass" has enough "cultural cache" for music venue owners to know that audiences will listen to it - or at least, listen to what they think it is. As a result, "there's a lot of opportunity for gigs."<br><br>
-Lynch says that most New Yorkers don't really understand his music.<br><br>
-"There's more of an audience around the country," he says. Although there is no single folk music scene in the country larger than New York's, touring is a folk musician's opportunity to perform in front of more people - cumulatively - than in any single place.<br><br>
-To expand their New York audience, Jalopy musicians have taken it upon themselves to organize their own shows. Foster has started regular hootenannies at the Queen's Tavern in Ridgewood. Lynch puts together a show at the Brooklyn Rod & Gun Club in North Williamsburg on the first Friday of every month. Gantrim coordinated the show at the Bait & Tackle in Red Hook and has just started hosting a weekly Sunday show at Bootleg Bar in Bushwick. The shows are filled with Jalopy regulars, but the hope is that they will still spread the word about the music.<br><br>
-The music appears to be gaining some traction. Smith's band, "The Strugglers" are featured on the soundtrack to the latest Coen Brothers film project, an ode to the 60s folk scene, "Inside Llewlyn Davis."<br><br>
-"That's a validation by popular culture," Smith says. "Now people have a way to understand us."
-
-*VIDEO OF THE DOWN HILL STRUGGLERS*
-
+	<div class="willy-container">
+		<iframe src="http://player.vimeo.com/video/95090499" width="1075" height="700" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+		<img class="willy-poster" src="willyposter.jpg" width="1075" height="700">
+	</div>
+	<div class="willy-caption">
+		<p> Blues musician and 'Roots and Ruckus' co-creator, Willy Gantrim, performing at The Jalopy.</p> 
+	</div>
+	<div class="jalopy">
+		<p>Now on a cold Wednesday night, eight years after "Roots and Ruckus" moved to the Jalopy, the small theater is nearing the end of its show with Gantrim smoothly strumming his old Stella parlor guitar and singing the blues.</p>
+		<p>Gantrim has followed a raucous performance of traditional Balkan music by a visiting fiddler and accordion player. Yet another diverse show at the Jalopy theater is coming to a close.</p>
+ 		<p>"I really am unwilling to be too puristic about it 'cause it just limits you," Geoff says. By "puristic" he means only playing traditional music. When he's considering new acts, he says with a laugh, "ah, it's close enough, just let 'em in! Can't be too narrow about things."</p>
+		<p>Smith believes this approach keeps the Jalopy "interesting for people and keeps people coming back."</p>
+	<div class="quote2">
+		<p>"So it's not just 'folk music' or old-time music. That would be boring. It's songwriters, and Balkan music, traditional music from all over. Good stuff."</p>
+	</div> 
+		<p>It's people like Smith and people like Gantrim and Foster - and as a result it's authentic and justifiably "folk." </p>
+		<p>Smith's mentor, John Cohen, says the Jalopy is a "summary of the aspirations of all folklore places" in New York. The man should know. A member of the old-time string band "The New Lost City Ramblers" that formed in 1958, Cohen is well known for his fidelity to and championing of traditional folk music styles.  He says the Jalopy reminds him of Izzy Young's famous Folklore Center of 1950s Greenwich Village. Young's center also sold instruments and had a performance space – and it too was a hangout for musicians.</p>
+		<p>"Jalopy is one of the hubs for folk and roots musicians in the country," Smith says. "They get into town and come right to the Jalopy."</p>
+		<p>And the Jalopy has become a home away from home for its regular performers – several of whom, including Smith and Foster, double as the theater's employees. This way, the Wileys reason, the Jalopy can support its musicians – by giving them work, students to teach, and a stage to perform on.</p>
+		<p>"That was part of the point of opening the place," Geoff says, "so we could support the artists that we're working with."</p>
+	</div>	
+	<div class ="feral-container">
+		<iframe src="http://player.vimeo.com/video/95086414" width="1075" height="700" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+		<img class="feral-poster" src="feralposter.jpg" width="1075" height="700">
+	</div><br>
+	<div class="feral-caption">
+		<p> Singer-songwriter and 'Roots and Ruckus' host amd co-creator, Feral Foster, performing at the Jalopy.</p>
+	</div>
+	<div class="audience">
+		<p>Gantrim says it is "pretty impossible to make a living from folk music alone."</p> 
+		<p>The music, Smith explains, "is not considered 'salable.'"</p>
+		<p>Still, Smith, Gantrim and Foster are all putting out records – Gantrim with a Denmark-based record label that he describes as "two guys in an attic." Foster, for whom this will be his debut album, is not depending on big sales.</p>
+		<p>Booking, hosting and performing in "Roots and Ruckus" every Wednesday, Foster also works closely with Lynette throughout the week on maintaining social media, inventory, and event planning. Smith, who lives nearby, teaches banjo and an ensemble class, and often performs at the Jalopy with his old-time string band "The Down Hill Strugglers." Smith's band mate Jackson Lynch, who also often performs solo, works the bar at the theater and has been repairing music instruments in the basement shop since he was just 16.</p>
+		<p>Ernie Vega, another Jalopy employee and consistent performer, started working sound at its shows several nights a week in 2009. He also teaches mandolin and finger picking guitar classes "'cause Geoff liked the fact that I learned from Van Ronk" – Vega studied with the late legend of the village folk scene in 2001.</p>
+		<p>"There's maybe eight of us that are running everything," Geoff says. "The more hats anyone can wear, the better." Lynette says the Jalopy has about 50 employees. </p>
+		<p>Because the musicians working multiple roles at the Jalopy can be found there most of the week, they are able to trade ideas and even form bands; Vega and Lynch play in several of them. One of those bands, "The Brotherhood" has an impressive 25 members, including Smith, Lynch, Vega and Geoff Wiley.
+		<p>Solo acts, like Gantrim and Foster, also develop and change in the creative Jalopy setting.</p>
+		<p>"Personally, I can't imagine being the musician I am today without meeting Feral and that group of musicians," Gantrim says.</p>  
+	<div class="quote3">
+		<p>"We are driven mainly by each other and the music, but not by the city - that's the backdrop and challenge for us."</p>
+	</div>
+		<p>But what happens when the Jalopy's regular performers venture off its stage to find gigs?</p>
+		<p>"People have no idea what we're doing, basically," Smith says of performances with his band, "The Strugglers." It is "not easily understood in my experience so far."</p>
+		<p>So Smith engages in what he calls "edutainment" - a mix of education and entertainment that attempts to give its audience "an idea about what we're doing" and where the music came from. He has been writing, lecturing, researching, and promoting folk music for years. He helps organize the Brooklyn Folk Festival, which he started with the Wileys in 2009, and the Washington Square Park Folk Festival. He also hosts his own radio show called "Down Home Radio," which he started in summer 2006 with Henrietta Gurchenko, who in 1939 became the first folk music radio show host on WNYC.</p>
+		<p>Meanwhile, Vega says and that he and Lynch "have taken so many bluegrass gigs where we just show up and play blues and old-time." The audiences, he adds, "don't really know it's not bluegrass that you're playing." But that's fine with Vega, as long as there are shows to be played.</p>
+		<p>"At least these terms are floating around," he continues. "Fifteen years ago, that wouldn't have been the case."</p>
+		<p>Now, he says, a term like "bluegrass" has enough "cultural cache" for music venue owners to know that audiences will listen to it - or at least, listen to what they think it is. As a result, "there's a lot of opportunity for gigs."</p>
+		<p>Lynch says that most New Yorkers don't really understand his music.</p>
+		<p>"There's more of an audience around the country," he says. Although there is no single folk music scene in the country larger than New York's, touring is a folk musician's opportunity to perform in front of more people - cumulatively - than in any single place.</p>
+		<p>To expand their New York audience, Jalopy musicians have taken it upon themselves to organize their own shows. Foster has started regular hootenannies at the Queen's Tavern in Ridgewood. Lynch puts together a show at the Brooklyn Rod & Gun Club in North Williamsburg on the first Friday of every month. Gantrim coordinated the show at the Bait & Tackle in Red Hook and has just started hosting a weekly Sunday show at Bootleg Bar in Bushwick. The shows are filled with Jalopy regulars, but the hope is that they will still spread the word about the music.</p>
+		<p> And as for the Jalopy, Geoff has his own plans.</p>
+	</div>
+	<div class="geoff2-container">
+		<iframe src="http://player.vimeo.com/video/95112135" width="1075" height="700" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+		<img class="geoff2-poster" src="geoff2poster.jpg" width="1075" heigh"700">
+	</div>
+	<div class="geoff2-caption">
+		<p> Wiley's vision of music at the Jalopy.</p>
+	</div>
+	<div class="ending">
+		<p>The music appears to be gaining some traction. Smith's band, "The Strugglers" are featured on the soundtrack to the latest Coen Brothers film project, an ode to the 60s folk scene, "Inside Llewlyn Davis."</p>
+		<p>"That's a validation by popular culture," Smith says. "Now people have a way to understand us."</p>
 		</div><br>
-
-		<div class="conclusion"> 
-Gantrim is seated in the middle of the Jalopy stage before a black vintage microphone. His voice is calming and his songs catchy - and the Dylan influence impossible to miss.<br><br>
-His song "Trouble in Mind" off his latest album arrives at its last chord. He reaches for the beer at his feet. Taking a sip, he thanks the audience, reminding them for the third or fourth time that his album is for sale at the front of the theater.<br><br>
-Foster approaches the stage and rattles a woven basket, announcing that he is taking tips for Gantrim, who is about to play his last song.
-Gantrim smiles and asks the audience what they want to hear. He picks up his black guitar, slips on his slide and plays the Robert Wilkins song, "That's No Way To Get Along."<br><br>
-His small audience cheers for an encore.  
-		</div>
+	</div>
+	<div class="strugglers-container">
+		<iframe src="http://player.vimeo.com/video/95086274" width="1075" height="700" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+		<img class="strugglers-poster" src="strugglersposter.jpg" width="1075" height="700">
+	</div>
+	<div class="strugglers-caption">
+		<p>Old-time folk band, 'The Down Hill Strugglers' perform at The Jalopy.</p>
+	</div>
+	<div class="conclusion"> 
+		<p>Gantrim is seated in the middle of the Jalopy stage before a black vintage microphone. His voice is calming and his songs catchy - and the Dylan influence impossible to miss.</p>
+		<p>His song "Trouble in Mind" off his latest album arrives at its last chord. He reaches for the beer at his feet. Taking a sip, he thanks the audience, reminding them for the third or fourth time that his album is for sale at the 	front of the theater.</p>
+		<p>Foster approaches the stage and rattles a woven basket, announcing that he is taking tips for Gantrim, who is about to play his last song.</p>
+		<p>Gantrim smiles and asks the audience what they want to hear. He picks up his black guitar, slips on his slide and plays the Robert Wilkins song, "That's No Way To Get Along."</p>
+		<p>His small audience cheers for an encore.</p>  
+	</div>
+	</div> 
 	<script>
-    $('.poster').ready(function() {
+    	$('.poster').ready(function() {
         $(window).scroll(function () {
               var height = $('body').height();
               var scrollTop = $('body').scrollTop();
               var opacity = 1;
-              if(scrollTop > 1200) {
+              if(scrollTop > 2050) {
                   opacity = 0;
               }
               $('.poster').css('opacity', opacity);
         });
+	});  
+		$('.youtube').ready(function() {
+        $(window).scroll(function () {
+              var height = $('body').height();
+              var scrollTop = $('body').scrollTop();
+              var opacity = 1;
+              if(scrollTop > 3500) {
+                  opacity = 0;
+              }
+              $('.youtube').css('opacity', opacity);
+        });
+	});    
+		$('.geoff-poster').ready(function() {
+        $(window).scroll(function () {
+              var height = $('body').height();
+              var scrollTop = $('body').scrollTop();
+              var opacity = 1;
+              if(scrollTop > 4500) {
+                  opacity = 0;
+              }
+              $('.geoff-poster').css('opacity', opacity);
+        });
+	});    
+		$('.willy-poster').ready(function() {
+        $(window).scroll(function () {
+              var height = $('body').height();
+              var scrollTop = $('body').scrollTop();
+              var opacity = 1;
+              if(scrollTop > 6100) {
+                  opacity = 0;
+              }
+              $('.willy-poster').css('opacity', opacity);
+        });
+	});    
+		$('.feral-poster').ready(function() {
+        $(window).scroll(function () {
+              var height = $('body').height();
+              var scrollTop = $('body').scrollTop();
+              var opacity = 1;
+              if(scrollTop > 7900) {
+                  opacity = 0;
+              }
+              $('.feral-poster').css('opacity', opacity);
+        });
+	});    
+		$('.geoff2-poster').ready(function() {
+        $(window).scroll(function () {
+              var height = $('body').height();
+              var scrollTop = $('body').scrollTop();
+              var opacity = 1;
+              if(scrollTop > 10800) {
+                  opacity = 0;
+              }
+              $('.geoff2-poster').css('opacity', opacity);
+        });
+	});   
+		$('.strugglers-poster').ready(function() {
+        $(window).scroll(function () {
+              var height = $('body').height();
+              var scrollTop = $('body').scrollTop();
+              var opacity = 1;
+              if(scrollTop > 11700) {
+                  opacity = 0;
+              }
+              $('.strugglers-poster').css('opacity', opacity);
+        });
+	});    
+
+$(function() {
+
+    var $allVideos = $("iframe[src^='http://player.vimeo.com'], iframe[src^='http://www.youtube.com'], object, embed"),
+        $fluidEl = $(".video-container" ".youtube-container" ".geoff-container" ."willy.container" ."feral-container" ."geoff2-container" ".strugglers-container");
+
+    $allVideos.each(function() {
+
+        $(this)
+        .attr('data-aspectRatio', this.height / this.width).removeAttr('height').removeAttr('width');
+
     });
+
+    $(window).resize(function() {
+
+        var newWidth = $fluidEl.width();
+        $allVideos.each(function() {
+
+            var $el = $(this);
+            $el.width(newWidth).height(newWidth * $el.attr('data-aspectRatio'));
+
+        });
+
+    }).resize();
+
+});
 	</script>
 </body>
 </html>
