@@ -1,3 +1,7 @@
+html {
+    -webkit-text-size-adjust: none; /* Prevent font scaling in landscape */
+}
+
 body {
 	margin: 0px;
 	border: 0px;
