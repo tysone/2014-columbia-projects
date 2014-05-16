@@ -24,7 +24,6 @@
 
     <div class="wrapper">
         <div class="screen" id="screen-1" data-video="vid/pointserve.mp4">
-
             <div id="overview" class="box"><h1>No such thing as a free lunch</h1></div>
         <div id="text" class="box"><h3>New York City's new mayor, Bill de Blasio, came to power promising to make school lunches free for all public school children.</h3>
         <h3>De Blasio's first executive city budget, released on May 9, did not include the free school lunch program, but the mayor says he hopes to implement it in the future.</h3> 
@@ -56,7 +55,7 @@
 
                <div id="text4" class="box"><h3>Each menu, made monthly by New York's Department of Education, includes five components: a meat component or its alternative, fruit, vegetable, grain and milk. A child must choose at least three of these.</h3>
                 <h3>The most common hot food served in New York City public schools is cheese pizza. Pizza counts as a grain and as a meat alternative, as the melted cheese is protein. For some kids, says Zachary Maxwell, director of "Yuck! A 4th Grader's Short Documentary about School Lunches", <span class="soundcite" data-id="149284347" data-start="0" data-end="18000">the pizza is the only thing eaten.</span></h3></div>
-                <img src="img/salad.jpg" class="big-image"/></div>
+                <img src="img/pizza.jpg" class="big-image"/></div>
                 
             
         
@@ -120,7 +119,7 @@
 
                 // adjust image positioning so it lines up with video
                 $bigImage
-                    .css('position','relative')
+                    .css('position','absolute')
                     .imagesLoaded(adjustImagePositioning);
                 // and on window resize
                 $window.on('resize', adjustImagePositioning);
