@@ -1,108 +1,87 @@
-
+		
 html,body {margin:0;
 padding:0;
 border:10px, black;
 background-color: #F0F0F0;
 font-family: 'Baskerville', serif;
 	
-
-
 }
 
+.page {
 
-#page {
-
-height: 10000px;
-margin-top: 35px;
+padding-left: 30px;
+padding-right: 30px;
+padding-bottom: 30px;
+margin-right: 10px;
 margin-bottom: 10px;
+margin-left: 10px;
 
 }
 
-.image {position: absolute;
-	border: 20px, solid, black;
-	margin-top: 10px;
-	
+h1 {padding-top: 40px;
+	padding-left: 30px;
+	font-size: 50px;
 
 }
 
-#facebook {height:30px;
-width:25px;
-padding-bottom: 40px;
+.image {
+	padding-top: 2px;
+	width: 100%;
+padding-left: 30px;
+padding-right: 10%;
+padding-left: 30px;
+position: relative;
+margin-top: 10px;
+padding-bottom: 25px;
+
 }
+
+
 
 .twitter {height: 20px;
 width:25px;
-margin-left: 5px;
+margin-left: 30px;
 padding-bottom: 40px;
-padding-top: 2px;
+padding-top: 50px;
+margin-top: 25px;
 }
 
-img {width: 900px;
-margin-top: 60px;
+img {
+margin-top: 10px;
+width:100%;
+
 }
 
-.image1 { padding-top: 400px;
-	margin-top: 25px;
+.image1 { padding-top: 300px;
+	margin-top: 20px;
 	width:100%;
+position: relative;
+	}
 
 
+	
 
-}
-
-.image1 {padding-top: 100px;
-	width:100%;
-
-}
-
-.image2 {padding-top: 50px;
-	width:100%;
-}
 
 figcaption {font-size: 16px;
 	word-spacing: .5px;
-	padding-top: 10px;
+	padding-top: 15px;
 	letter-spacing: .5px;
 }
 
 
 h1 { font-family: 'Baskerville', serif;
-     font-size: 40px ;
+     font-size: 50px ;
      font-weight: 500;
      text-align: justify;
      color: #BA1619;
 display:none;
 }
 
-#text {
-
-padding-top: 570px;
-font-size: 22px;
+p {padding-top: 15px;
+	font-size: 20px;
 text-align: justify;
-width:100%;
-
-
-}
-
- #text1 { padding-top: 720px;
-font-size: 22px;
-text-align: justify;
-width:100%;
-
-
-}
-
-#text2 {padding-top: 25px;
-	font-size: 22px;
-	text-align: justify;
-	width:100%;
-
-}
-
-
-p {padding-top: 20px;
-	font-size: 22px;
-text-align: justify;
-width:100%;
+padding-left: 30px;
+padding-right: 30px;
 }
 
 .firstword { font-family: 'Baskerville', serif;
@@ -117,15 +96,16 @@ a:hover {color:#E38687;}
 a:active {color:#BA1619;} 
 
 
-iframe { padding-top: 25px;
-	width:100%;
-
+.iframe { padding-top: 25px;
+	padding-left: 30px;
+	padding-right: 30px;
+	
 
 }
 
 hr {border-color: #BA1619;
-	height: 5px;
-	width: 500px;
+	
+	width: 100%;
 
 
 }
@@ -133,181 +113,20 @@ hr {border-color: #BA1619;
 #google {
 	padding-top: 5px;
 	padding-bottom: 300px;
+	width: 100%
 
 
 }
 
 
 
-
-
-
-
-
-
-@media all and (max-width:320px) {
-
-
-html,body {margin:0;
-padding:0;
-border:10px, black;
-background-color: #F0F0F0;
-font-family: 'Baskerville', serif;
+@media all and (max-width:620px) {
+p {font-size: 14px;
 }
-
-body {
-
-font-size: 14px;
-
-
-font-family:{'Baskerville', serif;
-
-
+iframe {display: none;
 }
 
 }
-img {width:100%;
-}
 
-#text: {
-
-font-size: 10;
-
-}
-
-#text1 { padding-top: 5px;
-font-size: 14px;
-text-align: justify;
-
-
-}
-
-#text2 {padding-top: 100px;
-	font-size: 14px;
-	text-align: justify;
-}
-
-#page {
-
-height: 10000px;
-margin-top: 35px;
-margin-bottom: 10px;
-
-}
-
-.image {position: absolute;
-	border: 5px, solid, black;
-	margin-top: 10px;
-
-}
-
-#facebook {height:30px;
-width:25px;
-padding-bottom: 40px;
-}
-
-.twitter {height: 20px;
-width:25px;
-margin-left: 5px;
-padding-bottom: 40px;
-padding-top: 2px;
-}
-
-img {width: 900px;
-margin-top: 60px;
-}
-
-.image1 { padding-top: 300px;
-	margin-top: 25px;
-
-
-
-}
-
-.image1 {padding-top: 100px;
-
-}
-
-.image2 {padding-top: 50px;
-}
-
-figcaption {font-size: 8px;
-	word-spacing: .5px;
-	padding-top: 10px;
-	letter-spacing: .5px;
-}
-
-
-h1 { font-family: 'Baskerville', serif;
-     font-size: 20px ;
-     font-weight: 500;
-     text-align: justify;
-     color: #BA1619;
-
-}
-
-#text {
-
-padding-top: 570px;
-font-size: 22px;
-text-align: justify;
-
-
-}
-
- #text1 { padding-top: 720px;
-font-size: 14px;
-text-align: justify;
-
-
-}
-
-#text2 {padding-top: 25px;
-	font-size: 14px;
-	text-align: justify;
-
-}
-
-
-p {padding-top: 20px;
-	font-size: 14px;
-text-align: justify;
-
-}
-
-.firstword { font-family: 'Baskerville', serif;
-     font-size: 20px ;
-     color: #BA1619;
-     letter-spacing: .1px;
-}
-
-a:link {color:#BA1619;}   
-a:visited {color:#BA1619;}
-a:hover {color:#E38687;}  
-a:active {color:#BA1619;} 
-
-
-iframe { padding-top: 25px;
-
-
-}
-
-hr {border-color: #BA1619;
-	height: 5px;
-	width: 200px;
-
-
-}
-
-#google {
-	padding-top: 5px;
-	padding-bottom: 300px;
-
-
-}
-
-
-}
-}
 
 

@@ -1,0 +1,98 @@
+<html>
+
+<head>
+	<title>Bar Chart</title>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+
+<style>
+
+	body {
+		background-color: #f7f7f7;
+	}
+
+	#chart {
+		position: relative;
+		background-color: #fff;
+		height: 500px;
+		width: 50%;
+		margin: 0 auto;
+	}
+
+	.bar {
+		/*position: absolute;*/
+		/*bottom: 0;*/
+		width: 25px;
+		background-color: red;
+		float: left;
+		border-right: 1px solid #fff;
+		position: absolute;
+		bottom: 0;
+	}
+
+</style>
+
+</head>
+
+
+<body>
+
+	<h1>Bar Chart</h1>
+
+	<div id="chart">
+	</div>
+
+	<br />
+	<br />
+	<br />
+	<br />
+	<br />
+
+	<a href="http://alignedleft.com/tutorials/d3/making-a-bar-chart">D3 bar chart tutorial</a>
+
+<script>
+
+	var icecreams = [{"month":"January","icecreams":5},
+{"month":"February","icecreams":10},
+{"month":"March","icecreams":13},
+{"month":"April","icecreams":19},
+{"month":"May","icecreams":21},
+{"month":"June","icecreams":25},
+{"month":"July","icecreams":22},
+{"month":"August","icecreams":18},
+{"month":"September","icecreams":15},
+{"month":"October","icecreams":13},
+{"month":"November","icecreams":10},
+{"month":"December","icecreams":9}];
+
+	var chart = $('#chart');
+
+	$.each(icecreams, function(i, month) {
+		var bar = $('<div class="bar">' + i + '</div>');
+		bar.appendTo(chart).css('height', month.icecreams * 10).css('left', i * 26);
+	});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+
+</script>
+
+</body>
+
+</html>

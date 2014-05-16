@@ -1,0 +1,118 @@
+
+.title {
+    font-family: 'Coustard', serif;
+    font-weight: 900;
+    line-height: 46px;
+    font-size: 41px;
+    margin: 0 0 23px 0;
+    color: #cf3939;
+    text-align: center;
+    background-color: yellow;}
+
+.sub {
+	font-family: Garamond, sans-serif;
+    font-size: 14px;
+    line-height: 23px;
+    position: relative;
+	left: 850px;
+    width: 390px;
+    background-color: purple;}
+
+.byline {
+	font-family: Garamond, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 23px;
+    margin: 0 0 23px 0;
+    text-align: center;
+    position: relative;
+    left: 1110px;
+    width: 130;
+    background-color: green;}
+
+
+
+p {
+	font-family: Garamond;
+    font-size: 19px;
+    margin: 0 0 23px 0;
+    position: relative;
+    position: relative;
+    text-align: left;}
+
+.drop {
+    font-family:Garamond;
+    font-size: 75px;
+    float: left;
+    line-height: 33px;
+    color: #bd1616;}
+
+.slide-1 {
+    background-image: url("images/Foster-reading.jpg");
+    background-size: 60% 100%;
+    background-repeat: no-repeat;
+    background-position: left;
+    width:1250px;
+    margin:0 auto;}
+
+.slide-3 {
+    background-color: black;}
+
+img {
+    width: 400px;
+    position: absolute;
+    left: 850px;
+    top: 270px;}
+
+.p-1 {
+    background-color: gray;
+    position: relative;
+    width: 480px;
+    margin: 20px;
+    left: 750px;
+    top: 20px;
+    line-height: 25px;}
+
+.p-2 {
+    background-color: gray;
+    position: relative;
+    width: 400px;
+    height: 618px;
+    margin: 10px;
+    right: 9px;
+    bottom: 8px; 
+    line-height: 25px;
+    padding: ;
+    float: left;}
+
+.p-3 {
+    background-color: gray;
+    position: relative;
+    width: 400px;
+    height: 618px;
+    margin: 20px;
+    right: 433px;
+    bottom: 18px;
+    line-height: 25px;
+    float: right;}
+
+.p-4 {
+    background-color: gray;
+    position: absolute;
+    width: 400px;
+    height: 200px;
+    margin: 20px;
+    bottom: 400px; 
+    left: 832px;
+    float: left;}
+
+.p-5 {
+    background-color: gray;
+    position: relative;}
+
+.p-6 {
+    background-color: gray;
+    position: relative;}
+    
+
+
